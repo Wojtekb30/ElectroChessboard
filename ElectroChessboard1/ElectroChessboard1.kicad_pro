@@ -411,6 +411,30 @@
     [
       "b40c7e57-cfb3-41c6-81be-f22d082b0927",
       "Root"
+    ],
+    [
+      "90bade89-0322-4f84-b453-80bea2aed5a9",
+      "PowerInput"
+    ],
+    [
+      "7327273e-7754-4727-8b52-bb7f62babc74",
+      "BoardLEDs"
+    ],
+    [
+      "ab5f0dd3-be46-43d6-8361-d274b28edadd",
+      "BoardHalls1"
+    ],
+    [
+      "7d1c588e-27d3-47d2-ac4e-08a030cc2912",
+      "BoardHalls2"
+    ],
+    [
+      "acb05647-c28a-4829-8266-5377a448476f",
+      "BoardHalls3"
+    ],
+    [
+      "d53affd7-5f4d-4f2f-b1db-953a9fc0554d",
+      "BoardHalls4"
     ]
   ],
   "text_variables": {}

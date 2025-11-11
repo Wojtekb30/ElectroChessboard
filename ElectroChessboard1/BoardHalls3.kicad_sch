@@ -1,0 +1,5087 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4e42517f-2274-4433-b1fd-4e7f01c64355")
+	(paper "A4")
+	(title_block
+		(title "ElectroChessboard")
+		(company "Wojciech B")
+		(comment 1 "Electronic chessboard")
+		(comment 2 "Elektroniczna szachownica")
+	)
+	(lib_symbols
+		(symbol "SamacSys_Parts:A3213ELHLT-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "A3213ELHLT-T"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "A3213ELHLTT"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.13"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "250-A3213ELHLT-T"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Allegro Microsystems"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "A3213ELHLT-T_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:ADG708BRUZ-REEL7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ADG708BRUZ-REEL7"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOP65P640X120-16N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Analog Devices ADG708BRUZ-REEL7, Multiplexer Single 8 x 1, 5 V, 16-Pin TSSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "584-ADG708BRUZ-R7"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADG708BRUZ-REEL7?qs=BpaRKvA4VqFdn8CWC5yK2A%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ADG708BRUZ-REEL7"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ADG708BRUZ-REEL7_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "S5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "S6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -15.24 180)
+					(length 5.08)
+					(name "S7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "S8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 222.25 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05e77e28-4b4d-4eb5-8377-9fff116e69a2")
+	)
+	(junction
+		(at 215.9 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06e6db9c-efaf-451f-9e15-1c7021167c64")
+	)
+	(junction
+		(at 187.96 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0903173c-a1a7-48d4-b6f5-4e7cc7032408")
+	)
+	(junction
+		(at 133.35 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09580100-fdfd-4816-bc95-9247e953b26b")
+	)
+	(junction
+		(at 158.75 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26398702-28c0-4e86-aa64-d8c491cf3aea")
+	)
+	(junction
+		(at 111.76 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2db41d42-a34a-4801-955d-39ce9e9d213d")
+	)
+	(junction
+		(at 86.36 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39b2d0f7-03c9-4c14-b604-bfa946c77190")
+	)
+	(junction
+		(at 133.35 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44b88ebe-949e-431e-b957-11a8070d9348")
+	)
+	(junction
+		(at 137.16 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "558c3c18-81b2-4acd-b6a3-6c5fca00f25e")
+	)
+	(junction
+		(at 187.96 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56b23502-005a-44c7-a425-afcd99455daa")
+	)
+	(junction
+		(at 57.15 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ab3e5cf-9dd6-4ea9-aed4-a733e9c6490b")
+	)
+	(junction
+		(at 60.96 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "692c4f94-afe1-49df-9c82-2b699c88bdba")
+	)
+	(junction
+		(at 162.56 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f582380-b5bf-42f5-b0b6-58039bc4b57b")
+	)
+	(junction
+		(at 213.36 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "701d5437-af7a-4eeb-ba41-a88c8daff46b")
+	)
+	(junction
+		(at 219.71 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72bf2f78-7b93-4fff-881a-6bab5e6171fb")
+	)
+	(junction
+		(at 57.15 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76066551-8770-4afa-995d-6543ffe12d08")
+	)
+	(junction
+		(at 213.36 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a2eed75-ea63-4fd2-b946-af7e966957e0")
+	)
+	(junction
+		(at 209.55 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "889b7b98-0b8a-45f3-a313-d1cf44e4a245")
+	)
+	(junction
+		(at 158.75 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ea4f44c-5794-4f23-8d6c-6d5f8a6bea62")
+	)
+	(junction
+		(at 162.56 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93ee4f80-0533-4271-b6fc-f0e34df1cc59")
+	)
+	(junction
+		(at 60.96 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d30924b-0d87-4873-b685-ec6e873d4b09")
+	)
+	(junction
+		(at 219.71 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e875154-eea5-46de-80cd-fdb4dd5c39b3")
+	)
+	(junction
+		(at 184.15 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2dc4115-f824-4f3e-a131-f31d12b26394")
+	)
+	(junction
+		(at 218.44 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab21a823-c968-4b4d-8621-abab8962a191")
+	)
+	(junction
+		(at 82.55 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b26f5805-efc0-4638-945c-0cc98dec0f27")
+	)
+	(junction
+		(at 107.95 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2eac5ee-c3ff-40de-ab3b-e7b915a58a42")
+	)
+	(junction
+		(at 82.55 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6cbc677-96a7-42ac-a274-55246b5ba655")
+	)
+	(junction
+		(at 209.55 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c53982ed-6b28-4b0c-aa3f-302f6afceef8")
+	)
+	(junction
+		(at 215.9 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c92922af-4999-4bda-b1b6-ff6f75a6e6f3")
+	)
+	(junction
+		(at 107.95 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6012a6d-c40c-407f-8303-b160528f1ea6")
+	)
+	(junction
+		(at 184.15 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d86a8cab-61e7-4af9-b5d6-f6ea91c20e67")
+	)
+	(junction
+		(at 137.16 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d95728ad-e3aa-49f2-9e21-33b0583daa2c")
+	)
+	(junction
+		(at 86.36 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8a35fe5-c067-40dd-8157-7703ab9d5e0b")
+	)
+	(junction
+		(at 111.76 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f455e949-a78a-42dc-8275-53a85068e97e")
+	)
+	(wire
+		(pts
+			(xy 222.25 101.6) (xy 223.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03712a25-4afd-444a-a0ba-86bd8fee55f2")
+	)
+	(wire
+		(pts
+			(xy 269.24 46.99) (xy 252.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d860bc-7705-47c1-ae3e-cda36bbc8e8a")
+	)
+	(wire
+		(pts
+			(xy 185.42 20.32) (xy 185.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052b59dd-c4b2-4670-abdb-e9f80d349c32")
+	)
+	(wire
+		(pts
+			(xy 137.16 54.61) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067eca51-0079-409a-8135-81583c44eb33")
+	)
+	(wire
+		(pts
+			(xy 60.96 83.82) (xy 60.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09451da0-5020-42c6-87da-7df2bf7c5db4")
+	)
+	(wire
+		(pts
+			(xy 133.35 156.21) (xy 133.35 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a33390f-0ab7-4504-941a-ae5fa67b1d58")
+	)
+	(wire
+		(pts
+			(xy 229.87 52.07) (xy 231.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af8e8ae-2945-449e-b7ef-16ec7d006fd2")
+	)
+	(wire
+		(pts
+			(xy 231.14 52.07) (xy 231.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b73112d-ca8a-4232-bff0-6398adebd71d")
+	)
+	(wire
+		(pts
+			(xy 210.82 55.88) (xy 210.82 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf6819e-cca6-4636-9681-02f86b21d2b1")
+	)
+	(wire
+		(pts
+			(xy 227.33 120.65) (xy 220.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5088ec-320d-4163-92e0-8617c248f245")
+	)
+	(wire
+		(pts
+			(xy 213.36 106.68) (xy 213.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109f641b-b748-4184-9c5d-f1c7a058fa71")
+	)
+	(wire
+		(pts
+			(xy 105.41 116.84) (xy 105.41 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116867a4-7cd9-49b2-9aca-b5549ca7ecde")
+	)
+	(wire
+		(pts
+			(xy 265.43 74.93) (xy 265.43 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14382010-204c-4c23-a0fe-b05c35fb9aa2")
+	)
+	(wire
+		(pts
+			(xy 184.15 127) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1670a0c5-cc69-468a-82c2-9bd45cd6baee")
+	)
+	(wire
+		(pts
+			(xy 219.71 78.74) (xy 219.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17031f01-0735-444e-b285-9da9f427b300")
+	)
+	(wire
+		(pts
+			(xy 248.92 104.14) (xy 251.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17695148-a851-4d3c-b60c-787d14ab276a")
+	)
+	(wire
+		(pts
+			(xy 218.44 137.16) (xy 218.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176ef8fe-d795-403b-a132-966026604af7")
+	)
+	(wire
+		(pts
+			(xy 218.44 127) (xy 209.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188effdd-55dd-49ad-9731-a1b59075a3ad")
+	)
+	(wire
+		(pts
+			(xy 83.82 41.91) (xy 83.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3ed831-791a-482b-9228-687ac1c29836")
+	)
+	(wire
+		(pts
+			(xy 31.75 127) (xy 31.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c48a1bb-b2fc-4364-b219-398e3c89d54f")
+	)
+	(wire
+		(pts
+			(xy 226.06 124.46) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d14dd79-d922-4a1f-beab-8a895d5f3a11")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 54.61 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dff8314-36f8-4311-96e3-1575b748a20c")
+	)
+	(wire
+		(pts
+			(xy 267.97 44.45) (xy 267.97 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3f297a-db07-4d89-8a56-25f71419afd4")
+	)
+	(wire
+		(pts
+			(xy 266.7 41.91) (xy 266.7 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202637a9-a53c-488c-a9db-92fa51da13f3")
+	)
+	(wire
+		(pts
+			(xy 35.56 85.09) (xy 35.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207e1363-36bf-4d82-aafc-75a87606d0f9")
+	)
+	(wire
+		(pts
+			(xy 57.15 127) (xy 31.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ae6f82-0e63-4d98-9957-37807f273582")
+	)
+	(wire
+		(pts
+			(xy 251.46 105.41) (xy 267.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d6740e-2322-4562-a346-a058bb6ecca8")
+	)
+	(wire
+		(pts
+			(xy 252.73 31.75) (xy 255.27 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2367098c-36a2-4dd9-9204-b64bd8396630")
+	)
+	(wire
+		(pts
+			(xy 187.96 54.61) (xy 162.56 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2373ab1a-9419-4629-9d98-2601d5e79679")
+	)
+	(wire
+		(pts
+			(xy 107.95 127) (xy 82.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2592d563-873d-41ba-9632-9b12161ba020")
+	)
+	(wire
+		(pts
+			(xy 158.75 127) (xy 133.35 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26178f02-1760-4516-96ec-c0f15b00b6f1")
+	)
+	(wire
+		(pts
+			(xy 187.96 83.82) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4c4e3f-2f92-44f0-a06b-d080614a321f")
+	)
+	(wire
+		(pts
+			(xy 80.01 114.3) (xy 80.01 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e12645f-5f65-4da0-b7c0-6f74c4205b86")
+	)
+	(wire
+		(pts
+			(xy 265.43 34.29) (xy 252.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe3ad26-85f1-4d60-bef3-971416b9dd8c")
+	)
+	(wire
+		(pts
+			(xy 226.06 27.94) (xy 226.06 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30197d43-4129-4d45-bd76-84aaefb52a83")
+	)
+	(wire
+		(pts
+			(xy 213.36 147.32) (xy 215.9 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b2f6a6-2a39-4445-8e33-602ca05648f4")
+	)
+	(wire
+		(pts
+			(xy 156.21 93.98) (xy 156.21 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324139d6-a0a6-4ded-98d7-940545d4d162")
+	)
+	(wire
+		(pts
+			(xy 207.01 128.27) (xy 207.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3257f894-3a79-4f1c-a642-dcaf01263ce1")
+	)
+	(wire
+		(pts
+			(xy 248.92 111.76) (xy 256.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3370b2a8-7006-4e30-b53b-e65a06832330")
+	)
+	(wire
+		(pts
+			(xy 181.61 92.71) (xy 181.61 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36446ac2-2576-4040-b2be-417d4ad6322a")
+	)
+	(wire
+		(pts
+			(xy 252.73 41.91) (xy 266.7 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380baf43-eb63-4c1d-aac9-e803f09b9a94")
+	)
+	(wire
+		(pts
+			(xy 86.36 85.09) (xy 60.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382128d9-797c-42fe-b8ca-3d835b82ce6e")
+	)
+	(wire
+		(pts
+			(xy 224.79 46.99) (xy 227.33 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a77624-bca9-4941-b896-c5ebd253c61a")
+	)
+	(wire
+		(pts
+			(xy 259.08 109.22) (xy 259.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a68df60-66dc-43dd-8fa3-00ad2d55279d")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 111.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7400f3-f51a-49d1-baea-c9f71c98d441")
+	)
+	(wire
+		(pts
+			(xy 262.89 114.3) (xy 262.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe94c3c-5f9b-44bb-b19d-99893c305dc5")
+	)
+	(wire
+		(pts
+			(xy 218.44 137.16) (xy 226.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417c4273-a923-4fb7-b86d-d2b3d0cf5f76")
+	)
+	(wire
+		(pts
+			(xy 252.73 44.45) (xy 267.97 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4265c0e5-1432-4211-a46e-cbfaa35f922b")
+	)
+	(wire
+		(pts
+			(xy 158.75 156.21) (xy 158.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433bfda3-1ff4-4fd7-b388-6a8df788425e")
+	)
+	(wire
+		(pts
+			(xy 222.25 64.77) (xy 229.87 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4407acb1-b07b-45d5-850d-ee252f79402b")
+	)
+	(wire
+		(pts
+			(xy 133.35 157.48) (xy 107.95 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4673b020-87cc-49d1-8416-88677a54eca4")
+	)
+	(wire
+		(pts
+			(xy 158.75 127) (xy 158.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46792a40-055b-4198-abd9-0c79e7a6bbf5")
+	)
+	(wire
+		(pts
+			(xy 223.52 109.22) (xy 29.21 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49040b30-c930-4f26-b3e1-00e30a1e5f8b")
+	)
+	(wire
+		(pts
+			(xy 226.06 151.13) (xy 215.9 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a152c3b-ea50-4889-8d68-5760ab5dc167")
+	)
+	(wire
+		(pts
+			(xy 82.55 156.21) (xy 82.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a449ece-5cfa-4c7c-bceb-bfa3704902ae")
+	)
+	(wire
+		(pts
+			(xy 137.16 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8d9bc1-8197-45e0-9e7a-7267e2d45ca4")
+	)
+	(wire
+		(pts
+			(xy 261.62 106.68) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5102bff9-6789-447d-9d43-81f30524bcd0")
+	)
+	(wire
+		(pts
+			(xy 86.36 54.61) (xy 60.96 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cf5417-279e-46f1-ad7d-7923e48de0ae")
+	)
+	(wire
+		(pts
+			(xy 265.43 91.44) (xy 265.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550b2e53-dcbf-434b-b142-87df189ec8dd")
+	)
+	(wire
+		(pts
+			(xy 220.98 104.14) (xy 223.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579152e0-4d1d-406d-8de0-8bc5df3ae651")
+	)
+	(wire
+		(pts
+			(xy 264.16 116.84) (xy 264.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ea83de-a4ed-4eba-b70b-f5eca1673dfa")
+	)
+	(wire
+		(pts
+			(xy 160.02 21.59) (xy 160.02 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59be95a0-ef43-4e76-ab9c-64d918cf8ba2")
+	)
+	(wire
+		(pts
+			(xy 217.17 74.93) (xy 219.71 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a12a4fd-d3ca-4608-bf7f-93c2637b7255")
+	)
+	(wire
+		(pts
+			(xy 86.36 83.82) (xy 86.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b22340a-bc88-48e1-a350-f9b7c7d1db4f")
+	)
+	(wire
+		(pts
+			(xy 251.46 104.14) (xy 251.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b74d302-c884-4aae-a0c9-55ec427dc5a3")
+	)
+	(wire
+		(pts
+			(xy 248.92 101.6) (xy 267.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0f67ee-8a04-4772-bcc9-c71f6490e523")
+	)
+	(wire
+		(pts
+			(xy 209.55 127) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6676f7-5d41-4abc-8a30-e2c696719124")
+	)
+	(wire
+		(pts
+			(xy 262.89 93.98) (xy 156.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f02c43f-feb4-4fd3-8690-539ab8d2f66d")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619be901-f5f9-411f-9c8c-b8bba3065db6")
+	)
+	(wire
+		(pts
+			(xy 60.96 85.09) (xy 35.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b66bae-f1cb-46e4-9139-4184d28c43d3")
+	)
+	(wire
+		(pts
+			(xy 107.95 127) (xy 107.95 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a46bff-d8b2-43ce-a9b5-6baeb43b9147")
+	)
+	(wire
+		(pts
+			(xy 57.15 157.48) (xy 31.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b5c182-2a78-45c8-ac68-186925c48e8b")
+	)
+	(wire
+		(pts
+			(xy 220.98 100.33) (xy 222.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68930856-f37f-407b-994c-7852de88f989")
+	)
+	(wire
+		(pts
+			(xy 60.96 54.61) (xy 35.56 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69999e4d-af73-4c0f-a0bc-7f89f7ba1eae")
+	)
+	(wire
+		(pts
+			(xy 130.81 97.79) (xy 130.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1f94d2-1ac0-4b05-a26a-bf8c6468dd17")
+	)
+	(wire
+		(pts
+			(xy 227.33 44.45) (xy 109.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a84c27f-5e7d-4759-aa10-d12658ae5042")
+	)
+	(wire
+		(pts
+			(xy 267.97 20.32) (xy 185.42 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d70ea09-d5cf-45c6-bb88-75f3ab9855c2")
+	)
+	(wire
+		(pts
+			(xy 209.55 157.48) (xy 184.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f947079-7e86-45a8-88c6-f6ebc457f8e7")
+	)
+	(wire
+		(pts
+			(xy 252.73 39.37) (xy 260.35 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70633950-a893-4655-98e6-b97f68574370")
+	)
+	(wire
+		(pts
+			(xy 209.55 127) (xy 209.55 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709f6f84-db22-47bb-8d78-39d78445bcd4")
+	)
+	(wire
+		(pts
+			(xy 223.52 111.76) (xy 54.61 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f72fb7-08c2-4c7b-923c-a3cc34fc3711")
+	)
+	(wire
+		(pts
+			(xy 215.9 151.13) (xy 215.9 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7289bd24-09bd-4373-88a4-6993bbff4f44")
+	)
+	(wire
+		(pts
+			(xy 187.96 54.61) (xy 187.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7303e0f4-7ad5-4307-b008-851ce72d771b")
+	)
+	(wire
+		(pts
+			(xy 158.75 157.48) (xy 133.35 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754c4a40-8654-40e6-8dae-014a810cf544")
+	)
+	(wire
+		(pts
+			(xy 162.56 54.61) (xy 162.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756e6a0e-1f1f-4803-8b89-8222222f4768")
+	)
+	(wire
+		(pts
+			(xy 260.35 25.4) (xy 134.62 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9f3ebf-02b1-463b-85b0-73d3d079b622")
+	)
+	(wire
+		(pts
+			(xy 248.92 116.84) (xy 264.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8202ed55-f450-4ad3-9d41-7ef8ee885ac2")
+	)
+	(wire
+		(pts
+			(xy 107.95 156.21) (xy 107.95 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83274899-b956-429d-aa95-9c35678495f3")
+	)
+	(wire
+		(pts
+			(xy 264.16 92.71) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ccb41f-17f6-4227-a094-793fe4473b66")
+	)
+	(wire
+		(pts
+			(xy 256.54 111.76) (xy 256.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e72224-a9c4-46f9-8c1e-fea6b18b24f4")
+	)
+	(wire
+		(pts
+			(xy 224.79 48.26) (xy 224.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8558efe8-68f8-4136-857c-e7b9d44e7451")
+	)
+	(wire
+		(pts
+			(xy 222.25 64.77) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883a6dc8-6868-4aa4-be40-1d4a3d195e4b")
+	)
+	(wire
+		(pts
+			(xy 231.14 48.26) (xy 224.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "884b19b4-2f73-486a-9d19-d8bb587a8fc5")
+	)
+	(wire
+		(pts
+			(xy 220.98 120.65) (xy 220.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896585d2-17b4-4fc6-8fab-990b1d87ae4f")
+	)
+	(wire
+		(pts
+			(xy 227.33 39.37) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f0de90-001f-443a-9617-3f64f0397e4e")
+	)
+	(wire
+		(pts
+			(xy 227.33 41.91) (xy 83.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8d1cc7-b3d9-4e0c-a3b2-988c77b99d29")
+	)
+	(wire
+		(pts
+			(xy 213.36 54.61) (xy 187.96 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f83c9a2-437f-4e8f-beeb-6f8820464d82")
+	)
+	(wire
+		(pts
+			(xy 86.36 54.61) (xy 86.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91897db3-0280-432f-8151-da2f38103bd7")
+	)
+	(wire
+		(pts
+			(xy 31.75 157.48) (xy 31.75 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920202c1-a99d-49d4-b680-1ad6e99e2832")
+	)
+	(wire
+		(pts
+			(xy 248.92 114.3) (xy 262.89 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b14ffd-17f2-4f95-a036-50bb53183c48")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 80.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9315e235-0831-4e62-a774-dfc9fe84a8ff")
+	)
+	(wire
+		(pts
+			(xy 223.52 106.68) (xy 213.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e5d5b6-beb6-4b86-b77c-e859adfe5610")
+	)
+	(wire
+		(pts
+			(xy 217.17 34.29) (xy 217.17 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9726cc61-2a4e-431a-97b6-9aee7528b62a")
+	)
+	(wire
+		(pts
+			(xy 261.62 147.32) (xy 261.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973fd2fd-b045-4660-855c-4f1c1a3aac3e")
+	)
+	(wire
+		(pts
+			(xy 222.25 54.61) (xy 213.36 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f6547c-c6a1-4015-b298-e197c7cd164f")
+	)
+	(wire
+		(pts
+			(xy 256.54 97.79) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a4e11a-4b3f-4a6d-8064-5c8e7088e81b")
+	)
+	(wire
+		(pts
+			(xy 215.9 147.32) (xy 261.62 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9caa8fba-a6f5-4c62-a76c-e2f363308a27")
+	)
+	(wire
+		(pts
+			(xy 213.36 54.61) (xy 213.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccf35a6-744a-4edb-a4ba-dfdfc05c5115")
+	)
+	(wire
+		(pts
+			(xy 223.52 116.84) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03d5217-76f3-4cf3-88ae-af1dd447a49f")
+	)
+	(wire
+		(pts
+			(xy 162.56 54.61) (xy 137.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a265e5be-265c-40ac-9118-fcb956461acd")
+	)
+	(wire
+		(pts
+			(xy 252.73 29.21) (xy 271.78 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a335d454-2d38-4c01-9501-0596e151b5ec")
+	)
+	(wire
+		(pts
+			(xy 213.36 85.09) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bbc70a-66a7-4fa1-82bd-40ded29388d9")
+	)
+	(wire
+		(pts
+			(xy 29.21 109.22) (xy 29.21 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a706ed66-5f07-4b44-be0d-a18c688ae373")
+	)
+	(wire
+		(pts
+			(xy 219.71 74.93) (xy 265.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f09755-20e4-45bd-9536-431c6db737c3")
+	)
+	(wire
+		(pts
+			(xy 262.89 36.83) (xy 262.89 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f0ce69-a3fb-48ec-bae7-c129c63f0c6d")
+	)
+	(wire
+		(pts
+			(xy 184.15 157.48) (xy 158.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab849f61-28a7-471c-b73d-9df8248fc4af")
+	)
+	(wire
+		(pts
+			(xy 210.82 19.05) (xy 269.24 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca8ed51-757c-470b-8c2a-362b3a3c8054")
+	)
+	(wire
+		(pts
+			(xy 248.92 109.22) (xy 259.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae709cae-fbf1-465b-97b0-58c99f51edbd")
+	)
+	(wire
+		(pts
+			(xy 133.35 127) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aedbc30d-d802-4723-bf44-3c00f9089801")
+	)
+	(wire
+		(pts
+			(xy 227.33 34.29) (xy 217.17 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc28452-4103-4124-8f55-05d12d79f6c9")
+	)
+	(wire
+		(pts
+			(xy 227.33 124.46) (xy 227.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01337f3-e8ea-4d58-bb1b-6abf056abb24")
+	)
+	(wire
+		(pts
+			(xy 133.35 127) (xy 133.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b168aa3b-5e92-42dd-b2aa-d875fb766eac")
+	)
+	(wire
+		(pts
+			(xy 82.55 157.48) (xy 57.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20d2656-472e-4e90-b7b4-0b0cb9ebe355")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 86.36 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2977a50-22b1-456a-83b5-130e7bfad080")
+	)
+	(wire
+		(pts
+			(xy 209.55 156.21) (xy 209.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29aa107-90f2-4c5d-967c-d29c2bb0aaae")
+	)
+	(wire
+		(pts
+			(xy 33.02 36.83) (xy 33.02 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b55b782b-3bdc-4856-8888-8a4cb89eecb4")
+	)
+	(wire
+		(pts
+			(xy 266.7 21.59) (xy 160.02 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ff2c11-3861-4b3f-9785-310532c5b5e0")
+	)
+	(wire
+		(pts
+			(xy 224.79 27.94) (xy 226.06 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8dd6467-04fa-46b2-bd4f-d357c19f4465")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 86.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc70bcaf-e41c-4123-a9e6-1ebb9f2b18d5")
+	)
+	(wire
+		(pts
+			(xy 184.15 127) (xy 184.15 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf4d941-d361-4562-8a45-69139e512b11")
+	)
+	(wire
+		(pts
+			(xy 259.08 127) (xy 218.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6e4dc3-5f97-4bc0-bb5a-b1da6bf3868f")
+	)
+	(wire
+		(pts
+			(xy 260.35 39.37) (xy 260.35 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12e4981-3ad3-4685-a6e4-d450ed2e97cb")
+	)
+	(wire
+		(pts
+			(xy 255.27 33.02) (xy 271.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4504916-1c32-40fc-8ad1-43f43f9a0c51")
+	)
+	(wire
+		(pts
+			(xy 35.56 54.61) (xy 35.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4833c47-deb7-4d04-a42a-890a0d2238d6")
+	)
+	(wire
+		(pts
+			(xy 215.9 151.13) (xy 215.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ae8695-09ff-4788-9789-280fbdbf4c45")
+	)
+	(wire
+		(pts
+			(xy 219.71 85.09) (xy 213.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76106d2-b09f-4e31-96d7-15c203e2e48c")
+	)
+	(wire
+		(pts
+			(xy 215.9 157.48) (xy 209.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c880ff64-8635-41f5-9a2e-7b64f31f330d")
+	)
+	(wire
+		(pts
+			(xy 57.15 127) (xy 57.15 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8abe85f-8986-4bdc-879b-5ccf6904e3ba")
+	)
+	(wire
+		(pts
+			(xy 224.79 31.75) (xy 227.33 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbba950a-e9b7-4d4d-93f2-068660ab5b03")
+	)
+	(wire
+		(pts
+			(xy 226.06 29.21) (xy 227.33 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29a48fa-48d3-4135-8374-47b2cdee3e45")
+	)
+	(wire
+		(pts
+			(xy 219.71 78.74) (xy 219.71 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e39bd9-851c-4eb3-bb0f-0dbe5bda20d9")
+	)
+	(wire
+		(pts
+			(xy 187.96 85.09) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a60d1d-186a-4342-af25-1ce41ba98f8a")
+	)
+	(wire
+		(pts
+			(xy 82.55 127) (xy 57.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b947e5-a02c-46eb-a244-0c4b98fe8137")
+	)
+	(wire
+		(pts
+			(xy 184.15 156.21) (xy 184.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43fce24-e9e8-4025-82b2-08eb484915d0")
+	)
+	(wire
+		(pts
+			(xy 58.42 39.37) (xy 58.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5981568-ebc8-48dd-bf9c-92bd08a84fe9")
+	)
+	(wire
+		(pts
+			(xy 60.96 54.61) (xy 60.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d815f9eb-33a0-48b9-a941-5f20b350ce9a")
+	)
+	(wire
+		(pts
+			(xy 265.43 119.38) (xy 248.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da35806c-8143-438e-add7-18533f6abc66")
+	)
+	(wire
+		(pts
+			(xy 207.01 91.44) (xy 265.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db092825-efad-4b29-8829-1dd53fe8663d")
+	)
+	(wire
+		(pts
+			(xy 229.87 78.74) (xy 219.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0b5cd7-434e-4e8c-a9c5-3e33519ab916")
+	)
+	(wire
+		(pts
+			(xy 137.16 85.09) (xy 111.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0a1a21-26ef-4b54-8216-15cfc2948fdb")
+	)
+	(wire
+		(pts
+			(xy 227.33 36.83) (xy 33.02 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0dbe7e5-a00a-4dc8-b267-52816d5d3b02")
+	)
+	(wire
+		(pts
+			(xy 107.95 157.48) (xy 82.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e452f9c9-6744-4bf0-bc24-46239340b70c")
+	)
+	(wire
+		(pts
+			(xy 162.56 85.09) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54d830c-1360-44b2-9e27-b5074c6c6854")
+	)
+	(wire
+		(pts
+			(xy 252.73 36.83) (xy 262.89 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e809dd1e-e6b2-454f-bfb7-f87cf2d0530b")
+	)
+	(wire
+		(pts
+			(xy 222.25 100.33) (xy 222.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a9592a-b0e1-4f88-8e1b-156889560efd")
+	)
+	(wire
+		(pts
+			(xy 82.55 127) (xy 82.55 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f71012-88f4-49c3-8958-6c885d7185e7")
+	)
+	(wire
+		(pts
+			(xy 262.89 54.61) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda3f5e2-4e35-484d-af83-582a4fd80f5e")
+	)
+	(wire
+		(pts
+			(xy 269.24 19.05) (xy 269.24 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0456ee6-a493-48bc-afab-a6825eabbe2c")
+	)
+	(wire
+		(pts
+			(xy 109.22 44.45) (xy 109.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16e25e0-c201-4e3d-8cd1-11e4bcb6b191")
+	)
+	(wire
+		(pts
+			(xy 134.62 25.4) (xy 134.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17ff3a9-a795-4463-94f4-b10e3e6a257d")
+	)
+	(wire
+		(pts
+			(xy 220.98 119.38) (xy 223.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21ff2cc-21f6-4aad-9574-66c71c5442ce")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 111.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3013056-8e2e-4762-b446-7441d0e2d53d")
+	)
+	(wire
+		(pts
+			(xy 255.27 31.75) (xy 255.27 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5bbb6a7-16b3-4e9e-a4fd-65b54a4b6ac1")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c90556-7211-42b4-9b81-581572d3a0d1")
+	)
+	(wire
+		(pts
+			(xy 213.36 83.82) (xy 213.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadb8539-a4ee-49c0-bfc1-d8dc4e0ded85")
+	)
+	(wire
+		(pts
+			(xy 57.15 156.21) (xy 57.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3ae94a-4757-4e92-989d-81fbf6060a8e")
+	)
+	(global_label "A1_4"
+		(shape input)
+		(at 271.78 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12ceb3d7-42a5-4ce6-b859-2421e4cf9ef8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.2404 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A1_5"
+		(shape input)
+		(at 267.97 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1faf12b1-1733-44e9-8ef1-24c0b8e60921")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.4304 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A0_5"
+		(shape input)
+		(at 220.98 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28af0fea-c178-4967-b8c4-1e79cde6f521")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5196 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HallOUT4"
+		(shape output)
+		(at 229.87 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "309e058d-8574-4779-bb7d-0032d67e0696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.2368 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SafeVCC"
+		(shape input)
+		(at 226.06 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 116 7 1)
+			)
+			(justify left)
+		)
+		(uuid "3ca0e249-dcd3-4357-bc81-f4e578835d9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.8466 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A0_4"
+		(shape input)
+		(at 224.79 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d6922ae-ed04-42f8-b100-b15aabea1028")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.3296 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_5"
+		(shape input)
+		(at 220.98 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e1fd0e1-7f03-4b08-9543-21ae21503825")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.3382 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_4"
+		(shape input)
+		(at 224.79 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8353cdf4-d124-481c-b65c-c6ee0f1d35c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.1482 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HallOUT5"
+		(shape output)
+		(at 226.06 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9acceb1f-4bb9-4633-afbb-dcf7b1f91df8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.4268 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2_4"
+		(shape input)
+		(at 271.78 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a815142e-99b0-48d9-9148-3fee95cbc0a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.2404 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SafeGND"
+		(shape output)
+		(at 226.06 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 55 126 255 1)
+			)
+			(justify left)
+		)
+		(uuid "b6614124-afd6-4bd9-be90-e180ab826f0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.0885 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SafeVCC"
+		(shape input)
+		(at 229.87 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 116 7 1)
+			)
+			(justify left)
+		)
+		(uuid "d12f2b07-dd94-49d8-b144-d33867e9cedc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.6566 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SafeGND"
+		(shape output)
+		(at 229.87 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 55 126 255 1)
+			)
+			(justify left)
+		)
+		(uuid "db6f169a-2e2f-44b9-b311-a285302b82f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.8985 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2_5"
+		(shape input)
+		(at 267.97 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e526a451-0ab0-4e11-8a50-9f71136a0541")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.4304 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 137.16 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02287397-a4a6-49cd-920f-a49e40d2c551")
+		(property "Reference" "IC46"
+			(at 140.97 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 140.97 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at 42.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -57.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -257.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -357.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -457.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -557.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -657.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e0654a-445f-4eeb-9153-33c34c3b471b")
+		)
+		(pin "3"
+			(uuid "bf202301-7f7e-4ceb-9eb8-69dac778dfdb")
+		)
+		(pin "2"
+			(uuid "8972562c-7317-4a77-8d4f-598f29afb0ac")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 31.75 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "043b9272-1d0e-4486-a14d-08c6ef98ea10")
+		(property "Reference" "IC37"
+			(at 35.56 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 35.56 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at -63.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -163.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -363.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -463.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -563.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -663.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -763.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2601f56-b338-44f0-9ff0-84b50fdbe57f")
+		)
+		(pin "3"
+			(uuid "00bcb652-1289-422b-85f0-7185f86c3ba8")
+		)
+		(pin "2"
+			(uuid "c240c056-d6fc-4ac7-9db9-08bcf9ac44b4")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 213.36 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a1dce76-6aca-4f1c-8265-a985a9d85f93")
+		(property "Reference" "IC52"
+			(at 217.17 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 217.17 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at 118.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at 18.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 213.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -181.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -281.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -381.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -481.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -581.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ab8d042-6cca-4416-9498-bc84c5411524")
+		)
+		(pin "3"
+			(uuid "087036f5-33ec-4785-b809-52c01c074c9f")
+		)
+		(pin "2"
+			(uuid "06983515-82db-4159-875a-1819356b039e")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:ADG708BRUZ-REEL7")
+		(at 223.52 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15d3243c-937a-4f86-9cae-63cadfe5868f")
+		(property "Reference" "IC53"
+			(at 250.698 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADG708BRUZ-REEL7"
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP65P640X120-16N"
+			(at 245.11 196.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf"
+			(at 245.11 296.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog Devices ADG708BRUZ-REEL7, Multiplexer Single 8 x 1, 5 V, 16-Pin TSSOP"
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 245.11 496.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-ADG708BRUZ-R7"
+			(at 245.11 596.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADG708BRUZ-REEL7?qs=BpaRKvA4VqFdn8CWC5yK2A%3D%3D"
+			(at 245.11 696.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 245.11 796.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ADG708BRUZ-REEL7"
+			(at 245.11 896.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f220e222-fd8a-4355-82e0-6e4e04267dfa")
+		)
+		(pin "8"
+			(uuid "0a5985c4-760d-4535-99c3-98abf46a6f85")
+		)
+		(pin "6"
+			(uuid "81e923a7-a8a3-4423-9165-f894cdbeb724")
+		)
+		(pin "11"
+			(uuid "92d9b52c-d4e5-4978-8aa4-e1534607cc3b")
+		)
+		(pin "3"
+			(uuid "04f0b9c5-f0ce-4b4e-b9b2-8da1e2aef39f")
+		)
+		(pin "1"
+			(uuid "66502f0e-60f0-48c2-a28f-bf88dbc09864")
+		)
+		(pin "4"
+			(uuid "d9d09595-08d8-4fda-bacb-861eb5b653be")
+		)
+		(pin "5"
+			(uuid "8932d259-f1e0-41d0-abc0-ea5a98841bf1")
+		)
+		(pin "7"
+			(uuid "bbe77225-fbd1-474d-9fa8-034fdd029963")
+		)
+		(pin "16"
+			(uuid "1ea698fd-122e-4926-9b8b-a02112a2d442")
+		)
+		(pin "15"
+			(uuid "fce49a6e-f994-4c01-a4a6-852694e324d6")
+		)
+		(pin "14"
+			(uuid "85924d4c-8e81-4abd-9f40-f110b6b3a8a0")
+		)
+		(pin "13"
+			(uuid "57facb99-264a-48f1-bce4-fe039378e407")
+		)
+		(pin "12"
+			(uuid "33a3c10f-b6f4-46c8-99ec-3dde58b23fff")
+		)
+		(pin "10"
+			(uuid "188e4438-78d0-48ed-a193-2119c0e5aba7")
+		)
+		(pin "9"
+			(uuid "990749a0-3411-4d21-8c47-64e486dbb369")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 184.15 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "203da58b-5ef9-4796-97d4-e4d5c1629509")
+		(property "Reference" "IC49"
+			(at 187.96 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 187.96 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at 89.23 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -10.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -210.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -310.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -410.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -510.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -610.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c72958e6-ae9c-4478-86dc-7347ceb50f9e")
+		)
+		(pin "3"
+			(uuid "1c625766-1817-4a47-9ac5-0034c9c806cb")
+		)
+		(pin "2"
+			(uuid "70380fcc-9962-4c09-b244-e4b805de9daf")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 209.55 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2658d7a9-cf6a-4c1e-8cde-78dfb9eed436")
+		(property "Reference" "IC51"
+			(at 213.36 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 213.36 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at 114.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at 14.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 209.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -185.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -285.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -385.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -485.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -585.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fe75ce9-42c0-454f-b8c0-22f02f628d36")
+		)
+		(pin "3"
+			(uuid "ad12a8b3-a328-4980-b031-b967b0b9b2a2")
+		)
+		(pin "2"
+			(uuid "5cd501b4-98a1-4725-a917-5173aa6d9dd5")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 35.56 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "487240a7-b6df-48cb-8a29-8ebe6d5f8e5e")
+		(property "Reference" "IC38"
+			(at 39.37 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 39.37 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at -59.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -159.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 35.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -359.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -459.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -559.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -659.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -759.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "605ba3ad-223b-4960-a94b-381f79b68e1a")
+		)
+		(pin "3"
+			(uuid "24138be5-298e-4f29-b18f-29aea5af6080")
+		)
+		(pin "2"
+			(uuid "f2277921-05d3-4bed-a3e5-2bfd639d0b5a")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 60.96 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56f0712e-7506-49c0-ad75-12c97b25f21d")
+		(property "Reference" "IC40"
+			(at 64.77 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 64.77 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at -33.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -133.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -333.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -433.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -533.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -633.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -733.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f62ab871-080a-4cd3-81f6-175f7b22e503")
+		)
+		(pin "3"
+			(uuid "3434c55f-2eba-42be-ba48-84e4f6bf2895")
+		)
+		(pin "2"
+			(uuid "001348d5-7b02-4813-908f-594d6fec5bb6")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 111.76 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58551446-ee59-4e43-8cb1-15161ccb8865")
+		(property "Reference" "IC44"
+			(at 115.57 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 115.57 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at 16.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -83.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -283.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -383.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -483.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -583.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -683.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f17a5a58-88e3-4d2b-823a-7bc95e2aa8af")
+		)
+		(pin "3"
+			(uuid "44d2ed70-e6ac-47be-afde-f43e4e276645")
+		)
+		(pin "2"
+			(uuid "53dd3b75-7986-4ff0-9f84-419a17f7817b")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:ADG708BRUZ-REEL7")
+		(at 227.33 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67f992fc-1e23-4749-a965-895b943d99a2")
+		(property "Reference" "IC54"
+			(at 254.508 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADG708BRUZ-REEL7"
+			(at 240.03 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP65P640X120-16N"
+			(at 248.92 124.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG708_709.pdf"
+			(at 248.92 224.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog Devices ADG708BRUZ-REEL7, Multiplexer Single 8 x 1, 5 V, 16-Pin TSSOP"
+			(at 227.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 248.92 424.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-ADG708BRUZ-R7"
+			(at 248.92 524.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADG708BRUZ-REEL7?qs=BpaRKvA4VqFdn8CWC5yK2A%3D%3D"
+			(at 248.92 624.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 248.92 724.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ADG708BRUZ-REEL7"
+			(at 248.92 824.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cbab35e-f799-4cb2-b52e-2f11e9b12731")
+		)
+		(pin "8"
+			(uuid "c66f283b-2a66-4902-a55c-9bc5508a164a")
+		)
+		(pin "6"
+			(uuid "6e29bd74-433e-4dcb-a0e2-6515687ad1aa")
+		)
+		(pin "11"
+			(uuid "372b5f04-efd4-4be5-b350-85d8433adffc")
+		)
+		(pin "3"
+			(uuid "85773b2c-27e6-4cf2-9cd9-b5a4bb587d1b")
+		)
+		(pin "1"
+			(uuid "1f6bce26-fd6a-4198-8de7-accfbcf61170")
+		)
+		(pin "4"
+			(uuid "85162d22-462b-4f5d-a25c-3343cc8c564d")
+		)
+		(pin "5"
+			(uuid "04ba32f2-7dca-445f-a884-637d4bfcc654")
+		)
+		(pin "7"
+			(uuid "f4b1b86a-e7b5-4d3f-8b86-4b3ca89d15dd")
+		)
+		(pin "16"
+			(uuid "94a40dfc-f50f-483a-83a2-0a88a49798cf")
+		)
+		(pin "15"
+			(uuid "65fe0494-bb73-431d-bd64-4c6968eb7934")
+		)
+		(pin "14"
+			(uuid "c107586f-09ac-4988-913c-fcbbe0f74c9e")
+		)
+		(pin "13"
+			(uuid "af0a32c5-8f75-484b-aa35-0f4098d0bc31")
+		)
+		(pin "12"
+			(uuid "cf909b77-2f51-4bd9-a67f-330f189099e1")
+		)
+		(pin "10"
+			(uuid "8e6c0029-da6c-4516-ab61-b6ccb4a56406")
+		)
+		(pin "9"
+			(uuid "4e34bd5c-62cb-492e-9f0c-7ea35a60acdc")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 107.95 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83db448c-6c70-4e66-aa43-742d3761bdbd")
+		(property "Reference" "IC43"
+			(at 111.76 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 111.76 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at 13.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -86.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -286.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -386.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -486.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -586.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -686.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ded8d72-ccd7-40aa-93ef-1bb566e7296d")
+		)
+		(pin "3"
+			(uuid "58a91caa-4ebd-433d-8936-35aec1072cb7")
+		)
+		(pin "2"
+			(uuid "9ff67cb6-cb58-4d54-abd5-5294f0096719")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 133.35 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "968db42a-1b77-48ff-9aae-b6ec0d2f956c")
+		(property "Reference" "IC45"
+			(at 137.16 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 137.16 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at 38.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -61.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -261.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -361.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -461.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -561.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -661.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ec4dd95-117c-4c13-bdd5-310333dbdbc7")
+		)
+		(pin "3"
+			(uuid "69a1bd69-6b2a-4ca9-85ae-9899fa930f26")
+		)
+		(pin "2"
+			(uuid "2070563e-bbd8-4179-b5e7-d67501752ade")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 86.36 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e2d6d7-1c5f-4ba8-80b2-dbd32b2d16ed")
+		(property "Reference" "IC42"
+			(at 90.17 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 90.17 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at -8.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -108.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 86.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -308.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -408.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -508.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -608.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -708.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f431a7-6dad-458b-8b9d-9232ce4258a4")
+		)
+		(pin "3"
+			(uuid "426d549c-43ef-4b4a-9378-2ef859dd8ac1")
+		)
+		(pin "2"
+			(uuid "cd965b79-5da7-4b24-bb98-c01216fb304b")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 158.75 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cca9e0ed-2c5c-4dae-b7cc-75728807bd24")
+		(property "Reference" "IC47"
+			(at 162.56 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 162.56 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at 63.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -36.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -236.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -336.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -436.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -536.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -636.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77bbb453-22fb-428b-8da8-dc090ff0e140")
+		)
+		(pin "3"
+			(uuid "71139973-c818-4003-a429-f6799c989f0f")
+		)
+		(pin "2"
+			(uuid "6e73a632-ddfd-4afe-b719-cc7da6a4c50b")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 187.96 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da4a24c5-c3e0-43cb-a3fe-b335cae4259b")
+		(property "Reference" "IC50"
+			(at 191.77 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 191.77 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at 93.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -6.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -206.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -306.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -406.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -506.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -606.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8022e344-cf06-4f0d-8b12-295c093bbeb3")
+		)
+		(pin "3"
+			(uuid "a6e58699-ba6d-4d12-8adf-ee3d7a1cfd84")
+		)
+		(pin "2"
+			(uuid "0b47cb0f-154f-4730-93ee-1b570f648a66")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 162.56 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3b7400a-bb95-4d1c-9377-69b4163a5cd5")
+		(property "Reference" "IC48"
+			(at 166.37 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 166.37 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at 67.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -32.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -232.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -332.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -432.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -532.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -632.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45af2012-e656-402a-9ba3-6b315cf49a1e")
+		)
+		(pin "3"
+			(uuid "4d0a700d-f532-4abe-a186-c2376951b52a")
+		)
+		(pin "2"
+			(uuid "d52801d4-7803-4583-a02e-9a38d38875d1")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 82.55 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e575aecc-e0e5-478e-99aa-a01f81cd6297")
+		(property "Reference" "IC41"
+			(at 86.36 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 86.36 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at -12.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -112.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 82.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -312.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -412.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -512.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -612.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -712.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7caa820e-6919-4133-a504-633cdb9fc700")
+		)
+		(pin "3"
+			(uuid "37e2424e-69f1-4590-b132-97e22907065f")
+		)
+		(pin "2"
+			(uuid "6e65eb90-b094-4715-9e11-84f182ec2acb")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:A3213ELHLT-T")
+		(at 57.15 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb8a0075-d4cc-4b75-8bf1-a2caf15d4963")
+		(property "Reference" "IC39"
+			(at 60.96 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3213ELHLT-T"
+			(at 60.96 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A3213ELHLTT"
+			(at -37.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.allegromicro.com/~/media/files/datasheets/a3213-4-datasheet.pdf"
+			(at -137.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower, Ultrasensitive Hall-Effect Switch"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.13"
+			(at -337.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-A3213ELHLT-T"
+			(at -437.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A3213ELHLT-T?qs=pUKx8fyJudDpXdX1yceLUw%3D%3D"
+			(at -537.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at -637.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3213ELHLT-T"
+			(at -737.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b53e66a6-ce1a-49e2-93fc-e4610db1dc60")
+		)
+		(pin "3"
+			(uuid "85fd7ea9-5ed9-4c35-a3ba-63b568d5855f")
+		)
+		(pin "2"
+			(uuid "91502833-a311-47e2-a87a-8877856ad122")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/acb05647-c28a-4829-8266-5377a448476f"
+					(reference "IC39")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

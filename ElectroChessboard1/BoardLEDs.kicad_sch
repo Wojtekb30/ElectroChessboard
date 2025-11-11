@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a407fab5-8cef-46d9-8487-99467dcd8511")
+	(paper "A4")
+	(title_block
+		(title "ElectroChessboard")
+		(company "Wojciech B")
+		(comment 1 "Electronic chessboard")
+		(comment 2 "Elektroniczna szachownica")
+	)
+	(lib_symbols)
+)
