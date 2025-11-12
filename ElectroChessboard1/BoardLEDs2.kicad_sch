@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a407fab5-8cef-46d9-8487-99467dcd8511")
+	(uuid "c603d9f7-8038-4b53-b291-5c60bff083a7")
 	(paper "A4")
 	(title_block
 		(title "ElectroChessboard")
@@ -1267,1397 +1267,1374 @@
 	)
 	(text "LEDs: HONGLITRONIC(Hongli Zhihui (HONGLITRONIC)) HL-PSC-2012H233W(8000-12000K), 0805 pack"
 		(exclude_from_sim no)
-		(at 26.67 13.97 0)
+		(at 29.21 13.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c22ca376-c78c-4c46-8362-46fa01c2fc2c")
+		(uuid "4148d2ca-5c34-4d69-9fb7-f1e3cbaf1d66")
 	)
 	(junction
-		(at 16.51 38.1)
+		(at 113.03 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "046b136e-426c-48ac-8529-e1a14b4c0704")
+		(uuid "164d96b9-5e1f-4675-a215-db5556f1ebd2")
 	)
 	(junction
-		(at 110.49 88.9)
+		(at 113.03 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "124dbcf1-0e85-4990-87f0-a294a5f5caf6")
+		(uuid "25bb6897-bf80-42b0-94e0-b818f130cb86")
 	)
 	(junction
-		(at 93.98 34.29)
+		(at 113.03 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1334ff05-f079-4e67-a2a6-8b9ac4fcbf44")
+		(uuid "2adca1aa-af29-4de4-ab49-7035db6da2bb")
 	)
 	(junction
-		(at 71.12 24.13)
+		(at 113.03 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1c6c7386-ee95-420e-9370-b58dff1159d7")
+		(uuid "45c056e2-2f1b-4e35-a68d-0835a02541fb")
 	)
 	(junction
-		(at 110.49 106.68)
+		(at 31.75 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c5baa16-85ec-480c-b21a-8c31ce35446e")
+		(uuid "46defefa-95cd-430c-a67e-9ddc26a3ff74")
 	)
 	(junction
-		(at 110.49 69.85)
+		(at 113.03 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48d4f68e-32d2-47f1-b6f4-83bc826e4f52")
+		(uuid "4be96ff9-51f9-4232-a3ff-ad50d35fa3ed")
 	)
 	(junction
-		(at 110.49 78.74)
+		(at 19.05 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "51fbe0f2-2d3c-4d91-ad72-896ba7cfc14b")
+		(uuid "66a3b5f9-d90d-4fdb-8d64-31a6a46fcf59")
 	)
 	(junction
-		(at 110.49 152.4)
+		(at 113.03 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "537d1f68-8622-49ba-85ac-e55f38541f0a")
+		(uuid "772f0288-60e0-4138-b6bc-99e8931d662c")
 	)
 	(junction
-		(at 110.49 180.34)
+		(at 72.39 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5dae5597-4d1a-4e57-85ee-c6dcdbe12e96")
+		(uuid "82c595e5-b921-43d9-95d0-1d0ab98265bc")
 	)
 	(junction
-		(at 110.49 60.96)
+		(at 113.03 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f56033f-0771-4728-a605-5e9c8bb59115")
+		(uuid "87f54474-9ba4-44c6-b8bd-1cb887447e84")
 	)
 	(junction
-		(at 29.21 16.51)
+		(at 96.52 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6db1687c-068e-4611-9fe3-9dd7508f252e")
+		(uuid "8c6f9dc7-c7c9-4c3b-9486-006e683dd26d")
 	)
 	(junction
-		(at 110.49 143.51)
+		(at 73.66 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8795a395-3a02-4166-9f81-d2ccf00bb36e")
+		(uuid "971c521f-5cc7-40ae-8d2f-3480d2889632")
 	)
 	(junction
-		(at 110.49 125.73)
+		(at 113.03 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92f61c68-9bdc-45a9-95ef-54b1c7fc8b3a")
+		(uuid "a8220fb7-e55f-43e7-a7fc-bad3d22dd165")
 	)
 	(junction
-		(at 110.49 97.79)
+		(at 73.66 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9803710d-a02a-48d0-ad67-172998a22159")
+		(uuid "b51931b9-cbb1-4b22-954f-4942ea4ad695")
 	)
 	(junction
-		(at 69.85 48.26)
+		(at 113.03 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a518177d-1a67-40af-9236-c8526a28a711")
+		(uuid "b60b5d2c-1e90-4630-a1fa-16f6070bbc23")
 	)
 	(junction
-		(at 110.49 115.57)
+		(at 113.03 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a59f58d2-7b97-4d12-80e7-bb345d5af117")
+		(uuid "bb8e0a36-caee-4e7c-b213-bd7866391c5b")
 	)
 	(junction
-		(at 110.49 171.45)
+		(at 113.03 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a79a321b-974b-4efa-8dbb-11d8fc1cda21")
+		(uuid "cb59c540-0c38-4cd6-a496-22070ddc3f60")
 	)
 	(junction
-		(at 110.49 52.07)
+		(at 113.03 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b31ec4e9-36d1-4cbb-ba0b-4f120f9b9645")
+		(uuid "dac24291-2054-49cc-835b-d62a7ed1acbd")
 	)
 	(junction
-		(at 71.12 16.51)
+		(at 113.03 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c8893bc3-7e65-43f4-8d23-687cec109e2d")
+		(uuid "e8d1fa57-eb84-4aa1-97b7-3f1accc1e59d")
 	)
 	(junction
-		(at 110.49 162.56)
+		(at 113.03 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf5a76f3-ccae-4338-8109-e0852c3401c6")
+		(uuid "f4c7154c-83ff-4370-b0ff-38223600d268")
 	)
 	(junction
-		(at 110.49 134.62)
+		(at 113.03 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed81f260-f966-4017-9a87-adaebed2d4fd")
+		(uuid "f6661d42-34ae-426e-ae18-65ba6baf5346")
 	)
 	(wire
 		(pts
-			(xy 29.21 16.51) (xy 29.21 20.32)
+			(xy 92.71 88.9) (xy 90.17 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04871830-1968-4caa-9840-d42eefbedf9a")
+		(uuid "03869612-9ea7-4f1d-b641-5716f0139c6e")
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 87.63 69.85)
+			(xy 113.03 106.68) (xy 113.03 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "073712b5-c170-4045-9aaf-56b7db65e454")
+		(uuid "07fb9636-065e-4d80-a589-f0e274857f7d")
 	)
 	(wire
 		(pts
-			(xy 67.31 43.18) (xy 71.12 43.18)
+			(xy 92.71 162.56) (xy 90.17 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "091738f6-e567-44dc-8797-e701e1da203b")
+		(uuid "0a8cb016-e465-4314-bb52-8a0ca87c1572")
 	)
 	(wire
 		(pts
-			(xy 39.37 48.26) (xy 31.75 48.26)
+			(xy 73.66 16.51) (xy 113.03 16.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "097e5a9f-5caa-4ad7-8299-6e86a2c6c1f8")
+		(uuid "0ec5b45d-33c3-463f-b773-0c16442d7002")
 	)
 	(wire
 		(pts
-			(xy 35.56 40.64) (xy 35.56 171.45)
+			(xy 110.49 143.51) (xy 113.03 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c07966f-2442-46af-98f5-68591d02366e")
+		(uuid "113eebeb-4dd7-4e1a-8bf7-cb38fba1f0ce")
 	)
 	(wire
 		(pts
-			(xy 36.83 180.34) (xy 80.01 180.34)
+			(xy 41.91 50.8) (xy 33.02 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0dd89771-7a06-4509-b6b4-7626c9eea79f")
+		(uuid "12b218a6-1dd7-4d4d-9856-b9f0679aa766")
 	)
 	(wire
 		(pts
-			(xy 110.49 69.85) (xy 110.49 78.74)
+			(xy 41.91 45.72) (xy 35.56 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ee37926-3fe8-4c5f-bb96-378c986e0be8")
+		(uuid "130d686c-0c45-4229-b856-1d9fec86eaf3")
 	)
 	(wire
 		(pts
-			(xy 39.37 38.1) (xy 36.83 38.1)
+			(xy 31.75 53.34) (xy 31.75 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15bd0218-4652-419b-b5d2-ea787afac691")
+		(uuid "1581ebf9-ac61-433f-9191-09f4e24d40e8")
 	)
 	(wire
 		(pts
-			(xy 107.95 52.07) (xy 110.49 52.07)
+			(xy 41.91 38.1) (xy 39.37 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a84d9fa-345d-4944-969c-90c279d79780")
+		(uuid "15ae794b-d2cc-4c94-9ef9-6e78d595e44e")
 	)
 	(wire
 		(pts
-			(xy 16.51 38.1) (xy 19.05 38.1)
+			(xy 113.03 180.34) (xy 113.03 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b914905-d0e5-40b3-9432-5e87e124a2a8")
+		(uuid "16fffca8-cc60-4278-87ad-0b43d6a91290")
 	)
 	(wire
 		(pts
-			(xy 33.02 152.4) (xy 80.01 152.4)
+			(xy 78.74 69.85) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bd99a41-2b88-47fe-9cfe-b7646fdd12bd")
+		(uuid "17221b74-b72b-4bdf-a849-44e08fa46dca")
 	)
 	(wire
 		(pts
-			(xy 110.49 60.96) (xy 110.49 69.85)
+			(xy 33.02 134.62) (xy 82.55 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "205a1386-3fce-4abb-b505-86b2a3e2558d")
+		(uuid "17816f32-8189-4215-838d-c7e6b2255064")
 	)
 	(wire
 		(pts
-			(xy 31.75 48.26) (xy 31.75 143.51)
+			(xy 113.03 162.56) (xy 113.03 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20fa8e90-cc8f-43dd-980c-244836bbf3f2")
+		(uuid "188860ce-27f2-43b1-9ddc-c695c8725067")
 	)
 	(wire
 		(pts
-			(xy 34.29 162.56) (xy 80.01 162.56)
+			(xy 41.91 40.64) (xy 38.1 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "222caee0-d396-47cf-bae7-e51a076a077d")
+		(uuid "19b295ee-4812-4d49-9457-5ca010dcb073")
 	)
 	(wire
 		(pts
-			(xy 110.49 52.07) (xy 110.49 60.96)
+			(xy 82.55 60.96) (xy 80.01 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23a75f6c-71ee-4f82-99e4-154b1afd5bd6")
+		(uuid "1c077388-cf85-4dce-ba25-2aeec04f3356")
 	)
 	(wire
 		(pts
-			(xy 90.17 125.73) (xy 87.63 125.73)
+			(xy 80.01 55.88) (xy 69.85 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26aaa15a-40ed-40ee-b17e-330875c99852")
+		(uuid "1d3cfba4-3487-4245-a3ef-4c780534a4df")
 	)
 	(wire
 		(pts
-			(xy 85.09 34.29) (xy 93.98 34.29)
+			(xy 92.71 189.23) (xy 90.17 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27dc2972-770c-4352-9c2d-f31785fd2a8f")
+		(uuid "1fb4c793-e6c9-49b2-9e12-228a626027de")
 	)
 	(wire
 		(pts
-			(xy 16.51 20.32) (xy 16.51 21.59)
+			(xy 35.56 152.4) (xy 82.55 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c481a19-45e3-4fe9-9a4e-6ea526796726")
+		(uuid "20ee893c-6bcb-4671-84ae-7ea563423d43")
 	)
 	(wire
 		(pts
-			(xy 26.67 106.68) (xy 80.01 106.68)
+			(xy 92.71 143.51) (xy 90.17 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c756ab8-8664-4d58-9e1f-4883aad8508f")
+		(uuid "24f7fd7b-0139-4e22-b1a6-a5235283f321")
 	)
 	(wire
 		(pts
-			(xy 39.37 60.96) (xy 25.4 60.96)
+			(xy 92.71 115.57) (xy 90.17 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d880bf4-6c02-4287-b5ed-cde95e4f15a6")
+		(uuid "261b4940-20b1-44a6-b8fb-4d0a21a41bb4")
 	)
 	(wire
 		(pts
-			(xy 110.49 125.73) (xy 110.49 134.62)
+			(xy 92.71 60.96) (xy 90.17 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3395742d-02e6-492d-a745-d7ccffa71438")
+		(uuid "26acd3a6-f82e-433d-b6f1-aa725633bc25")
 	)
 	(wire
 		(pts
-			(xy 80.01 60.96) (xy 77.47 60.96)
+			(xy 113.03 134.62) (xy 113.03 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3452281e-0c2d-4345-a6f7-10cde65befa3")
+		(uuid "2807fabd-9566-4b65-8a3f-70c26fdbd9fb")
 	)
 	(wire
 		(pts
-			(xy 80.01 52.07) (xy 68.58 52.07)
+			(xy 27.94 16.51) (xy 31.75 16.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "357383f6-aeb5-4d79-b086-5ea71eb29364")
+		(uuid "2d7d43ff-3ea1-4f66-b378-3f5bd8096d12")
 	)
 	(wire
 		(pts
-			(xy 68.58 53.34) (xy 67.31 53.34)
+			(xy 110.49 125.73) (xy 113.03 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "376e4fd4-0376-425c-9b1c-b09d98b8ba2c")
+		(uuid "2e8f17d1-85b8-4f75-9926-ffc8d138abf3")
 	)
 	(wire
 		(pts
-			(xy 110.49 189.23) (xy 107.95 189.23)
+			(xy 82.55 69.85) (xy 78.74 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3928a534-6ba3-4f2b-bed2-d6f81472b2bc")
+		(uuid "31a69fc7-6ab2-41ca-985a-1b5348edcc3d")
 	)
 	(wire
 		(pts
-			(xy 67.31 60.96) (xy 74.93 60.96)
+			(xy 110.49 106.68) (xy 113.03 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bb35a8a-7c48-40f3-8ba4-19ab5bb2bcbd")
+		(uuid "35886306-efa7-4701-9f39-a323dcc24995")
 	)
 	(wire
 		(pts
-			(xy 39.37 40.64) (xy 35.56 40.64)
+			(xy 38.1 40.64) (xy 38.1 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c6a5c24-4bd5-4071-b37d-9da6df5a2c73")
+		(uuid "384ceacb-5ae2-46a3-9311-46dab7a23e7b")
 	)
 	(wire
 		(pts
-			(xy 110.49 180.34) (xy 110.49 189.23)
+			(xy 110.49 134.62) (xy 113.03 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dfad864-392c-46cf-80ee-f87a34a7b1c9")
+		(uuid "3bb32645-e103-40b5-b0de-44ebda0a317e")
 	)
 	(wire
 		(pts
-			(xy 110.49 134.62) (xy 110.49 143.51)
+			(xy 41.91 53.34) (xy 31.75 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f119f79-6600-4202-994c-1620d3ed78f1")
+		(uuid "4041dd51-6a13-4f29-b142-ff8e827e3c7f")
 	)
 	(wire
 		(pts
-			(xy 69.85 48.26) (xy 93.98 48.26)
+			(xy 110.49 115.57) (xy 113.03 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4119b73a-a87f-463d-bcf8-161732e93e16")
+		(uuid "413c900d-e507-45f4-98b5-9b42d2b32450")
 	)
 	(wire
 		(pts
-			(xy 110.49 97.79) (xy 110.49 106.68)
+			(xy 76.2 88.9) (xy 82.55 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41e07d58-38b3-4570-ba23-bbb1d1dc8b59")
+		(uuid "417057ac-9dec-4d10-ae23-7aa885e6a445")
 	)
 	(wire
 		(pts
-			(xy 74.93 78.74) (xy 80.01 78.74)
+			(xy 41.91 35.56) (xy 40.64 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4243994a-7e2d-4107-8b76-cd121d0ef8b9")
+		(uuid "456e7314-7658-4547-a5d8-1986ea4041c7")
 	)
 	(wire
 		(pts
-			(xy 25.4 60.96) (xy 25.4 97.79)
+			(xy 36.83 43.18) (xy 36.83 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "456911c4-bb60-4109-b87d-09d068af7843")
+		(uuid "45b2eadb-2e51-4069-ad45-da8f65ded7cf")
 	)
 	(wire
 		(pts
-			(xy 29.21 16.51) (xy 71.12 16.51)
+			(xy 92.71 52.07) (xy 90.17 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4774fd7d-0936-4693-80c0-b4a0a48ba359")
+		(uuid "4820fba1-4cab-4a2a-a2e0-4fd60d5264c9")
 	)
 	(wire
 		(pts
-			(xy 38.1 189.23) (xy 80.01 189.23)
+			(xy 110.49 180.34) (xy 113.03 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4778ca9f-d405-4370-b9f8-f29bec5e6f2c")
+		(uuid "4b7318f2-d808-4d62-81ab-179547ec71bc")
 	)
 	(wire
 		(pts
-			(xy 107.95 88.9) (xy 110.49 88.9)
+			(xy 27.94 97.79) (xy 82.55 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "484e010e-79e5-4723-9e0a-7e8ef2d639f1")
+		(uuid "4cef5e94-062c-4b5a-baa0-8d4ce330e3a6")
 	)
 	(wire
 		(pts
-			(xy 90.17 171.45) (xy 87.63 171.45)
+			(xy 69.85 48.26) (xy 72.39 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a58e5eb-6f5a-483e-9b52-22bc5202f538")
+		(uuid "4e59f11e-aa06-4a52-b842-5c0448548fe9")
 	)
 	(wire
 		(pts
-			(xy 36.83 38.1) (xy 36.83 180.34)
+			(xy 31.75 20.32) (xy 19.05 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4aa119ad-b819-4357-b24a-8666820de62f")
+		(uuid "50f89bb4-752b-4d40-9332-f4cb425524f1")
 	)
 	(wire
 		(pts
-			(xy 29.21 53.34) (xy 29.21 125.73)
+			(xy 41.91 48.26) (xy 34.29 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5000f749-fa2d-4b6b-be55-87890bffbd55")
+		(uuid "51455c74-a921-4073-9942-3e5f342192f8")
 	)
 	(wire
 		(pts
-			(xy 26.67 58.42) (xy 26.67 106.68)
+			(xy 69.85 63.5) (xy 76.2 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51bdf5be-eeca-4288-b980-caba90519b9a")
+		(uuid "53c5f866-a27f-44e9-b828-76858ba2a5f6")
 	)
 	(wire
 		(pts
-			(xy 107.95 106.68) (xy 110.49 106.68)
+			(xy 19.05 20.32) (xy 19.05 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cfe1bf3-1e26-44b7-a6bd-7ce771bae8ae")
+		(uuid "54afa008-cbca-49fd-a6eb-748df6ae8a16")
 	)
 	(wire
 		(pts
-			(xy 107.95 115.57) (xy 110.49 115.57)
+			(xy 31.75 16.51) (xy 73.66 16.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61d05975-7c53-4b27-a866-f55765ef9c48")
+		(uuid "55826dc5-c566-4ce7-82b2-98d95f480043")
 	)
 	(wire
 		(pts
-			(xy 90.17 88.9) (xy 87.63 88.9)
+			(xy 110.49 88.9) (xy 113.03 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6358bb24-5762-4ec8-aa19-a90557c2f664")
+		(uuid "5602dc52-2da7-4884-89f7-4772226f443e")
 	)
 	(wire
 		(pts
-			(xy 107.95 152.4) (xy 110.49 152.4)
+			(xy 72.39 50.8) (xy 72.39 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "639c35ff-952b-4943-9b13-142467c83edc")
+		(uuid "58f7972e-5db6-4ef8-a5d9-f709f65edcee")
 	)
 	(wire
 		(pts
-			(xy 110.49 152.4) (xy 110.49 162.56)
+			(xy 73.66 16.51) (xy 73.66 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64b9e7a6-ef01-419f-a7d4-2d952c4c1048")
+		(uuid "5d1b9f7c-628c-49f2-b1c1-e9e36bd8204b")
 	)
 	(wire
 		(pts
-			(xy 67.31 45.72) (xy 71.12 45.72)
+			(xy 113.03 69.85) (xy 113.03 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65ed2ba7-0607-4e5b-992b-3782ecfac61d")
+		(uuid "60459677-3995-466d-ae7d-f9669c27e696")
 	)
 	(wire
 		(pts
-			(xy 73.66 63.5) (xy 73.66 88.9)
+			(xy 110.49 97.79) (xy 113.03 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "660fda07-8429-47fd-b6d4-f1d4c79bd7bb")
+		(uuid "60f1927b-e219-4fc1-89d4-297a3784ee4e")
 	)
 	(wire
 		(pts
-			(xy 90.17 78.74) (xy 87.63 78.74)
+			(xy 34.29 143.51) (xy 82.55 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "679fe9df-121f-43d5-8030-b46eaee7766c")
+		(uuid "6418d159-600e-4bc5-ba6a-afe05b72d7b3")
 	)
 	(wire
 		(pts
-			(xy 93.98 24.13) (xy 91.44 24.13)
+			(xy 113.03 189.23) (xy 110.49 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68600467-e3e3-49bb-b4e6-81f11384db6d")
+		(uuid "67efafb4-2500-4d1d-95af-3050315cd487")
 	)
 	(wire
 		(pts
-			(xy 74.93 60.96) (xy 74.93 78.74)
+			(xy 19.05 63.5) (xy 41.91 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68c65ff0-60a7-43fd-af67-096a5fe26423")
+		(uuid "687cd069-1e17-4165-9966-4f69458e407b")
 	)
 	(wire
 		(pts
-			(xy 39.37 50.8) (xy 30.48 50.8)
+			(xy 19.05 38.1) (xy 21.59 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b19cca7-4c36-4adb-83d7-d4e4b8c1c74f")
+		(uuid "6949968a-70ff-45e8-9bb8-504fe96d2564")
 	)
 	(wire
 		(pts
-			(xy 16.51 34.29) (xy 16.51 38.1)
+			(xy 41.91 55.88) (xy 30.48 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6cd3232a-9965-4731-843a-149b6fc60d96")
+		(uuid "6c2c2b99-be3f-4969-b3c9-ccf6754ef1f0")
 	)
 	(wire
 		(pts
-			(xy 90.17 115.57) (xy 87.63 115.57)
+			(xy 80.01 60.96) (xy 80.01 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d1f63f6-3903-4b3f-9663-2d37056d3155")
+		(uuid "6ff6fe52-1640-424a-a81e-047bcfc4711a")
 	)
 	(wire
 		(pts
-			(xy 25.4 16.51) (xy 29.21 16.51)
+			(xy 35.56 45.72) (xy 35.56 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "702c7661-1559-4f95-9455-e42400040c73")
+		(uuid "7458c2e4-c423-44c6-9ef4-9a159fd920ee")
 	)
 	(wire
 		(pts
-			(xy 67.31 48.26) (xy 69.85 48.26)
+			(xy 113.03 171.45) (xy 113.03 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e84e088-31aa-4f18-9d7d-17a03506fe04")
+		(uuid "74f5f4af-cce2-42a0-b885-a45e53a115cd")
 	)
 	(wire
 		(pts
-			(xy 71.12 16.51) (xy 110.49 16.51)
+			(xy 96.52 24.13) (xy 93.98 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f8f3dbd-2afa-4be5-bcfe-fe7b4894165a")
+		(uuid "76544b6d-20de-4bf0-b415-365c93e0a539")
 	)
 	(wire
 		(pts
-			(xy 110.49 106.68) (xy 110.49 115.57)
+			(xy 92.71 152.4) (xy 90.17 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85793c1f-3732-4c99-b00a-f5d6ed8c01f8")
+		(uuid "77daffc5-3639-41da-a780-6dcfdf8310ec")
 	)
 	(wire
 		(pts
-			(xy 69.85 50.8) (xy 69.85 48.26)
+			(xy 41.91 43.18) (xy 36.83 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "872a10ac-d3be-4b50-943a-187b150da7fb")
+		(uuid "7d54d200-d820-4ea8-8035-20e5827dd8b0")
 	)
 	(wire
 		(pts
-			(xy 90.17 189.23) (xy 87.63 189.23)
+			(xy 96.52 34.29) (xy 96.52 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88ceeca1-280d-4da4-ab99-0e9ffd3b6b13")
+		(uuid "7e767eef-14fe-4233-b5aa-fa31844277d1")
 	)
 	(wire
 		(pts
-			(xy 77.47 60.96) (xy 77.47 55.88)
+			(xy 40.64 35.56) (xy 40.64 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f068c09-4821-47be-90bf-b95de3a8cf20")
+		(uuid "82773d92-502f-45e7-ad09-28327a0cab83")
 	)
 	(wire
 		(pts
-			(xy 110.49 78.74) (xy 110.49 88.9)
+			(xy 110.49 162.56) (xy 113.03 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f3dbbb3-d010-4491-90f6-d78b39b97c92")
+		(uuid "830acb2c-c4bc-4603-87aa-8af282f9da99")
 	)
 	(wire
 		(pts
-			(xy 77.47 55.88) (xy 67.31 55.88)
+			(xy 113.03 115.57) (xy 113.03 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92b408c6-20df-43c6-a25b-374c72824e0d")
+		(uuid "8b01b358-f8ac-4d8f-baad-7144727bb5f3")
 	)
 	(wire
 		(pts
-			(xy 90.17 162.56) (xy 87.63 162.56)
+			(xy 36.83 162.56) (xy 82.55 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9409f2c7-8989-42cf-91a3-6fab40d608c9")
+		(uuid "8e2ca4f0-6883-4bfb-b6a6-db4601d61f00")
 	)
 	(wire
 		(pts
-			(xy 68.58 52.07) (xy 68.58 53.34)
+			(xy 73.66 35.56) (xy 69.85 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94be6eea-69a0-42e6-b8cb-538f31375a6d")
+		(uuid "8e41e2ac-09ca-4ca7-ab9f-d42799ed5ecb")
 	)
 	(wire
 		(pts
-			(xy 71.12 16.51) (xy 71.12 24.13)
+			(xy 39.37 180.34) (xy 82.55 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94e33935-e0f1-46c7-be0a-6ef66ad3b110")
+		(uuid "918bfde9-9ee1-405c-8dfc-302465bbd0ba")
 	)
 	(wire
 		(pts
-			(xy 38.1 35.56) (xy 38.1 189.23)
+			(xy 38.1 171.45) (xy 82.55 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95ccca7c-267e-4655-bb6c-e7d42923c8c8")
+		(uuid "91bc80eb-59ff-4041-b70d-bedcaef7592f")
 	)
 	(wire
 		(pts
-			(xy 107.95 97.79) (xy 110.49 97.79)
+			(xy 72.39 48.26) (xy 96.52 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9690ad73-fb11-4917-a752-d201f818e8dd")
+		(uuid "94875551-a9cf-4b1e-946c-d212d71640b3")
 	)
 	(wire
 		(pts
-			(xy 35.56 171.45) (xy 80.01 171.45)
+			(xy 110.49 60.96) (xy 113.03 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97178dd2-31bc-4b84-8cd3-86c4a888b602")
+		(uuid "969f1878-0ce8-465b-8f85-e08ce26dfbc0")
 	)
 	(wire
 		(pts
-			(xy 39.37 45.72) (xy 33.02 45.72)
+			(xy 73.66 24.13) (xy 76.2 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "979aac2c-fee7-474e-8d6b-5f4452131b7c")
+		(uuid "98b7bc71-5a84-4ed1-bb3b-7f025601fcd6")
 	)
 	(wire
 		(pts
-			(xy 71.12 24.13) (xy 71.12 35.56)
+			(xy 71.12 52.07) (xy 71.12 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "989b306c-0211-426c-a0c0-6b4fd975c0e3")
+		(uuid "9b4e65cc-9c49-40ce-8d83-b0415aa1b64f")
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 110.49 78.74)
+			(xy 110.49 69.85) (xy 113.03 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "992b6fee-bad5-4a6b-ae1c-b7617e8bf31b")
+		(uuid "9bcb0460-3b32-4373-8e58-66fef963b248")
 	)
 	(wire
 		(pts
-			(xy 29.21 20.32) (xy 16.51 20.32)
+			(xy 113.03 52.07) (xy 113.03 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bd7ce19-aef0-42a1-823d-f53984d17c55")
+		(uuid "9d1bdddb-76e2-4d5f-aa3a-dc2e95c13d67")
 	)
 	(wire
 		(pts
-			(xy 90.17 152.4) (xy 87.63 152.4)
+			(xy 19.05 34.29) (xy 19.05 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f32db98-6311-459a-8afc-f3ace71cfea4")
+		(uuid "a075b19c-a0d0-4943-a78c-59c53b24104a")
 	)
 	(wire
 		(pts
-			(xy 34.29 43.18) (xy 34.29 162.56)
+			(xy 110.49 152.4) (xy 113.03 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a02f6477-b079-4f84-974b-50251f137d77")
+		(uuid "a4ead7f9-ed9f-47cf-ad77-baf544a39426")
 	)
 	(wire
 		(pts
-			(xy 80.01 69.85) (xy 76.2 69.85)
+			(xy 96.52 48.26) (xy 96.52 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a36c93ca-f087-4827-a891-e7d7ec043132")
+		(uuid "a5c47bff-b142-476d-b0d3-baec8d5a367b")
 	)
 	(wire
 		(pts
-			(xy 39.37 58.42) (xy 26.67 58.42)
+			(xy 78.74 58.42) (xy 69.85 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5725b33-2b27-4318-9456-8d08aebea638")
+		(uuid "a8bca287-05b0-4747-9ae8-d73e51f9c3a1")
 	)
 	(wire
 		(pts
-			(xy 110.49 171.45) (xy 110.49 180.34)
+			(xy 40.64 189.23) (xy 82.55 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a75265b2-eda5-4f64-b5ae-d9c0c59f9a73")
+		(uuid "abe95813-7b4e-41eb-9566-989c1c21b285")
 	)
 	(wire
 		(pts
-			(xy 110.49 143.51) (xy 110.49 152.4)
+			(xy 110.49 52.07) (xy 113.03 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a79973a3-cb7e-4ae8-b9e7-abef5033bf7b")
+		(uuid "ad232cf4-5a03-445e-983c-fb5a1ebb02ec")
 	)
 	(wire
 		(pts
-			(xy 67.31 38.1) (xy 71.12 38.1)
+			(xy 113.03 60.96) (xy 113.03 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8e7dd9e-d765-431d-8b10-63c6e07df5e5")
+		(uuid "ad879eec-c7e3-4185-b337-d13a50eb790c")
 	)
 	(wire
 		(pts
-			(xy 31.75 143.51) (xy 80.01 143.51)
+			(xy 92.71 180.34) (xy 90.17 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9cf2f64-f6e5-4ae4-b4ce-0ebcdd0125b0")
+		(uuid "aff78c9d-c14d-4bcc-812e-130762cb6b0d")
 	)
 	(wire
 		(pts
-			(xy 67.31 63.5) (xy 73.66 63.5)
+			(xy 113.03 88.9) (xy 113.03 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9d80d8e-4bad-437a-9ac7-10fcc17e3ef2")
+		(uuid "b411dcb0-cbc4-485b-89c1-002257b8d7b4")
 	)
 	(wire
 		(pts
-			(xy 110.49 16.51) (xy 110.49 52.07)
+			(xy 30.48 115.57) (xy 82.55 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab291450-ca23-498d-8590-f18586b4df4a")
+		(uuid "b702b0ff-fdb9-4186-bd09-4803dc8db732")
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 110.49 69.85)
+			(xy 113.03 97.79) (xy 113.03 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac822dbd-7b31-45e6-837b-27f4267d5bed")
+		(uuid "b9abfa56-2a12-46ab-83cf-8b8f50947706")
 	)
 	(wire
 		(pts
-			(xy 71.12 24.13) (xy 73.66 24.13)
+			(xy 82.55 52.07) (xy 71.12 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad84cc50-ef8e-486d-b383-ff58125031ec")
+		(uuid "bbc6020a-4c97-4720-9082-573730b75ebb")
 	)
 	(wire
 		(pts
-			(xy 27.94 55.88) (xy 27.94 115.57)
+			(xy 69.85 45.72) (xy 73.66 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae8135c2-e02c-437a-adad-0f3956cf6a43")
+		(uuid "bc111881-592a-42d7-97fe-128cc1e2d9e3")
 	)
 	(wire
 		(pts
-			(xy 93.98 34.29) (xy 93.98 24.13)
+			(xy 69.85 40.64) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b02c6673-8e2e-4d71-99e4-140d8b8589ea")
+		(uuid "c092e94b-d869-4d43-8d4e-3060776e8881")
 	)
 	(wire
 		(pts
-			(xy 93.98 48.26) (xy 93.98 34.29)
+			(xy 113.03 152.4) (xy 113.03 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b61e3d34-c908-466f-8936-4d656bb88aa0")
+		(uuid "c333decb-5d85-4262-8eab-7efebd982253")
 	)
 	(wire
 		(pts
-			(xy 16.51 63.5) (xy 39.37 63.5)
+			(xy 113.03 78.74) (xy 113.03 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b69181d1-018d-4552-9078-f9e88e8908f4")
+		(uuid "c520c7ac-9647-4094-8cdd-2133877110f2")
 	)
 	(wire
 		(pts
-			(xy 25.4 97.79) (xy 80.01 97.79)
+			(xy 110.49 78.74) (xy 113.03 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b733c914-8a22-4e53-90ba-040b395ea6fa")
+		(uuid "c6a769bd-c817-40a3-a7c8-67041b7494d3")
 	)
 	(wire
 		(pts
-			(xy 107.95 180.34) (xy 110.49 180.34)
+			(xy 31.75 125.73) (xy 82.55 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b99fdcca-159d-4629-a367-ebc7c268305b")
+		(uuid "c80c79c7-5fd3-445a-9803-6615cf80ba68")
 	)
 	(wire
 		(pts
-			(xy 16.51 38.1) (xy 16.51 63.5)
+			(xy 69.85 60.96) (xy 77.47 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba0b5ff1-f4fc-44db-8569-730575a3f9d0")
+		(uuid "c80d048f-0419-4754-b6c6-6b701b58a45d")
 	)
 	(wire
 		(pts
-			(xy 71.12 35.56) (xy 67.31 35.56)
+			(xy 77.47 60.96) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc4b5365-d7fb-4d79-b2bc-0d90445fc390")
+		(uuid "c8eb3946-72e2-4923-bad2-dbc387b8fe8e")
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 110.49 97.79)
+			(xy 31.75 16.51) (xy 31.75 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd44cb1f-d9d5-468a-8dda-9b04f3a380e5")
+		(uuid "c9b63cdd-7250-47b7-a528-21fb62e70b47")
 	)
 	(wire
 		(pts
-			(xy 90.17 180.34) (xy 87.63 180.34)
+			(xy 92.71 78.74) (xy 90.17 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdf2228f-75ba-47a5-b053-368923374403")
+		(uuid "cab85ac0-388d-42b6-900e-e95cfa202eaa")
 	)
 	(wire
 		(pts
-			(xy 107.95 60.96) (xy 110.49 60.96)
+			(xy 34.29 48.26) (xy 34.29 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "beaf5acf-d0d8-498f-afe6-adef998e7d20")
+		(uuid "cc0b57f8-2093-4a7f-8dcd-bd7a9f069139")
 	)
 	(wire
 		(pts
-			(xy 30.48 50.8) (xy 30.48 134.62)
+			(xy 87.63 34.29) (xy 96.52 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c03098e8-b54f-4288-9d16-c522894eb1f8")
+		(uuid "cdec753a-4672-454f-8610-26224723c65f")
 	)
 	(wire
 		(pts
-			(xy 107.95 171.45) (xy 110.49 171.45)
+			(xy 113.03 125.73) (xy 113.03 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c60e98e8-ffb0-431a-8bc2-1fdb2f55cfe9")
+		(uuid "d04cb5be-cbc6-482a-8476-285d403379d9")
 	)
 	(wire
 		(pts
-			(xy 107.95 143.51) (xy 110.49 143.51)
+			(xy 29.21 106.68) (xy 82.55 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8239d92-3872-42a5-acd1-5613796409c6")
+		(uuid "d766cfdb-4833-4ee0-869d-ed5934685991")
 	)
 	(wire
 		(pts
-			(xy 107.95 134.62) (xy 110.49 134.62)
+			(xy 39.37 38.1) (xy 39.37 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c994a848-b00f-4e5c-bf9f-49fba06b6edd")
+		(uuid "d808c536-b23c-4397-a8b7-95cdb4a7616b")
 	)
 	(wire
 		(pts
-			(xy 39.37 35.56) (xy 38.1 35.56)
+			(xy 69.85 43.18) (xy 73.66 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce86ad97-246e-4a26-9a79-c4ba2d0df6d1")
+		(uuid "dc7ecab6-93ee-4060-843d-9f01815da4b1")
 	)
 	(wire
 		(pts
-			(xy 90.17 60.96) (xy 87.63 60.96)
+			(xy 92.71 69.85) (xy 90.17 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7308f68-3ecc-4ffa-a20f-0f781d0c76ae")
+		(uuid "e21f41ca-0e69-4b78-acb4-5ab890c7a31e")
 	)
 	(wire
 		(pts
-			(xy 39.37 43.18) (xy 34.29 43.18)
+			(xy 92.71 97.79) (xy 90.17 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d92cc7a1-353a-4cd9-a913-1c5b6ad098ee")
+		(uuid "e244ed63-2792-443b-91df-e5692a696d0f")
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 67.31 58.42)
+			(xy 113.03 143.51) (xy 113.03 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da2a8b17-c62c-45e1-b9cd-69235fd0b3c5")
+		(uuid "e40c53d4-dfc6-499d-8cfe-1c42e98539cd")
 	)
 	(wire
 		(pts
-			(xy 107.95 125.73) (xy 110.49 125.73)
+			(xy 71.12 53.34) (xy 69.85 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbf7f2f6-f96f-4497-95fc-7774edee4ba0")
+		(uuid "e45445aa-62c8-4c95-a99a-7e06d2fa499d")
 	)
 	(wire
 		(pts
-			(xy 67.31 40.64) (xy 71.12 40.64)
+			(xy 92.71 125.73) (xy 90.17 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e06c73c4-c404-4573-8b62-280a233647ca")
+		(uuid "e92c8cf1-f8cf-4f36-8f33-22f1fc360310")
 	)
 	(wire
 		(pts
-			(xy 30.48 134.62) (xy 80.01 134.62)
+			(xy 69.85 38.1) (xy 73.66 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e300b91b-2720-4b9c-ae88-1ff88bf1d4ab")
+		(uuid "eaaf86e1-a359-43fd-a939-af04441232e4")
 	)
 	(wire
 		(pts
-			(xy 76.2 69.85) (xy 76.2 58.42)
+			(xy 73.66 24.13) (xy 73.66 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e33659e4-3870-427a-a367-7a2d32e6b114")
+		(uuid "eba86b7e-4cfa-4d73-b5bd-2204fc0a51e4")
 	)
 	(wire
 		(pts
-			(xy 67.31 50.8) (xy 69.85 50.8)
+			(xy 110.49 171.45) (xy 113.03 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e37cb749-4475-483f-a4a4-7e97acd5580d")
+		(uuid "ebde8339-b378-4719-b4f4-1bb6e4601da4")
 	)
 	(wire
 		(pts
-			(xy 39.37 55.88) (xy 27.94 55.88)
+			(xy 27.94 60.96) (xy 27.94 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4f51cf9-908e-4be0-a39d-f351da2a8033")
+		(uuid "ee7497b2-6bcb-4824-ba7e-212302eb9460")
 	)
 	(wire
 		(pts
-			(xy 90.17 134.62) (xy 87.63 134.62)
+			(xy 92.71 171.45) (xy 90.17 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5aa1750-2127-4720-9a99-4a6c7b16b651")
+		(uuid "ef827c05-785b-4746-894a-6f60ed7755aa")
 	)
 	(wire
 		(pts
-			(xy 27.94 115.57) (xy 80.01 115.57)
+			(xy 33.02 50.8) (xy 33.02 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6fd84fc-b9cc-4bb9-822e-090035768af3")
+		(uuid "efb72104-e82b-40c5-9995-07b650dd9ab7")
 	)
 	(wire
 		(pts
-			(xy 90.17 97.79) (xy 87.63 97.79)
+			(xy 92.71 134.62) (xy 90.17 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7ee78bf-f2fb-4d62-b002-9d1eeedb1d41")
+		(uuid "f2848c88-d860-478f-baf6-1da65a04ae24")
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 80.01 88.9)
+			(xy 41.91 60.96) (xy 27.94 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e81d24d9-e17c-43b0-a9a1-9394e13bdeda")
+		(uuid "f38b5399-a13e-4e28-b445-fcce2ea561c2")
 	)
 	(wire
 		(pts
-			(xy 29.21 125.73) (xy 80.01 125.73)
+			(xy 76.2 63.5) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8c32ab4-05a3-42a5-919f-8cd97954e9d0")
+		(uuid "f5e83282-e688-45bc-bdf6-7435af1f0ff1")
 	)
 	(wire
 		(pts
-			(xy 90.17 52.07) (xy 87.63 52.07)
+			(xy 92.71 106.68) (xy 90.17 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1514432-fa85-4643-b9f4-01b096a5afcc")
+		(uuid "f5fcfe63-9056-4266-87da-329cbd77ff76")
 	)
 	(wire
 		(pts
-			(xy 107.95 162.56) (xy 110.49 162.56)
+			(xy 77.47 78.74) (xy 82.55 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2d48c5d-c445-4c71-950b-de878a000eba")
+		(uuid "fa15d215-765b-4289-b1dd-9f1424cb92b9")
 	)
 	(wire
 		(pts
-			(xy 110.49 162.56) (xy 110.49 171.45)
+			(xy 69.85 50.8) (xy 72.39 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3787cbd-a594-428a-8965-a2855ed3a613")
+		(uuid "fa29d9c3-aebb-4fb1-b857-ef1207db4268")
 	)
 	(wire
 		(pts
-			(xy 110.49 115.57) (xy 110.49 125.73)
+			(xy 30.48 55.88) (xy 30.48 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f44d1182-dd85-4235-ae53-779afd16078f")
+		(uuid "fccc9b9b-46d8-4411-89f0-7de298b74087")
 	)
 	(wire
 		(pts
-			(xy 33.02 45.72) (xy 33.02 152.4)
+			(xy 29.21 58.42) (xy 29.21 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f88532e9-8a3d-4a3a-86e1-fea82efae888")
+		(uuid "fd357bb0-fd46-439b-9b1e-fb160af01410")
 	)
 	(wire
 		(pts
-			(xy 39.37 53.34) (xy 29.21 53.34)
+			(xy 41.91 58.42) (xy 29.21 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f929faa0-0a99-47d1-9fd2-7f15a2084b0b")
+		(uuid "fdc6f830-8d8d-4842-8370-655b5a333d99")
 	)
 	(wire
 		(pts
-			(xy 90.17 143.51) (xy 87.63 143.51)
+			(xy 19.05 38.1) (xy 19.05 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa5dd71e-0b95-4cdb-b7fd-c84a16a6e526")
+		(uuid "ff7a765d-63d4-4eb6-88cd-6156d9f26bef")
 	)
 	(wire
 		(pts
-			(xy 90.17 106.68) (xy 87.63 106.68)
+			(xy 113.03 16.51) (xy 113.03 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa5e0b29-6fbc-475d-804f-47161625e0ba")
+		(uuid "ffe1dcfb-c4e5-49f7-891e-2b9da6487ff7")
 	)
-	(global_label "LED_A1_0"
+	(global_label "LED_EN_1"
 		(shape output)
-		(at 71.12 40.64 0)
+		(at 87.63 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08ef1061-3651-463f-aa5a-4489483dd938")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9951 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SafeVCC"
-		(shape output)
-		(at 25.4 16.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 116 7 1)
 			)
 			(justify right)
 		)
-		(uuid "3b66a7a7-f41d-478c-96ac-25ec631c19c0")
+		(uuid "2b845e39-472b-4b2d-a605-c3ecd5bdec46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.6134 16.51 0)
+			(at 75.5735 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,9 +2644,32 @@
 			)
 		)
 	)
-	(global_label "LED_A2_0"
+	(global_label "SafeVCC"
 		(shape output)
-		(at 71.12 43.18 0)
+		(at 27.94 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 116 7 1)
+			)
+			(justify right)
+		)
+		(uuid "3c1df811-3b67-442c-8274-491352bb1c2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.1534 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_A1_1"
+		(shape output)
+		(at 73.66 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2677,9 +2677,53 @@
 			)
 			(justify left)
 		)
-		(uuid "78d5faf6-32fb-497d-aa15-ef8d0ceca546")
+		(uuid "417a10af-d672-4414-862c-4ba94814c1a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9951 43.18 0)
+			(at 85.5351 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_A2_1"
+		(shape output)
+		(at 73.66 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a51f6f43-a566-48c0-bca4-9f6971327e2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.5351 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_A3_1"
+		(shape output)
+		(at 73.66 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6cefcd8-fac3-400d-9dd3-dafd7a8d310e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.5351 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +2735,7 @@
 	)
 	(global_label "SafeGND"
 		(shape input)
-		(at 19.05 38.1 0)
+		(at 21.59 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2700,9 +2744,9 @@
 			)
 			(justify left)
 		)
-		(uuid "893be04c-9858-42d1-9deb-4a5c1e09b604")
+		(uuid "e960a647-23c1-4296-9c70-30a37b17a280")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0785 38.1 0)
+			(at 32.6185 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,9 +2756,9 @@
 			)
 		)
 	)
-	(global_label "LED_A0_0"
+	(global_label "LED_A0_1"
 		(shape output)
-		(at 71.12 38.1 0)
+		(at 73.66 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2722,356 +2766,30 @@
 			)
 			(justify left)
 		)
-		(uuid "8c6ec05b-3d02-465b-8e1a-b3aa00a8f038")
+		(uuid "ffc096b2-ff16-40a3-9858-3c24314f45ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9951 38.1 0)
+			(at 85.5351 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_A3_0"
-		(shape output)
-		(at 71.12 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9bc1b41d-d1be-4767-8d8f-6f157a8b569f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9951 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_EN_0"
-		(shape output)
-		(at 85.09 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb7e86de-e610-4e0f-97d2-6a11e2466f5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.0335 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c5e6228-8c63-470b-b888-61cc02948703")
-		(property "Reference" "R4"
-			(at 104.14 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1500TCE"
-			(at 99.568 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 104.14 285.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 385.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 104.14 585.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 685.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 785.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 885.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 985.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 1085.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1501e69-0db1-43d1-82e6-820aaf5873e9")
-		)
-		(pin "1"
-			(uuid "4a388c13-a985-4ffa-b97d-0dd04dcf6f11")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ec650b1-025a-4139-85d1-a685c5c46d0d")
-		(property "Reference" "R14"
-			(at 104.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1500TCE"
-			(at 99.568 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 104.14 193.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 293.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 104.14 493.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 593.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 693.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 793.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 893.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 993.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1093.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66262745-2067-4ed2-b36c-34ffe5f74bcc")
-		)
-		(pin "1"
-			(uuid "ed4822b0-c504-4a68-a2aa-2e9b968aa0fd")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R14")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 83.82 162.56 0)
+		(at 86.36 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13cf4c68-1632-48c3-aab8-bd577633fad3")
-		(property "Reference" "D8"
-			(at 83.5026 166.37 90)
+		(uuid "00a92341-e5e0-4c39-9bed-9edb859d7c99")
+		(property "Reference" "D22"
+			(at 86.0426 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,296 +2798,6 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 80.9626 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea3dfaf7-64ae-4034-8b60-47709e8c0b3f")
-		)
-		(pin "1"
-			(uuid "6e6058fd-553e-4354-bc48-c949cc3bc496")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bd2bc7a-4a7e-47cf-b832-c6c9b020e20a")
-		(property "Reference" "D12"
-			(at 83.5026 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 80.9626 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 83.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3a684230-a633-43fc-9734-82161a4560f0")
-		)
-		(pin "1"
-			(uuid "2084a7f2-b878-427c-813f-eaf42a2b724d")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bedf57b-c033-4df8-9070-f52b69814e4d")
-		(property "Reference" "R8"
-			(at 104.14 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1500TCE"
-			(at 99.568 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 104.14 248.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 348.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 104.14 548.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 648.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 748.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 848.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 948.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 1048.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2108d3d4-8a63-4bd2-aa67-252c9dd7b573")
-		)
-		(pin "1"
-			(uuid "cd72fe25-3955-4c42-b82b-7f0ff3462bd8")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "304af140-83b1-4eec-9a69-6843033b8105")
-		(property "Reference" "D19"
 			(at 83.5026 64.77 90)
 			(effects
 				(font
@@ -3378,17 +2806,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 80.9626 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 60.96 0)
+			(at 86.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +2816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 60.96 0)
+			(at 86.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +2825,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 83.82 60.96 0)
+			(at 86.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +2834,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 60.96 0)
+			(at 86.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,15 +2843,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d2baafaa-44bb-49f5-abc9-b248ee0b3f41")
+			(uuid "cc1962d1-d5ae-467e-b550-5d4da383d5a5")
 		)
 		(pin "1"
-			(uuid "662e1837-1666-4f61-8f09-172b0c6c0883")
+			(uuid "ef49d246-0fb5-4eb8-a179-bade8d63b040")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D19")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -3440,15 +2859,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 69.85 0)
+		(at 92.71 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "35694d69-ebe1-435d-97ae-38d9cdb87803")
-		(property "Reference" "R17"
-			(at 104.14 72.39 0)
+		(uuid "00d7afaa-c24a-44b6-acb3-bc8d19ddf017")
+		(property "Reference" "R35"
+			(at 106.68 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +2876,7 @@
 			)
 		)
 		(property "Value" "0402WGF1500TCE"
-			(at 99.568 72.39 0)
+			(at 102.108 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +2885,7 @@
 			)
 		)
 		(property "Footprint" "RESC1005X40N"
-			(at 104.14 166.04 0)
+			(at 106.68 285.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +2895,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 266.04 0)
+			(at 106.68 385.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +2905,7 @@
 			)
 		)
 		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 69.85 0)
+			(at 92.71 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +2914,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 104.14 466.04 0)
+			(at 106.68 585.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +2924,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 566.04 0)
+			(at 106.68 685.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +2934,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 666.04 0)
+			(at 106.68 785.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +2944,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 104.14 766.04 0)
+			(at 106.68 885.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +2954,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 104.14 866.04 0)
+			(at 106.68 985.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +2964,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 104.14 966.04 0)
+			(at 106.68 1085.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +2974,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 104.14 1066.04 0)
+			(at 106.68 1185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,15 +2984,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d8653eb9-c3b0-464c-b839-e67b75d6f353")
+			(uuid "42fd889e-a9ea-4d00-ab8f-6bf64da58063")
 		)
 		(pin "1"
-			(uuid "0634dcf3-6822-48ed-8200-c1162b53ddd1")
+			(uuid "333b24a7-d33f-4483-b035-293376010b96")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R17")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -3581,15 +3000,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 106.68 0)
+		(at 92.71 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3d82c1e2-229a-416c-bbd5-c7f342f944bc")
-		(property "Reference" "R13"
-			(at 104.14 109.22 0)
+		(uuid "06e08f52-cbcc-41ae-90fb-4f14795b4576")
+		(property "Reference" "R34"
+			(at 106.68 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3017,7 @@
 			)
 		)
 		(property "Value" "0402WGF1500TCE"
-			(at 99.568 109.22 0)
+			(at 102.108 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3026,7 @@
 			)
 		)
 		(property "Footprint" "RESC1005X40N"
-			(at 104.14 202.87 0)
+			(at 106.68 276.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3036,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 302.87 0)
+			(at 106.68 376.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3046,7 @@
 			)
 		)
 		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 106.68 0)
+			(at 92.71 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +3055,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 104.14 502.87 0)
+			(at 106.68 576.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3065,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 602.87 0)
+			(at 106.68 676.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3075,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 702.87 0)
+			(at 106.68 776.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3085,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 104.14 802.87 0)
+			(at 106.68 876.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3095,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 104.14 902.87 0)
+			(at 106.68 976.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3105,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 104.14 1002.87 0)
+			(at 106.68 1076.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3115,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 104.14 1102.87 0)
+			(at 106.68 1176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,15 +3125,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4bd47dc0-979a-427b-a933-44db929a5e8e")
+			(uuid "43c10546-3b24-4872-8925-044071bb95e2")
 		)
 		(pin "1"
-			(uuid "f10f4a2c-b17a-467d-a354-5c4deabc0114")
+			(uuid "709b701b-5618-4140-a45a-3812db0a3c86")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R13")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -3722,15 +3141,24 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 83.82 143.51 0)
+		(at 86.36 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4dc3e335-1b07-47b9-8f97-90b66f690928")
-		(property "Reference" "D10"
+		(uuid "084fd63c-fa36-4bd7-a501-2203e4f47791")
+		(property "Reference" "D31"
+			(at 86.0426 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
 			(at 83.5026 147.32 90)
 			(effects
 				(font
@@ -3739,17 +3167,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 80.9626 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 143.51 0)
+			(at 86.36 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3177,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 143.51 0)
+			(at 86.36 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3186,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 83.82 143.51 0)
+			(at 86.36 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +3195,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 143.51 0)
+			(at 86.36 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,15 +3204,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "aa52b463-e36d-42c5-a512-2525dbf1d680")
+			(uuid "a5ecdce7-46a1-4fc7-8c31-bd37ba2f1e86")
 		)
 		(pin "1"
-			(uuid "675ae982-4eac-4beb-8b47-020ee223abb5")
+			(uuid "9e3f6a73-6448-4fcc-89ef-f31bfc8b35a0")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D10")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -3801,16 +3220,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 83.82 189.23 0)
+		(at 86.36 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "582647e7-51cf-45a8-ae82-956e351e145c")
-		(property "Reference" "D5"
-			(at 83.5026 193.04 90)
+		(uuid "16ead474-528b-4a08-bc41-d7771823543a")
+		(property "Reference" "D29"
+			(at 86.0426 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3238,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 80.9626 193.04 90)
+			(at 83.5026 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3247,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 189.23 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +3256,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 189.23 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3265,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 83.82 189.23 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +3274,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 189.23 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,15 +3283,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "37a30751-6e2f-43c6-80c5-4ef56d3c51c3")
+			(uuid "6234a598-5cb0-43b9-8626-d2fd1e4b80b9")
 		)
 		(pin "1"
-			(uuid "0d44e7e8-2b52-4847-8513-b326a4a0585e")
+			(uuid "b44f4e20-2ef3-4734-be41-bd8e37c1ccfd")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D5")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -3880,16 +3299,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 83.82 106.68 0)
+		(at 86.36 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a73a078-5fbd-432b-8ec7-ed9762c74fee")
-		(property "Reference" "D14"
-			(at 83.5026 110.49 90)
+		(uuid "21b91343-1a18-41b7-8919-0ddc11c0dc86")
+		(property "Reference" "D25"
+			(at 86.0426 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,1142 +3317,6 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 80.9626 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 83.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21c1e8bf-4e90-4bb9-94c6-0d86470049cc")
-		)
-		(pin "1"
-			(uuid "9334a72a-5913-4861-ba11-28f3376a1c37")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e24b52e-e9a2-4643-8876-c1d7602a2cf4")
-		(property "Reference" "R15"
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1500TCE"
-			(at 99.568 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 104.14 185.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 285.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 104.14 485.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 585.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 685.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 785.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 885.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 985.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1085.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f46a211-b14f-4258-862a-99de9a06b641")
-		)
-		(pin "1"
-			(uuid "f3b838e0-2fbd-4abe-a718-506dbf1bf1e1")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60639d4c-2f9d-453a-b814-0112a0cf82df")
-		(property "Reference" "D9"
-			(at 83.5026 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 80.9626 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 83.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "919dc356-8b3b-4f35-9f0f-d09d3a842fcf")
-		)
-		(pin "1"
-			(uuid "057cf969-51f1-47d6-8a48-329c29190ac2")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:CD74HC154M96")
-		(at 39.37 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62e811cb-7a5a-453d-b368-fd7d48d1ec9a")
-		(property "Reference" "IC73"
-			(at 53.34 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CD74HC154M96"
-			(at 53.34 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P1030X265-24N"
-			(at 63.5 130.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/cd74hc154"
-			(at 63.5 230.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Speed CMOS Logic 4-to-16 Line Decoder/Demultiplexer"
-			(at 39.37 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.65"
-			(at 63.5 430.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-CD74HC154M96"
-			(at 63.5 530.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC154M96?qs=YxwvVplHM%2FnR3vJab0%252BPQw%3D%3D"
-			(at 63.5 630.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 63.5 730.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CD74HC154M96"
-			(at 63.5 830.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "138a91d5-7dcb-4397-a086-4b514cfb6f5a")
-		)
-		(pin "23"
-			(uuid "6b53dd53-a9f4-4e87-bcac-5dae0464974b")
-		)
-		(pin "18"
-			(uuid "2a651682-4512-4f0d-98b2-3d3baf89ed03")
-		)
-		(pin "16"
-			(uuid "29cd5fae-2d3c-4c50-aba7-a31fd526a8ce")
-		)
-		(pin "20"
-			(uuid "33010767-0862-48a6-bf6d-61578ee7210e")
-		)
-		(pin "9"
-			(uuid "be6b9f5c-267e-434d-bea3-92a4c2014328")
-		)
-		(pin "10"
-			(uuid "2e160086-a415-4c1a-bbb2-1c2855ef380f")
-		)
-		(pin "12"
-			(uuid "b25d0312-c71e-4ac5-ac78-497de7ad7f01")
-		)
-		(pin "2"
-			(uuid "0733b8fe-e3d5-4804-a114-662f7e26ee23")
-		)
-		(pin "8"
-			(uuid "27fd4e7b-fa0d-40b3-98b6-72c489153994")
-		)
-		(pin "13"
-			(uuid "a623e847-625c-4acc-b3d9-8eae6245363f")
-		)
-		(pin "19"
-			(uuid "cac07779-8413-478a-a53c-05f37dad0b7f")
-		)
-		(pin "7"
-			(uuid "097e7105-f7c4-405a-9e07-aad643e4318f")
-		)
-		(pin "1"
-			(uuid "3dce402d-030b-481a-97df-5c22a6e7e1e4")
-		)
-		(pin "24"
-			(uuid "a242765e-1127-42f0-abc0-588165c967ef")
-		)
-		(pin "3"
-			(uuid "50f8488b-e59a-42ec-8a27-86c22525a03c")
-		)
-		(pin "6"
-			(uuid "bf7a40b6-7d7a-46ab-874e-ff75d843cf17")
-		)
-		(pin "4"
-			(uuid "531a4ff0-d55f-47e3-b906-47986c3d7d3b")
-		)
-		(pin "11"
-			(uuid "c47b3f57-98a9-4dfd-b6c2-2fbaee9976f1")
-		)
-		(pin "22"
-			(uuid "83e5f546-7add-415a-8674-0f2930481e9c")
-		)
-		(pin "21"
-			(uuid "15e47a5c-a4de-4006-a4d6-40ca2c051dc7")
-		)
-		(pin "17"
-			(uuid "30e40093-b1bf-462a-9391-9a832dac8a07")
-		)
-		(pin "15"
-			(uuid "a84f4aa2-ee73-45b6-a203-32d5f7e0b68c")
-		)
-		(pin "14"
-			(uuid "7ec7f9d2-31a6-490d-a5f2-c4721e05a415")
-		)
-		(instances
-			(project ""
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "IC73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d865327-50e0-4d63-8098-a178fc1787a0")
-		(property "Reference" "D13"
-			(at 83.5026 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 80.9626 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 83.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "810f8f93-08d0-4593-86c6-4a2e2769f9ec")
-		)
-		(pin "1"
-			(uuid "3a0ce62b-127e-4212-b2ad-1220fe376f1a")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7877165f-0145-4fdf-a082-02d355e13eb8")
-		(property "Reference" "R7"
-			(at 104.14 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1500TCE"
-			(at 99.568 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 104.14 258.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 358.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 104.14 558.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 658.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 758.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 858.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 958.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 1058.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66e4a09a-5042-4e66-8c83-77941c67db54")
-		)
-		(pin "1"
-			(uuid "c569f824-1651-40df-a2c4-506c8988f4e4")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bb21093-138a-4b5e-aa01-29f58734bf7e")
-		(property "Reference" "D7"
-			(at 83.5026 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 80.9626 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 83.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c6836b6-a41a-403d-a0c3-28438cf6be9e")
-		)
-		(pin "1"
-			(uuid "c248348d-327c-4d73-ba3f-3b500812d8b9")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c2cc068-3b59-469d-b042-638e4bef572a")
-		(property "Reference" "R9"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1500TCE"
-			(at 99.568 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 104.14 239.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 339.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 104.14 539.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 639.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 739.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 839.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 939.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 1039.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a990b9f-7800-4e37-83a0-fca30407d264")
-		)
-		(pin "1"
-			(uuid "23a9f527-7a83-42be-bea1-040d41cdab0d")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "917b6c60-5982-482c-9bcd-6ed8044ef4d3")
-		(property "Reference" "R5"
-			(at 104.14 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1500TCE"
-			(at 99.568 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 104.14 276.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 376.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 104.14 576.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 676.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 776.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 876.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 976.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 1076.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c1337a3-4477-4f7f-99d0-ec3e7fe482a0")
-		)
-		(pin "1"
-			(uuid "40444f59-bc78-4af8-8074-6cb2ded78f45")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93327902-a41b-44b3-80ef-0d9e1ae532a3")
-		(property "Reference" "D18"
-			(at 83.5026 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 80.9626 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bea7ed67-c77f-430f-856c-1b885bf2129d")
-		)
-		(pin "1"
-			(uuid "0653c989-1cf7-4c5b-a9e5-c6439112c77c")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b002b90-b6b5-4aec-981d-957556933cb4")
-		(property "Reference" "D16"
 			(at 83.5026 92.71 90)
 			(effects
 				(font
@@ -5042,17 +3325,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 80.9626 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 88.9 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +3335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 88.9 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +3344,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 83.82 88.9 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +3353,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 88.9 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,15 +3362,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b9e7bd4c-5408-46b1-af65-1725562f28d9")
+			(uuid "89944f94-0d17-409e-acea-e40c4123d16c")
 		)
 		(pin "1"
-			(uuid "2e91ef54-626d-42e9-93f3-df8f322e8c39")
+			(uuid "ff76b31f-39f9-4d95-8d6f-2d2fd5da4d77")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D16")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -5104,15 +3378,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 115.57 0)
+		(at 92.71 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9d50ff33-52a6-45da-801d-1b9a1669c4c0")
-		(property "Reference" "R12"
-			(at 104.14 118.11 0)
+		(uuid "27b7429e-43aa-41d9-be76-db8dbcb68084")
+		(property "Reference" "R20"
+			(at 106.68 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +3395,7 @@
 			)
 		)
 		(property "Value" "0402WGF1500TCE"
-			(at 99.568 118.11 0)
+			(at 102.108 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +3404,7 @@
 			)
 		)
 		(property "Footprint" "RESC1005X40N"
-			(at 104.14 211.76 0)
+			(at 106.68 148.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +3414,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 311.76 0)
+			(at 106.68 248.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +3424,7 @@
 			)
 		)
 		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 115.57 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +3433,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 104.14 511.76 0)
+			(at 106.68 448.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +3443,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 611.76 0)
+			(at 106.68 548.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +3453,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 711.76 0)
+			(at 106.68 648.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +3463,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 104.14 811.76 0)
+			(at 106.68 748.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +3473,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 104.14 911.76 0)
+			(at 106.68 848.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +3483,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 104.14 1011.76 0)
+			(at 106.68 948.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +3493,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 104.14 1111.76 0)
+			(at 106.68 1048.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,15 +3503,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b96ba8b6-a4c9-42be-9314-bdb4236c3521")
+			(uuid "ead7c9f3-791f-40b7-a3e9-cfe4af2b20a6")
 		)
 		(pin "1"
-			(uuid "cd853e1f-5e71-4c0d-8c11-9876058c7de5")
+			(uuid "463cba57-8954-43ea-a288-dbbf7968d70c")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R12")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5245,16 +3519,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 83.82 78.74 0)
+		(at 86.36 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9f054cfe-51f5-4453-85a8-d1b975861826")
-		(property "Reference" "D17"
-			(at 83.5026 82.55 90)
+		(uuid "2aed2e57-7f6d-4291-b5a2-3e1ea5d7b1c1")
+		(property "Reference" "D36"
+			(at 86.0426 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +3537,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 80.9626 82.55 90)
+			(at 83.5026 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +3546,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 78.74 0)
+			(at 86.36 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +3555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 78.74 0)
+			(at 86.36 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +3564,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 83.82 78.74 0)
+			(at 86.36 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +3573,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 78.74 0)
+			(at 86.36 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,15 +3582,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ac4b761f-69a1-477f-b139-dea040979878")
+			(uuid "7cb62d2e-347e-49c8-972d-9d12bc5a0e67")
 		)
 		(pin "1"
-			(uuid "c79a1fd2-8d4a-455f-94c3-eb20e6913900")
+			(uuid "cf0eec4a-f3c4-4fcd-87f5-82a02820912d")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D17")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -5324,15 +3598,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 125.73 0)
+		(at 92.71 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a0eb905a-7fb6-41dd-bad0-8029ec9f1934")
-		(property "Reference" "R11"
-			(at 104.14 128.27 0)
+		(uuid "2cee19ad-6ade-49f6-87d8-64f7c07938ab")
+		(property "Reference" "R30"
+			(at 106.68 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +3615,7 @@
 			)
 		)
 		(property "Value" "0402WGF1500TCE"
-			(at 99.568 128.27 0)
+			(at 102.108 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +3624,7 @@
 			)
 		)
 		(property "Footprint" "RESC1005X40N"
-			(at 104.14 221.92 0)
+			(at 106.68 239.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +3634,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 321.92 0)
+			(at 106.68 339.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +3644,7 @@
 			)
 		)
 		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 125.73 0)
+			(at 92.71 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +3653,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 104.14 521.92 0)
+			(at 106.68 539.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +3663,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 621.92 0)
+			(at 106.68 639.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +3673,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 721.92 0)
+			(at 106.68 739.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +3683,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 104.14 821.92 0)
+			(at 106.68 839.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +3693,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 104.14 921.92 0)
+			(at 106.68 939.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +3703,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 104.14 1021.92 0)
+			(at 106.68 1039.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +3713,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 104.14 1121.92 0)
+			(at 106.68 1139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,156 +3723,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c8c23131-c8aa-41cf-8fa1-cabf5e4d3742")
+			(uuid "6bce1497-322f-4dcf-8e0f-6fa2c4cbfda2")
 		)
 		(pin "1"
-			(uuid "359f1a8b-361e-4b24-96a7-6b0c2b480b78")
+			(uuid "b42ee24e-0557-4264-9075-7f1d3445a506")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6fef39e-2c91-41a3-a176-f4f749cdb51d")
-		(property "Reference" "R10"
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1500TCE"
-			(at 99.568 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 104.14 230.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 330.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 104.14 530.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 630.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 730.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 830.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 930.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 1030.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dfdd8889-ad24-4edb-b7dc-ba1b80584244")
-		)
-		(pin "1"
-			(uuid "251f4b94-9382-4f6b-a6d0-c5add7b59348")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R10")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -5606,16 +3739,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 83.82 180.34 0)
+		(at 86.36 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d313fb7b-0260-40ca-ac51-89dcb78cf61c")
-		(property "Reference" "D6"
-			(at 83.5026 184.15 90)
+		(uuid "33bf7d5b-10f5-4c20-8e19-872b68579b06")
+		(property "Reference" "D32"
+			(at 86.0426 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +3757,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 80.9626 184.15 90)
+			(at 83.5026 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +3766,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 180.34 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +3775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 180.34 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +3784,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 83.82 180.34 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +3793,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 180.34 0)
+			(at 86.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,173 +3802,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a15bf9e6-cc64-4c0d-bae5-ca88818fb721")
+			(uuid "48d8508a-951f-4179-9c51-41bc4c845556")
 		)
 		(pin "1"
-			(uuid "98b72a6e-3415-4846-ab03-f391f875aaa8")
+			(uuid "34263ccc-706c-43a7-b98b-0dddd24c2fdd")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e09263fd-2f71-4cbf-93c4-4bae2dae4b88")
-		(property "Reference" "D15"
-			(at 83.5026 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 80.9626 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 83.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e9f4cfe-4a9a-4436-9fe7-813ce65e17c3")
-		)
-		(pin "1"
-			(uuid "91597f1f-d5f4-4768-bde2-33f49848bcc4")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea2f2a6f-f048-40c2-8a29-48b4fc90a1e1")
-		(property "Reference" "D20"
-			(at 83.5026 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 80.9626 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 83.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f42d460c-f072-47d7-9618-58f5aef73952")
-		)
-		(pin "1"
-			(uuid "b7b623ce-aca0-448d-a4fd-58c9c21a7432")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D20")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -5843,15 +3818,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 60.96 0)
+		(at 92.71 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ef9af089-dabe-447f-ad6d-ee8f6886bed7")
-		(property "Reference" "R18"
-			(at 104.14 63.5 0)
+		(uuid "414abac1-4704-4777-9f69-8872d2bd6a9e")
+		(property "Reference" "R32"
+			(at 106.68 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +3835,7 @@
 			)
 		)
 		(property "Value" "0402WGF1500TCE"
-			(at 99.568 63.5 0)
+			(at 102.108 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +3844,7 @@
 			)
 		)
 		(property "Footprint" "RESC1005X40N"
-			(at 104.14 157.15 0)
+			(at 106.68 258.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +3854,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 257.15 0)
+			(at 106.68 358.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +3864,7 @@
 			)
 		)
 		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 60.96 0)
+			(at 92.71 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +3873,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 104.14 457.15 0)
+			(at 106.68 558.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,7 +3883,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 557.15 0)
+			(at 106.68 658.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +3893,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 657.15 0)
+			(at 106.68 758.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +3903,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 104.14 757.15 0)
+			(at 106.68 858.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +3913,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 104.14 857.15 0)
+			(at 106.68 958.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +3923,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 104.14 957.15 0)
+			(at 106.68 1058.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +3933,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 104.14 1057.15 0)
+			(at 106.68 1158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,156 +3943,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "cc0b91f2-2025-442a-8bbc-6301447bcae7")
+			(uuid "2e067ed9-067f-4e4f-abb2-179fac37bfaa")
 		)
 		(pin "1"
-			(uuid "02fe3b98-0a8b-4513-b852-20a14c7ea08d")
+			(uuid "6dc61d43-e3e4-46f4-b06c-ae4963b78268")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef9ff739-765b-494d-81e6-95b831ba1658")
-		(property "Reference" "R6"
-			(at 104.14 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1500TCE"
-			(at 99.568 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 104.14 267.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 367.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 104.14 567.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 667.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 767.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 867.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 967.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 1067.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7bc021dd-fcc7-402e-8783-bd106a93cf0a")
-		)
-		(pin "1"
-			(uuid "f1879a31-a2c9-43a0-af7a-cf90e52562b2")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R6")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6125,16 +3959,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 83.82 134.62 0)
+		(at 86.36 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f35319b1-854d-4962-977d-4be0cba514d7")
-		(property "Reference" "D11"
-			(at 83.5026 138.43 90)
+		(uuid "4de7e89c-e139-44bf-a156-2472fe8a1d12")
+		(property "Reference" "D23"
+			(at 86.0426 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +3977,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 80.9626 138.43 90)
+			(at 83.5026 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +3986,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 134.62 0)
+			(at 86.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +3995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 134.62 0)
+			(at 86.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +4004,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 83.82 134.62 0)
+			(at 86.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +4013,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 134.62 0)
+			(at 86.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,156 +4022,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d552206-1716-488b-9438-592560c8e11f")
+			(uuid "22e81967-e0ea-4076-bc7e-8079be8f3451")
 		)
 		(pin "1"
-			(uuid "3e923402-9228-4a36-ba50-6c2277bc577b")
+			(uuid "b8973536-65c0-4fe8-8276-0ea69bd85667")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3a24847-ddfb-4f05-95de-1ad247445886")
-		(property "Reference" "R16"
-			(at 104.14 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF1500TCE"
-			(at 99.568 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 104.14 174.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 274.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 104.14 474.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 574.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 674.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 774.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 874.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 974.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1074.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b864f06-238d-422d-a874-81c88259f7af")
-		)
-		(pin "1"
-			(uuid "ebfed025-5f33-470e-8d4b-138b32a0270c")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R16")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -6345,16 +4038,16 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:KAM21BR71H104JT")
-		(at 16.51 34.29 90)
+		(at 19.05 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fa38f819-2798-42c5-82ec-936a5fa055db")
-		(property "Reference" "C6"
-			(at 20.32 26.6699 90)
+		(uuid "5715d187-8fa3-4e92-a3d7-bb3a8974ce75")
+		(property "Reference" "C7"
+			(at 22.86 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +4056,7 @@
 			)
 		)
 		(property "Value" "KAM21BR71H104JT"
-			(at 20.32 29.2099 90)
+			(at 22.86 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +4065,7 @@
 			)
 		)
 		(property "Footprint" "CAPC2012X94N"
-			(at 112.7 25.4 0)
+			(at 115.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,7 +4075,7 @@
 			)
 		)
 		(property "Datasheet" "https://spicat.kyocera-avx.com/product/mlcc/chartview/KAM21BR71H104JT/DataSheet/X7R"
-			(at 212.7 25.4 0)
+			(at 215.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +4085,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R 0805 5% AEC-Q200"
-			(at 16.51 34.29 0)
+			(at 19.05 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +4094,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at 412.7 25.4 0)
+			(at 415.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +4104,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-KAM21BR71H104JT"
-			(at 512.7 25.4 0)
+			(at 515.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +4114,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JT?qs=Jm2GQyTW%2Fbic6Zk4McEt6w%3D%3D"
-			(at 612.7 25.4 0)
+			(at 615.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +4124,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 712.7 25.4 0)
+			(at 715.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +4134,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "KAM21BR71H104JT"
-			(at 812.7 25.4 0)
+			(at 815.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,135 +4144,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d04408a-8f17-401c-b6ec-be61ba7c8056")
+			(uuid "7771b839-4c16-4ded-98cd-06fd92897db3")
 		)
 		(pin "2"
-			(uuid "61a63026-4501-4bd9-adad-a195b34356fe")
+			(uuid "436efc22-efa4-49b8-9054-19748005002a")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0402WGF1002TCE")
-		(at 73.66 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb2ea45d-bb0b-4796-81f9-903a407e7900")
-		(property "Reference" "R2"
-			(at 82.55 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0402WGF1002TCE"
-			(at 82.55 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 87.63 120.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/1365/1-3044649.pdf"
-			(at 87.63 220.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 0402 1/16W 1% 10K T/R-10000"
-			(at 73.66 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 87.63 420.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "303-0402WGF1002TCE"
-			(at 87.63 520.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D"
-			(at 87.63 620.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROYALOHM"
-			(at 87.63 720.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
-			(at 87.63 820.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08f20f38-1862-46c0-8beb-cf1b867c8516")
-		)
-		(pin "2"
-			(uuid "c3d93689-083e-4cb0-a066-26b08e85d021")
-		)
-		(instances
-			(project ""
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R2")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6587,15 +4160,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0402WGF1500TCE")
-		(at 90.17 52.07 0)
+		(at 92.71 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fb6595b7-9481-44e4-a89e-4a1898baf346")
-		(property "Reference" "R19"
-			(at 104.14 54.61 0)
+		(uuid "61dcb209-c441-44c8-90ae-0121aba78108")
+		(property "Reference" "R28"
+			(at 106.68 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,7 +4177,7 @@
 			)
 		)
 		(property "Value" "0402WGF1500TCE"
-			(at 99.568 54.61 0)
+			(at 102.108 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,7 +4186,7 @@
 			)
 		)
 		(property "Footprint" "RESC1005X40N"
-			(at 104.14 148.26 0)
+			(at 106.68 221.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +4196,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
-			(at 104.14 248.26 0)
+			(at 106.68 321.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6633,7 +4206,7 @@
 			)
 		)
 		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
-			(at 90.17 52.07 0)
+			(at 92.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +4215,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 104.14 448.26 0)
+			(at 106.68 521.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +4225,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 548.26 0)
+			(at 106.68 621.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6662,7 +4235,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
-			(at 104.14 648.26 0)
+			(at 106.68 721.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +4245,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 104.14 748.26 0)
+			(at 106.68 821.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +4255,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 104.14 848.26 0)
+			(at 106.68 921.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,7 +4265,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 104.14 948.26 0)
+			(at 106.68 1021.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,7 +4275,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 104.14 1048.26 0)
+			(at 106.68 1121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,15 +4285,2442 @@
 			)
 		)
 		(pin "2"
-			(uuid "f7a4e9af-bcc7-4cde-86c5-24a23f0e2684")
+			(uuid "4c6f5ebb-12ef-42b1-83ca-360423fc1bff")
 		)
 		(pin "1"
-			(uuid "8f3f2d81-be29-431b-82b3-21675e9a08b3")
+			(uuid "41a2e59c-a13d-49a2-a803-675fadeca0a4")
 		)
 		(instances
 			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/7327273e-7754-4727-8b52-bb7f62babc74"
-					(reference "R19")
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1500TCE")
+		(at 92.71 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7898761b-3bf5-46e5-bfd3-94a8c088a966")
+		(property "Reference" "R25"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1500TCE"
+			(at 102.108 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 106.68 193.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
+			(at 106.68 293.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 106.68 493.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 106.68 593.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
+			(at 106.68 693.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 793.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 893.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 106.68 993.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 1093.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e02fc6ba-acaf-4207-9bb5-9f87ab393528")
+		)
+		(pin "1"
+			(uuid "656b609b-b175-4b9e-86e8-6254bce30e2b")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83a35f9d-bc7b-42d6-842a-bc6abc81f996")
+		(property "Reference" "D21"
+			(at 86.0426 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 83.5026 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd48c319-87aa-4cec-9918-0ea1d5c69540")
+		)
+		(pin "1"
+			(uuid "44e0be97-a66e-42ea-ba1f-11917d8be203")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8507b8a4-0a27-4f96-921a-7385ef61a727")
+		(property "Reference" "D26"
+			(at 86.0426 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 83.5026 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 86.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8814fcb2-71d0-4016-aa24-b47d5e1f8cec")
+		)
+		(pin "1"
+			(uuid "ebd05961-2ae1-4d07-b22e-d294e57e3c20")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1002TCE")
+		(at 76.2 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "912397ec-22b2-43f9-a171-deecd5f30ad6")
+		(property "Reference" "R3"
+			(at 85.09 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402WGF1002TCE"
+			(at 85.09 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 90.17 120.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/1365/1-3044649.pdf"
+			(at 90.17 220.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 0402 1/16W 1% 10K T/R-10000"
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 90.17 420.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "303-0402WGF1002TCE"
+			(at 90.17 520.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D"
+			(at 90.17 620.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROYALOHM"
+			(at 90.17 720.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+			(at 90.17 820.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caf4fd63-87ae-406e-8f34-3563bb17fe27")
+		)
+		(pin "2"
+			(uuid "0b73272e-e737-4d9c-adc2-28f3be1063a6")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98eae8fd-55af-45b6-8822-ea564d15b407")
+		(property "Reference" "D35"
+			(at 86.0426 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 83.5026 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c86cf30c-120b-4c14-852d-ecc267549d51")
+		)
+		(pin "1"
+			(uuid "7bd6bf72-6e9e-4817-91e5-1b6d8dfa1849")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1500TCE")
+		(at 92.71 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fd06ce2-a60a-4540-87b8-185764b70eba")
+		(property "Reference" "R33"
+			(at 106.68 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1500TCE"
+			(at 102.108 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 106.68 267.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
+			(at 106.68 367.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
+			(at 92.71 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 106.68 567.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 106.68 667.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
+			(at 106.68 767.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 867.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 967.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 106.68 1067.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 1167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a1e5d0f-a7d8-4fe6-b06d-3b68bf985353")
+		)
+		(pin "1"
+			(uuid "8a18a2d3-1b69-431b-9103-2e8edd3b75cf")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1500TCE")
+		(at 92.71 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ff45563-3a01-4dc1-906e-5ab487bf6c9b")
+		(property "Reference" "R27"
+			(at 106.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1500TCE"
+			(at 102.108 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 106.68 211.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
+			(at 106.68 311.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
+			(at 92.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 106.68 511.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 106.68 611.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
+			(at 106.68 711.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 811.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 911.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 106.68 1011.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 1111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a17509b6-ff74-4ca7-a8cf-81cd1a4c8ce7")
+		)
+		(pin "1"
+			(uuid "62322df1-bf9a-4297-8b30-2d80df883296")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8bdb1ba-737d-46d8-8fe0-a6c27b3cb3be")
+		(property "Reference" "D27"
+			(at 86.0426 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 83.5026 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c12f7dec-926e-4fde-ac77-2534f4d204f5")
+		)
+		(pin "1"
+			(uuid "4ef35dc7-4606-4525-9c73-5a9858d16ec6")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CD74HC154M96")
+		(at 41.91 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2e048a7-37bd-4a49-ae03-526c1509e46e")
+		(property "Reference" "IC74"
+			(at 55.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD74HC154M96"
+			(at 55.88 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P1030X265-24N"
+			(at 66.04 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/cd74hc154"
+			(at 66.04 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Speed CMOS Logic 4-to-16 Line Decoder/Demultiplexer"
+			(at 41.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.65"
+			(at 66.04 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-CD74HC154M96"
+			(at 66.04 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC154M96?qs=YxwvVplHM%2FnR3vJab0%252BPQw%3D%3D"
+			(at 66.04 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 66.04 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CD74HC154M96"
+			(at 66.04 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "473423f2-4b14-4dec-ac3b-17ff25d678d3")
+		)
+		(pin "23"
+			(uuid "6efb61b4-31a8-4e6f-9f97-87dc21cd792e")
+		)
+		(pin "18"
+			(uuid "b1eeea83-2c7e-423c-be16-9d2067c26f7b")
+		)
+		(pin "16"
+			(uuid "63031733-05a3-43be-a799-dd79f004abb9")
+		)
+		(pin "20"
+			(uuid "574ee3e0-4f96-4933-a19e-12a590563ae3")
+		)
+		(pin "9"
+			(uuid "c5443e9b-ade1-423f-b138-ac578263af6b")
+		)
+		(pin "10"
+			(uuid "03829fb3-eb13-4d5f-82d2-a63300e92848")
+		)
+		(pin "12"
+			(uuid "fcfff869-ad78-42dc-8e6e-35ef2c5a2ce0")
+		)
+		(pin "2"
+			(uuid "f1f716fd-6932-4ee1-8f57-a27eab512af3")
+		)
+		(pin "8"
+			(uuid "3aa9d382-c810-42c2-a475-735dc7656bdc")
+		)
+		(pin "13"
+			(uuid "cf569f53-007f-4b0f-81a5-543a22f3dccc")
+		)
+		(pin "19"
+			(uuid "727ec8f9-db47-42be-be94-b436c931cc91")
+		)
+		(pin "7"
+			(uuid "ae7df824-f024-42d0-a7e8-f2b57edbabce")
+		)
+		(pin "1"
+			(uuid "03f5926e-05b7-4874-8d43-5ebc68111f2a")
+		)
+		(pin "24"
+			(uuid "13f2915d-b523-453a-9ddf-a3074b21f6de")
+		)
+		(pin "3"
+			(uuid "d45a4e6c-034c-447b-b643-61b41b298ef5")
+		)
+		(pin "6"
+			(uuid "50dc581a-4c9b-4395-b646-3f2a1901c972")
+		)
+		(pin "4"
+			(uuid "2ed9a87e-9254-4a2a-a50d-d500aaa4579a")
+		)
+		(pin "11"
+			(uuid "8fc7fd8f-6b7f-4be6-b89a-e1d60514bc7a")
+		)
+		(pin "22"
+			(uuid "164784eb-d09a-4538-95f3-94262251b4b9")
+		)
+		(pin "21"
+			(uuid "6613ba95-d405-475f-80d2-19bf822140f4")
+		)
+		(pin "17"
+			(uuid "eb1d20b9-e478-4b43-a22b-a588fda4863a")
+		)
+		(pin "15"
+			(uuid "01b86bfd-4f5f-40d8-8a5c-9b2c9a816b0d")
+		)
+		(pin "14"
+			(uuid "09adaeb9-49e6-4676-9ad6-84dcb298bee6")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "IC74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1500TCE")
+		(at 92.71 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be7e00ce-a6e2-4f64-826e-7d4ab62e5ad9")
+		(property "Reference" "R29"
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1500TCE"
+			(at 102.108 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 106.68 230.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
+			(at 106.68 330.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 106.68 530.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 106.68 630.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
+			(at 106.68 730.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 830.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 930.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 106.68 1030.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 1130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0b3a7e4-c860-47e3-b268-d3f1625b209d")
+		)
+		(pin "1"
+			(uuid "b5217800-41ec-4af3-90e8-2975329df077")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c545ecfb-e73b-439a-b2c6-54c9e2fcd462")
+		(property "Reference" "D24"
+			(at 86.0426 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 83.5026 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e5e1794-33ad-4546-87a7-da52dd074065")
+		)
+		(pin "1"
+			(uuid "b12e8232-ab05-4229-9ff9-19d4b939f833")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1500TCE")
+		(at 92.71 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c86b0488-f7a2-42b1-8a42-99074b6844c3")
+		(property "Reference" "R31"
+			(at 106.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1500TCE"
+			(at 102.108 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 106.68 248.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
+			(at 106.68 348.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 106.68 548.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 106.68 648.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
+			(at 106.68 748.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 848.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 948.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 106.68 1048.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 1148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0304c21-569f-4d83-abd7-88b1dec05389")
+		)
+		(pin "1"
+			(uuid "951bbfd0-5121-455c-82b6-46ce9bd6e52f")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb4fcc28-78b3-435c-8ca9-e0c92ac7cf89")
+		(property "Reference" "D34"
+			(at 86.0426 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 83.5026 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a19f6eb8-5a9f-4414-9119-ae65702a665a")
+		)
+		(pin "1"
+			(uuid "727c4112-5a3b-42f5-8605-d52351b0d425")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1500TCE")
+		(at 92.71 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0e2efa5-0cb6-4323-8965-d5a25d0b706b")
+		(property "Reference" "R22"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1500TCE"
+			(at 102.108 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 106.68 166.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
+			(at 106.68 266.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 106.68 466.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 106.68 566.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
+			(at 106.68 666.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 766.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 866.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 106.68 966.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 1066.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02a539e6-a76a-4f49-9707-3475c4ac1c97")
+		)
+		(pin "1"
+			(uuid "78e94f9b-b77b-4918-b8e1-20e56ca9acd3")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1500TCE")
+		(at 92.71 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d18b46ec-1e86-4d63-b392-f6bb3e34f57b")
+		(property "Reference" "R23"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1500TCE"
+			(at 102.108 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 106.68 174.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
+			(at 106.68 274.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 106.68 474.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 106.68 574.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
+			(at 106.68 674.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 774.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 874.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 106.68 974.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 1074.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22f242ec-5d9f-4374-b751-b40189e2d188")
+		)
+		(pin "1"
+			(uuid "502c62ad-7d10-41ba-888b-de15f38fda8a")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3897d7d-38fa-41ac-bbd2-5217b810e434")
+		(property "Reference" "D28"
+			(at 86.0426 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 83.5026 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 86.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d4791c9-dafc-4454-a309-a5108d11a714")
+		)
+		(pin "1"
+			(uuid "9001447a-7e9e-4706-a478-17f954d30c31")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddcded3e-ba5c-4f78-8f83-b61ffddb56b1")
+		(property "Reference" "D30"
+			(at 86.0426 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 83.5026 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbcfbca8-9f0f-425c-889d-52c62510be70")
+		)
+		(pin "1"
+			(uuid "e554bd67-620d-48ca-b680-20723d439874")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1500TCE")
+		(at 92.71 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e186854e-d892-4a9a-b377-05b6fa52943b")
+		(property "Reference" "R24"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1500TCE"
+			(at 102.108 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 106.68 185.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
+			(at 106.68 285.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 106.68 485.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 106.68 585.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
+			(at 106.68 685.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 785.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 885.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 106.68 985.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 1085.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0552a78b-4a90-434a-9b49-f572de3849c7")
+		)
+		(pin "1"
+			(uuid "50835169-31fb-4239-8f26-01b2cfd9dd49")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb43617d-c37c-4238-ac02-e2ff2818d18d")
+		(property "Reference" "D33"
+			(at 86.0426 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 83.5026 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f347759-4181-4a59-90c7-26ca96718ce1")
+		)
+		(pin "1"
+			(uuid "3e707871-a3a1-41c4-8ec3-1ce1873af958")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1500TCE")
+		(at 92.71 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f82d426e-824d-4e91-bb44-3d916a3dc9a9")
+		(property "Reference" "R21"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1500TCE"
+			(at 102.108 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 106.68 157.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
+			(at 106.68 257.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 106.68 457.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 106.68 557.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
+			(at 106.68 657.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 757.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 857.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 106.68 957.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 1057.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "377cc761-8097-43cd-8b13-d8abdd9756a9")
+		)
+		(pin "1"
+			(uuid "8758fda8-3954-4c82-8755-ce7caf838829")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0402WGF1500TCE")
+		(at 92.71 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fea04a16-4228-4f97-9319-fbf7c87b2c38")
+		(property "Reference" "R26"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF1500TCE"
+			(at 102.108 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 106.68 202.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf"
+			(at 106.68 302.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "150ohms +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor - Surface Mount RoHS"
+			(at 92.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 106.68 502.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 106.68 602.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1500TCE"
+			(at 106.68 702.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 802.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 902.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 106.68 1002.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 1102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddc5d50f-854b-440e-87d7-38b4df3ec86e")
+		)
+		(pin "1"
+			(uuid "701e92d4-8baf-456e-9622-63df720e06d9")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/48dd83cc-0073-4a96-a959-9dfc69b8c0fc"
+					(reference "R26")
 					(unit 1)
 				)
 			)

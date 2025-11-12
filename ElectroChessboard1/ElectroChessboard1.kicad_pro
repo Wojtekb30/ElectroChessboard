@@ -417,8 +417,8 @@
       "PowerInput"
     ],
     [
-      "7327273e-7754-4727-8b52-bb7f62babc74",
-      "BoardLEDs"
+      "48dd83cc-0073-4a96-a959-9dfc69b8c0fc",
+      "BoardLEDs2"
     ],
     [
       "ab5f0dd3-be46-43d6-8361-d274b28edadd",
@@ -435,6 +435,10 @@
     [
       "d53affd7-5f4d-4f2f-b1db-953a9fc0554d",
       "BoardHalls4"
+    ],
+    [
+      "7327273e-7754-4727-8b52-bb7f62babc74",
+      "BoardLEDs1"
     ]
   ],
   "text_variables": {}
