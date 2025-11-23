@@ -1950,7 +1950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
 			(at 48.26 45.72 0)
 			(effects
 				(font
