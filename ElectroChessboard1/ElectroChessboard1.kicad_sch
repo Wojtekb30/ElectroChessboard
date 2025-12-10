@@ -514,183 +514,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Crystal"
 			(pin_numbers
 				(hide yes)
@@ -3047,6 +2870,542 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:1027"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1027"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1027"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=749"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "KEYSTONE - 1027 - Battery Holder, Coin Cell - 23mm x 2, PCB, Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "11.73"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "534-1027"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1027?qs=TMDrOSIpnUczTafPesr6ug%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Keystone Electronics"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1027"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1027_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:CL10B104KC8NNNC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CL10B104KC8NNNC"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC1608X90N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/373511.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samsung"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "187-CL10B104KC8NNNC"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10B104KC8NNNC?qs=%2FukktrhNKsY5bKXvqblW4Q%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SAMSUNG"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CL10B104KC8NNNC"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CL10B104KC8NNNC_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:CL10C220JB8NNNC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CL10C220JB8NNNC"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC1608X90N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/cl10c220jb8nnnc/samsung-electro-mechanics"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samsung Electro-Mechanics CL10C220JB8NNNC 22pF Multilayer Ceramic Capacitor MLCC 50V dc +/-5% Tolerance SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "187-CL10C220JB8NNNC"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10C220JB8NNNC?qs=349EhDEZ59oibjgB6q8fqA%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SAMSUNG"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CL10C220JB8NNNC"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CL10C220JB8NNNC_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:DS1307Z+T&R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3307,7 +3666,195 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:ERA-6ARW512V"
+		(symbol "SamacSys_Parts:EVQ-9P105M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "EVQ-9P105M"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EVQ9P105M"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_long.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount 3.5NF 6.0x6.1x5.0mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.2"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-EVQ-9P105M"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-9P105M?qs=Ow%252BOiPmaljGBWYyxblHqgQ%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EVQ-9P105M"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "EVQ-9P105M_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM_"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:RC0402FR-074K7L"
 			(pin_names
 				(hide yes)
 			)
@@ -3323,7 +3870,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "ERA-6ARW512V"
+			(property "Value" "RC0402FR-074K7L"
 				(at 13.97 3.81 0)
 				(effects
 					(font
@@ -3332,7 +3879,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ERA6AEB101V"
+			(property "Footprint" "RESC1005X40N"
 				(at 13.97 -96.19 0)
 				(effects
 					(font
@@ -3342,7 +3889,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ERA-6ARW512V.pdf"
+			(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf"
 				(at 13.97 -196.19 0)
 				(effects
 					(font
@@ -3352,7 +3899,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thin Film Resistors - SMD 0805 5.1Kohm 0.05% 10ppm AEC-Q200"
+			(property "Description" "YAGEO (PHYCOMP) - RC0402FR-074K7L - RES, THICK FILM, 4K7, 1%, 0.063W, 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3361,7 +3908,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.6"
+			(property "Height" "0.4"
 				(at 13.97 -396.19 0)
 				(effects
 					(font
@@ -3371,7 +3918,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "667-ERA-6ARW512V"
+			(property "Manufacturer_Name" "KEMET"
 				(at 13.97 -496.19 0)
 				(effects
 					(font
@@ -3381,7 +3928,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "http://www.mouser.com/Search/ProductDetail.aspx?qs=ob%252bdNz2%252bYEhbVVWKak058A%3d%3d"
+			(property "Manufacturer_Part_Number" "RC0402FR-074K7L"
 				(at 13.97 -596.19 0)
 				(effects
 					(font
@@ -3391,7 +3938,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Panasonic"
+			(property "Mouser Part Number" "603-RC0402FR-074K7L"
 				(at 13.97 -696.19 0)
 				(effects
 					(font
@@ -3401,7 +3948,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "ERA-6ARW512V"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-074K7L?qs=V1yeUXFNrkn%2FmCXC8N8TTA%3D%3D"
 				(at 13.97 -796.19 0)
 				(effects
 					(font
@@ -3411,7 +3958,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "ERA-6ARW512V_1_1"
+			(property "Arrow Part Number" "RC0402FR-074K7L"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0402fr-074k7l/yageo"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402FR-074K7L_1_1"
 				(rectangle
 					(start 5.08 1.27)
 					(end 12.7 -1.27)
@@ -3462,739 +4029,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:GCM21B5G1H103FA16L"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "GCM21B5G1H103FA16L"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "GCM21"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21B5G1H103FA16-01A.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Chip Multilayer Ceramic Capacitors for Automotive (Powertrain/Safety), 1.6 x 0.8 (0603)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.4"
-				(at 8.89 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 8.89 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 8.89 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Murata Electronics"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "GCM21B5G1H103FA16L"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "GCM21B5G1H103FA16L_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:KAM21BR71H104JT"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "KAM21BR71H104JT"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CAPC2012X94N"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://spicat.kyocera-avx.com/product/mlcc/chartview/KAM21BR71H104JT/DataSheet/X7R"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R 0805 5% AEC-Q200"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.94"
-				(at 8.89 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "581-KAM21BR71H104JT"
-				(at 8.89 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JT?qs=Jm2GQyTW%2Fbic6Zk4McEt6w%3D%3D"
-				(at 8.89 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Kyocera AVX"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "KAM21BR71H104JT"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "KAM21BR71H104JT_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:XO57CRECNA16M"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 34.29 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "XO57CRECNA16M"
-				(at 34.29 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "XO57CRECNA16M"
-				(at 34.29 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 34.29 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Standard Clock Oscillators 16MHz"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.9"
-				(at 34.29 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "73-XOSM57BRE16MHZ"
-				(at 34.29 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/XO57CRECNA16M?qs=VsPLLCyI2ZLtoU%252BQ7ye5Yg%3D%3D"
-				(at 34.29 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 34.29 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "XO57CRECNA16M"
-				(at 34.29 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "XO57CRECNA16M_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 33.02 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 0 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -2.54 180)
-					(length 5.08)
-					(name "TRI-STATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "Może być <=20 MHz\nZastąpić oscylatorem jeśli element niedostępny"
-		(exclude_from_sim no)
-		(at 55.88 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19ff2607-c44c-4821-9ceb-3c797a03b2aa")
 	)
 	(text "	// Analog Input\n	ADC0	Pin	= PF0\n	ADC1	Pin	= PF1\n	ADC2	Pin	= PF2\n	ADC3	Pin	= PF3\n	ADC4	Pin	= PF4\n	ADC5	Pin	= PF5\n	ADC6	Pin	= PF6\n	ADC7	Pin	= PF7\n	ADC8	Pin	= PK0\n	ADC9	Pin	= PK1\n	ADC10	Pin	= PK2\n	ADC11	Pin	= PK3\n	ADC12	Pin	= PK4\n	ADC13	Pin	= PK5\n	ADC14	Pin	= PK6\n	ADC15	Pin	= PK7\n\n	// Digital pins\n	D0	Pin	= PE0\n	D1	Pin	= PE1\n	D2	Pin	= PE4\n	D3	Pin	= PE5\n	D4	Pin	= PG5\n	D5	Pin	= PE3\n	D6	Pin	= PH3\n	D7	Pin	= PH4\n	D8	Pin	= PH5\n	D9	Pin	= PH6\n	D10	Pin	= PB4\n	D11	Pin	= PB5\n	D12	Pin	= PB6\n	D13	Pin	= PB7\n	D14	Pin	= PJ1	// TX3\n	D15	Pin	= PJ0	// RX3\n	D16	Pin	= PH1	// TX2\n	D17	Pin	= PH0	// RX2\n	D18	Pin	= PD3	// TX1\n	D19	Pin	= PD2	// RX1\n	D20	Pin	= PD1\n	D21	Pin	= PD0\n	D22	Pin	= PA0\n	D23	Pin	= PA1\n	D24	Pin	= PA2\n	D25	Pin	= PA3\n	D26	Pin	= PA4\n	D27	Pin	= PA5\n	D28	Pin	= PA6\n	D29	Pin	= PA7\n	D30	Pin	= PC7\n	D31	Pin	= PC6\n	D32	Pin	= PC5\n	D33	Pin	= PC4\n	D34	Pin	= PC3\n	D35	Pin	= PC2\n	D36	Pin	= PC1\n	D37	Pin	= PC0\n	D38	Pin	= PD7\n	D39	Pin	= PG2\n	D40	Pin	= PG1\n	D41	Pin	= PG0\n	D42	Pin	= PL7\n	D43	Pin	= PL6\n	D44	Pin	= PL5\n	D45	Pin	= PL4\n	D46	Pin	= PL3\n	D47	Pin	= PL2\n	D48	Pin	= PL1\n	D49	Pin	= PL0\n	D50	Pin	= PB3\n	D51	Pin	= PB2\n	D52	Pin	= PB1\n	D53	Pin	= PB0"
 		(exclude_from_sim no)
@@ -4217,26 +4051,27 @@
 		)
 		(uuid "2c776ba6-4e0b-4db1-b9d3-96e03447d0ac")
 	)
-	(text "4K7 Ohm\nSet footprint\nRC0402FR-047K7L"
+	(text "X49SM16MSD2SI"
 		(exclude_from_sim no)
-		(at 227.076 107.95 0)
+		(at 84.582 43.434 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(uuid "75035a8c-993a-43c1-9bd4-34b418ee8f8c")
+		(uuid "66277448-b794-4b33-8a7f-c4b6d0b4b2ce")
 	)
-	(text "TODO: Weryfikacja pinów dla 100% pewności"
+	(text "0402WGF5101TCE"
 		(exclude_from_sim no)
-		(at 160.528 17.526 0)
+		(at 126.238 19.812 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9029be29-488f-488b-b0a8-f9ac49ace755")
+		(uuid "6bea6502-5979-4e5e-9b6b-9f28294b170c")
 	)
 	(text "MikroSD\nhttps://botland.com.pl/akcesoria-do-kart-pamieci/8230-modul-czytnika-kart-microsd-5904422311278.html"
 		(exclude_from_sim no)
@@ -4259,30 +4094,20 @@
 		)
 		(uuid "ab41b98e-c4f9-4cd3-9a80-729fa3d64f79")
 	)
-	(text "TODO: set button footprints"
+	(text "X4611WVS-06I-C40D44R1"
 		(exclude_from_sim no)
-		(at 77.978 124.206 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d39edc00-c850-48a0-a4a1-481b6eb81158")
-	)
-	(text "TODO: Ustaw sprawdzony footprint holdera baterii"
-		(exclude_from_sim no)
-		(at 203.2 87.122 0)
+		(at 185.42 148.082 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d78f1a99-a947-4a9e-86a5-513262d4b9c8")
+		(uuid "c200eb57-1a36-4acf-872e-1df53549c74f")
 	)
-	(text "TODO: Ustaw footprint"
+	(text "KDS Daishinku\nMFR.Part # DT-38 32.768KHz\n"
 		(exclude_from_sim no)
-		(at 190.754 36.576 0)
+		(at 201.168 43.688 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4291,13 +4116,14 @@
 		)
 		(uuid "d9b0f224-465a-436a-8b99-75081f6bb297")
 	)
-	(text "OLED GND VCC SDA SCL"
+	(text "OLED GND VCC SDA SCL\nX4611WVS-04I-C40D44R2"
 		(exclude_from_sim no)
-		(at 174.244 110.49 0)
+		(at 161.798 110.236 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.1 1.1)
 			)
+			(justify left)
 		)
 		(uuid "e127672d-2203-4f73-bee2-be8807e122de")
 	)
@@ -4308,22 +4134,16 @@
 		(uuid "02d56edb-ab7d-4524-a3e2-705909a23d88")
 	)
 	(junction
-		(at 210.82 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f9c8fc1-94b9-469d-83e7-e70c7104c6a8")
-	)
-	(junction
-		(at 67.31 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1732459e-f488-4a85-9106-f4fba2ef2211")
-	)
-	(junction
 		(at 123.19 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fb0e3d9-024d-415e-8b76-70ae534e7ac9")
+	)
+	(junction
+		(at 43.18 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34bb9d99-4fc2-4bf6-a0ca-f3b42539806f")
 	)
 	(junction
 		(at 198.12 62.23)
@@ -4332,34 +4152,40 @@
 		(uuid "371e2ab3-bffa-4f7d-9155-b86b816944dd")
 	)
 	(junction
-		(at 33.02 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cb8386a-797f-4ef7-b1b9-a36ed7039355")
-	)
-	(junction
 		(at 240.03 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "413ab497-4b71-45b3-b088-c459e54ead9a")
 	)
 	(junction
-		(at 67.31 101.6)
+		(at 33.02 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53b7bf46-ce4a-4c34-9472-112018849897")
+		(uuid "422c0e91-b47e-45e8-acf4-a55f380d2cd2")
 	)
 	(junction
-		(at 90.17 21.59)
+		(at 33.02 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f3c06a8-ca8b-4ff8-90e6-6f36a95f455f")
+		(uuid "44e1d678-0ca6-4265-b634-e02168c9c97f")
+	)
+	(junction
+		(at 87.63 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "589be66f-4ad8-46fd-8d87-a5284a34892d")
 	)
 	(junction
 		(at 210.82 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "694caa10-8d69-47a1-bd41-06bd4c6e6e1b")
+		(uuid "58ee09c4-c0b5-4189-be50-e61281c504da")
+	)
+	(junction
+		(at 33.02 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "718a67ce-f668-42b2-bf68-24dd4f7c184b")
 	)
 	(junction
 		(at 101.6 35.56)
@@ -4374,16 +4200,16 @@
 		(uuid "913c26e3-8b00-463d-acaa-37fc77d54057")
 	)
 	(junction
-		(at 67.31 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b2645a8-d197-409a-9c43-82975a331970")
-	)
-	(junction
 		(at 162.56 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0b89627-9dde-4eae-9b0f-57b8205076f6")
+	)
+	(junction
+		(at 43.18 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b237fb08-9a5a-4ae8-97f1-725ee163e6d6")
 	)
 	(junction
 		(at 125.73 24.13)
@@ -4392,16 +4218,22 @@
 		(uuid "bebc2af3-6d8f-4673-99a1-82235569b8ca")
 	)
 	(junction
-		(at 46.99 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf984bed-4b37-4e2e-a0a8-b1ede0f18e81")
-	)
-	(junction
 		(at 156.21 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7795510-1e20-4788-a7eb-2055278b9d5b")
+	)
+	(junction
+		(at 43.18 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce92271e-788c-4e83-8a6e-57383eaf8fb6")
+	)
+	(junction
+		(at 210.82 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5e33789-02b8-4c53-8934-c7c5a4974fbc")
 	)
 	(junction
 		(at 101.6 13.97)
@@ -4410,22 +4242,28 @@
 		(uuid "dd7be22c-45b4-4eb9-82d9-89c41a885cbc")
 	)
 	(junction
+		(at 87.63 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9ef1692-a7f2-49cf-9c69-3628a06865af")
+	)
+	(junction
 		(at 162.56 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb9b2da5-8b50-4696-953a-38408a5bd020")
 	)
 	(junction
+		(at 43.18 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed6556a1-b3e9-4dd0-a1c4-9a01dbd51e76")
+	)
+	(junction
 		(at 147.32 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f02b08da-b15e-495a-ae23-607c82df089d")
-	)
-	(junction
-		(at 91.44 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f176fbb7-a8a8-43dd-b444-64a3173a9f76")
 	)
 	(junction
 		(at 148.59 106.68)
@@ -4465,16 +4303,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 46.99) (xy 190.5 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02feb914-0a2a-4529-b7ac-7db3c37a898f")
-	)
-	(wire
-		(pts
 			(xy 143.51 162.56) (xy 147.32 162.56)
 		)
 		(stroke
@@ -4482,6 +4310,16 @@
 			(type default)
 		)
 		(uuid "04be2444-5b5f-4708-a6fb-0585eb425ccf")
+	)
+	(wire
+		(pts
+			(xy 53.34 78.74) (xy 57.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067e9248-4086-4283-b342-3e1c9b9ef390")
 	)
 	(wire
 		(pts
@@ -4495,16 +4333,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 82.55) (xy 228.6 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c263e29-8933-4fae-99ac-f9245d66457b")
-	)
-	(wire
-		(pts
 			(xy 251.46 62.23) (xy 238.76 62.23)
 		)
 		(stroke
@@ -4515,13 +4343,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 106.68) (xy 153.67 101.6)
+			(xy 210.82 113.03) (xy 210.82 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "108d5af4-8c0a-410a-b8e7-6ab82224b58c")
+		(uuid "0e57a1cd-dc9a-4634-ad63-f47c255a07ce")
+	)
+	(wire
+		(pts
+			(xy 195.58 77.47) (xy 193.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a45c3b-c6b1-4dde-878f-d0965a9c8ec4")
 	)
 	(wire
 		(pts
@@ -4542,6 +4380,26 @@
 			(type default)
 		)
 		(uuid "16ac4455-ecf3-4f46-82ef-71a920258bc6")
+	)
+	(wire
+		(pts
+			(xy 198.12 80.01) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16eafdbb-0d6d-4784-8a9f-dd490bbb8c43")
+	)
+	(wire
+		(pts
+			(xy 97.79 48.26) (xy 97.79 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f6c157-5d89-4c83-a356-0c27bd9b56d8")
 	)
 	(wire
 		(pts
@@ -4585,16 +4443,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 118.11) (xy 210.82 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1996e5fd-a8f1-4e02-b824-710059014c26")
-	)
-	(wire
-		(pts
 			(xy 144.78 132.08) (xy 167.64 132.08)
 		)
 		(stroke
@@ -4635,7 +4483,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 81.28) (xy 86.36 91.44)
+			(xy 86.36 81.28) (xy 86.36 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4645,7 +4493,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 118.11) (xy 251.46 118.11)
+			(xy 87.63 48.26) (xy 97.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb73bdc-05f5-41a3-8166-bebcf8a87630")
+	)
+	(wire
+		(pts
+			(xy 148.59 118.11) (xy 210.82 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4685,6 +4543,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 109.22) (xy 43.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247fa166-688a-49e9-b30b-e56c608e3ed8")
+	)
+	(wire
+		(pts
 			(xy 190.5 46.99) (xy 190.5 57.15)
 		)
 		(stroke
@@ -4692,16 +4560,6 @@
 			(type default)
 		)
 		(uuid "258ad1ae-e14a-4b16-ad53-219c13a138b3")
-	)
-	(wire
-		(pts
-			(xy 228.6 73.66) (xy 198.12 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25e35ac0-b4d1-42cd-8c76-59e016b70472")
 	)
 	(wire
 		(pts
@@ -4715,16 +4573,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 91.44) (xy 80.01 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "284807da-2aff-43d5-92c3-2fb6d240719d")
-	)
-	(wire
-		(pts
 			(xy 93.98 60.96) (xy 102.87 60.96)
 		)
 		(stroke
@@ -4735,7 +4583,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 111.76) (xy 88.9 86.36)
+			(xy 88.9 120.65) (xy 88.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4755,16 +4603,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 38.1) (xy 90.17 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b81bc0b-b85a-4dbe-9a99-edb190017bf6")
-	)
-	(wire
-		(pts
 			(xy 143.51 160.02) (xy 147.32 160.02)
 		)
 		(stroke
@@ -4772,6 +4610,16 @@
 			(type default)
 		)
 		(uuid "2d0badf0-31c0-43a7-9735-3e3cc1aa92eb")
+	)
+	(wire
+		(pts
+			(xy 74.93 120.65) (xy 88.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d265bb3-d149-49ad-ab50-b2e5c770b5e0")
 	)
 	(wire
 		(pts
@@ -4785,7 +4633,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 138.43) (xy 176.53 138.43)
+			(xy 173.99 138.43) (xy 177.8 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4805,6 +4653,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 91.44) (xy 240.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a4f3e5-2644-4407-bf71-e5ca29085101")
+	)
+	(wire
+		(pts
+			(xy 33.02 48.26) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33fc682c-ba02-4e3c-90d3-6275ec51d838")
+	)
+	(wire
+		(pts
 			(xy 119.38 24.13) (xy 123.19 24.13)
 		)
 		(stroke
@@ -4812,16 +4680,6 @@
 			(type default)
 		)
 		(uuid "35986bc0-0926-4d79-8b7a-938e947273ef")
-	)
-	(wire
-		(pts
-			(xy 158.75 104.14) (xy 158.75 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ccdfb0-6c04-4d63-97eb-e4ac8ac3a1cb")
 	)
 	(wire
 		(pts
@@ -4855,16 +4713,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 96.52) (xy 240.03 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ab5e154-53f4-4d42-9256-3ceee376b630")
-	)
-	(wire
-		(pts
 			(xy 148.59 106.68) (xy 148.59 104.14)
 		)
 		(stroke
@@ -4872,16 +4720,6 @@
 			(type default)
 		)
 		(uuid "3b0c9146-cf22-41c7-87c5-59c08d57eff3")
-	)
-	(wire
-		(pts
-			(xy 210.82 96.52) (xy 210.82 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c14a334-f275-4f3f-8557-a98d9d4148f5")
 	)
 	(wire
 		(pts
@@ -4915,13 +4753,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 101.6) (xy 80.01 101.6)
+			(xy 87.63 39.37) (xy 87.63 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fe0119d-232f-41a6-bb7a-f0c0887c5a2d")
+		(uuid "3fadfb1c-1f23-46dc-bace-1f5e6ce807fb")
 	)
 	(wire
 		(pts
@@ -4945,6 +4783,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 137.16) (xy 43.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4373ac30-1145-43e6-90dc-99701a86dbe9")
+	)
+	(wire
+		(pts
 			(xy 243.84 24.13) (xy 156.21 24.13)
 		)
 		(stroke
@@ -4952,6 +4800,16 @@
 			(type default)
 		)
 		(uuid "43c7dd95-dc40-4d33-a615-6133ab2e9bf5")
+	)
+	(wire
+		(pts
+			(xy 43.18 123.19) (xy 46.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44053ea7-8e9f-47d3-80e9-cccf9011b0d4")
 	)
 	(wire
 		(pts
@@ -4965,13 +4823,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 73.66) (xy 71.12 73.66)
+			(xy 200.66 46.99) (xy 203.2 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45df13db-a08f-471c-b244-b4bb38b256ce")
+		(uuid "473a6e83-6aee-4634-b44c-b48993e0abd8")
+	)
+	(wire
+		(pts
+			(xy 210.82 118.11) (xy 251.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d8c8aa-75a0-4c03-b191-4331247aa919")
 	)
 	(wire
 		(pts
@@ -4985,7 +4853,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 96.52) (xy 210.82 96.52)
+			(xy 204.47 91.44) (xy 210.82 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5045,6 +4913,26 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 40.64) (xy 46.99 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f728b7e-657c-4933-b296-8f4f613ddec3")
+	)
+	(wire
+		(pts
+			(xy 77.47 130.81) (xy 90.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb8a634-cc87-4e17-a753-5daf734424ec")
+	)
+	(wire
+		(pts
 			(xy 125.73 24.13) (xy 125.73 27.94)
 		)
 		(stroke
@@ -5065,7 +4953,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 148.59) (xy 176.53 148.59)
+			(xy 170.18 148.59) (xy 177.8 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5085,6 +4973,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 68.58) (xy 60.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537a0bcb-60d0-461f-bd87-937cc830672c")
+	)
+	(wire
+		(pts
 			(xy 102.87 81.28) (xy 86.36 81.28)
 		)
 		(stroke
@@ -5092,6 +4990,16 @@
 			(type default)
 		)
 		(uuid "550c59cd-e524-4714-aa6a-040f07c94415")
+	)
+	(wire
+		(pts
+			(xy 138.43 21.59) (xy 144.78 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55156f97-c57e-4409-aae4-20f79b25cf17")
 	)
 	(wire
 		(pts
@@ -5115,7 +5023,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 73.66) (xy 198.12 62.23)
+			(xy 198.12 62.23) (xy 198.12 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5125,13 +5033,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 121.92) (xy 67.31 121.92)
+			(xy 87.63 46.99) (xy 87.63 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "571b0ed1-3a7c-404e-9e64-f5a60f15c85f")
+		(uuid "582b2e00-837f-421e-982b-7874b754f65e")
 	)
 	(wire
 		(pts
@@ -5145,6 +5053,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 101.6) (xy 153.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598ed0ff-adc9-4a1b-a7e4-caa0415f274c")
+	)
+	(wire
+		(pts
 			(xy 31.75 54.61) (xy 40.64 54.61)
 		)
 		(stroke
@@ -5155,17 +5073,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 91.44) (xy 67.31 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a015307-0244-401a-a4f1-457531846d56")
-	)
-	(wire
-		(pts
-			(xy 87.63 83.82) (xy 87.63 101.6)
+			(xy 87.63 83.82) (xy 87.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5175,33 +5083,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 96.52) (xy 240.03 96.52)
+			(xy 195.58 59.69) (xy 195.58 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ce9717d-b0f6-4d8b-bc2e-abfa8b7c5272")
-	)
-	(wire
-		(pts
-			(xy 57.15 78.74) (xy 54.61 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cf040a2-0aa4-4e06-bb21-0c417cbcf07a")
-	)
-	(wire
-		(pts
-			(xy 58.42 76.2) (xy 54.61 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f612ba4-4567-4638-a0d2-6a0def67aac4")
+		(uuid "5fe4df92-fab1-4446-b2db-d1198beeb093")
 	)
 	(wire
 		(pts
@@ -5212,6 +5100,16 @@
 			(type default)
 		)
 		(uuid "60344915-18cf-4372-865d-89b4cf2dccee")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6137c576-e7d7-4e14-831d-dc4709e27849")
 	)
 	(wire
 		(pts
@@ -5235,6 +5133,36 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 110.49) (xy 240.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662f270b-aafc-43ea-8962-2ac322f7a08b")
+	)
+	(wire
+		(pts
+			(xy 33.02 36.83) (xy 33.02 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677e05e1-05bc-4317-8f7d-23b4f0e1a379")
+	)
+	(wire
+		(pts
+			(xy 53.34 71.12) (xy 71.12 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67919211-8cc3-46b1-bb5a-9c54fd93de29")
+	)
+	(wire
+		(pts
 			(xy 57.15 85.09) (xy 57.15 78.74)
 		)
 		(stroke
@@ -5245,23 +5173,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 140.97) (xy 172.72 140.97)
+			(xy 172.72 140.97) (xy 177.8 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "69688073-1922-48f2-b844-b763b1ff85dc")
-	)
-	(wire
-		(pts
-			(xy 49.53 38.1) (xy 50.8 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a390261-9908-4327-b619-954114ea079b")
 	)
 	(wire
 		(pts
@@ -5315,7 +5233,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 151.13) (xy 176.53 151.13)
+			(xy 170.18 151.13) (xy 177.8 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5345,23 +5263,53 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 29.21) (xy 46.99 29.21)
+			(xy 96.52 40.64) (xy 102.87 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72c3181d-23fa-4eb9-9cd6-991c0a2be293")
+		(uuid "72b729fa-c4e3-4266-aadc-302b4ca38f9c")
 	)
 	(wire
 		(pts
-			(xy 170.18 143.51) (xy 176.53 143.51)
+			(xy 97.79 45.72) (xy 102.87 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e3b990-43bf-48b0-bdbd-f099ecced61a")
+	)
+	(wire
+		(pts
+			(xy 170.18 143.51) (xy 177.8 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "73896779-442c-401a-b8ad-943e58400e73")
+	)
+	(wire
+		(pts
+			(xy 96.52 38.1) (xy 96.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7589a917-bda7-4743-94c4-2b2cd8cef7c8")
+	)
+	(wire
+		(pts
+			(xy 190.5 46.99) (xy 193.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77468063-9ee5-468b-95ee-89a3c9a1b594")
 	)
 	(wire
 		(pts
@@ -5375,6 +5323,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 40.64) (xy 66.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d38b5f-456a-49fc-87bb-b017d91ef990")
+	)
+	(wire
+		(pts
+			(xy 77.47 130.81) (xy 77.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7991628e-d580-4132-8f9d-b621e56f3409")
+	)
+	(wire
+		(pts
 			(xy 143.51 96.52) (xy 147.32 96.52)
 		)
 		(stroke
@@ -5385,16 +5353,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 21.59) (xy 49.53 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0f957f-2a24-4a6a-9062-d58968aa3c41")
-	)
-	(wire
-		(pts
 			(xy 156.21 24.13) (xy 125.73 24.13)
 		)
 		(stroke
@@ -5402,6 +5360,16 @@
 			(type default)
 		)
 		(uuid "7c219d04-d2d5-4a5c-81bb-5afd961cb5ae")
+	)
+	(wire
+		(pts
+			(xy 33.02 48.26) (xy 33.02 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6e9fcd-30da-46db-8ac1-d6a9d53a2654")
 	)
 	(wire
 		(pts
@@ -5425,6 +5393,26 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 104.14) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811f86df-f4f6-4bc4-b847-2ad5191fddd2")
+	)
+	(wire
+		(pts
+			(xy 53.34 76.2) (xy 58.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814bb77b-386c-4d77-a45c-5d8473b7f3a1")
+	)
+	(wire
+		(pts
 			(xy 92.71 139.7) (xy 102.87 139.7)
 		)
 		(stroke
@@ -5445,16 +5433,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 21.59) (xy 144.78 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83e9f996-18c3-4bb3-beb1-be2e2f918318")
-	)
-	(wire
-		(pts
 			(xy 143.51 66.04) (xy 146.05 66.04)
 		)
 		(stroke
@@ -5465,7 +5443,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 121.92) (xy 90.17 88.9)
+			(xy 90.17 130.81) (xy 90.17 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5485,7 +5463,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 48.26) (xy 33.02 29.21)
+			(xy 33.02 29.21) (xy 33.02 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5502,16 +5480,6 @@
 			(type default)
 		)
 		(uuid "8a7d4a39-a78a-4da5-ad64-c346ea5d5798")
-	)
-	(wire
-		(pts
-			(xy 69.85 101.6) (xy 67.31 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c289858-b3dd-4c1a-9213-2c9ab54d5ecd")
 	)
 	(wire
 		(pts
@@ -5535,6 +5503,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 134.62) (xy 77.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904f69ae-be86-4b4d-a1d7-2908a6654bf4")
+	)
+	(wire
+		(pts
 			(xy 252.73 59.69) (xy 238.76 59.69)
 		)
 		(stroke
@@ -5545,33 +5523,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 82.55) (xy 217.17 82.55)
+			(xy 74.93 106.68) (xy 87.63 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "932e1f71-a325-4f5e-8727-d18a4c9cc721")
-	)
-	(wire
-		(pts
-			(xy 67.31 101.6) (xy 67.31 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936539c4-8039-4889-9b3b-8cd83405362f")
-	)
-	(wire
-		(pts
-			(xy 224.79 82.55) (xy 228.6 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "937b4424-d0c2-457d-a292-7781e012c749")
+		(uuid "9235b7b0-d060-455e-8adb-67e9c8da83e9")
 	)
 	(wire
 		(pts
@@ -5595,13 +5553,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 59.69) (xy 195.58 82.55)
+			(xy 161.29 102.87) (xy 161.29 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95370440-5b33-4da7-a7dc-b68d8bc6e060")
+		(uuid "96b51c79-2589-48f5-8bc9-e4fed2dc7365")
 	)
 	(wire
 		(pts
@@ -5622,6 +5580,16 @@
 			(type default)
 		)
 		(uuid "985c9317-6d2c-4c82-8580-258e2a75c0d2")
+	)
+	(wire
+		(pts
+			(xy 46.99 137.16) (xy 43.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99446643-6707-4513-9a1f-f514fc8d5c7e")
 	)
 	(wire
 		(pts
@@ -5655,7 +5623,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 29.21) (xy 55.88 29.21)
+			(xy 33.02 29.21) (xy 55.88 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5665,27 +5633,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 66.04) (xy 71.12 66.04)
+			(xy 43.18 85.09) (xy 43.18 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ee449ee-e37a-4ee0-a9af-40372435f4a3")
+		(uuid "9f0b1f0c-c0a3-4047-89e6-3d6254756d43")
 	)
 	(wire
 		(pts
-			(xy 49.53 21.59) (xy 49.53 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a315fb03-551f-4468-b81e-cd18261cc4c6")
-	)
-	(wire
-		(pts
-			(xy 156.21 106.68) (xy 156.21 97.79)
+			(xy 156.21 97.79) (xy 156.21 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5725,13 +5683,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 121.92) (xy 67.31 111.76)
+			(xy 87.63 38.1) (xy 96.52 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a852315c-d284-4551-8e8b-df5244f01cce")
+		(uuid "a916ae3d-858c-4edd-968f-fa92b8b9b053")
 	)
 	(wire
 		(pts
@@ -5755,33 +5713,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 48.26) (xy 33.02 53.34)
+			(xy 46.99 39.37) (xy 33.02 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abc0ed5b-5ee7-4a71-ba05-4fe1204594eb")
-	)
-	(wire
-		(pts
-			(xy 80.01 111.76) (xy 88.9 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac046d2f-b871-4cb4-a173-f5f4f1a1af27")
-	)
-	(wire
-		(pts
-			(xy 69.85 111.76) (xy 67.31 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acd8fe0f-8f17-4b89-acdf-c6afa5598d16")
+		(uuid "ad0bb86f-e5d7-426c-99e9-4bd60331b6fe")
 	)
 	(wire
 		(pts
@@ -5795,7 +5733,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 85.09) (xy 57.15 85.09)
+			(xy 41.91 85.09) (xy 43.18 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5815,16 +5753,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 46.99 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b26b20db-43ca-4804-84e0-72a327091bee")
-	)
-	(wire
-		(pts
 			(xy 58.42 86.36) (xy 58.42 76.2)
 		)
 		(stroke
@@ -5832,16 +5760,6 @@
 			(type default)
 		)
 		(uuid "b39062a5-fc83-4b20-b15e-2a4833073062")
-	)
-	(wire
-		(pts
-			(xy 161.29 102.87) (xy 161.29 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b87dfe-3af7-4f63-a0a7-a9ead1a9566f")
 	)
 	(wire
 		(pts
@@ -5855,43 +5773,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 146.05) (xy 176.53 146.05)
+			(xy 170.18 146.05) (xy 177.8 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b60a5d1f-2b1e-45f0-9ad9-bedb34b5f91b")
-	)
-	(wire
-		(pts
-			(xy 88.9 40.64) (xy 102.87 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b73fa1f5-d565-45a5-849a-baa80228c071")
-	)
-	(wire
-		(pts
-			(xy 90.17 21.59) (xy 91.44 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9462497-1891-4985-b0b3-32948b3e59be")
-	)
-	(wire
-		(pts
-			(xy 88.9 38.1) (xy 90.17 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b95f50ef-91fd-4d6e-849f-78c9e1212f6f")
 	)
 	(wire
 		(pts
@@ -5905,13 +5793,43 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 68.58) (xy 60.96 68.58)
+			(xy 210.82 91.44) (xy 240.03 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb219825-1b5c-4a30-a879-6c7bafe58ba5")
+		(uuid "b9e2a004-3eec-4329-b1ad-02d8a6ee4f75")
+	)
+	(wire
+		(pts
+			(xy 60.96 38.1) (xy 60.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0458e6-281b-4f9a-8567-06a0af764d20")
+	)
+	(wire
+		(pts
+			(xy 83.82 38.1) (xy 87.63 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba37275e-2ea2-4b02-9bdf-69426be5716c")
+	)
+	(wire
+		(pts
+			(xy 43.18 109.22) (xy 46.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5c9aa9-b90a-410e-98ea-11ff0e748bea")
 	)
 	(wire
 		(pts
@@ -5925,6 +5843,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 85.09) (xy 57.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4eea55-2deb-42b2-9a49-c6df2a6eaa12")
+	)
+	(wire
+		(pts
 			(xy 240.03 119.38) (xy 252.73 119.38)
 		)
 		(stroke
@@ -5932,6 +5860,26 @@
 			(type default)
 		)
 		(uuid "bc81e529-d397-49b4-b3f9-1d8d84b96d29")
+	)
+	(wire
+		(pts
+			(xy 33.02 39.37) (xy 33.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9e2a0e-e2cd-4875-bc4d-f38f1b4d67a9")
+	)
+	(wire
+		(pts
+			(xy 210.82 91.44) (xy 210.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef00fff-bc5b-4ec7-9f2f-5b21a78d7c23")
 	)
 	(wire
 		(pts
@@ -5955,23 +5903,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 121.92) (xy 90.17 121.92)
+			(xy 53.34 66.04) (xy 71.12 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3a5e7e7-1b74-45a5-8e7d-0abef99a8b12")
-	)
-	(wire
-		(pts
-			(xy 67.31 91.44) (xy 69.85 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c50fceef-9961-4a99-8f0c-3dd95f64f950")
+		(uuid "c2e3f135-ea5b-44df-9cf4-510b5bfafe34")
 	)
 	(wire
 		(pts
@@ -6005,23 +5943,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 33.02 48.26)
+			(xy 66.04 40.64) (xy 66.04 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca32a315-024e-4bc8-a0f5-a954f2126078")
-	)
-	(wire
-		(pts
-			(xy 50.8 48.26) (xy 52.07 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf1e0c3-7607-4d3c-807c-84b365cbcca1")
+		(uuid "ca81e544-4b5f-4104-81f4-31e570955c1f")
 	)
 	(wire
 		(pts
@@ -6085,13 +6013,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 111.76) (xy 210.82 118.11)
+			(xy 43.18 95.25) (xy 46.99 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf271607-0ecf-4ee2-8198-eeb05e11a840")
+		(uuid "d077d5ca-ee6b-4b82-bbb3-8c0267dc12ca")
 	)
 	(wire
 		(pts
@@ -6105,27 +6033,27 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 46.99) (xy 203.2 46.99)
+			(xy 71.12 38.1) (xy 60.96 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d40869e3-9154-4f21-a04a-ee7e0eb5e95c")
+		(uuid "d776eb8b-f3d6-4873-aace-c5a62137528c")
 	)
 	(wire
 		(pts
-			(xy 68.58 21.59) (xy 90.17 21.59)
+			(xy 33.02 36.83) (xy 60.96 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d530860d-3599-4d98-98b2-08fc1ccefaaf")
+		(uuid "d7a00524-e690-4eb3-9cf0-36623c5a425d")
 	)
 	(wire
 		(pts
-			(xy 123.19 21.59) (xy 125.73 21.59)
+			(xy 123.19 21.59) (xy 130.81 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6165,6 +6093,26 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 123.19) (xy 43.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc40e7e7-cad7-469f-89bf-e1ac6fc73478")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 46.99 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd28e7a9-5d2e-46d2-83fe-81053b23101c")
+	)
+	(wire
+		(pts
 			(xy 148.59 104.14) (xy 158.75 104.14)
 		)
 		(stroke
@@ -6182,6 +6130,16 @@
 			(type default)
 		)
 		(uuid "ddfb1ca1-ef38-4a27-b609-a6730f526034")
+	)
+	(wire
+		(pts
+			(xy 66.04 48.26) (xy 87.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0ae108-c117-4fab-90af-12057b3e746c")
 	)
 	(wire
 		(pts
@@ -6235,16 +6193,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 71.12) (xy 71.12 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e58cddc4-468b-434b-a478-f0db0332421c")
-	)
-	(wire
-		(pts
 			(xy 143.51 134.62) (xy 144.78 134.62)
 		)
 		(stroke
@@ -6272,6 +6220,16 @@
 			(type default)
 		)
 		(uuid "efd59aed-1419-4754-a808-e1defa22b193")
+	)
+	(wire
+		(pts
+			(xy 74.93 92.71) (xy 86.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c77c14-b831-45ed-a652-1fbdd65ca9cd")
 	)
 	(wire
 		(pts
@@ -6315,13 +6273,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 101.6) (xy 67.31 91.44)
+			(xy 53.34 73.66) (xy 71.12 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f70f3004-d854-4b16-b852-93854c91e5e2")
+		(uuid "f6460eb8-b90f-4338-9c74-ff7f02c08d3b")
 	)
 	(wire
 		(pts
@@ -6345,16 +6303,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 111.76) (xy 240.03 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f933f793-b19e-4277-ba40-85980071df82")
-	)
-	(wire
-		(pts
 			(xy 143.51 121.92) (xy 148.59 121.92)
 		)
 		(stroke
@@ -6372,16 +6320,6 @@
 			(type default)
 		)
 		(uuid "fdf438fb-4563-4152-b01c-82e24ceb5d15")
-	)
-	(wire
-		(pts
-			(xy 46.99 40.64) (xy 46.99 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3ab09c-efa6-4400-9b17-a9be8a72ae8a")
 	)
 	(global_label "PB0"
 		(shape bidirectional)
@@ -6551,29 +6489,6 @@
 		(uuid "0a954516-e6f2-498c-bf10-ce887e2486b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.5196 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SafeGND"
-		(shape input)
-		(at 64.77 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 55 126 255 1)
-			)
-			(justify right)
-		)
-		(uuid "0f82f772-dd66-4637-826d-abe47e6dfb44")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.7415 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7293,7 @@
 	)
 	(global_label "SafeVCC"
 		(shape output)
-		(at 204.47 96.52 180)
+		(at 204.47 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7389,7 +7304,7 @@
 		)
 		(uuid "989f5b6e-99c1-4693-9944-d4f00b8516a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.6834 96.52 0)
+			(at 193.6834 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,33 +7802,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 156.21 111.76 90)
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 48.26 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "12b3fcf1-55f2-4f48-b12a-6cc7a8c55bf8")
-		(property "Reference" "J2"
-			(at 157.48 114.3 90)
+		(uuid "0b0024b1-f97a-4837-9f66-f7516dcec0cc")
+		(property "Reference" "J6"
+			(at 48.26 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 157.48 116.84 90)
+		(property "Value" "Conn_01x06"
+			(at 48.26 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
-			(at 156.21 111.76 0)
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical_SMD_Pin1Right"
+			(at 48.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +7837,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 111.76 0)
+			(at 48.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,31 +7845,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 156.21 111.76 0)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 48.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "cf38b0ab-8c16-4e23-8e22-f3c6484887f7")
 		)
 		(pin "2"
-			(uuid "b693a053-e16a-44ca-b97c-a83089383c06")
-		)
-		(pin "1"
-			(uuid "70813974-3f16-409d-9e2a-eda33105dd34")
+			(uuid "c49bbe29-a2a0-439a-bb75-134f44c673fb")
 		)
 		(pin "4"
-			(uuid "ce3d1dbd-0499-413f-b5ec-e08ae951f2ca")
+			(uuid "e41ebba3-3692-41a7-a6e1-f64e94388881")
+		)
+		(pin "3"
+			(uuid "fa92f80f-dfda-43f1-8599-c8652bcad942")
+		)
+		(pin "6"
+			(uuid "957cbc4d-3db4-4107-bee2-6120bb20d1b8")
+		)
+		(pin "5"
+			(uuid "1b01b8a9-0676-4e68-9a3b-75852d7a4ac9")
+		)
+		(pin "1"
+			(uuid "7b9b3b8b-6288-4390-ad43-b889f0c2ae05")
 		)
 		(instances
-			(project ""
+			(project "ElectroChessboard1"
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8326,33 +8247,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 74.93 111.76 0)
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 182.88 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40a13368-1c92-49de-b7a8-2fa2e59f474d")
-		(property "Reference" "SW3"
-			(at 74.93 104.14 0)
+		(uuid "3ade07de-d843-4bcc-9878-8daec700fa2c")
+		(property "Reference" "J5"
+			(at 185.42 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 74.93 106.68 0)
+		(property "Value" "Conn_01x06"
+			(at 185.42 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 74.93 106.68 0)
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical_SMD_Pin1Right"
+			(at 182.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +8284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 106.68 0)
+			(at 182.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,25 +8292,163 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 111.76 0)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "067b0fd5-8791-4f0f-9486-bbb0c3a73ebe")
 		)
 		(pin "2"
-			(uuid "58b3c5db-19b6-4f7c-b5f1-ff50db0409ea")
+			(uuid "b9f8c89d-edea-49a4-a7ad-68fe76abc861")
+		)
+		(pin "4"
+			(uuid "48b65955-6c14-4870-ada1-a175f237e060")
+		)
+		(pin "3"
+			(uuid "e969247e-61c2-4dd1-b506-ffc5fb1bb3cb")
+		)
+		(pin "6"
+			(uuid "48dc5a73-286f-4cf8-ac6c-86aeff6e66fd")
+		)
+		(pin "5"
+			(uuid "7a727bee-6edb-4479-8a81-79795c84459f")
+		)
+		(pin "1"
+			(uuid "dae55a1c-fe5a-4f21-a134-df134ebbf4ed")
+		)
+		(instances
+			(project ""
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:EVQ-9P105M")
+		(at 46.99 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a6be43-de22-45c2-92cb-8245a242c70e")
+		(property "Reference" "S4"
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-9P105M"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:EVQ9P105M"
+			(at 71.12 229.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_long.pdf"
+			(at 71.12 329.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount 3.5NF 6.0x6.1x5.0mm"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.2"
+			(at 71.12 529.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EVQ-9P105M"
+			(at 71.12 629.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-9P105M?qs=Ow%252BOiPmaljGBWYyxblHqgQ%3D%3D"
+			(at 71.12 729.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 71.12 829.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVQ-9P105M"
+			(at 71.12 929.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "B1"
+			(uuid "398f4217-f8e4-4fc6-8b73-05606d959c80")
+		)
+		(pin "A1"
+			(uuid "cf90468b-83f3-47d1-9ed5-011c6e28807b")
+		)
+		(pin "A2"
+			(uuid "70c16524-b8d0-4477-8f31-4928f51144d2")
+		)
+		(pin "B2"
+			(uuid "b4ff65ab-01b0-4201-9ff6-f070300e8847")
 		)
 		(instances
 			(project "ElectroChessboard1"
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "SW3")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -8419,7 +8480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
 			(at 234.95 149.53 0)
 			(effects
 				(font
@@ -8532,43 +8593,34 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:KAM21BR71H104JT")
-		(at 38.1 48.26 0)
+		(lib_id "SamacSys_Parts:RC0402FR-074K7L")
+		(at 240.03 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b2e9df0-2e49-48fd-ae8e-19df4135c1d6")
-		(property "Reference" "C5"
-			(at 44.45 40.64 0)
+		(uuid "5ab74cff-a205-4789-a023-f5fafa2ef257")
+		(property "Reference" "R39"
+			(at 242.57 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "KAM21BR71H104JT"
-			(at 44.45 43.18 0)
+		(property "Value" "RC0402FR-074K7L"
+			(at 219.71 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "CAPC2012X94N"
-			(at 46.99 144.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://spicat.kyocera-avx.com/product/mlcc/chartview/KAM21BR71H104JT/DataSheet/X7R"
-			(at 46.99 244.45 0)
+		(property "Footprint" "SamacSys_Parts:RESC1005X40N"
+			(at 336.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,17 +8629,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R 0805 5% AEC-Q200"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at 46.99 444.45 0)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf"
+			(at 436.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,8 +8639,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-KAM21BR71H104JT"
-			(at 46.99 544.45 0)
+		(property "Description" "YAGEO (PHYCOMP) - RC0402FR-074K7L - RES, THICK FILM, 4K7, 1%, 0.063W, 0402"
+			(at 240.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 636.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8606,8 +8658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JT?qs=Jm2GQyTW%2Fbic6Zk4McEt6w%3D%3D"
-			(at 46.99 644.45 0)
+		(property "Manufacturer_Name" "KEMET"
+			(at 736.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,8 +8668,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 46.99 744.45 0)
+		(property "Manufacturer_Part_Number" "RC0402FR-074K7L"
+			(at 836.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,8 +8678,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "KAM21BR71H104JT"
-			(at 46.99 844.45 0)
+		(property "Mouser Part Number" "603-RC0402FR-074K7L"
+			(at 936.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8636,117 +8688,99 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "0805f041-059e-42a2-8d3f-38bbf79bb796")
-		)
-		(pin "1"
-			(uuid "74d7a15e-186b-42e6-99a3-7b02fd486cc6")
-		)
-		(instances
-			(project ""
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 74.93 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e579d7b-4840-4d0d-a4a7-bd72836b4e38")
-		(property "Reference" "SW4"
-			(at 74.93 114.3 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-074K7L?qs=V1yeUXFNrkn%2FmCXC8N8TTA%3D%3D"
+			(at 1036.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 74.93 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 74.93 116.84 0)
+		(property "Arrow Part Number" "RC0402FR-074K7L"
+			(at 1136.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 121.92 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0402fr-074k7l/yageo"
+			(at 1236.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "8af739d8-a9f5-4f33-b023-d58aef7f5c20")
+			(uuid "1a85a69c-47f4-4317-a516-43d6d87d89b9")
 		)
 		(pin "2"
-			(uuid "5a821f50-4221-4eff-a4fa-a48f4a6095ff")
+			(uuid "dd513e17-fb94-427b-8410-b121a522d3c7")
 		)
 		(instances
 			(project "ElectroChessboard1"
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "SW4")
+					(reference "R39")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 74.93 91.44 0)
+		(lib_id "SamacSys_Parts:EVQ-9P105M")
+		(at 46.99 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5fb8fcf5-5022-4aa3-ab0b-02a839459ca7")
-		(property "Reference" "SW1"
-			(at 74.93 83.82 0)
+		(uuid "634e8989-15fa-4891-bda7-913ea21a7e31")
+		(property "Reference" "S2"
+			(at 60.96 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 74.93 86.36 0)
+		(property "Value" "EVQ-9P105M"
+			(at 60.96 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 74.93 86.36 0)
+		(property "Footprint" "SamacSys_Parts:EVQ9P105M"
+			(at 71.12 201.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_long.pdf"
+			(at 71.12 301.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount 3.5NF 6.0x6.1x5.0mm"
+			(at 46.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8754,77 +8788,105 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 74.93 86.36 0)
+		(property "Height" "5.2"
+			(at 71.12 501.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 91.44 0)
+		(property "Mouser Part Number" "667-EVQ-9P105M"
+			(at 71.12 601.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "859427a0-f1bc-4ce2-a25e-084eb47ab4f9")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-9P105M?qs=Ow%252BOiPmaljGBWYyxblHqgQ%3D%3D"
+			(at 71.12 701.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "d3f09135-254b-4e2a-8863-8571e416718c")
+		(property "Manufacturer_Name" "Panasonic"
+			(at 71.12 801.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVQ-9P105M"
+			(at 71.12 901.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "B1"
+			(uuid "7f776f9e-919d-4113-9abd-203f61865b68")
+		)
+		(pin "A1"
+			(uuid "059e473a-6565-4ae4-b1a2-4d5b21221809")
+		)
+		(pin "A2"
+			(uuid "1e216e65-1969-432f-acc6-9d5fec6d9e1e")
+		)
+		(pin "B2"
+			(uuid "06ab66af-9d61-44c3-b019-7e80829d0e0e")
 		)
 		(instances
-			(project ""
+			(project "ElectroChessboard1"
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "SW1")
+					(reference "S2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XO57CRECNA16M")
-		(at 88.9 40.64 180)
+		(lib_id "SamacSys_Parts:CL10C220JB8NNNC")
+		(at 71.12 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "778c61cd-2d99-4db2-8e9b-1adf60e3716d")
-		(property "Reference" "Y2"
-			(at 69.85 30.48 0)
+		(uuid "6997ca95-12cb-4e21-bd5e-9469f347e6cb")
+		(property "Reference" "C1"
+			(at 77.47 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "XO57CRECNA16M"
-			(at 69.85 33.02 0)
+		(property "Value" "CL10C220JB8NNNC"
+			(at 77.47 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "XO57CRECNA16M"
-			(at 54.61 -54.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 -154.28 0)
+		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+			(at 80.01 134.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,17 +8895,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Standard Clock Oscillators 16MHz"
-			(at 88.9 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.9"
-			(at 54.61 -354.28 0)
+		(property "Datasheet" "https://www.arrow.com/en/products/cl10c220jb8nnnc/samsung-electro-mechanics"
+			(at 80.01 234.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,8 +8905,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "73-XOSM57BRE16MHZ"
-			(at 54.61 -454.28 0)
+		(property "Description" "Samsung Electro-Mechanics CL10C220JB8NNNC 22pF Multilayer Ceramic Capacitor MLCC 50V dc +/-5% Tolerance SMD"
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 80.01 434.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8862,8 +8924,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/XO57CRECNA16M?qs=VsPLLCyI2ZLtoU%252BQ7ye5Yg%3D%3D"
-			(at 54.61 -554.28 0)
+		(property "Mouser Part Number" "187-CL10C220JB8NNNC"
+			(at 80.01 534.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,8 +8934,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 54.61 -654.28 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10C220JB8NNNC?qs=349EhDEZ59oibjgB6q8fqA%3D%3D"
+			(at 80.01 634.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,8 +8944,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XO57CRECNA16M"
-			(at 54.61 -754.28 0)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 80.01 734.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10C220JB8NNNC"
+			(at 80.01 834.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,54 +8965,68 @@
 			)
 		)
 		(pin "2"
-			(uuid "61546168-e4b2-4c3c-bf65-8c9a0f7d8a75")
-		)
-		(pin "4"
-			(uuid "02785c04-839c-43b6-a4b4-9853124e0650")
+			(uuid "9e84e561-4021-4442-ae32-c46526e15b6c")
 		)
 		(pin "1"
-			(uuid "e4235b16-23a0-4a40-b077-9c242b1a286b")
-		)
-		(pin "3"
-			(uuid "3cfb1434-4486-4d35-99e8-76f979b3affd")
+			(uuid "0d875d29-aa04-47f2-b2bb-d377c88c6c5c")
 		)
 		(instances
 			(project ""
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "Y2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 196.85 46.99 0)
+		(lib_id "SamacSys_Parts:1027")
+		(at 193.04 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e93a82d-9790-405f-88e0-5fde4567dcbb")
-		(property "Reference" "Y1"
-			(at 196.85 39.37 0)
+		(uuid "7a2ca968-85fc-423a-9088-a0bd58ca1ea7")
+		(property "Reference" "U2"
+			(at 182.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 196.85 41.91 0)
+		(property "Value" "1027"
+			(at 182.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 46.99 0)
+		(property "Footprint" "SamacSys_Parts:1027"
+			(at 176.53 -14.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=749"
+			(at 176.53 -114.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "KEYSTONE - 1027 - Battery Holder, Coin Cell - 23mm x 2, PCB, Through Hole"
+			(at 193.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,34 +9034,66 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 196.85 46.99 0)
+		(property "Height" "11.73"
+			(at 176.53 -314.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
-			(at 196.85 46.99 0)
+		(property "Mouser Part Number" "534-1027"
+			(at 176.53 -414.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1027?qs=TMDrOSIpnUczTafPesr6ug%3D%3D"
+			(at 176.53 -514.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 176.53 -614.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1027"
+			(at 176.53 -714.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "583a7ca8-c5d2-41b8-9fd5-23df19385fff")
+			(uuid "d1a886a2-25a1-41df-b7b2-415c56b1d133")
 		)
 		(pin "1"
-			(uuid "cf4bcf03-929b-4aaa-90c3-4cdfe2c1cade")
+			(uuid "0160687d-6dde-4dcb-b78d-fbf703a15483")
 		)
 		(instances
 			(project ""
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "Y1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8983,34 +9101,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 240.03 107.95 0)
+		(at 134.62 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80c95ce3-4557-410f-951c-929d043eaa9e")
-		(property "Reference" "R37"
-			(at 242.57 106.6799 0)
+		(uuid "7af051b9-a1f0-4beb-b7eb-aa5866988916")
+		(property "Reference" "R1"
+			(at 134.62 15.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 242.57 109.2199 0)
+			(at 134.62 17.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 238.252 107.95 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.62 23.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9019,7 +9134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 107.95 0)
+			(at 134.62 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +9143,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 240.03 107.95 0)
+			(at 134.62 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,16 +9151,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "64ed8b9a-41e0-4042-a9fc-6fd594b24516")
-		)
 		(pin "1"
-			(uuid "c8aea07e-0fb6-4567-8293-0710692ed84d")
+			(uuid "3278dd6d-5579-46bb-ac28-e4ebf77ce32d")
+		)
+		(pin "2"
+			(uuid "6b8a3ea8-3530-4061-bf79-e659061c5f43")
 		)
 		(instances
-			(project "ElectroChessboard1"
+			(project ""
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "R37")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9077,7 +9192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 96.52 35.56 0)
 			(effects
 				(font
@@ -9138,152 +9253,153 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:GCM21B5G1H103FA16L")
-		(at 68.58 21.59 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b346d024-d5ae-432a-ae3a-ed30abc1af9c")
-		(property "Reference" "C4"
-			(at 65.024 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GCM21B5G1H103FA16L"
-			(at 62.23 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GCM21"
-			(at 59.69 -74.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21B5G1H103FA16-01A.pdf"
-			(at 59.69 -174.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Chip Multilayer Ceramic Capacitors for Automotive (Powertrain/Safety), 1.6 x 0.8 (0603)"
-			(at 68.58 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.4"
-			(at 59.69 -374.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 59.69 -474.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 59.69 -574.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 59.69 -674.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GCM21B5G1H103FA16L"
-			(at 59.69 -774.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74750b89-e00f-47c0-910a-b06c84b07224")
-		)
-		(pin "2"
-			(uuid "53ff9672-e385-486a-94f9-591d39992f8d")
-		)
-		(instances
-			(project ""
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 222.25 82.55 90)
+		(lib_id "SamacSys_Parts:CL10C220JB8NNNC")
+		(at 52.07 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6e1cc7f-6664-4d35-a210-171fd249abbe")
-		(property "Reference" "BT1"
-			(at 220.4085 74.93 90)
+		(uuid "9ebeb76c-5ebc-4416-891a-99089ecdeeda")
+		(property "Reference" "C3"
+			(at 58.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 220.4085 77.47 90)
+		(property "Value" "CL10C220JB8NNNC"
+			(at 58.42 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 220.726 82.55 90)
+		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+			(at 60.96 136.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/cl10c220jb8nnnc/samsung-electro-mechanics"
+			(at 60.96 236.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samsung Electro-Mechanics CL10C220JB8NNNC 22pF Multilayer Ceramic Capacitor MLCC 50V dc +/-5% Tolerance SMD"
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 60.96 436.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10C220JB8NNNC"
+			(at 60.96 536.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10C220JB8NNNC?qs=349EhDEZ59oibjgB6q8fqA%3D%3D"
+			(at 60.96 636.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 60.96 736.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10C220JB8NNNC"
+			(at 60.96 836.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4aa51e34-2906-4aed-a05e-531b1131bc24")
+		)
+		(pin "1"
+			(uuid "4112e1d6-a2de-4b38-8293-6973b77de3bc")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 196.85 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a479751d-e721-4be4-888a-ca282deff1a2")
+		(property "Reference" "Y3"
+			(at 196.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal"
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical"
+			(at 196.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9292,7 +9408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.726 82.55 90)
+			(at 196.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,60 +9416,183 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 222.25 82.55 0)
+		(property "Description" "Two pin crystal"
+			(at 196.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "f7b413ce-5f71-4ebb-9f70-ececc63da087")
 		)
 		(pin "2"
-			(uuid "b405fc5a-b7c7-4a44-b74e-049bf7735124")
+			(uuid "fde3d3b3-2f83-4b0b-83fb-aa5e269c026f")
+		)
+		(pin "1"
+			(uuid "a51d8da9-de75-4777-a843-9f67e569c30a")
 		)
 		(instances
 			(project ""
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "BT1")
+					(reference "Y3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 181.61 143.51 0)
+		(lib_id "SamacSys_Parts:EVQ-9P105M")
+		(at 46.99 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c94e2daa-a1a5-4e2a-915d-2e1fa48d963b")
+		(uuid "affa662a-b488-4f41-bdd5-41b4e64b1e38")
+		(property "Reference" "S1"
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-9P105M"
+			(at 60.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:EVQ9P105M"
+			(at 71.12 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_long.pdf"
+			(at 71.12 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount 3.5NF 6.0x6.1x5.0mm"
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.2"
+			(at 71.12 487.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EVQ-9P105M"
+			(at 71.12 587.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-9P105M?qs=Ow%252BOiPmaljGBWYyxblHqgQ%3D%3D"
+			(at 71.12 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 71.12 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVQ-9P105M"
+			(at 71.12 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "B1"
+			(uuid "1b5368f0-6ec9-4dfb-aa1e-c671678999ed")
+		)
+		(pin "A1"
+			(uuid "17b569d7-cb30-4478-b457-fb6dd8989e41")
+		)
+		(pin "A2"
+			(uuid "abd47c43-4045-4460-8c16-9c41a9c78706")
+		)
+		(pin "B2"
+			(uuid "311f4946-2d49-4631-bc1a-6f997beba4a0")
+		)
+		(instances
+			(project ""
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 156.21 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db8f2070-a266-4209-88d9-aa8f2e8a6ef8")
 		(property "Reference" "J3"
-			(at 184.15 143.5099 0)
+			(at 151.13 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
-			(at 184.15 146.0499 0)
+		(property "Value" "Conn_01x04_Pin"
+			(at 158.496 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89006xx_1x06_P2.54mm_Horizontal"
-			(at 181.61 143.51 0)
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical_SMD_Pin1Left"
+			(at 156.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9362,7 +9601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 143.51 0)
+			(at 156.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,8 +9609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 181.61 143.51 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 156.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9380,22 +9619,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3581e5b-de48-4456-9c6b-b4f269eb76f0")
+			(uuid "243d6eb3-a4d8-4a76-9044-387a9c669509")
 		)
-		(pin "5"
-			(uuid "604e2097-ac21-49a1-bfe5-eae37d513aa1")
-		)
-		(pin "6"
-			(uuid "3ec51e05-44be-4bc4-a179-30dfdaad10fa")
+		(pin "2"
+			(uuid "a24384fc-8aa2-45d3-a0d5-f65e7435ee3b")
 		)
 		(pin "3"
-			(uuid "837283ff-a32a-4d3c-8fee-edac1508530f")
+			(uuid "32af2bae-d54a-4478-8aa2-9e951d921085")
 		)
 		(pin "4"
-			(uuid "617ca193-d809-49ca-b78b-52ab10fd08aa")
-		)
-		(pin "2"
-			(uuid "2d690b2f-a662-4631-8630-4355e599b3a9")
+			(uuid "65b55e06-cbef-4387-8c1a-831fe8a92efe")
 		)
 		(instances
 			(project ""
@@ -9407,33 +9640,54 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 49.53 73.66 180)
+		(lib_id "SamacSys_Parts:RC0402FR-074K7L")
+		(at 210.82 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1ed5df3-9302-4a72-8376-60532012529b")
-		(property "Reference" "J4"
-			(at 49.53 59.69 0)
+		(uuid "dd611b21-49cf-48f1-aecf-696b8a8fa9ea")
+		(property "Reference" "R38"
+			(at 213.36 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x06"
-			(at 49.53 62.23 0)
+		(property "Value" "RC0402FR-074K7L"
+			(at 190.5 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89006xx_1x06_P2.54mm_Horizontal"
-			(at 49.53 73.66 0)
+		(property "Footprint" "SamacSys_Parts:RESC1005X40N"
+			(at 307.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf"
+			(at 407.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0402FR-074K7L - RES, THICK FILM, 4K7, 1%, 0.063W, 0402"
+			(at 210.82 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,147 +9695,119 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 49.53 73.66 0)
+		(property "Height" "0.4"
+			(at 607.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 49.53 73.66 0)
+		(property "Manufacturer_Name" "KEMET"
+			(at 707.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-074K7L"
+			(at 807.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402FR-074K7L"
+			(at 907.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-074K7L?qs=V1yeUXFNrkn%2FmCXC8N8TTA%3D%3D"
+			(at 1007.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0402FR-074K7L"
+			(at 1107.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0402fr-074k7l/yageo"
+			(at 1207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "7c750856-1817-45ec-b0ea-dabf09e32409")
-		)
-		(pin "5"
-			(uuid "cbf8d067-f918-4c05-a5ae-4af0a64c119f")
-		)
-		(pin "6"
-			(uuid "0aa6af26-7153-45ba-a5a3-64265f32acd1")
-		)
-		(pin "3"
-			(uuid "1f22f63d-954e-4c6f-9bef-aa29ec02b07e")
-		)
-		(pin "4"
-			(uuid "78fceea5-df52-419e-bbee-9f0889c4be07")
+			(uuid "aa952fcd-3b5f-4476-b5a3-c6dd6657ec8e")
 		)
 		(pin "2"
-			(uuid "196605d1-7fa7-4ba3-beae-8478eb9f0f81")
+			(uuid "9fbba9c2-9377-4a5c-a25d-a9bef115acdb")
 		)
 		(instances
-			(project "ElectroChessboard1"
+			(project ""
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "J4")
+					(reference "R38")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 74.93 101.6 0)
+		(lib_id "SamacSys_Parts:EVQ-9P105M")
+		(at 46.99 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e457198f-3e15-480f-bb39-471f921137c8")
-		(property "Reference" "SW2"
-			(at 74.93 93.98 0)
+		(uuid "e603e55b-4c59-4ee5-9592-6765dcaf8703")
+		(property "Reference" "S3"
+			(at 60.96 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 74.93 96.52 0)
+		(property "Value" "EVQ-9P105M"
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 74.93 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84065a7b-827f-412e-9786-541d293bf23e")
-		)
-		(pin "2"
-			(uuid "7a64f7ce-f60a-4442-a50d-1f21d5ab4e02")
-		)
-		(instances
-			(project "ElectroChessboard1"
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:ERA-6ARW512V")
-		(at 125.73 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8d460a9-25d9-407c-af6c-3baa5cac357f")
-		(property "Reference" "R1"
-			(at 134.62 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ERA-6ARW512V"
-			(at 134.62 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ERA6AEB101V"
-			(at 139.7 117.78 0)
+		(property "Footprint" "SamacSys_Parts:EVQ9P105M"
+			(at 71.12 215.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9590,8 +9816,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ERA-6ARW512V.pdf"
-			(at 139.7 217.78 0)
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_long.pdf"
+			(at 71.12 315.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,8 +9826,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD 0805 5.1Kohm 0.05% 10ppm AEC-Q200"
-			(at 125.73 21.59 0)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount 3.5NF 6.0x6.1x5.0mm"
+			(at 46.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,18 +9835,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.6"
-			(at 139.7 417.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ERA-6ARW512V"
-			(at 139.7 517.78 0)
+		(property "Height" "5.2"
+			(at 71.12 515.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,8 +9845,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "http://www.mouser.com/Search/ProductDetail.aspx?qs=ob%252bdNz2%252bYEhbVVWKak058A%3d%3d"
-			(at 139.7 617.78 0)
+		(property "Mouser Part Number" "667-EVQ-9P105M"
+			(at 71.12 615.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-9P105M?qs=Ow%252BOiPmaljGBWYyxblHqgQ%3D%3D"
+			(at 71.12 715.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +9866,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 139.7 717.78 0)
+			(at 71.12 815.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,8 +9875,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERA-6ARW512V"
-			(at 139.7 817.78 0)
+		(property "Manufacturer_Part_Number" "EVQ-9P105M"
+			(at 71.12 915.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9659,51 +9885,177 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "15ff5245-13f5-483e-ab95-ae0ba2263c35")
+		(pin "B1"
+			(uuid "53ed02aa-684d-40a6-8d86-5f94c2eb544b")
 		)
-		(pin "2"
-			(uuid "f3d3e0c0-9389-4361-944d-ddf69a5ad132")
+		(pin "A1"
+			(uuid "6341a102-505e-49f5-8acc-c42aad452237")
+		)
+		(pin "A2"
+			(uuid "9bfd2ea1-bff9-4235-98a1-fb4129afba93")
+		)
+		(pin "B2"
+			(uuid "70127350-ad22-44c8-b7eb-fde99c545f1a")
 		)
 		(instances
-			(project ""
+			(project "ElectroChessboard1"
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "R1")
+					(reference "S3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 210.82 107.95 0)
+		(lib_id "SamacSys_Parts:CL10B104KC8NNNC")
+		(at 38.1 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f941a7fa-e4cf-4e99-afca-3d65ed7908bb")
-		(property "Reference" "R36"
-			(at 213.36 106.6799 0)
+		(uuid "ed8c3c6b-0048-429e-b11f-141516635c3e")
+		(property "Reference" "C4"
+			(at 44.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 213.36 109.2199 0)
+		(property "Value" "CL10B104KC8NNNC"
+			(at 44.45 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 209.042 107.95 90)
+		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+			(at 46.99 144.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/373511.pdf"
+			(at 46.99 244.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samsung"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 46.99 444.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10B104KC8NNNC"
+			(at 46.99 544.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10B104KC8NNNC?qs=%2FukktrhNKsY5bKXvqblW4Q%3D%3D"
+			(at 46.99 644.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 46.99 744.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KC8NNNC"
+			(at 46.99 844.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4874dca4-f04e-47ef-8cad-78c9cf08644c")
+		)
+		(pin "1"
+			(uuid "4c6cb579-00c9-449f-882f-b5ebf52bd29e")
+		)
+		(instances
+			(project ""
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 87.63 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fefa9efb-c93f-48b5-b9d7-31e73f5d1078")
+		(property "Reference" "Y1"
+			(at 91.44 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Crystal"
+			(at 91.44 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +10064,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 107.95 0)
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,25 +10072,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 210.82 107.95 0)
+		(property "Description" "Two pin crystal"
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "ceaa5f6b-3b9a-4db0-98c8-61e802094ca5")
 		)
 		(pin "1"
-			(uuid "9762ee83-edeb-42c3-b92e-52fe0af61933")
+			(uuid "8fb6c775-68db-4236-884b-3ec2fbf95455")
+		)
+		(pin "2"
+			(uuid "811d427a-64de-4723-a49d-346aa41d5462")
 		)
 		(instances
 			(project ""
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
-					(reference "R36")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -9851,7 +10203,7 @@
 			)
 		)
 		(property "Sheetfile" "BoardHalls2.kicad_sch"
-			(at 258.064 51.054 0)
+			(at 258.064 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +10368,7 @@
 			)
 		)
 		(property "Sheetfile" "BoardHalls4.kicad_sch"
-			(at 258.064 71.374 0)
+			(at 258.064 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2790,7 +2790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at 42.24 80.01 0)
 			(effects
 				(font
@@ -2915,7 +2915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at -63.17 152.4 0)
 			(effects
 				(font
@@ -3040,7 +3040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at 118.44 80.01 0)
 			(effects
 				(font
@@ -3162,7 +3162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-16N"
+		(property "Footprint" "SamacSys_Parts:SOP65P640X120-16N"
 			(at 245.11 196.52 0)
 			(effects
 				(font
@@ -3326,7 +3326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at 89.23 152.4 0)
 			(effects
 				(font
@@ -3451,7 +3451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at 114.63 152.4 0)
 			(effects
 				(font
@@ -3576,7 +3576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at -59.36 80.01 0)
 			(effects
 				(font
@@ -3701,7 +3701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at -33.96 80.01 0)
 			(effects
 				(font
@@ -3826,7 +3826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at 16.84 80.01 0)
 			(effects
 				(font
@@ -3948,7 +3948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-16N"
+		(property "Footprint" "SamacSys_Parts:SOP65P640X120-16N"
 			(at 248.92 124.13 0)
 			(effects
 				(font
@@ -4112,7 +4112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at 13.03 152.4 0)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at 38.43 152.4 0)
 			(effects
 				(font
@@ -4362,7 +4362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at -8.56 80.01 0)
 			(effects
 				(font
@@ -4487,7 +4487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at 63.83 152.4 0)
 			(effects
 				(font
@@ -4612,7 +4612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at 93.04 80.01 0)
 			(effects
 				(font
@@ -4737,7 +4737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at 67.64 80.01 0)
 			(effects
 				(font
@@ -4862,7 +4862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at -12.37 152.4 0)
 			(effects
 				(font
@@ -4987,7 +4987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3213ELHLTT"
+		(property "Footprint" "SamacSys_Parts:A3213ELHLTT"
 			(at -37.77 152.4 0)
 			(effects
 				(font
