@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "User" 600 600)
+	(paper "User" 390 390)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -334,7 +334,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0041aafc-4737-475a-aa0a-804089bdca17")
-		(at 146.13 48.535)
+		(at -77.63 78.575)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D22"
@@ -570,7 +570,7 @@
 	(footprint "SamacSys_Parts:SOP65P640X120-16N"
 		(layer "F.Cu")
 		(uuid "01bc1c49-f357-4ccb-814d-1b8e2a06c5e0")
-		(at 450.312 189.275)
+		(at 283.062 45.775)
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC9"
@@ -1000,7 +1000,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "037c120d-0beb-4c2f-95c8-be775c6f3dd9")
-		(at 180.455 110)
+		(at -43.305 140.04)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C10"
@@ -1244,7 +1244,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "03a6c271-0bf0-4e1f-9730-c85f4e11cbab")
-		(at 180.18 54.615)
+		(at -43.58 84.655)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D16"
@@ -1480,7 +1480,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "04346c24-9d51-4ef6-8c5f-8468af214e2d")
-		(at 175.73 51.575)
+		(at -48.03 81.615)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D11"
@@ -1716,7 +1716,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "04d8d830-6421-416a-aed9-e79d8719b4d2")
-		(at 246.75 369.95)
+		(at 79.25 224.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC58"
@@ -2061,7 +2061,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "05b3f605-eb26-4804-92d1-b078381a2bf6")
-		(at 246.75 339.95)
+		(at 79.5 194.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC39"
@@ -2406,7 +2406,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0a8e9bdc-4c18-46a1-aca2-87e805e0a28d")
-		(at 180.18 45.495)
+		(at -43.58 75.535)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D13"
@@ -2642,7 +2642,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "0b65adbd-143e-4411-9184-e5a7e262637e")
-		(at 306.75 399.95)
+		(at 139.25 254.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC61"
@@ -2987,7 +2987,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "0e8b0da5-23c3-4177-8626-4567e3946740")
-		(at 366.17 188.95)
+		(at 199.75 44.95)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC6"
@@ -3332,7 +3332,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "102706de-d31c-4a1c-8f18-4a8b828e70db")
-		(at 183.685 65.81)
+		(at -40.075 95.85)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R7"
@@ -3602,7 +3602,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "109b9642-dfb3-43f8-be34-e6ee071a1a9a")
-		(at 171.28 54.615)
+		(at -52.48 84.655)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D8"
@@ -3838,7 +3838,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "10d76464-5cfd-4a56-a823-f998269d44be")
-		(at 428.25 188.7)
+		(at 260 44.95)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC8"
@@ -4183,7 +4183,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "115a1f1f-a614-4176-bdd4-8a25aa469ed3")
-		(at 184.63 54.615)
+		(at -39.13 84.655)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D20"
@@ -4419,7 +4419,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "12334bd1-46b1-4563-99c9-dbdefb0bbfe0")
-		(at 276.75 249.95)
+		(at 109.5 104.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC24"
@@ -4764,7 +4764,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "16f203bc-338a-4a7c-9f13-c6d2d0ccd527")
-		(at 165.335 63.66)
+		(at -58.425 93.7)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R34"
@@ -5034,7 +5034,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "18cbafed-3545-4a53-b72b-917b2a40a0fd")
-		(at 161.935 57.21)
+		(at -61.825 87.25)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R25"
@@ -5304,7 +5304,7 @@
 	(footprint "SamacSys_Parts:1027"
 		(layer "F.Cu")
 		(uuid "1baf394b-6c1b-4d9f-82b4-965f01a77339")
-		(at 114.715 72.505)
+		(at -109.045 102.545)
 		(descr "1027-3")
 		(tags "Undefined or Miscellaneous")
 		(property "Reference" "U2"
@@ -5687,7 +5687,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "1bca3da0-ac8f-4551-9e52-feb829218119")
-		(at 187.085 67.96)
+		(at -36.675 98)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R14"
@@ -5957,7 +5957,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "1ef4ee52-0b62-419a-8bea-b45ae95ad737")
-		(at 161.935 61.51)
+		(at -61.825 91.55)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R27"
@@ -6227,7 +6227,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "21433d69-f87e-4ed6-8b3b-ac2fdf9162d0")
-		(at 187.085 57.21)
+		(at -36.675 87.25)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R9"
@@ -6497,7 +6497,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "23981822-63d3-47d1-8aa0-ad4a84d43a87")
-		(at 175.73 48.535)
+		(at -48.03 78.575)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D10"
@@ -6733,7 +6733,7 @@
 	(footprint "SamacSys_Parts:EVQ9P105M"
 		(layer "F.Cu")
 		(uuid "23e36021-a479-426d-90ee-16ae71338e51")
-		(at 94.025 50.525)
+		(at -129.735 80.565)
 		(descr "EVQ-9P105M-2")
 		(tags "Switch")
 		(property "Reference" "S1"
@@ -7077,7 +7077,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "2aea7ce3-79fd-48ea-b290-c5674f8bac29")
-		(at 277 218.695)
+		(at 109.75 74.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC12"
@@ -7422,7 +7422,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "2cc807d9-54fe-4f4d-b4d7-af0a0b2cabbc")
-		(at 306.75 249.95)
+		(at 139.5 104.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC26"
@@ -7767,7 +7767,7 @@
 	(footprint "SamacSys_Parts:EVQ9P105M"
 		(layer "F.Cu")
 		(uuid "2d9d5d7c-62c6-4e95-a3a8-1c410c03dbb2")
-		(at 121.325 50.525)
+		(at -102.435 80.565)
 		(descr "EVQ-9P105M-2")
 		(tags "Switch")
 		(property "Reference" "S4"
@@ -8111,7 +8111,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2ef6862e-68c6-4c28-a7de-3094f425fce7")
-		(at 146.13 51.575)
+		(at -77.63 81.615)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D23"
@@ -8347,7 +8347,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "2fe10a14-2d7f-4329-8549-d47dbf507836")
-		(at 183.685 61.51)
+		(at -40.075 91.55)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R5"
@@ -8617,7 +8617,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "30341bcd-2b63-4091-a2c9-dcea100de57d")
-		(at 190.485 61.51)
+		(at -33.275 91.55)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R17"
@@ -8887,7 +8887,7 @@
 	(footprint "SamacSys_Parts:EVQ9P105M"
 		(layer "F.Cu")
 		(uuid "323a3bfa-03e6-430c-9b40-6b4a73cf9c45")
-		(at 112.225 50.525)
+		(at -111.535 80.565)
 		(descr "EVQ-9P105M-2")
 		(tags "Switch")
 		(property "Reference" "S3"
@@ -9231,7 +9231,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "3422c5eb-b2e5-45c5-a0b0-0c652c7ca751")
-		(at 158.535 65.81)
+		(at -65.225 95.85)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R23"
@@ -9501,7 +9501,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "374811cb-3315-47f0-929e-6cfac6b96b7d")
-		(at 246.75 309.95)
+		(at 79.5 164.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC40"
@@ -9846,7 +9846,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "39bdaa75-312b-410e-b538-f5eb04fc89e2")
-		(at 426.75 309.95)
+		(at 259.5 164.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC52"
@@ -10191,7 +10191,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "3ac00d72-b776-468b-91c8-0c3c8b655580")
-		(at 276.75 339.95)
+		(at 109.5 194.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC41"
@@ -10536,7 +10536,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "3c38954d-1785-44f1-9c93-95402c7ad73e")
-		(at 150.58 48.535)
+		(at -73.18 78.575)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D26"
@@ -10772,7 +10772,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "3fd97dd9-3dcc-4225-92ae-b2ac79ef42bc")
-		(at 171.28 48.535)
+		(at -52.48 78.575)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D6"
@@ -11008,7 +11008,7 @@
 	(footprint "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical_SMD_Pin1Left"
 		(layer "F.Cu")
 		(uuid "42dec9d6-7463-4fae-bfa1-8b36039eccba")
-		(at 128.85 53.8)
+		(at -94.91 83.84)
 		(descr "surface-mounted straight socket strip, 1x04, 1.00mm pitch, single row, style 1 (pin 1 left) (https://gct.co/files/drawings/bc070.pdf), script generated")
 		(tags "Surface mounted socket strip SMD 1x04 1.00mm single row style1 pin1 left")
 		(property "Reference" "J3"
@@ -11427,7 +11427,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "43d02f3d-c4f0-426d-9987-103601dec77e")
-		(at 366.75 219.95)
+		(at 199.75 74.45)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC15"
@@ -11772,7 +11772,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "4414c11c-c37c-42b5-9997-f6215d13f451")
-		(at 158.535 61.51)
+		(at -65.225 91.55)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R21"
@@ -12042,7 +12042,7 @@
 	(footprint "SamacSys_Parts:SOIC127P600X175-8N"
 		(layer "F.Cu")
 		(uuid "4634f1fe-014c-4dbf-a18c-eff6377ab474")
-		(at 130.125 47.25)
+		(at -93.635 77.29)
 		(descr "soic8-ren3")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC75"
@@ -12400,7 +12400,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "475b0e2a-fc07-4e10-b164-98176a650e84")
-		(at 165.335 65.81)
+		(at -58.425 95.85)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R35"
@@ -12670,7 +12670,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "47f118f2-45ae-40ad-9870-2a2d03620ec8")
-		(at 136.125 49.7)
+		(at -87.635 79.74)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C4"
@@ -12914,7 +12914,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "48e9b29d-67d6-4b1e-a9d3-a48d12b4131b")
-		(at 158.535 67.96)
+		(at -65.225 98)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R24"
@@ -13184,7 +13184,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "4b109154-ab37-4887-ab19-fe1064ffe0a7")
-		(at 306.75 279.95)
+		(at 139.5 134.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC25"
@@ -13529,7 +13529,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "4d369dd5-5b3c-46ae-8343-3d936d64907b")
-		(at 366.75 369.95)
+		(at 199.25 224.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC66"
@@ -13874,7 +13874,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "4ec5b856-0a81-47ba-b3e1-7834205314b0")
-		(at 216.51 218.45)
+		(at 49.26 74.95)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC10"
@@ -14219,7 +14219,7 @@
 	(footprint "SamacSys_Parts:SOP65P640X120-16N"
 		(layer "F.Cu")
 		(uuid "503721aa-abba-4d4f-963b-9516381761e5")
-		(at 448.062 400.975)
+		(at 280.812 257.475)
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC71"
@@ -14649,7 +14649,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "51764bf6-041d-4ee0-98f2-9aa6f3771785")
-		(at 336.75 279.95)
+		(at 169.5 134.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC27"
@@ -14994,7 +14994,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "540bd995-008b-4dc9-bf37-78891ade4b78")
-		(at 336.75 399.95)
+		(at 169.25 254.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC63"
@@ -15339,7 +15339,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "54482e21-bcfc-4057-a484-f792e3e3b433")
-		(at 183.685 67.96)
+		(at -40.075 98)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R8"
@@ -15609,7 +15609,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "57a94df4-6490-4776-b366-b6bced16f2a7")
-		(at 397.75 188.7)
+		(at 230 45.2)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC7"
@@ -15954,7 +15954,7 @@
 	(footprint "SamacSys_Parts:SOP65P640X120-16N"
 		(layer "F.Cu")
 		(uuid "582ffc57-269e-4f73-856d-fd012e4dbece")
-		(at 450.812 279.725)
+		(at 283.562 136.225)
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC35"
@@ -16384,7 +16384,7 @@
 	(footprint "SamacSys_Parts:SOIC127P1030X265-24N"
 		(layer "F.Cu")
 		(uuid "59c12375-1bf5-47fa-b8ae-881c8d0d4787")
-		(at 175.51 64.71)
+		(at -48.25 94.75)
 		(descr "DW (R-PDSO-G24)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC73"
@@ -16886,7 +16886,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "5b324052-692e-43c3-9b92-a3312af59581")
-		(at 190.485 65.81)
+		(at -33.275 95.85)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R19"
@@ -17156,7 +17156,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "5d306115-43c0-46e9-9719-4313d269d26d")
-		(at 216.75 399.95)
+		(at 49.25 254.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC55"
@@ -17501,7 +17501,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "5e3cdac1-bb15-4dce-9d73-fb3c583d6c9b")
-		(at 216.75 188.75)
+		(at 49.5 45.25)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
@@ -17846,7 +17846,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "5e572a34-27e4-418a-adbf-5eb254ca6049")
-		(at 306.75 369.95)
+		(at 139.25 224.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC62"
@@ -18191,7 +18191,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "60c1ab8f-6e0a-4b6a-8bd2-2d58039b2275")
-		(at 165.335 57.21)
+		(at -58.425 87.25)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R31"
@@ -18461,7 +18461,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "61754392-1d19-4009-b8ac-cfe7474e824b")
-		(at 190.485 57.21)
+		(at -33.275 87.25)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R15"
@@ -18731,7 +18731,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "6250770c-e8a3-4758-8e85-473af3229057")
-		(at 307.25 189.45)
+		(at 139.75 44.95)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC4"
@@ -19076,7 +19076,7 @@
 	(footprint "SamacSys_Parts:SOP65P640X120-16N"
 		(layer "F.Cu")
 		(uuid "64684520-1030-4cae-89aa-ecc43e8b47b3")
-		(at 449.562 310.475)
+		(at 282.312 166.975)
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC54"
@@ -19506,7 +19506,7 @@
 	(footprint "SamacSys_Parts:SOP65P640X120-16N"
 		(layer "F.Cu")
 		(uuid "65531645-01a6-4982-9fdf-6887ef2734d9")
-		(at 449.25 338.75)
+		(at 282 195.25)
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC53"
@@ -19936,7 +19936,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "67bab217-eaaf-4206-bc43-0b9b5b5f55b2")
-		(at 180.455 105.42)
+		(at -43.305 135.46)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C5"
@@ -20180,7 +20180,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "6a13077a-c145-4b82-8e79-f7df325fedcb")
-		(at 159.48 51.575)
+		(at -64.28 81.615)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D35"
@@ -20416,7 +20416,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "6a737268-8206-4f73-9d9e-e3b3dc50415c")
-		(at 216.75 279.95)
+		(at 49.5 134.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC19"
@@ -20761,7 +20761,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "6ca91ba7-5fb4-4d18-8260-8e1112f760a4")
-		(at 139.575 47.2)
+		(at -84.185 77.24)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R39"
@@ -21031,7 +21031,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "6cfbcac3-38ce-4b86-975b-d7d4f267c718")
-		(at 426.75 369.95)
+		(at 259.25 224.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC70"
@@ -21376,7 +21376,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "6d6955c0-3397-4d2d-87dc-2835496e1b3b")
-		(at 155.03 45.495)
+		(at -68.73 75.535)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D29"
@@ -21612,7 +21612,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "6e9bd4af-d5f0-485c-954c-e656ea57b12d")
-		(at 276.75 279.95)
+		(at 109.5 134.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC23"
@@ -21957,7 +21957,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "6ecde71c-72a5-484e-b331-645ccecaa31f")
-		(at 150.58 51.575)
+		(at -73.18 81.615)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D27"
@@ -22193,7 +22193,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "6f9f6819-6ea1-4938-b10c-df1aa101286f")
-		(at 175.73 45.495)
+		(at -48.03 75.535)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D9"
@@ -22429,7 +22429,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "736a4568-019b-497a-8b7e-3f938d1904e0")
-		(at 139.575 45.05)
+		(at -84.185 75.09)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R38"
@@ -22699,7 +22699,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "739540b8-35f9-41ee-863c-9aa55cf073c2")
-		(at 336.75 309.95)
+		(at 169.5 164.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC46"
@@ -23044,7 +23044,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "764e177b-35de-49b5-b359-2bc6aaac92d0")
-		(at 159.48 45.495)
+		(at -64.28 75.535)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D33"
@@ -23280,7 +23280,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "784f0189-3cce-4cde-b6d2-416b195be68f")
-		(at 190.485 59.36)
+		(at -33.275 89.4)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R16"
@@ -23550,7 +23550,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "7d999d79-9eb4-42be-b58e-4dd5888b6c5e")
-		(at 161.935 65.81)
+		(at -61.825 95.85)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R29"
@@ -23820,7 +23820,7 @@
 	(footprint "SamacSys_Parts:0603L050SLYR"
 		(layer "F.Cu")
 		(uuid "7ddac886-bdf7-4180-b03e-0823e6b76676")
-		(at 185.155 106.325)
+		(at -38.605 136.365)
 		(descr "0603L050SLYR")
 		(tags "Resettable Fuse")
 		(property "Reference" "F1"
@@ -24116,7 +24116,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "7de76b80-7d15-41d7-bb9a-386ad3288c06")
-		(at 246.75 279.95)
+		(at 79.5 134.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC21"
@@ -24461,7 +24461,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "7e464f87-5251-490b-8e8a-64b52f624c33")
-		(at 184.63 51.575)
+		(at -39.13 81.615)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D19"
@@ -24697,7 +24697,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "7e6344bb-46e8-4ed1-94a6-82a6473d2848")
-		(at 366.75 339.95)
+		(at 199.5 194.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC47"
@@ -25042,7 +25042,7 @@
 	(footprint "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical_SMD_Pin1Right"
 		(layer "F.Cu")
 		(uuid "8071a544-9ec2-4592-90e2-3126451d0e1b")
-		(at 132.46 85.95)
+		(at -91.3 115.99)
 		(descr "surface-mounted straight socket strip, 1x06, 1.00mm pitch, single row, style 2 (pin 1 right) (https://gct.co/files/drawings/bc070.pdf), script generated")
 		(tags "Surface mounted socket strip SMD 1x06 1.00mm single row style2 pin1 right")
 		(property "Reference" "J6"
@@ -25559,7 +25559,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "83d566d2-2a7d-4dba-ba90-70f97a81036f")
-		(at 366.75 309.95)
+		(at 199.5 164.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC48"
@@ -25904,7 +25904,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "8456f0d9-1cae-4592-8a20-226950486b7f")
-		(at 216.75 369.95)
+		(at 49.25 224.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC56"
@@ -26249,7 +26249,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "8458cae8-2bc5-4ccc-b4f9-e22488ebeb61")
-		(at 246.75 399.95)
+		(at 79.25 254.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC57"
@@ -26594,7 +26594,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "84c2cbc1-34c8-4127-a3fd-a0f383fa94eb")
-		(at 426.75 399.95)
+		(at 259.25 254.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC69"
@@ -26939,7 +26939,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "86240057-355a-45f6-8c07-5829b34c5489")
-		(at 426.75 219.95)
+		(at 259.75 74.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC17"
@@ -27284,7 +27284,7 @@
 	(footprint "SamacSys_Parts:SOIC127P1030X265-24N"
 		(layer "F.Cu")
 		(uuid "863ec863-a03f-48e9-814c-b638de4a76b5")
-		(at 150.36 64.71)
+		(at -73.4 94.75)
 		(descr "DW (R-PDSO-G24)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC74"
@@ -27786,7 +27786,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "878b10e1-2ed3-4494-9900-b59b8551af24")
-		(at 183.685 63.66)
+		(at -40.075 93.7)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R6"
@@ -28056,7 +28056,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "878ea73e-9eeb-433a-acf4-aefb7e7054e6")
-		(at 396.75 219.95)
+		(at 230 74.45)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC16"
@@ -28401,7 +28401,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "879b75e4-083c-4e8b-80b2-ebd6ceaefba0")
-		(at 184.63 48.535)
+		(at -39.13 78.575)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D18"
@@ -28637,7 +28637,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "89885f4e-cae0-4a6e-964a-73e194ada85d")
-		(at 146.13 54.615)
+		(at -77.63 84.655)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D24"
@@ -28873,7 +28873,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "8bf18b72-e19d-48f9-867b-cc85cfe3b9db")
-		(at 165.335 59.36)
+		(at -58.425 89.4)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R32"
@@ -29143,7 +29143,7 @@
 	(footprint "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "8cb494a2-8dda-4bca-9157-d6e60f70a6f7")
-		(at 183.98 98.25)
+		(at -39.78 128.29)
 		(descr "28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
 		(tags "SSOP 0.65")
 		(property "Reference" "U3"
@@ -29634,7 +29634,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "8d4d4e8e-fa38-40fb-95ac-6aa79a1b9060")
-		(at 396.75 309.95)
+		(at 229.5 164.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC50"
@@ -29979,7 +29979,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "8d6b2711-219c-4872-9e90-2d35fa0b90c2")
-		(at 246.75 219.95)
+		(at 79.5 74.45)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC11"
@@ -30324,7 +30324,7 @@
 	(footprint "SamacSys_Parts:SOP65P640X120-16N"
 		(layer "F.Cu")
 		(uuid "8f3fcb30-0b13-4353-8baa-d9a097f6bf3e")
-		(at 448.562 369.475)
+		(at 281.312 225.975)
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC72"
@@ -30754,7 +30754,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "901cf343-a525-499b-8b4d-5a98c8875699")
-		(at 246.75 188.55)
+		(at 79.5 45.05)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC2"
@@ -31099,7 +31099,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "91fe6a0b-cf3d-48d1-9759-661df6ba5162")
-		(at 187.085 61.51)
+		(at -36.675 91.55)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R11"
@@ -31369,7 +31369,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "921b42c2-5268-47dc-913c-bd7d59232dd7")
-		(at 155.03 48.535)
+		(at -68.73 78.575)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D30"
@@ -31605,7 +31605,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "930540bc-60e8-4c9f-bc27-b0d26d95d416")
-		(at 165.335 61.51)
+		(at -58.425 91.55)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R33"
@@ -31875,7 +31875,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "9313ce9b-bd47-4462-9cde-50f24a01c348")
-		(at 396.75 339.95)
+		(at 229.5 194.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC49"
@@ -32220,7 +32220,7 @@
 	(footprint "SamacSys_Parts:BEADC1608X95N"
 		(layer "F.Cu")
 		(uuid "93975adc-e8cb-4f5c-9855-89ce1f29be61")
-		(at 184.23 109.65)
+		(at -39.53 139.69)
 		(descr "GZ1608D601TF*-*")
 		(tags "Ferrite Bead")
 		(property "Reference" "FB1"
@@ -32500,7 +32500,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "93ade088-0a5e-482b-8925-60818aac138d")
-		(at 187.085 63.66)
+		(at -36.675 93.7)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R12"
@@ -32770,7 +32770,7 @@
 	(footprint "Package_QFP:TQFP-100_14x14mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "95ece972-549a-4027-90af-6e8b19487736")
-		(at 132.71 66.25)
+		(at -91.05 96.29)
 		(descr "TQFP, 100 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TQFP QFP")
 		(property "Reference" "U1"
@@ -34233,7 +34233,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "961ac37e-dae8-4f38-9993-eda4c3dd6cb0")
-		(at 247.3 249.3)
+		(at 80 104.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC22"
@@ -34578,7 +34578,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "984c5d25-2bef-456d-9956-462183c99a3f")
-		(at 396.75 279.95)
+		(at 229.5 134.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC31"
@@ -34923,7 +34923,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "9ce1ac74-5ec1-4c93-bee8-f55df68d63c5")
-		(at 146.13 45.495)
+		(at -77.63 75.535)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D21"
@@ -35159,7 +35159,7 @@
 	(footprint "Capacitor_SMD:CP_Elec_4x5.4"
 		(layer "F.Cu")
 		(uuid "9f5946fe-92a4-478e-a6d2-ab348d602d4b")
-		(at 163.79 113.2)
+		(at -59.97 143.24)
 		(descr "SMD capacitor, aluminum electrolytic, Panasonic A5 / Nichicon, 4.0x5.4mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C9"
@@ -35591,7 +35591,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "9f73ede5-4f2b-48b8-b8ba-f1b45ae1cec3")
-		(at 180.455 107.71)
+		(at -43.305 137.75)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C8"
@@ -35835,7 +35835,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a0838ddf-d0f9-4dc0-a516-07471e8deab2")
-		(at 159.48 54.615)
+		(at -64.28 84.655)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D36"
@@ -36071,7 +36071,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "a132da5c-6880-48c3-a41b-61fcab019070")
-		(at 276.75 309.95)
+		(at 109.5 164.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC42"
@@ -36416,7 +36416,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "a3f586f6-214e-434f-ad26-a447fcac2359")
-		(at 336.75 249.95)
+		(at 169.5 104.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC28"
@@ -36761,7 +36761,7 @@
 	(footprint "Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
 		(layer "F.Cu")
 		(uuid "a5265238-e7c0-4220-8469-ee561e09e09d")
-		(at 162.525 100)
+		(at -61.235 130.04)
 		(descr "USB 2.0 receptacle type B, horizontal version, through-hole, https://downloads.lumberg.com/datenblaetter/en/2411_02.pdf")
 		(tags "USB B receptacle horizontal through-hole")
 		(property "Reference" "J1"
@@ -37100,7 +37100,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "a5285ddc-62c4-4370-999b-c22feb6fa890")
-		(at 336.75 369.95)
+		(at 169.25 224.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC64"
@@ -37445,7 +37445,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "a6b63130-6edf-449e-a0b5-dbc4d0938f23")
-		(at 396.75 399.95)
+		(at 229.25 254.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC67"
@@ -37790,7 +37790,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a7b74760-99a4-4fe4-8c0a-814e4f648e95")
-		(at 155.03 51.575)
+		(at -68.73 81.615)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D31"
@@ -38026,7 +38026,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "a85cd5aa-1a92-4de5-b61f-4714900c6e76")
-		(at 276.75 399.95)
+		(at 109.25 254.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC59"
@@ -38371,7 +38371,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "a9712c6d-1e7a-4419-9981-c320951c7f63")
-		(at 306.75 219.95)
+		(at 139.5 74.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC13"
@@ -38716,7 +38716,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "abf70fd5-5b6e-41c2-abdb-57a2b900efab")
-		(at 139.33 49.27)
+		(at -84.43 79.31)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -38917,7 +38917,7 @@
 	(footprint "Crystal:Crystal_SMD_HC49-SD"
 		(layer "F.Cu")
 		(uuid "ac9f329a-e8ac-4022-8891-325a1a31a79f")
-		(at 130.86 78.55)
+		(at -92.9 108.59)
 		(descr "SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
@@ -39170,7 +39170,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "ad6a5707-f91e-422d-97d2-efc3cd19b6df")
-		(at 187.085 59.36)
+		(at -36.675 89.4)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R10"
@@ -39440,7 +39440,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ae058a51-878d-4cf7-a9fc-236a767dadd6")
-		(at 150.58 54.615)
+		(at -73.18 84.655)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D28"
@@ -39676,7 +39676,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "ae645198-838b-4211-ae4f-b98d30c3e34e")
-		(at 158.535 63.66)
+		(at -65.225 93.7)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R22"
@@ -39946,7 +39946,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "af21ede1-7a5c-400f-87de-a5491362b1a5")
-		(at 175.73 54.615)
+		(at -48.03 84.655)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D12"
@@ -40182,7 +40182,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "af8d8177-dc12-4994-9328-ccea14cde0b8")
-		(at 306.75 309.95)
+		(at 139.5 164.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC44"
@@ -40527,7 +40527,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "b17002af-dfb3-4031-8381-2a1e4d0b464d")
-		(at 396.75 369.95)
+		(at 229.25 224.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC68"
@@ -40872,7 +40872,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "b37c5e67-b1e2-48a3-a01d-572702b0e22d")
-		(at 336.75 189.95)
+		(at 169.5 44.95)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC5"
@@ -41217,7 +41217,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "b41dc5a8-bd97-4c1a-b3d6-310d2a753bcc")
-		(at 136.125 45.12)
+		(at -87.635 75.16)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C1"
@@ -41461,7 +41461,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b49f1927-e91f-4bfe-a4b2-0c4a403464a5")
-		(at 159.48 48.535)
+		(at -64.28 78.575)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D34"
@@ -41697,7 +41697,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "b4fa6adc-3869-4221-8382-7e6435969232")
-		(at 335.25 219.45)
+		(at 169.5 74.45)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC14"
@@ -42042,7 +42042,7 @@
 	(footprint "SamacSys_Parts:EVQ9P105M"
 		(layer "F.Cu")
 		(uuid "b8b7a899-ba0a-4654-9aeb-6fe5b9c2140c")
-		(at 103.125 50.525)
+		(at -120.635 80.565)
 		(descr "EVQ-9P105M-2")
 		(tags "Switch")
 		(property "Reference" "S2"
@@ -42386,7 +42386,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "b93d21e0-896e-4dc0-a8e7-7f1a72b9cc09")
-		(at 366.75 249.95)
+		(at 199.5 104.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC30"
@@ -42731,7 +42731,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "ba1ca902-8984-4a87-9a7f-b7f294182ecc")
-		(at 426.75 249.95)
+		(at 259.5 104.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC34"
@@ -43076,7 +43076,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "bc415989-c942-4508-870f-0d6580816939")
-		(at 183.685 57.21)
+		(at -40.075 87.25)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R2"
@@ -43320,7 +43320,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "bca1fdda-9d2a-47fd-9297-a58348c3eccd")
-		(at 161.935 59.36)
+		(at -61.825 89.4)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R26"
@@ -43590,7 +43590,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "bca2ebc8-3ee8-416a-85c5-51dee6de6cd8")
-		(at 171.28 51.575)
+		(at -52.48 81.615)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D7"
@@ -43826,7 +43826,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "bdeb2327-7e89-4a24-a2d5-d8c5edcdeace")
-		(at 216.75 339.95)
+		(at 49.5 194.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC37"
@@ -44171,7 +44171,7 @@
 	(footprint "SamacSys_Parts:SOP65P640X120-16N"
 		(layer "F.Cu")
 		(uuid "c3363b29-05e1-4e71-a1b1-725e34967875")
-		(at 450.562 219.525)
+		(at 283.312 76.025)
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC18"
@@ -44601,7 +44601,7 @@
 	(footprint "SamacSys_Parts:SOP65P640X120-16N"
 		(layer "F.Cu")
 		(uuid "c3a1710f-1c7e-4a56-a832-9e0ca2ed28e8")
-		(at 450.75 248.25)
+		(at 283.5 104.75)
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC36"
@@ -45031,7 +45031,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "c84c3458-474c-400e-95e3-cda7e0dbb5ae")
-		(at 187.085 65.81)
+		(at -36.675 95.85)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R13"
@@ -45301,7 +45301,7 @@
 	(footprint "SamacSys_Parts:SODFL1608X70N"
 		(layer "F.Cu")
 		(uuid "c8a06bdf-d1cc-4524-b589-355537814355")
-		(at 183.95 112)
+		(at -39.81 142.04)
 		(descr "sod-523")
 		(tags "Diode")
 		(property "Reference" "D1"
@@ -45575,7 +45575,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "ccb018ce-3b86-47c0-91f9-f2e8bf9a8955")
-		(at 137.295 52.52)
+		(at -86.465 82.56)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
@@ -45884,7 +45884,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "cd005013-1af0-492a-826e-9383304542f8")
-		(at 366.75 399.95)
+		(at 199.25 254.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC65"
@@ -46229,7 +46229,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "d0de08eb-1b48-4b4f-a70e-caa84fa6fdca")
-		(at 190.485 63.66)
+		(at -33.275 93.7)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R18"
@@ -46499,7 +46499,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d774e3ef-b55b-4e60-9e49-2d1ec5090d44")
-		(at 155.03 54.615)
+		(at -68.73 84.655)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D32"
@@ -46735,7 +46735,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "d791ce6b-197c-4dd8-bf16-f6d3d0547b0a")
-		(at 161.935 63.66)
+		(at -61.825 93.7)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R28"
@@ -47005,7 +47005,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "dcc40af5-31db-4c57-a9d0-35982750fa23")
-		(at 426.75 339.95)
+		(at 259.5 194.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC51"
@@ -47350,7 +47350,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "dd313bfd-c2e1-4ef3-add9-2c48207a0341")
-		(at 171.28 45.495)
+		(at -52.48 75.535)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D5"
@@ -47586,7 +47586,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "dd61812b-fa45-49e8-a917-1aaf65ac1240")
-		(at 183.735 70.18)
+		(at -40.025 100.22)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C6"
@@ -47830,7 +47830,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "deb95840-01ca-4eca-bfc8-ff55bf098151")
-		(at 276.75 189.95)
+		(at 109.5 45.2)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC3"
@@ -48175,7 +48175,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "df8bd911-bfb4-4395-8610-777c841cf7fe")
-		(at 158.585 70.18)
+		(at -65.175 100.22)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C7"
@@ -48419,7 +48419,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "e2892c62-c244-421c-b4cb-a864527794d2")
-		(at 136.125 47.41)
+		(at -87.635 77.45)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C3"
@@ -48663,7 +48663,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "e33583b4-961d-4062-ac11-fe1a37610f97")
-		(at 426.75 279.95)
+		(at 259.5 134.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC33"
@@ -49008,7 +49008,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "e37021c3-8167-4888-ae45-334334a40aab")
-		(at 306.75 339.95)
+		(at 139.5 194.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC43"
@@ -49353,7 +49353,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "e3e8d24c-3846-4d43-8d5e-951dbc57eb79")
-		(at 216.75 309.95)
+		(at 49.5 164.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC38"
@@ -49698,7 +49698,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "e3f4a240-4b25-407c-8c20-83c516b338a0")
-		(at 396.75 249.95)
+		(at 229.5 104.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC32"
@@ -50043,7 +50043,7 @@
 	(footprint "Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e5a11181-6b35-4cbc-b6d7-e942b3e5d8b1")
-		(at 136.96 84.15)
+		(at -86.8 114.19)
 		(descr "Crystal THT C38-LF 8.0mm length 3.0mm diameter")
 		(tags "['C38-LF']")
 		(property "Reference" "Y3"
@@ -50192,7 +50192,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "e911b592-ab52-4c4c-9b2c-dec99afb64b0")
-		(at 215.75 248.45)
+		(at 49.5 104.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC20"
@@ -50537,7 +50537,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ed45649f-3488-43b4-ab29-8adc4de7efd0")
-		(at 180.18 48.535)
+		(at -43.58 78.575)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D14"
@@ -50773,7 +50773,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "ee800e69-a944-42f5-a3c7-3e89d41ec96d")
-		(at 183.685 59.36)
+		(at -40.075 89.4)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R4"
@@ -51043,7 +51043,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "eecbbd61-2845-4e88-a018-3d2f16e8fe0f")
-		(at 276.75 369.95)
+		(at 109.25 224.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC60"
@@ -51388,7 +51388,7 @@
 	(footprint "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical_SMD_Pin1Right"
 		(layer "F.Cu")
 		(uuid "efbaeb63-8469-4576-a207-6faf586cfe9d")
-		(at 126.51 85.95)
+		(at -97.25 115.99)
 		(descr "surface-mounted straight socket strip, 1x06, 1.00mm pitch, single row, style 2 (pin 1 right) (https://gct.co/files/drawings/bc070.pdf), script generated")
 		(tags "Surface mounted socket strip SMD 1x06 1.00mm single row style2 pin1 right")
 		(property "Reference" "J5"
@@ -51905,7 +51905,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "f260d268-5c6e-4755-a19b-4b96b06861ad")
-		(at 158.535 59.36)
+		(at -65.225 89.4)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R20"
@@ -52175,7 +52175,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "f27311ef-4144-4d2e-b2b4-4519508c3eeb")
-		(at 336.75 339.95)
+		(at 169.5 194.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC45"
@@ -52520,7 +52520,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "f29641df-e880-4e6f-af9b-d0821940d621")
-		(at 171.735 112.55)
+		(at -52.025 142.59)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D2"
@@ -52793,7 +52793,7 @@
 	(footprint "SamacSys_Parts:A3213ELHLTT"
 		(layer "F.Cu")
 		(uuid "f5b0194c-5daa-4d9d-88a2-bad66d8fa675")
-		(at 366.75 279.95)
+		(at 199.5 134.7)
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC29"
@@ -53138,7 +53138,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f6b56eab-06d1-4cbc-97e0-c995be2a8962")
-		(at 180.18 51.575)
+		(at -43.58 81.615)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D15"
@@ -53374,7 +53374,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "f8f5bd7b-3f70-451f-ae49-e3c6d9d8dc2e")
-		(at 161.935 67.96)
+		(at -61.825 98)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R30"
@@ -53644,7 +53644,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "fc4c94b5-64bf-4787-a605-7d0f59061d57")
-		(at 150.58 45.495)
+		(at -73.18 75.535)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D25"
@@ -53880,7 +53880,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "fcc50d84-7670-469c-b31d-872940e730d3")
-		(at 158.535 57.21)
+		(at -65.225 87.25)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R3"
@@ -54124,7 +54124,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "fe1d23aa-a4e7-4330-a1ab-98bec451da37")
-		(at 184.63 45.495)
+		(at -39.13 75.535)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D17"
@@ -54358,8 +54358,8 @@
 		)
 	)
 	(gr_rect
-		(start 411.75 293.75)
-		(end 441.75 323.75)
+		(start 244.5 150.25)
+		(end 274.5 180.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54369,8 +54369,8 @@
 		(uuid "02a883ae-e636-4ec3-af55-86e2c14c3b73")
 	)
 	(gr_rect
-		(start 261.75 263.75)
-		(end 291.75 293.75)
+		(start 94.5 120.25)
+		(end 124.5 150.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54380,8 +54380,8 @@
 		(uuid "038a7358-5a91-47ae-998f-5ebb32f4d501")
 	)
 	(gr_rect
-		(start 351.75 383.75)
-		(end 381.75 413.75)
+		(start 184.5 240.25)
+		(end 214.5 270.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54391,8 +54391,8 @@
 		(uuid "090405c7-2628-447b-ae97-74c561f54491")
 	)
 	(gr_rect
-		(start 321.75 233.75)
-		(end 351.75 263.75)
+		(start 154.5 90.25)
+		(end 184.5 120.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54402,8 +54402,8 @@
 		(uuid "0de635e1-ed90-4ab3-b20b-14e812ce1838")
 	)
 	(gr_rect
-		(start 351.75 323.75)
-		(end 381.75 353.75)
+		(start 184.5 180.25)
+		(end 214.5 210.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54413,8 +54413,8 @@
 		(uuid "0e7a7d1d-5578-4769-a4e3-f693a7b33549")
 	)
 	(gr_rect
-		(start 291.75 203.75)
-		(end 321.75 233.75)
+		(start 124.5 60.25)
+		(end 154.5 90.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54424,8 +54424,8 @@
 		(uuid "153353c3-2594-40ab-a791-a0e599c20ea1")
 	)
 	(gr_rect
-		(start 231.75 173.75)
-		(end 261.75 203.75)
+		(start 64.5 30.25)
+		(end 94.5 60.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54435,8 +54435,8 @@
 		(uuid "1cb8d9e2-18a9-4610-b7f6-2e87f55a56ad")
 	)
 	(gr_rect
-		(start 411.75 233.75)
-		(end 441.75 263.75)
+		(start 244.5 90.25)
+		(end 274.5 120.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54446,8 +54446,8 @@
 		(uuid "25f65962-01ad-4cb2-9edf-dd15841150a9")
 	)
 	(gr_rect
-		(start 411.75 383.75)
-		(end 441.75 413.75)
+		(start 244.5 240.25)
+		(end 274.5 270.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54457,8 +54457,8 @@
 		(uuid "27f690b9-1a2a-433d-bca1-7d3b78aae50c")
 	)
 	(gr_rect
-		(start 201.75 353.75)
-		(end 231.75 383.75)
+		(start 34.5 210.25)
+		(end 64.5 240.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54468,8 +54468,8 @@
 		(uuid "369ad53d-037f-4b69-96a9-7118c2ed53b9")
 	)
 	(gr_rect
-		(start 201.75 263.75)
-		(end 231.75 293.75)
+		(start 34.5 120.25)
+		(end 64.5 150.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54479,8 +54479,8 @@
 		(uuid "3b981dd3-f423-41e9-9ed4-8c7f23613fa1")
 	)
 	(gr_rect
-		(start 351.75 173.75)
-		(end 381.75 203.75)
+		(start 184.5 30.25)
+		(end 214.5 60.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54490,8 +54490,8 @@
 		(uuid "3bbe8b21-1e34-4412-b957-807c03b6a307")
 	)
 	(gr_rect
-		(start 231.75 353.75)
-		(end 261.75 383.75)
+		(start 64.5 210.25)
+		(end 94.5 240.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54501,8 +54501,8 @@
 		(uuid "40754105-4361-4b50-80f8-7192f0eff6e8")
 	)
 	(gr_rect
-		(start 231.75 263.75)
-		(end 261.75 293.75)
+		(start 64.5 120.25)
+		(end 94.5 150.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54512,8 +54512,8 @@
 		(uuid "411202c3-6e07-4419-91c1-aa4c512e4ef6")
 	)
 	(gr_rect
-		(start 291.75 173.75)
-		(end 321.75 203.75)
+		(start 124.5 30.25)
+		(end 154.5 60.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54523,8 +54523,8 @@
 		(uuid "43ba5df2-b3e0-489f-8868-a7051859f6f7")
 	)
 	(gr_rect
-		(start 351.75 203.75)
-		(end 381.75 233.75)
+		(start 184.5 60.25)
+		(end 214.5 90.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54534,8 +54534,8 @@
 		(uuid "443ccb98-37f1-4ff5-919a-963448188ed6")
 	)
 	(gr_rect
-		(start 321.75 323.75)
-		(end 351.75 353.75)
+		(start 154.5 180.25)
+		(end 184.5 210.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54545,8 +54545,8 @@
 		(uuid "4652958c-d40a-419e-a5db-a60cd272cd5a")
 	)
 	(gr_rect
-		(start 201.75 383.75)
-		(end 231.75 413.75)
+		(start 34.5 240.25)
+		(end 64.5 270.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54556,8 +54556,8 @@
 		(uuid "4778c7aa-9fcd-43ad-ad12-9b7b5151b79b")
 	)
 	(gr_rect
-		(start 381.75 233.75)
-		(end 411.75 263.75)
+		(start 214.5 90.25)
+		(end 244.5 120.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54567,8 +54567,8 @@
 		(uuid "5304fda7-ef0f-4a42-b81b-e1926f1355ca")
 	)
 	(gr_rect
-		(start 411.75 263.75)
-		(end 441.75 293.75)
+		(start 244.5 120.25)
+		(end 274.5 150.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54578,8 +54578,8 @@
 		(uuid "56cd2099-60e7-4bbd-ade5-fbcc42fc573d")
 	)
 	(gr_rect
-		(start 321.75 353.75)
-		(end 351.75 383.75)
+		(start 154.5 210.25)
+		(end 184.5 240.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54589,8 +54589,8 @@
 		(uuid "5b4efd74-21e5-45a5-9088-7f3e845482f4")
 	)
 	(gr_rect
-		(start 201.75 203.75)
-		(end 231.75 233.75)
+		(start 34.5 60.25)
+		(end 64.5 90.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54600,8 +54600,8 @@
 		(uuid "63612dd5-5e10-46fd-bc21-9b8d1e13dc65")
 	)
 	(gr_rect
-		(start 321.75 173.75)
-		(end 351.75 203.75)
+		(start 154.5 30.25)
+		(end 184.5 60.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54611,8 +54611,8 @@
 		(uuid "6bd5d0d9-77d5-48bf-94e6-cb1c9760b9f2")
 	)
 	(gr_rect
-		(start 381.75 293.75)
-		(end 411.75 323.75)
+		(start 214.5 150.25)
+		(end 244.5 180.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54622,8 +54622,8 @@
 		(uuid "6e1e4cc8-e484-4573-ba2e-be0a1495a37e")
 	)
 	(gr_rect
-		(start 411.75 203.75)
-		(end 441.75 233.75)
+		(start 244.5 60.25)
+		(end 274.5 90.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54633,8 +54633,8 @@
 		(uuid "7054568b-e464-4715-8600-91748bedce16")
 	)
 	(gr_rect
-		(start 231.75 383.75)
-		(end 261.75 413.75)
+		(start 64.5 240.25)
+		(end 94.5 270.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54644,8 +54644,8 @@
 		(uuid "72af7540-fae7-4a86-839d-5500ead702c7")
 	)
 	(gr_rect
-		(start 381.75 353.75)
-		(end 411.75 383.75)
+		(start 214.5 210.25)
+		(end 244.5 240.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54655,8 +54655,8 @@
 		(uuid "7352d7d6-6699-4871-aa89-d999d7fa6929")
 	)
 	(gr_rect
-		(start 351.75 233.75)
-		(end 381.75 263.75)
+		(start 184.5 90.25)
+		(end 214.5 120.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54666,8 +54666,8 @@
 		(uuid "79c7ea93-e85b-41aa-8add-339c8394e292")
 	)
 	(gr_rect
-		(start 291.75 323.75)
-		(end 321.75 353.75)
+		(start 124.5 180.25)
+		(end 154.5 210.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54677,8 +54677,8 @@
 		(uuid "83a05940-55bf-410d-ac17-1c8d5e314f8a")
 	)
 	(gr_rect
-		(start 261.75 173.75)
-		(end 291.75 203.75)
+		(start 94.5 30.25)
+		(end 124.5 60.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54688,8 +54688,8 @@
 		(uuid "83ac83c6-bd1c-404e-911f-766dc9989dc6")
 	)
 	(gr_rect
-		(start 291.75 383.75)
-		(end 321.75 413.75)
+		(start 124.5 240.25)
+		(end 154.5 270.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54699,8 +54699,8 @@
 		(uuid "86462768-5ff2-48de-a205-e53a82e02f05")
 	)
 	(gr_rect
-		(start 321.75 263.75)
-		(end 351.75 293.75)
+		(start 154.5 120.25)
+		(end 184.5 150.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54710,8 +54710,8 @@
 		(uuid "8ad62e64-00f3-4e21-be18-d05f20ceff22")
 	)
 	(gr_rect
-		(start 321.75 293.75)
-		(end 351.75 323.75)
+		(start 154.5 150.25)
+		(end 184.5 180.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54721,8 +54721,8 @@
 		(uuid "91914bec-3741-45d7-b18f-98acb5871d18")
 	)
 	(gr_rect
-		(start 321.75 203.75)
-		(end 351.75 233.75)
+		(start 154.5 60.25)
+		(end 184.5 90.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54732,8 +54732,8 @@
 		(uuid "95463fec-6174-42d0-b9d2-5a6c626a2728")
 	)
 	(gr_rect
-		(start 291.75 263.75)
-		(end 321.75 293.75)
+		(start 124.5 120.25)
+		(end 154.5 150.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54743,8 +54743,8 @@
 		(uuid "9832bd96-f5ea-4779-a411-2dbba974a792")
 	)
 	(gr_rect
-		(start 231.75 203.75)
-		(end 261.75 233.75)
+		(start 64.5 60.25)
+		(end 94.5 90.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54754,8 +54754,8 @@
 		(uuid "99c8123a-f784-45db-8243-4f81583e3996")
 	)
 	(gr_rect
-		(start 381.75 383.75)
-		(end 411.75 413.75)
+		(start 214.5 240.25)
+		(end 244.5 270.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54765,8 +54765,8 @@
 		(uuid "9ea200fb-75dd-4ffd-af91-ac190422dfe1")
 	)
 	(gr_rect
-		(start 261.75 353.75)
-		(end 291.75 383.75)
+		(start 94.5 210.25)
+		(end 124.5 240.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54776,8 +54776,8 @@
 		(uuid "a2e3cfd1-e363-45bd-8904-46b36714c45e")
 	)
 	(gr_rect
-		(start 201.75 323.75)
-		(end 231.75 353.75)
+		(start 34.5 180.25)
+		(end 64.5 210.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54787,8 +54787,8 @@
 		(uuid "a3ced581-239b-49ed-8ccb-37352d0576f1")
 	)
 	(gr_rect
-		(start 381.75 173.75)
-		(end 411.75 203.75)
+		(start 214.5 30.25)
+		(end 244.5 60.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54798,8 +54798,8 @@
 		(uuid "a4d9fde1-9024-4942-8244-5102135f16d1")
 	)
 	(gr_rect
-		(start 261.75 383.75)
-		(end 291.75 413.75)
+		(start 94.5 240.25)
+		(end 124.5 270.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54809,8 +54809,8 @@
 		(uuid "ab5cfa74-74a4-4d71-b221-87f941b9ca9a")
 	)
 	(gr_rect
-		(start 351.75 293.75)
-		(end 381.75 323.75)
+		(start 184.5 150.25)
+		(end 214.5 180.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54820,8 +54820,8 @@
 		(uuid "b446421c-29f6-4f2a-8667-dfeff0d8d379")
 	)
 	(gr_rect
-		(start 261.75 293.75)
-		(end 291.75 323.75)
+		(start 94.5 150.25)
+		(end 124.5 180.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54831,8 +54831,8 @@
 		(uuid "b6c7eb35-0d54-4b4c-b417-1cc6611f8dda")
 	)
 	(gr_rect
-		(start 411.75 173.75)
-		(end 441.75 203.75)
+		(start 244.5 30.25)
+		(end 274.5 60.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54842,8 +54842,8 @@
 		(uuid "b780548a-9109-4cdc-8e71-ecf56b66ae46")
 	)
 	(gr_rect
-		(start 291.75 293.75)
-		(end 321.75 323.75)
+		(start 124.5 150.25)
+		(end 154.5 180.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54853,8 +54853,8 @@
 		(uuid "b8701781-6ca5-452e-adfc-25946ca0723a")
 	)
 	(gr_rect
-		(start 231.75 323.75)
-		(end 261.75 353.75)
+		(start 64.5 180.25)
+		(end 94.5 210.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54864,8 +54864,8 @@
 		(uuid "b9f45255-bff7-42f4-bdae-fe3326b9a371")
 	)
 	(gr_rect
-		(start 231.75 293.75)
-		(end 261.75 323.75)
+		(start 64.5 150.25)
+		(end 94.5 180.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54875,8 +54875,8 @@
 		(uuid "bf198c12-9ad2-4477-a938-7cf2dea97995")
 	)
 	(gr_rect
-		(start 201.75 293.75)
-		(end 231.75 323.75)
+		(start 34.5 150.25)
+		(end 64.5 180.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54886,8 +54886,8 @@
 		(uuid "c3a4d3bd-55e0-4288-841c-4fc1a3193a99")
 	)
 	(gr_rect
-		(start 381.75 203.75)
-		(end 411.75 233.75)
+		(start 214.5 60.25)
+		(end 244.5 90.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54897,8 +54897,8 @@
 		(uuid "c3cc2938-aab6-4621-9a43-2e50816cdaf4")
 	)
 	(gr_rect
-		(start 261.75 323.75)
-		(end 291.75 353.75)
+		(start 94.5 180.25)
+		(end 124.5 210.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54908,8 +54908,8 @@
 		(uuid "c8c3a4f2-a31b-4590-90cf-e72760bde48d")
 	)
 	(gr_rect
-		(start 201.75 233.75)
-		(end 231.75 263.75)
+		(start 34.5 90.25)
+		(end 64.5 120.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54919,8 +54919,8 @@
 		(uuid "c8c4057a-d7b2-4700-aaad-3e91ad2c75f0")
 	)
 	(gr_rect
-		(start 351.75 353.75)
-		(end 381.75 383.75)
+		(start 184.5 210.25)
+		(end 214.5 240.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54930,8 +54930,8 @@
 		(uuid "c998a5d5-ed83-4f40-8ba8-71694b3a29a8")
 	)
 	(gr_rect
-		(start 411.75 353.75)
-		(end 441.75 383.75)
+		(start 244.5 210.25)
+		(end 274.5 240.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54941,8 +54941,8 @@
 		(uuid "cf47183c-009b-42c6-93d8-e47ba74b26ac")
 	)
 	(gr_rect
-		(start 291.75 233.75)
-		(end 321.75 263.75)
+		(start 124.5 90.25)
+		(end 154.5 120.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54952,8 +54952,8 @@
 		(uuid "d14d0d94-abe7-468d-9974-f1d12f233c68")
 	)
 	(gr_rect
-		(start 231.75 233.75)
-		(end 261.75 263.75)
+		(start 64.5 90.25)
+		(end 94.5 120.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54963,8 +54963,8 @@
 		(uuid "d3c3234f-ea75-4150-816b-1f4d821c828b")
 	)
 	(gr_rect
-		(start 201.75 173.75)
-		(end 231.75 203.75)
+		(start 34.5 30.25)
+		(end 64.5 60.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54974,8 +54974,8 @@
 		(uuid "d3fc46dd-9d05-466c-a955-4e8a97b0a960")
 	)
 	(gr_rect
-		(start 381.75 263.75)
-		(end 411.75 293.75)
+		(start 214.5 120.25)
+		(end 244.5 150.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54985,8 +54985,8 @@
 		(uuid "d49967f1-6780-461b-be61-2d616b9618f7")
 	)
 	(gr_rect
-		(start 381.75 323.75)
-		(end 411.75 353.75)
+		(start 214.5 180.25)
+		(end 244.5 210.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -54996,8 +54996,8 @@
 		(uuid "d4d8518d-30e0-405f-92b0-a2ad52607592")
 	)
 	(gr_rect
-		(start 261.75 233.75)
-		(end 291.75 263.75)
+		(start 94.5 90.25)
+		(end 124.5 120.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -55007,8 +55007,8 @@
 		(uuid "d7fd0553-c277-4c98-8bca-78e1b1c2fd01")
 	)
 	(gr_rect
-		(start 321.75 383.75)
-		(end 351.75 413.75)
+		(start 154.5 240.25)
+		(end 184.5 270.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -55018,8 +55018,8 @@
 		(uuid "d930cdf8-bc32-4226-a10c-aa7af8141a26")
 	)
 	(gr_rect
-		(start 261.75 203.75)
-		(end 291.75 233.75)
+		(start 94.5 60.25)
+		(end 124.5 90.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -55029,8 +55029,8 @@
 		(uuid "d96b1acb-608a-4361-bdea-2a33d2bad1cc")
 	)
 	(gr_rect
-		(start 411.75 323.75)
-		(end 441.75 353.75)
+		(start 244.5 180.25)
+		(end 274.5 210.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -55040,8 +55040,8 @@
 		(uuid "e7cb79aa-1c58-43cc-9052-6f5684784e22")
 	)
 	(gr_rect
-		(start 291.75 353.75)
-		(end 321.75 383.75)
+		(start 124.5 210.25)
+		(end 154.5 240.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -55051,8 +55051,8 @@
 		(uuid "e88aa3f9-de03-41a8-9141-f90b42947f8a")
 	)
 	(gr_rect
-		(start 351.75 263.75)
-		(end 381.75 293.75)
+		(start 184.5 120.25)
+		(end 214.5 150.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -55062,8 +55062,30 @@
 		(uuid "f37e112d-9477-4d25-aaed-0010d99b9dee")
 	)
 	(gr_rect
-		(start 168 127.25)
-		(end 494 519.75)
+		(start 24.5 30.25)
+		(end 34.5 40.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "0f1963f5-3d79-407b-bb15-3db6a2874050")
+	)
+	(gr_rect
+		(start 34.5 20.25)
+		(end 44.5 30.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "e79b40ee-aaf7-4c05-b8b4-d4370679e3de")
+	)
+	(gr_rect
+		(start 21.25 17.75)
+		(end 329.5 329)
 		(stroke
 			(width 0.05)
 			(type default)
