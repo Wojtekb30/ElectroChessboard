@@ -1576,7 +1576,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "037c120d-0beb-4c2f-95c8-be775c6f3dd9")
-		(at -43.305 140.04)
+		(at 478.225 317.5)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C10"
@@ -7364,7 +7364,7 @@
 	(footprint "SamacSys_Parts:1027"
 		(layer "F.Cu")
 		(uuid "1baf394b-6c1b-4d9f-82b4-965f01a77339")
-		(at -117.5 98.75)
+		(at 441.75 297.75)
 		(descr "1027-3")
 		(tags "Undefined or Miscellaneous")
 		(property "Reference" "U2"
@@ -16564,7 +16564,7 @@
 	(footprint "SamacSys_Parts:SOIC127P600X175-8N"
 		(layer "F.Cu")
 		(uuid "4634f1fe-014c-4dbf-a18c-eff6377ab474")
-		(at -93.635 77.29)
+		(at 465.9 281.825)
 		(descr "soic8-ren3")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC75"
@@ -17192,7 +17192,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "47f118f2-45ae-40ad-9870-2a2d03620ec8")
-		(at -87.635 79.74)
+		(at 471.9 284.275)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C4"
@@ -22196,7 +22196,7 @@
 	(footprint "SamacSys_Parts:SOIC127P1030X265-24N"
 		(layer "F.Cu")
 		(uuid "59c12375-1bf5-47fa-b8ae-881c8d0d4787")
-		(at 109.525 285.575)
+		(at 113.25 284.715)
 		(descr "DW (R-PDSO-G24)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC73"
@@ -26962,7 +26962,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "67bab217-eaaf-4206-bc43-0b9b5b5f55b2")
-		(at -43.305 135.46)
+		(at 478.225 312.92)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C5"
@@ -28799,7 +28799,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "6ca91ba7-5fb4-4d18-8260-8e1112f760a4")
-		(at -84.185 77.24)
+		(at 475.35 281.775)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R39"
@@ -30737,7 +30737,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "736a4568-019b-497a-8b7e-3f938d1904e0")
-		(at -84.185 75.09)
+		(at 475.35 279.625)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R38"
@@ -32608,7 +32608,7 @@
 	(footprint "SamacSys_Parts:SOIC127P1030X265-24N"
 		(layer "F.Cu")
 		(uuid "7c6d5833-e1de-485d-aa21-d963d9e44469")
-		(at 179.55 284.35)
+		(at 179.75 284.75)
 		(descr "DW (R-PDSO-G24)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC76"
@@ -33650,7 +33650,7 @@
 	(footprint "SamacSys_Parts:0603L050SLYR"
 		(layer "F.Cu")
 		(uuid "7ddac886-bdf7-4180-b03e-0823e6b76676")
-		(at -38.605 136.365)
+		(at 482.925 313.825)
 		(descr "0603L050SLYR")
 		(tags "Resettable Fuse")
 		(property "Reference" "F1"
@@ -34872,7 +34872,7 @@
 	(footprint "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Right"
 		(layer "F.Cu")
 		(uuid "8071a544-9ec2-4592-90e2-3126451d0e1b")
-		(at -91.3 115.99)
+		(at 447.65 326)
 		(descr "surface-mounted straight socket strip, 1x06, 2.00mm pitch, single row, style 2 (pin 1 right) (https://www.jayconsystems.com/fileuploader/download/download/?d=1&file=custom%2Fupload%2FFile-1375728122.pdf), script generated")
 		(tags "Surface mounted socket strip SMD 1x06 2.00mm single row style2 pin1 right")
 		(property "Reference" "J6"
@@ -37384,7 +37384,7 @@
 	(footprint "SamacSys_Parts:SOIC127P1030X265-24N"
 		(layer "F.Cu")
 		(uuid "863ec863-a03f-48e9-814c-b638de4a76b5")
-		(at 132.025 287.305)
+		(at 145.275 284.695)
 		(descr "DW (R-PDSO-G24)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC74"
@@ -39513,7 +39513,7 @@
 	(footprint "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "8cb494a2-8dda-4bca-9157-d6e60f70a6f7")
-		(at -39.78 128.29)
+		(at 470.65 336.425)
 		(descr "28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
 		(tags "SSOP 0.65")
 		(property "Reference" "U3"
@@ -43340,7 +43340,7 @@
 	(footprint "SamacSys_Parts:BEADC1608X95N"
 		(layer "F.Cu")
 		(uuid "93975adc-e8cb-4f5c-9855-89ce1f29be61")
-		(at -39.53 139.69)
+		(at 482 317.15)
 		(descr "GZ1608D601TF*-*")
 		(tags "Ferrite Bead")
 		(property "Reference" "FB1"
@@ -43890,7 +43890,7 @@
 	(footprint "Package_QFP:TQFP-100_14x14mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "95ece972-549a-4027-90af-6e8b19487736")
-		(at -91.05 96.29)
+		(at 295.5 303)
 		(descr "TQFP, 100 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TQFP QFP")
 		(property "Reference" "U1"
@@ -46279,7 +46279,7 @@
 	(footprint "Capacitor_SMD:CP_Elec_4x5.4"
 		(layer "F.Cu")
 		(uuid "9f5946fe-92a4-478e-a6d2-ab348d602d4b")
-		(at -59.97 143.24)
+		(at 461.56 320.7)
 		(descr "SMD capacitor, aluminum electrolytic, Panasonic A5 / Nichicon, 4.0x5.4mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C9"
@@ -46711,7 +46711,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "9f73ede5-4f2b-48b8-b8ba-f1b45ae1cec3")
-		(at -43.305 137.75)
+		(at 478.225 315.21)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C8"
@@ -48961,7 +48961,7 @@
 	(footprint "Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
 		(layer "F.Cu")
 		(uuid "a5265238-e7c0-4220-8469-ee561e09e09d")
-		(at -61.235 130.04)
+		(at 309.7125 253.75)
 		(descr "USB 2.0 receptacle type B, horizontal version, through-hole, https://downloads.lumberg.com/datenblaetter/en/2411_02.pdf")
 		(tags "USB B receptacle horizontal through-hole")
 		(property "Reference" "J1"
@@ -49208,7 +49208,7 @@
 			(uuid "6a222e86-9147-4935-8336-3d65a9e33325")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.5 1.25 180)
+			(at 7.5 1.25 0)
 			(layer "F.Fab")
 			(uuid "ab297dfd-8801-4bd2-b15b-707148b1540f")
 			(effects
@@ -49285,15 +49285,15 @@
 			(uuid "1fb1cbce-13aa-459e-8ff3-082ab48612df")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_B_Lumberg_2411_02_Horizontal.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB-B1HSB6--3DModel-STEP-1.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7 -1.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -51186,7 +51186,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "abf70fd5-5b6e-41c2-abdb-57a2b900efab")
-		(at -84.43 79.31)
+		(at 475.105 283.845)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -51387,7 +51387,7 @@
 	(footprint "Crystal:Crystal_SMD_HC49-SD"
 		(layer "F.Cu")
 		(uuid "ac9f329a-e8ac-4022-8891-325a1a31a79f")
-		(at -92.9 108.59)
+		(at 463.25 295.415)
 		(descr "SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
@@ -53957,7 +53957,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "b41dc5a8-bd97-4c1a-b3d6-310d2a753bcc")
-		(at -87.635 75.16)
+		(at 471.9 279.695)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C1"
@@ -55816,7 +55816,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "bc415989-c942-4508-870f-0d6580816939")
-		(at 106.74 296.5)
+		(at 110.45 296)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R2"
@@ -58277,7 +58277,7 @@
 	(footprint "SamacSys_Parts:SODFL1608X70N"
 		(layer "F.Cu")
 		(uuid "c8a06bdf-d1cc-4524-b589-355537814355")
-		(at -39.81 142.04)
+		(at 481.72 319.5)
 		(descr "sod-523")
 		(tags "Diode")
 		(property "Reference" "D1"
@@ -58787,7 +58787,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "ccb018ce-3b86-47c0-91f9-f2e8bf9a8955")
-		(at -86.465 82.56)
+		(at 473.07 287.095)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
@@ -62054,7 +62054,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "dd61812b-fa45-49e8-a917-1aaf65ac1240")
-		(at 111.79 296.75)
+		(at 115.5 296.25)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C6"
@@ -62879,7 +62879,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "df8bd911-bfb4-4395-8610-777c841cf7fe")
-		(at 129.79 298.25)
+		(at 143 295.5)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C7"
@@ -63359,7 +63359,7 @@
 	(footprint "SamacSys_Parts:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "e2892c62-c244-421c-b4cb-a864527794d2")
-		(at -87.635 77.45)
+		(at 471.9 281.985)
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C3"
@@ -65523,7 +65523,7 @@
 	(footprint "Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e5a11181-6b35-4cbc-b6d7-e942b3e5d8b1")
-		(at -86.8 114.19)
+		(at 469.35 301.015)
 		(descr "Crystal THT C38-LF 8.0mm length 3.0mm diameter")
 		(tags "['C38-LF']")
 		(property "Reference" "Y3"
@@ -67610,7 +67610,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "efbaeb63-8469-4576-a207-6faf586cfe9d")
-		(at 110 305.84)
+		(at 107.65 305.425)
 		(descr "Through hole angled socket strip, 1x06, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J5"
@@ -69860,7 +69860,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "f29641df-e880-4e6f-af9b-d0821940d621")
-		(at -52.025 142.59)
+		(at 469.505 320.05)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D2"
@@ -71726,7 +71726,7 @@
 	(footprint "SamacSys_Parts:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "fcc50d84-7670-469c-b31d-872940e730d3")
-		(at 133.95 298.25)
+		(at 147.16 295.5)
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R3"
@@ -71970,7 +71970,7 @@
 	(footprint "SamacSys_Parts:SOIC127P1030X265-24N"
 		(layer "F.Cu")
 		(uuid "fe058f74-e883-4127-889e-599ec7bf2bdc")
-		(at 239.8 284.445)
+		(at 239.8 284.75)
 		(descr "DW (R-PDSO-G24)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC77"
@@ -73547,8 +73547,8 @@
 		(uuid "d14d0d94-abe7-468d-9974-f1d12f233c68")
 	)
 	(gr_rect
-		(start 19.85 289.665)
-		(end 99.85 334.665)
+		(start 19.85 289.25)
+		(end 99.85 334.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -73735,7 +73735,7 @@
 		)
 	)
 	(gr_text "SD card\nreader"
-		(at 63.85 312.165 90)
+		(at 63.85 311.75 90)
 		(layer "F.SilkS")
 		(uuid "8ce138a5-53ea-4aa4-904b-22898f8dc97d")
 		(effects
