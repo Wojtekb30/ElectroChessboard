@@ -4152,6 +4152,12 @@
 		(uuid "2fb0e3d9-024d-415e-8b76-70ae534e7ac9")
 	)
 	(junction
+		(at 190.5 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3353d7a5-2e1e-4771-8ffd-8caaf319754d")
+	)
+	(junction
 		(at 43.18 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4174,6 +4180,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "422c0e91-b47e-45e8-acf4-a55f380d2cd2")
+	)
+	(junction
+		(at 189.23 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43559996-eec3-4fcf-9991-80d278490c5f")
 	)
 	(junction
 		(at 33.02 36.83)
@@ -4373,6 +4385,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 106.68) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d86253-aea7-4729-bda2-3251988b6f91")
+	)
+	(wire
+		(pts
 			(xy 93.98 58.42) (xy 102.87 58.42)
 		)
 		(stroke
@@ -4463,6 +4485,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 99.06) (xy 102.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc7a4b7-21f6-4ac6-9c40-9f3452a303b0")
+	)
+	(wire
+		(pts
 			(xy 40.64 54.61) (xy 40.64 86.36)
 		)
 		(stroke
@@ -4510,6 +4542,16 @@
 			(type default)
 		)
 		(uuid "1eb73bdc-05f5-41a3-8166-bebcf8a87630")
+	)
+	(wire
+		(pts
+			(xy 96.52 129.54) (xy 102.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef10509-142b-49bd-bb16-9499a8420d7c")
 	)
 	(wire
 		(pts
@@ -4610,6 +4652,16 @@
 			(type default)
 		)
 		(uuid "2a2dd1f3-baf8-4220-a68f-ac15f2dede9e")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 190.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a62f98a-edf4-4985-8766-f479d6dbe6b5")
 	)
 	(wire
 		(pts
@@ -5053,6 +5105,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 116.84) (xy 193.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55afc716-1315-4b8b-9133-bc8d9dcc0d42")
+	)
+	(wire
+		(pts
 			(xy 162.56 101.6) (xy 162.56 99.06)
 		)
 		(stroke
@@ -5173,6 +5235,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 90.17) (xy 190.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65fbf371-b3d5-4622-977c-7d664781fe13")
+	)
+	(wire
+		(pts
 			(xy 240.03 110.49) (xy 240.03 119.38)
 		)
 		(stroke
@@ -5230,6 +5302,16 @@
 			(type default)
 		)
 		(uuid "6a448a2a-18f4-4cbf-b06e-827110d347c2")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 102.87 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad746d2-1f2c-440f-afcf-87db577a6cec")
 	)
 	(wire
 		(pts
@@ -5350,6 +5432,16 @@
 			(type default)
 		)
 		(uuid "72e3b990-43bf-48b0-bdbd-f099ecced61a")
+	)
+	(wire
+		(pts
+			(xy 96.52 127) (xy 102.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7349151b-fa4e-4921-8726-88bbf656f420")
 	)
 	(wire
 		(pts
@@ -5853,7 +5945,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 116.84) (xy 193.04 116.84)
+			(xy 144.78 116.84) (xy 190.5 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5870,6 +5962,16 @@
 			(type default)
 		)
 		(uuid "b60a5d1f-2b1e-45f0-9ad9-bedb34b5f91b")
+	)
+	(wire
+		(pts
+			(xy 177.8 93.98) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b878277b-c65c-4f98-91b1-5940f14f525a")
 	)
 	(wire
 		(pts
@@ -6000,6 +6102,16 @@
 			(type default)
 		)
 		(uuid "c6fb5c8e-d49b-4d02-9a8d-90b2eacdb080")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8667c24-de8a-45c5-bfc4-133a3e8e07cd")
 	)
 	(wire
 		(pts
@@ -6203,6 +6315,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 91.44) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9f5b9d-1971-4f82-bae8-aeebcbb90107")
+	)
+	(wire
+		(pts
 			(xy 148.59 104.14) (xy 158.75 104.14)
 		)
 		(stroke
@@ -6383,6 +6505,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 93.98) (xy 189.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e4902b-0e9c-456a-8e97-0c1673dcb7b2")
+	)
+	(wire
+		(pts
 			(xy 53.34 73.66) (xy 71.12 73.66)
 		)
 		(stroke
@@ -6433,6 +6565,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 104.14) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba43e27-fafb-4acd-a768-b3f1cfe1e65a")
+	)
+	(wire
+		(pts
 			(xy 156.21 97.79) (xy 156.21 24.13)
 		)
 		(stroke
@@ -6454,6 +6596,28 @@
 		(uuid "02dab812-b1b1-4841-b7ac-288cdb26ea85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.334 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_A0_2"
+		(shape output)
+		(at 99.06 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04a69d4d-a174-416b-ad9c-99946d6ff741")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.1849 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,6 +7002,28 @@
 			)
 		)
 	)
+	(global_label "LED_A2_3"
+		(shape output)
+		(at 177.8 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2dacc621-f291-4e84-8d2b-a9275571f756")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.9249 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HallOUT0"
 		(shape input)
 		(at 147.32 149.86 0)
@@ -6949,6 +7135,28 @@
 			)
 		)
 	)
+	(global_label "LED_A1_3"
+		(shape output)
+		(at 96.52 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b59563e-4ebe-4228-8735-20c07f780e3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.6449 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SafeGND"
 		(shape input)
 		(at 41.91 90.17 180)
@@ -7034,6 +7242,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_A0_3"
+		(shape output)
+		(at 96.52 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "461b034a-07e8-47a0-b6af-4da2b5ec7921")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.6449 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7192,6 +7422,28 @@
 			)
 		)
 	)
+	(global_label "LED_A3_2"
+		(shape output)
+		(at 99.06 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "644f59f1-ef42-4328-9a82-0d5e23024e41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.1849 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_A2_1"
 		(shape input)
 		(at 96.52 152.4 180)
@@ -7205,6 +7457,28 @@
 		(uuid "69bd8b94-ed2c-47a1-9991-c137f4b5e175")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.6449 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_A1_2"
+		(shape output)
+		(at 99.06 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69e3967a-1301-4e45-a543-ceae9c4760cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.1849 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,6 +7930,28 @@
 			)
 		)
 	)
+	(global_label "LED_A2_2"
+		(shape output)
+		(at 99.06 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afebb507-e430-47b1-b93f-9e71ed8e200d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.1849 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_A3_0"
 		(shape input)
 		(at 153.67 137.16 0)
@@ -7674,6 +7970,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_EN_3"
+		(shape output)
+		(at 99.06 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5c23e15-adb0-40f6-b3a5-12db1e8a461a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.0035 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7700,6 +8018,28 @@
 			)
 		)
 	)
+	(global_label "LED_A3_3"
+		(shape output)
+		(at 177.8 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b85e8de7-f6e0-486f-bb95-af03022125b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.9249 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PB1"
 		(shape bidirectional)
 		(at 146.05 60.96 0)
@@ -7718,6 +8058,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_EN_2"
+		(shape output)
+		(at 99.06 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf275c19-8073-4fcc-9bfc-0d9d9972e809")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.0035 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10306,6 +10668,47 @@
 		)
 	)
 	(sheet
+		(at 262.89 101.6)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24bc1f14-bafd-4ceb-927a-77265a0ac7e9")
+		(property "Sheetname" "BoardLEDs4"
+			(at 262.89 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BoardLEDs4.kicad_sch"
+			(at 256.032 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 262.89 76.2)
 		(size 12.7 6.35)
 		(exclude_from_sim no)
@@ -10465,6 +10868,47 @@
 			(project "ElectroChessboard1"
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 262.89 88.9)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "958bf434-83da-4534-b0a4-c67e00187072")
+		(property "Sheetname" "BoardLEDs3"
+			(at 262.89 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BoardLEDs3.kicad_sch"
+			(at 257.302 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927"
+					(page "9")
 				)
 			)
 		)

@@ -640,6 +640,14 @@
     [
       "7327273e-7754-4727-8b52-bb7f62babc74",
       "BoardLEDs1"
+    ],
+    [
+      "958bf434-83da-4534-b0a4-c67e00187072",
+      "BoardLEDs3"
+    ],
+    [
+      "24bc1f14-bafd-4ceb-927a-77265a0ac7e9",
+      "BoardLEDs4"
     ]
   ],
   "text_variables": {}
