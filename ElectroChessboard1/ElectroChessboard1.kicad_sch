@@ -4385,16 +4385,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 106.68) (xy 102.87 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d86253-aea7-4729-bda2-3251988b6f91")
-	)
-	(wire
-		(pts
 			(xy 93.98 58.42) (xy 102.87 58.42)
 		)
 		(stroke
@@ -4652,16 +4642,6 @@
 			(type default)
 		)
 		(uuid "2a2dd1f3-baf8-4220-a68f-ac15f2dede9e")
-	)
-	(wire
-		(pts
-			(xy 190.5 90.17) (xy 190.5 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a62f98a-edf4-4985-8766-f479d6dbe6b5")
 	)
 	(wire
 		(pts
@@ -5235,13 +5215,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 90.17) (xy 190.5 90.17)
+			(xy 189.23 92.71) (xy 189.23 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65fbf371-b3d5-4622-977c-7d664781fe13")
+		(uuid "64d23e68-b122-4c39-9cef-fe80d7d4d69d")
 	)
 	(wire
 		(pts
@@ -5965,16 +5945,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 93.98) (xy 189.23 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b878277b-c65c-4f98-91b1-5940f14f525a")
-	)
-	(wire
-		(pts
 			(xy 146.05 134.62) (xy 146.05 137.16)
 		)
 		(stroke
@@ -6045,6 +6015,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 104.14) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd359ceb-2f90-4091-bdf3-ef8c834a95b5")
+	)
+	(wire
+		(pts
 			(xy 33.02 39.37) (xy 33.02 48.26)
 		)
 		(stroke
@@ -6052,6 +6032,16 @@
 			(type default)
 		)
 		(uuid "bd9e2a0e-e2cd-4875-bc4d-f38f1b4d67a9")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 190.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be034bc6-80dc-4316-8667-d5f9e7dd17ef")
 	)
 	(wire
 		(pts
@@ -6072,6 +6062,16 @@
 			(type default)
 		)
 		(uuid "bf237928-3214-4503-b02e-b948845d5394")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03efe73-9e2b-4668-a24e-5e321b74b164")
 	)
 	(wire
 		(pts
@@ -6415,6 +6415,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 106.68) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e666a314-e6c2-49d0-930e-8587d589195b")
+	)
+	(wire
+		(pts
 			(xy 43.18 90.17) (xy 43.18 95.25)
 		)
 		(stroke
@@ -6475,6 +6485,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 92.71) (xy 189.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28e9767-2dd0-453a-be05-807107157c33")
+	)
+	(wire
+		(pts
 			(xy 162.56 62.23) (xy 198.12 62.23)
 		)
 		(stroke
@@ -6502,16 +6522,6 @@
 			(type default)
 		)
 		(uuid "f4b20611-2529-4c83-a46d-198081fc4047")
-	)
-	(wire
-		(pts
-			(xy 189.23 93.98) (xy 189.23 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4e4902b-0e9c-456a-8e97-0c1673dcb7b2")
 	)
 	(wire
 		(pts
@@ -6562,16 +6572,6 @@
 			(type default)
 		)
 		(uuid "fb269510-ee7b-4912-9817-fcfe737a33d4")
-	)
-	(wire
-		(pts
-			(xy 99.06 104.14) (xy 102.87 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fba43e27-fafb-4acd-a768-b3f1cfe1e65a")
 	)
 	(wire
 		(pts
@@ -7004,7 +7004,7 @@
 	)
 	(global_label "LED_A2_3"
 		(shape output)
-		(at 177.8 90.17 180)
+		(at 177.8 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7014,7 +7014,7 @@
 		)
 		(uuid "2dacc621-f291-4e84-8d2b-a9275571f756")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9249 90.17 0)
+			(at 165.9249 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7424,7 +7424,7 @@
 	)
 	(global_label "LED_A3_2"
 		(shape output)
-		(at 99.06 104.14 180)
+		(at 99.06 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7434,7 +7434,7 @@
 		)
 		(uuid "644f59f1-ef42-4328-9a82-0d5e23024e41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.1849 104.14 0)
+			(at 87.1849 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,7 +7932,7 @@
 	)
 	(global_label "LED_A2_2"
 		(shape output)
-		(at 99.06 106.68 180)
+		(at 177.8 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7942,7 +7942,7 @@
 		)
 		(uuid "afebb507-e430-47b1-b93f-9e71ed8e200d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.1849 106.68 0)
+			(at 165.9249 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +8020,7 @@
 	)
 	(global_label "LED_A3_3"
 		(shape output)
-		(at 177.8 93.98 180)
+		(at 99.06 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8030,7 +8030,7 @@
 		)
 		(uuid "b85e8de7-f6e0-486f-bb95-af03022125b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9249 93.98 0)
+			(at 87.1849 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
