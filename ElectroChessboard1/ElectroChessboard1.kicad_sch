@@ -4094,9 +4094,9 @@
 		)
 		(uuid "ab41b98e-c4f9-4cd3-9a80-729fa3d64f79")
 	)
-	(text "X4611WVS-06I-C40D44R1"
+	(text "HX PM2.54-1x6P WC-Y"
 		(exclude_from_sim no)
-		(at 185.42 148.082 0)
+		(at 184.912 149.352 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8845,7 +8845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
 			(at 182.88 143.51 0)
 			(effects
 				(font
