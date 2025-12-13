@@ -4116,12 +4116,12 @@
 		)
 		(uuid "d9b0f224-465a-436a-8b99-75081f6bb297")
 	)
-	(text "OLED GND VCC SDA SCL\nX4611WVS-04I-C40D44R2"
+	(text "OLED GND VCC SDA SCL\nX1311FVS-04-C43D35R1"
 		(exclude_from_sim no)
-		(at 161.798 110.236 0)
+		(at 162.56 111.252 0)
 		(effects
 			(font
-				(size 1.1 1.1)
+				(size 1 1)
 			)
 			(justify left)
 		)
@@ -8398,7 +8398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Right"
 			(at 48.26 73.66 0)
 			(effects
 				(font
@@ -8845,7 +8845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical_SMD_Pin1Right"
 			(at 182.88 143.51 0)
 			(effects
 				(font
@@ -10162,7 +10162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Vertical_SMD_Pin1Right"
 			(at 156.21 113.03 0)
 			(effects
 				(font
