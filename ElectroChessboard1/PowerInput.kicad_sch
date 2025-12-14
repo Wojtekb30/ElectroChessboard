@@ -11,332 +11,6 @@
 		(comment 2 "Elektroniczna szachownica")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_B"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_B"
-				(at -5.08 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB Type B connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector USB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "USB*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USB_B_0_1"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 4.318) (xy -2.286 4.318) (xy -2.286 5.715) (xy -2.667 6.096) (xy -3.683 6.096) (xy -4.064 5.715)
-						(xy -4.064 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 5.588)
-					(end -2.54 4.572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_B_1_1"
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -1391,6 +1065,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:0805W8F5101T5E"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0805W8F5101T5E"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC2013X65N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0805W8F5101T5E_C27834.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD RMC 0805 1/8W 1% T/R-5000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.65"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ROYALOHM"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0805W8F5101T5E"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0805W8F5101T5E_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:CL10B104KC8NNNC"
 			(pin_names
 				(hide yes)
@@ -1583,198 +1412,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:ESD5Z5V0"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 11.43 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ESD5Z5V0"
-				(at 11.43 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SODFL1608X70N"
-				(at 11.43 -97.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/849/esd5z2v5-2891948.pdf"
-				(at 11.43 -197.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS DIODE 5VWM 11.6VC SOD523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.7"
-				(at 11.43 -397.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "637-ESD5Z5V0"
-				(at 11.43 -497.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/ESD5Z5V0?qs=OlC7AqGiEDkOteFEVl3upQ%3D%3D"
-				(at 11.43 -597.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Diotec"
-				(at 11.43 -697.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESD5Z5V0"
-				(at 11.43 -797.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ESD5Z5V0_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:GZ1608D601TF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1947,6 +1584,725 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:PTVS5V0S1UTR,115"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PTVS5V0S1UTR,115"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOD123W"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVSXS1UTR_SER.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PTVSxS1UTR series - High-temperature 400 W Transient Voltage Suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-PTVS5V0S1UTR115"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS5V0S1UTR115?qs=A1cBxND5mHKqQmYtRUHCaQ%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PTVS5V0S1UTR,115"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PTVS5V0S1UTR,115_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TYPE-C-31-M-12:TYPE-C-31-M-12"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -12.7 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TYPE-C-31-M-12"
+				(at -12.7 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TYPE-C-31-M-12:HRO_TYPE-C-31-M-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "HRO Electronics Co., Ltd."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.26 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "2020.12.08"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TYPE-C-31-M-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "TYPE-C-31-M-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "HRO Electronics Co., Ltd."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TYPE-C-31-M-12_0_0"
+				(rectangle
+					(start -12.7 -12.7)
+					(end 12.7 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A4_B9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B4_A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1_B12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1_A12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Honor Elec RVT1E100M0405\n           RVT1C100M0405"
 		(exclude_from_sim no)
@@ -1959,33 +2315,28 @@
 		)
 		(uuid "52293968-589e-4071-9060-7f2d01744ffa")
 	)
-	(text "Ckmtw(Shenzhen Cankemeng)\nU-USBBR04P-F000"
+	(text "0805W8F5101T5E UniRoyal\n-55*C~+155*C 125mW 150V 5.1kΩ \nThick Film Resistor ±1% ±100ppm\n0805 Chip Resistor - Surface Mount ROHS"
 		(exclude_from_sim no)
-		(at 51.308 27.94 0)
+		(at 14.732 175.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "777753ed-61ec-48fa-8c37-839264a64c33")
-	)
-	(text "TODO: Add USB chip"
-		(exclude_from_sim no)
-		(at 84.836 33.528 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1e57647-abe2-4ecc-bc12-847f47223c25")
+		(uuid "64ed8c1e-e70b-4fcb-8ca6-673cadcbc164")
 	)
 	(junction
-		(at 44.45 57.15)
+		(at 74.93 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2995df9f-37fc-4b65-8b4a-aa11ce68f845")
+		(uuid "1708d25d-a24e-45e4-835e-76131cc7b4e5")
+	)
+	(junction
+		(at 44.45 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cdc3b54-4c5f-4246-b0f5-0e27ec50da21")
 	)
 	(junction
 		(at 109.22 128.27)
@@ -2000,6 +2351,12 @@
 		(uuid "314a5eee-e22f-42a1-b812-a5276b79a3ad")
 	)
 	(junction
+		(at 52.07 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4af17a83-7106-424b-b731-128f42509695")
+	)
+	(junction
 		(at 101.6 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2012,10 +2369,16 @@
 		(uuid "5bc361d1-b0b5-4cd6-bbc1-596cc6cf8505")
 	)
 	(junction
-		(at 69.85 39.37)
+		(at 67.31 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "664b190e-5f91-4981-a3dc-3f753e87d587")
+		(uuid "5e729a8e-e0da-4f7f-bd33-ab0693c933c1")
+	)
+	(junction
+		(at 13.97 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64782fa3-5db1-4e7f-9ff6-901ac6757165")
 	)
 	(junction
 		(at 111.76 128.27)
@@ -2024,10 +2387,22 @@
 		(uuid "90ec9ce2-3ae9-47f9-bc7e-9bdefad91e5b")
 	)
 	(junction
+		(at 73.66 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92fa0d2d-2830-4b82-925a-a73908413671")
+	)
+	(junction
 		(at 187.96 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95fb8ee0-32df-4800-a7e9-457aabfaff9c")
+	)
+	(junction
+		(at 67.31 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9790b2eb-aa95-4d1d-bfc2-df8407a33151")
 	)
 	(junction
 		(at 104.14 68.58)
@@ -2048,10 +2423,10 @@
 		(uuid "e5821b69-d471-4ca4-97a5-e0ea9f6de0d0")
 	)
 	(junction
-		(at 69.85 57.15)
+		(at 67.31 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fb4d2e86-a2bc-4016-8aee-0403a5be1328")
+		(uuid "f857b3b8-505e-416a-b32d-da5bf382ff0e")
 	)
 	(junction
 		(at 187.96 59.69)
@@ -2091,6 +2466,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 127) (xy 19.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfae574-5a72-4da2-bec1-af1984deacdd")
+	)
+	(wire
+		(pts
 			(xy 187.96 59.69) (xy 193.04 59.69)
 		)
 		(stroke
@@ -2111,13 +2496,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 44.45) (xy 62.23 90.17)
+			(xy 19.05 127) (xy 19.05 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10e27162-198a-4651-90c9-36df40b1dc12")
+		(uuid "10f99170-9a9e-42af-a024-87e63f6baa12")
 	)
 	(wire
 		(pts
@@ -2131,6 +2516,26 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 39.37) (xy 67.31 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17da04bf-5f42-4f39-a3a6-31a73218430b")
+	)
+	(wire
+		(pts
+			(xy 49.53 156.21) (xy 52.07 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17fc3031-c961-4636-a43c-59e1aace0e2e")
+	)
+	(wire
+		(pts
 			(xy 44.45 59.69) (xy 161.29 59.69)
 		)
 		(stroke
@@ -2138,16 +2543,6 @@
 			(type default)
 		)
 		(uuid "203d6c90-7a86-4841-b271-050dbbe82fb3")
-	)
-	(wire
-		(pts
-			(xy 41.91 57.15) (xy 44.45 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "219e9b86-18d0-4089-b0e9-42e0856e367e")
 	)
 	(wire
 		(pts
@@ -2171,13 +2566,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 46.99) (xy 58.42 46.99)
+			(xy 66.04 95.25) (xy 19.05 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e8bdaaa-709d-410b-a8a9-1b1f4d5ba5ac")
+		(uuid "2a379780-cc3b-4b6f-ac12-3093dcb5b097")
 	)
 	(wire
 		(pts
@@ -2191,23 +2586,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 55.88) (xy 69.85 57.15)
+			(xy 19.05 110.49) (xy 73.66 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3870bd1d-8339-40a8-8d02-2bb4b221be98")
-	)
-	(wire
-		(pts
-			(xy 69.85 39.37) (xy 92.71 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3df1bd3a-846d-4b8c-8c2b-063e10fcbcde")
+		(uuid "410a5e0d-32d7-4f82-97ba-c19ac058ddda")
 	)
 	(wire
 		(pts
@@ -2221,16 +2606,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 39.37) (xy 69.85 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430be1c4-6eff-40f2-81b6-7be8a91c7f07")
-	)
-	(wire
-		(pts
 			(xy 187.96 36.83) (xy 193.04 36.83)
 		)
 		(stroke
@@ -2241,13 +2616,33 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 90.17) (xy 86.36 90.17)
+			(xy 63.5 137.16) (xy 67.31 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e7fd4ff-f478-497e-aeed-6fb79ab7572c")
+		(uuid "4869e39e-76f8-47b5-a50e-18be9a0678d5")
+	)
+	(wire
+		(pts
+			(xy 44.45 86.36) (xy 13.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb6ccc0-461e-4599-9c47-19c27d90162f")
+	)
+	(wire
+		(pts
+			(xy 66.04 119.38) (xy 66.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548b5b33-3ba9-4f5c-8035-501c3ff78ac5")
 	)
 	(wire
 		(pts
@@ -2271,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 57.15) (xy 69.85 57.15)
+			(xy 44.45 57.15) (xy 67.31 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2301,6 +2696,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 119.38) (xy 66.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d690ae-cbdc-40e3-85aa-6644e1a5b034")
+	)
+	(wire
+		(pts
+			(xy 67.31 55.88) (xy 67.31 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e2193b-5f59-4fb9-8a84-3a425602002c")
+	)
+	(wire
+		(pts
 			(xy 127 92.71) (xy 134.62 92.71)
 		)
 		(stroke
@@ -2308,6 +2723,26 @@
 			(type default)
 		)
 		(uuid "64ee7fde-9186-4328-9e45-92eaabbe1a33")
+	)
+	(wire
+		(pts
+			(xy 13.97 146.05) (xy 52.07 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f25acd-236c-4a01-8f44-302f8e3d2481")
+	)
+	(wire
+		(pts
+			(xy 73.66 110.49) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652f8d75-d3c5-4f89-b673-dbbde5f02539")
 	)
 	(wire
 		(pts
@@ -2351,13 +2786,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 44.45) (xy 62.23 44.45)
+			(xy 44.45 59.69) (xy 44.45 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fb1fc6e-90a8-4a8e-a613-1fd48a7b2ed0")
+		(uuid "761d974b-2795-4391-900c-6308705f7ebb")
+	)
+	(wire
+		(pts
+			(xy 74.93 109.22) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b724b4f-dae9-4ed8-9ed0-182eba9e88c2")
 	)
 	(wire
 		(pts
@@ -2371,13 +2816,43 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 54.61) (xy 44.45 57.15)
+			(xy 19.05 95.25) (xy 19.05 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82c08a40-e2c7-49a8-8ef5-7ccb227b9e96")
+		(uuid "81ce2174-9889-4007-860d-2744a6bb11c4")
+	)
+	(wire
+		(pts
+			(xy 67.31 57.15) (xy 92.71 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872edccf-11ce-4951-ac80-cba25ed1ec59")
+	)
+	(wire
+		(pts
+			(xy 21.59 124.46) (xy 21.59 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d4a22f-8644-4fec-bd66-de667de481db")
+	)
+	(wire
+		(pts
+			(xy 54.61 27.94) (xy 54.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91252fe5-b989-41e5-a506-dbaf91ff00cb")
 	)
 	(wire
 		(pts
@@ -2391,6 +2866,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 166.37) (xy 13.97 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978467bc-f662-488a-ab78-faf79cbe2e1f")
+	)
+	(wire
+		(pts
 			(xy 96.52 39.37) (xy 92.71 39.37)
 		)
 		(stroke
@@ -2398,6 +2883,16 @@
 			(type default)
 		)
 		(uuid "98556ee7-30ae-47d9-bdbd-f248f87a3121")
+	)
+	(wire
+		(pts
+			(xy 13.97 86.36) (xy 13.97 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7624e3-2b20-4d66-954c-1bf325a2fe84")
 	)
 	(wire
 		(pts
@@ -2411,13 +2906,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 46.99) (xy 58.42 92.71)
+			(xy 63.5 132.08) (xy 71.12 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6507a54-fdec-4b1b-98d5-6f7779ae1a5a")
+		(uuid "a4144a98-d1e7-4fc8-a620-a1cf474e9245")
+	)
+	(wire
+		(pts
+			(xy 73.66 90.17) (xy 86.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50d8128-917d-4b09-a674-736860515e8f")
 	)
 	(wire
 		(pts
@@ -2431,13 +2936,83 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 39.37) (xy 69.85 40.64)
+			(xy 74.93 127) (xy 63.5 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1b4abed-e4c5-41f1-96f1-9e30c44978b5")
+		(uuid "a817f839-64d8-4d97-bac0-07e4fac9b1a6")
+	)
+	(wire
+		(pts
+			(xy 21.59 156.21) (xy 31.75 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab77accf-3bc0-4af8-9880-783c5b702d5b")
+	)
+	(wire
+		(pts
+			(xy 67.31 39.37) (xy 92.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd1c033-f028-4e20-b7cc-d014ba84a815")
+	)
+	(wire
+		(pts
+			(xy 31.75 166.37) (xy 13.97 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfd290d-0f76-4690-8a0d-d2afaeca2b9e")
+	)
+	(wire
+		(pts
+			(xy 73.66 129.54) (xy 63.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a60af6-4b1e-4e83-948f-feedbf383da2")
+	)
+	(wire
+		(pts
+			(xy 52.07 146.05) (xy 67.31 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d16e64-a647-45fe-805a-e18cb6a46b13")
+	)
+	(wire
+		(pts
+			(xy 17.78 109.22) (xy 74.93 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b900d8c6-84fb-4994-bfb9-b758c4a0801c")
+	)
+	(wire
+		(pts
+			(xy 67.31 137.16) (xy 67.31 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9923352-320e-485c-9492-626f478e1497")
 	)
 	(wire
 		(pts
@@ -2461,13 +3036,33 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 92.71 57.15)
+			(xy 67.31 139.7) (xy 63.5 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0cffcea-cc0d-4da1-8d71-90ffda37bd18")
+		(uuid "bfdf4986-1736-4153-97a0-a6cf62ede960")
+	)
+	(wire
+		(pts
+			(xy 27.94 124.46) (xy 21.59 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e67ca8-97ec-4219-ad90-3080cfbe439c")
+	)
+	(wire
+		(pts
+			(xy 73.66 110.49) (xy 73.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c4675e-c8a4-46d1-968b-d214568ceb76")
 	)
 	(wire
 		(pts
@@ -2508,6 +3103,16 @@
 			(type default)
 		)
 		(uuid "ccf3219f-e274-426a-9542-076931269776")
+	)
+	(wire
+		(pts
+			(xy 52.07 156.21) (xy 52.07 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11503cb-d6ac-46c6-b01c-b99bad4adbf3")
 	)
 	(wire
 		(pts
@@ -2561,6 +3166,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 92.71) (xy 74.93 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a256a5-48d1-4a90-846e-b8a9ba587872")
+	)
+	(wire
+		(pts
 			(xy 101.6 40.64) (xy 101.6 44.45)
 		)
 		(stroke
@@ -2571,16 +3186,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 54.61) (xy 41.91 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3364ba9-01b9-4a1e-9ef1-afbb3892f286")
-	)
-	(wire
-		(pts
 			(xy 104.14 40.64) (xy 104.14 44.45)
 		)
 		(stroke
@@ -2588,6 +3193,26 @@
 			(type default)
 		)
 		(uuid "e40f3ed2-9416-49ae-ab8e-472b59c58396")
+	)
+	(wire
+		(pts
+			(xy 71.12 166.37) (xy 49.53 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e620db9f-fb54-477c-9a9b-9fa709c07074")
+	)
+	(wire
+		(pts
+			(xy 27.94 129.54) (xy 17.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e803220e-6ca1-476b-a5d2-d2b06060e121")
 	)
 	(wire
 		(pts
@@ -2631,13 +3256,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 92.71) (xy 86.36 92.71)
+			(xy 19.05 27.94) (xy 54.61 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eef6d446-63c8-4e02-aac8-d334ff9b7280")
+		(uuid "ecb6209b-329c-4082-a610-16cfd228cbaf")
+	)
+	(wire
+		(pts
+			(xy 17.78 129.54) (xy 17.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed6f0410-ac1f-4fb8-a6c6-4cecdbb3abd1")
 	)
 	(wire
 		(pts
@@ -2671,6 +3306,26 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 39.37) (xy 67.31 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1424c19-a101-41a5-ac8e-bd2fe346b428")
+	)
+	(wire
+		(pts
+			(xy 86.36 92.71) (xy 74.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ed7691-e83d-4fc1-a9ff-e265c0c578de")
+	)
+	(wire
+		(pts
 			(xy 127 82.55) (xy 134.62 82.55)
 		)
 		(stroke
@@ -2681,6 +3336,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 146.05) (xy 67.31 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d81ca2-e26f-49b9-918a-9dce7ff8f731")
+	)
+	(wire
+		(pts
 			(xy 104.14 44.45) (xy 115.57 44.45)
 		)
 		(stroke
@@ -2688,6 +3353,16 @@
 			(type default)
 		)
 		(uuid "fd832710-14c5-472a-9e52-f5138f86fb45")
+	)
+	(wire
+		(pts
+			(xy 71.12 132.08) (xy 71.12 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff08cb18-4fe2-410e-8fc3-fe1d15dcd7ee")
 	)
 	(global_label "SafeVCC"
 		(shape input)
@@ -2821,6 +3496,128 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PTVS5V0S1UTR,115")
+		(at 67.31 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10271b42-56bf-4550-be66-363f83191c7d")
+		(property "Reference" "D4"
+			(at 71.12 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTVS5V0S1UTR,115"
+			(at 71.12 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOD123W"
+			(at -26.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVSXS1UTR_SER.pdf"
+			(at -126.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PTVSxS1UTR series - High-temperature 400 W Transient Voltage Suppressor"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at -326.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PTVS5V0S1UTR115"
+			(at -426.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS5V0S1UTR115?qs=A1cBxND5mHKqQmYtRUHCaQ%3D%3D"
+			(at -526.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at -626.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTVS5V0S1UTR,115"
+			(at -726.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c20b10b-3cfb-429c-8ee2-d4f8489bc2a3")
+		)
+		(pin "1"
+			(uuid "c8649ca3-3709-4c21-a073-3d57de628a61")
+		)
+		(instances
+			(project ""
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/90bade89-0322-4f84-b453-80bea2aed5a9"
+					(reference "D4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3037,6 +3834,247 @@
 		)
 	)
 	(symbol
+		(lib_id "TYPE-C-31-M-12:TYPE-C-31-M-12")
+		(at 45.72 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dbf7579-a437-4d13-8340-f89c557470ab")
+		(property "Reference" "J2"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TYPE-C-31-M-12"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TYPE-C-31-M-12:HRO_TYPE-C-31-M-12"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "HRO Electronics Co., Ltd."
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.26 mm"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2020.12.08"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TYPE-C-31-M-12"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TYPE-C-31-M-12"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "HRO Electronics Co., Ltd."
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "B4_A9"
+			(uuid "452bbbe4-6ca6-4950-a205-cae18eb2bdae")
+		)
+		(pin "A6"
+			(uuid "1955d298-16ed-448e-9f61-a0d6232f8c8a")
+		)
+		(pin "A7"
+			(uuid "1c6704a1-005e-4852-97b8-76224b174908")
+		)
+		(pin "S3"
+			(uuid "92a62782-9f61-4ecb-9be6-472ee616a57b")
+		)
+		(pin "B1_A12"
+			(uuid "042e3834-770e-41eb-9b68-8643fae54a1c")
+		)
+		(pin "S4"
+			(uuid "d49dc7b5-f9ab-46db-8650-c6dc262688ce")
+		)
+		(pin "A1_B12"
+			(uuid "19a09f0e-ff88-465e-83b7-60168afff26a")
+		)
+		(pin "A5"
+			(uuid "165e60df-57f2-487c-af51-59b112d0425e")
+		)
+		(pin "B5"
+			(uuid "b2cd7ac4-720a-4fd4-a2c8-2627b24afedb")
+		)
+		(pin "A8"
+			(uuid "f12a09da-bd91-4d60-a601-eb7b4b3a796a")
+		)
+		(pin "A4_B9"
+			(uuid "564ea953-9da3-47a5-bae9-89006330dab9")
+		)
+		(pin "B6"
+			(uuid "90e33ecd-e26d-4085-90f5-c555fccd145b")
+		)
+		(pin "B7"
+			(uuid "97b99446-dd48-43a0-a09c-22362cff060f")
+		)
+		(pin "S2"
+			(uuid "f5c5a264-5f44-4a18-94f6-54596a7cf27d")
+		)
+		(pin "B8"
+			(uuid "bd0e4d1a-64db-4941-8d28-1870766d777b")
+		)
+		(pin "S1"
+			(uuid "5410c095-f2ba-4a04-963b-66983900f81d")
+		)
+		(instances
+			(project ""
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/90bade89-0322-4f84-b453-80bea2aed5a9"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:CL10B104KC8NNNC")
 		(at 140.97 102.87 0)
 		(unit 1)
@@ -3157,45 +4195,33 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:ESD5Z5V0")
-		(at 69.85 40.64 270)
+		(lib_id "SamacSys_Parts:0805W8F5101T5E")
+		(at 31.75 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "53128ea1-7fbb-4f9a-92d4-52cac2f8400d")
-		(property "Reference" "D1"
-			(at 73.66 46.9899 90)
+		(uuid "5f3d3e5b-eb80-4806-a58d-07cd38495de7")
+		(property "Reference" "R73"
+			(at 40.64 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z5V0"
-			(at 73.66 49.5299 90)
+		(property "Value" "0805W8F5101T5E"
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SODFL1608X70N"
-			(at -27.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/849/esd5z2v5-2891948.pdf"
-			(at -127.61 52.07 0)
+		(property "Footprint" "RESC2013X65N"
+			(at 45.72 262.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,17 +4230,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS DIODE 5VWM 11.6VC SOD523"
-			(at 69.85 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at -327.61 52.07 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0805W8F5101T5E_C27834.pdf"
+			(at 45.72 362.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,8 +4240,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z5V0"
-			(at -427.61 52.07 0)
+		(property "Description" "Thick Film Resistors - SMD RMC 0805 1/8W 1% T/R-5000"
+			(at 31.75 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.65"
+			(at 45.72 562.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,8 +4259,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/ESD5Z5V0?qs=OlC7AqGiEDkOteFEVl3upQ%3D%3D"
-			(at -527.61 52.07 0)
+		(property "Mouser Part Number" ""
+			(at 45.72 662.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,8 +4269,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diotec"
-			(at -627.61 52.07 0)
+		(property "Mouser Price/Stock" ""
+			(at 45.72 762.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,8 +4279,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z5V0"
-			(at -727.61 52.07 0)
+		(property "Manufacturer_Name" "ROYALOHM"
+			(at 45.72 862.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,93 +4289,26 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "8686cd90-ae6c-4279-bad4-95eaa0ac4244")
-		)
-		(pin "1"
-			(uuid "a03ebe13-4dd9-4323-a2cf-4851ee4b4272")
-		)
-		(instances
-			(project ""
-				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/90bade89-0322-4f84-b453-80bea2aed5a9"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_B")
-		(at 44.45 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "921eaa1b-1274-4237-bd2d-3206b069f1af")
-		(property "Reference" "J1"
-			(at 44.45 31.75 0)
+		(property "Manufacturer_Part_Number" "0805W8F5101T5E"
+			(at 45.72 962.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "USB_B"
-			(at 44.45 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
-			(at 48.26 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Type B connector"
-			(at 44.45 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "7938dee4-7340-45b1-86d5-bdc6c2ed493c")
-		)
-		(pin "3"
-			(uuid "28a47945-da11-4771-b991-247b7ad7011e")
-		)
-		(pin "5"
-			(uuid "c3e04926-a718-4816-87bb-c939a099e4d9")
+			(uuid "54bbd7dd-2cd9-4423-9824-169f8ff6c0a5")
 		)
 		(pin "2"
-			(uuid "6333bad5-eb2a-41e4-be23-b7e15fdd177a")
-		)
-		(pin "4"
-			(uuid "82dd1a0e-4382-455c-aeaa-541a9b85a4bd")
+			(uuid "f4b9ea3b-5a8c-4c8f-b592-4b0813b1f6b0")
 		)
 		(instances
-			(project ""
+			(project "ElectroChessboard1"
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/90bade89-0322-4f84-b453-80bea2aed5a9"
-					(reference "J1")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -3682,6 +4641,126 @@
 			(project ""
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/90bade89-0322-4f84-b453-80bea2aed5a9"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805W8F5101T5E")
+		(at 31.75 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1e1c48c-9d5e-4e5f-b383-d813eb2c00a6")
+		(property "Reference" "R72"
+			(at 40.64 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805W8F5101T5E"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC2013X65N"
+			(at 45.72 252.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0805W8F5101T5E_C27834.pdf"
+			(at 45.72 352.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD RMC 0805 1/8W 1% T/R-5000"
+			(at 31.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.65"
+			(at 45.72 552.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 45.72 652.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 45.72 752.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROYALOHM"
+			(at 45.72 852.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805W8F5101T5E"
+			(at 45.72 952.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e2d516c-0f92-430f-ae83-350034925e05")
+		)
+		(pin "2"
+			(uuid "6455cd88-c164-4229-b951-21b0f5754ac8")
+		)
+		(instances
+			(project ""
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/90bade89-0322-4f84-b453-80bea2aed5a9"
+					(reference "R72")
 					(unit 1)
 				)
 			)
