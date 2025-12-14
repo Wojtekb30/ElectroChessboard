@@ -4062,7 +4062,7 @@
 		)
 		(uuid "66277448-b794-4b33-8a7f-c4b6d0b4b2ce")
 	)
-	(text "0402WGF5101TCE"
+	(text "0402 10k ohm"
 		(exclude_from_sim no)
 		(at 126.238 19.812 0)
 		(effects
