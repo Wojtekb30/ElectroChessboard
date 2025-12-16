@@ -172,6 +172,313 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:SS12"
 			(pin_numbers
 				(hide yes)
@@ -2304,6 +2611,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "0402 10k ohm"
+		(exclude_from_sim no)
+		(at 201.168 28.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4681d445-43f2-41c6-83bf-53e3f25a86f5")
+	)
 	(text "Honor Elec RVT1E100M0405\n           RVT1C100M0405"
 		(exclude_from_sim no)
 		(at 153.162 51.054 0)
@@ -2355,6 +2673,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4af17a83-7106-424b-b731-128f42509695")
+	)
+	(junction
+		(at 187.96 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f7076b5-ac68-4b17-bd0b-be240c19a7f1")
 	)
 	(junction
 		(at 101.6 128.27)
@@ -2576,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 128.27) (xy 187.96 59.69)
+			(xy 187.96 128.27) (xy 187.96 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2716,6 +3040,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 30.48) (xy 205.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6366228e-f8b7-4a2c-8e17-7bd49b08facd")
+	)
+	(wire
+		(pts
 			(xy 127 92.71) (xy 134.62 92.71)
 		)
 		(stroke
@@ -2746,6 +3080,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 62.23) (xy 187.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65695a56-eca8-4524-9085-befaeff7b919")
+	)
+	(wire
+		(pts
 			(xy 109.22 128.27) (xy 111.76 128.27)
 		)
 		(stroke
@@ -2753,6 +3097,16 @@
 			(type default)
 		)
 		(uuid "66c26302-c0fd-4897-a7d1-3b9e798e7619")
+	)
+	(wire
+		(pts
+			(xy 187.96 36.83) (xy 187.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6713b38f-291c-4156-af2d-582f1be5dfba")
 	)
 	(wire
 		(pts
@@ -2813,6 +3167,16 @@
 			(type default)
 		)
 		(uuid "818c0b9c-d814-4ce4-aadb-d6e4413e8c37")
+	)
+	(wire
+		(pts
+			(xy 217.17 30.48) (xy 217.17 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cb79d3-08c1-40b1-80b2-3dbfdee00522")
 	)
 	(wire
 		(pts
@@ -2986,6 +3350,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 40.64) (xy 217.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1fca287-8a09-4ae9-b0c8-4232cab645a9")
+	)
+	(wire
+		(pts
 			(xy 52.07 146.05) (xy 67.31 146.05)
 		)
 		(stroke
@@ -3033,6 +3407,16 @@
 			(type default)
 		)
 		(uuid "babe8234-fe78-4f6f-b55d-e2bc43635467")
+	)
+	(wire
+		(pts
+			(xy 217.17 62.23) (xy 187.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc65e86f-3888-4a1a-97d6-428c2d4dc9ca")
 	)
 	(wire
 		(pts
@@ -3163,6 +3547,16 @@
 			(type default)
 		)
 		(uuid "de8cbad0-f526-44fb-a0ee-e028dd07551b")
+	)
+	(wire
+		(pts
+			(xy 213.36 30.48) (xy 217.17 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2a4bfb-a5c4-4cd4-aa96-9aa331ef92e6")
 	)
 	(wire
 		(pts
@@ -3758,6 +4152,73 @@
 			(project ""
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/90bade89-0322-4f84-b453-80bea2aed5a9"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34f4aff6-f24c-4445-9d7d-72292881c489")
+		(property "Reference" "R74"
+			(at 209.55 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 209.55 26.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 209.55 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80c5bbdf-3275-4462-922b-b851c93a89e6")
+		)
+		(pin "2"
+			(uuid "324df0ed-3767-4030-82d8-f21e78f255eb")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/90bade89-0322-4f84-b453-80bea2aed5a9"
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -4431,6 +4892,85 @@
 			(project "ElectroChessboard1"
 				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/90bade89-0322-4f84-b453-80bea2aed5a9"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 217.17 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3cefd18-51f6-483d-bfef-f34dc40c843e")
+		(property "Reference" "D69"
+			(at 220.98 37.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 220.98 39.6874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffb010ed-8152-4985-8c39-8207c802d9f5")
+		)
+		(pin "1"
+			(uuid "a40dc9d5-4528-4990-bc21-3530a89290ef")
+		)
+		(instances
+			(project "ElectroChessboard1"
+				(path "/b40c7e57-cfb3-41c6-81be-f22d082b0927/90bade89-0322-4f84-b453-80bea2aed5a9"
+					(reference "D69")
 					(unit 1)
 				)
 			)
