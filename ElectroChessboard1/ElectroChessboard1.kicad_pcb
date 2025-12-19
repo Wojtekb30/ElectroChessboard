@@ -948,7 +948,7 @@
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC9"
-			(at 0 0 90)
+			(at -2.15 -3.862 90)
 			(layer "F.SilkS")
 			(uuid "e36a8803-54fc-4ae7-8d1e-677da4badf89")
 			(effects
@@ -1648,7 +1648,7 @@
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C10"
-			(at 0 0 90)
+			(at 0 1.5 90)
 			(layer "F.SilkS")
 			(uuid "3a70fd16-99ae-4631-a275-6838c883f144")
 			(effects
@@ -2364,7 +2364,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC58"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "6602c4c8-d4c7-4199-840a-8014a1f1d8d6")
 			(effects
@@ -2709,7 +2709,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC39"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "8347d051-652b-43b9-bea8-ff531df9f7b4")
 			(effects
@@ -3290,7 +3290,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC61"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "fe55cb3a-0d79-40f4-b85d-6fb1be0f4573")
 			(effects
@@ -3905,7 +3905,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC6"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "d656bfc7-c2a0-4301-a181-844f191682c2")
 			(effects
@@ -4992,7 +4992,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC8"
-			(at 0 0 0)
+			(at -0.05 3.95 0)
 			(layer "F.SilkS")
 			(uuid "ea4cc434-5acb-4045-8b17-c98137aa8da0")
 			(effects
@@ -5573,7 +5573,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC24"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "df8a326d-2dfb-4054-a48a-80cc01f96d07")
 			(effects
@@ -6896,7 +6896,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R25"
-			(at 0 1.35 90)
+			(at 0 1.55 90)
 			(layer "F.SilkS")
 			(uuid "49a990f4-04f6-4c92-b355-12948de7c067")
 			(effects
@@ -9726,7 +9726,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC12"
-			(at 0 0 0)
+			(at 0.2 3.95 0)
 			(layer "F.SilkS")
 			(uuid "37ac4c12-99d0-4c58-b76c-9ac0ea0c779b")
 			(effects
@@ -10307,7 +10307,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC26"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "a126ded0-6cf9-4a78-99ad-fb7fc7487771")
 			(effects
@@ -11468,7 +11468,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R5"
-			(at 0 1.35 90)
+			(at 0 1.55 90)
 			(layer "F.SilkS")
 			(uuid "02e4aee7-0a4b-40f9-b8ae-0ca7474b67bd")
 			(effects
@@ -11738,7 +11738,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R17"
-			(at 0.3 1.4 90)
+			(at 0.075 1.55 90)
 			(layer "F.SilkS")
 			(uuid "b0be8063-598f-49f8-9ac4-109026610b23")
 			(effects
@@ -12352,7 +12352,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R23"
-			(at 0 1.35 90)
+			(at -0.075 1.5 90)
 			(layer "F.SilkS")
 			(uuid "4020ab93-acb0-4210-b1da-ede7ed972d87")
 			(effects
@@ -12622,7 +12622,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC40"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "bf126374-3889-4d67-b98d-ae1ceb67dad1")
 			(effects
@@ -12967,7 +12967,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC52"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "6f00da1e-bd0f-418e-acd2-bdd9558df398")
 			(effects
@@ -13548,7 +13548,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC41"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "307ec4e0-697d-4811-97f3-b5d7ff2793b0")
 			(effects
@@ -15762,7 +15762,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC15"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "a9ccbbcf-674e-41d7-8c36-495b43264c11")
 			(effects
@@ -16107,7 +16107,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R21"
-			(at 0 1.35 90)
+			(at 0 1.55 90)
 			(layer "F.SilkS")
 			(uuid "da2a7123-8daf-4381-92f7-286385fcba06")
 			(effects
@@ -16647,7 +16647,7 @@
 		(descr "soic8-ren3")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC75"
-			(at 0 0 0)
+			(at -2 -4 0)
 			(layer "F.SilkS")
 			(uuid "5d80435d-f556-4336-a44f-7fb3eac19476")
 			(effects
@@ -17275,7 +17275,7 @@
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C4"
-			(at 0 0 0)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "e4cac848-7a61-4480-b257-9b9f62338961")
 			(effects
@@ -17519,7 +17519,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R36"
-			(at 0 0 0)
+			(at 0.5 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "04d52211-e9de-4136-ab45-a69d8dad0eeb")
 			(effects
@@ -17763,7 +17763,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R24"
-			(at 0 1.35 90)
+			(at 0 1.5 90)
 			(layer "F.SilkS")
 			(uuid "fd7a8a5e-2731-4df0-a775-73b4377ea160")
 			(effects
@@ -18033,7 +18033,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC25"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "403a372e-e6fa-4da8-8f27-823e71b957e5")
 			(effects
@@ -18378,7 +18378,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC66"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "1badef67-6316-4715-a899-3bf429355c16")
 			(effects
@@ -18959,7 +18959,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC10"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "7c3799f7-0011-4500-9ce5-abbcfca1cecd")
 			(effects
@@ -19574,7 +19574,7 @@
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC71"
-			(at 0 0 90)
+			(at -1.65 -3.8 90)
 			(layer "F.SilkS")
 			(uuid "a46b5e7c-3fbe-4cf6-935c-31ece792530e")
 			(effects
@@ -20004,7 +20004,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC27"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "626c77dc-b3ff-4199-bd6c-893f464455e8")
 			(effects
@@ -20619,7 +20619,7 @@
 		(descr "SOD123W")
 		(tags "Diode ESD (Uni-directional)")
 		(property "Reference" "D4"
-			(at -0.254 0.01 0)
+			(at -0.25 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "a4cf332a-21ed-4f30-b685-4b113be69333")
 			(effects
@@ -20854,7 +20854,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC63"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "818e97e2-7740-4a53-9494-3165ee7c20e5")
 			(effects
@@ -21739,7 +21739,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC7"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "9f85dc8e-551c-4f0d-b4ef-783604f0ee16")
 			(effects
@@ -22084,7 +22084,7 @@
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC35"
-			(at 0 0 90)
+			(at -1.65 -3.8 90)
 			(layer "F.SilkS")
 			(uuid "6d8803a3-aa99-4bdc-bc23-a04e92c6d6a2")
 			(effects
@@ -23286,7 +23286,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R19"
-			(at 0.3 1.4 90)
+			(at 0.075 1.5 90)
 			(layer "F.SilkS")
 			(uuid "796d1fe7-6e9e-4aec-8c3b-74c11906be64")
 			(effects
@@ -24028,7 +24028,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC55"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "a9dc7e6a-0f8e-48a7-9827-b46c81c9074d")
 			(effects
@@ -24373,7 +24373,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
-			(at 0 0 0)
+			(at 0 3.9 0)
 			(layer "F.SilkS")
 			(uuid "8bd2bcf5-97dd-457f-b27c-16e789c49bec")
 			(effects
@@ -24718,7 +24718,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC62"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "41810d48-6567-4325-9eac-adfe7321558a")
 			(effects
@@ -25299,7 +25299,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R31"
-			(at 0 1.35 90)
+			(at 0 1.5 90)
 			(layer "F.SilkS")
 			(uuid "6e5c57c5-cdaa-43ce-a54d-5d8d262af930")
 			(effects
@@ -25569,7 +25569,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R15"
-			(at 0.3 1.4 90)
+			(at -0.075 1.5 90)
 			(layer "F.SilkS")
 			(uuid "fda9dafa-2cdc-4527-ac60-9a4bbdc66261")
 			(effects
@@ -25839,7 +25839,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC4"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "c022b78a-9109-4e09-8709-682afbe6bf4d")
 			(effects
@@ -26184,7 +26184,7 @@
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC54"
-			(at 0 0 90)
+			(at -1.65 -3.8 90)
 			(layer "F.SilkS")
 			(uuid "46775ccf-1af1-4581-827c-11bf2e1fb3a6")
 			(effects
@@ -26614,7 +26614,7 @@
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC53"
-			(at 0 0 90)
+			(at -1.65 -3.8 90)
 			(layer "F.SilkS")
 			(uuid "483bf477-8bb3-4acd-a6ea-b38cf290fc01")
 			(effects
@@ -27280,7 +27280,7 @@
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C5"
-			(at 0 0 0)
+			(at 0 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "59f1af9d-d759-4503-9e8e-e570fd44a080")
 			(effects
@@ -28266,7 +28266,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC19"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "8162f68d-c44e-4da4-ae2e-c2a5ca799757")
 			(effects
@@ -29117,7 +29117,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R39"
-			(at 0 0 90)
+			(at 0 1.5 90)
 			(layer "F.SilkS")
 			(uuid "812060a4-e497-4635-b58e-9129ad4cdc6b")
 			(effects
@@ -29387,7 +29387,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC70"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "04f048d2-051e-446a-9ffa-b805b75221f8")
 			(effects
@@ -29968,7 +29968,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC23"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "e4357610-3f22-45cf-ad19-dd272052df30")
 			(effects
@@ -31055,7 +31055,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R38"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "bf62442b-7280-45be-acbc-91c872cb6110")
 			(effects
@@ -31325,7 +31325,7 @@
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C12"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "59b153c1-bcae-4691-8195-561a9d3fd38a")
 			(effects
@@ -31569,7 +31569,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC46"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "07331559-3fc1-4a05-bf1a-8e96d44f12d9")
 			(effects
@@ -32420,7 +32420,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R16"
-			(at 0.3 1.4 90)
+			(at -0.175 1.5 90)
 			(layer "F.SilkS")
 			(uuid "9d918bb0-6442-40b9-993b-2382040cef21")
 			(effects
@@ -33698,7 +33698,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R29"
-			(at 0 1.35 90)
+			(at -0.075 1.55 90)
 			(layer "F.SilkS")
 			(uuid "65dc99d3-1933-4277-aa61-7fad21413ded")
 			(effects
@@ -33968,7 +33968,7 @@
 		(descr "0603L050SLYR")
 		(tags "Resettable Fuse")
 		(property "Reference" "F1"
-			(at -0.012 0 90)
+			(at 0 -2.5 90)
 			(layer "F.SilkS")
 			(uuid "3e109882-df4c-405e-8279-34752f2183ed")
 			(effects
@@ -34264,7 +34264,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC21"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "2bb576d7-43f2-4190-b26e-652eebe0491b")
 			(effects
@@ -34845,7 +34845,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC47"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "eb41bacb-7850-4cef-9803-9721c65d94f5")
 			(effects
@@ -35977,7 +35977,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC48"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "5c6242bd-4673-45ff-8d66-8c6772ec538c")
 			(effects
@@ -36322,7 +36322,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC56"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "9880b8c1-e80c-43f3-81aa-d0bb81975f27")
 			(effects
@@ -36667,7 +36667,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC57"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "c051f843-4a40-47ab-a9fb-e0a00f28f0fc")
 			(effects
@@ -37012,7 +37012,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC69"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "a57aec5f-213c-4da1-a997-3f7f9e862674")
 			(effects
@@ -37357,7 +37357,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC17"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "b83077c6-568d-4a52-8b77-88eccf134d91")
 			(effects
@@ -38474,7 +38474,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC16"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "7bbe3328-78a4-42ca-9b4d-353d025117e5")
 			(effects
@@ -39561,7 +39561,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R32"
-			(at 0 1.35 90)
+			(at -0.175 1.5 90)
 			(layer "F.SilkS")
 			(uuid "9eb1b441-3f02-44db-9fd9-f622cc383bda")
 			(effects
@@ -40322,7 +40322,7 @@
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C11"
-			(at 0 0 0)
+			(at 0.015 1.685 0)
 			(layer "F.SilkS")
 			(uuid "c4663759-8273-49c4-8e71-589efdc6d7da")
 			(effects
@@ -40566,7 +40566,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC50"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "52eba905-373a-4a93-98a7-7a5905e071c1")
 			(effects
@@ -40911,7 +40911,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC11"
-			(at 0 0 0)
+			(at -0.05 3.95 0)
 			(layer "F.SilkS")
 			(uuid "81b16ea4-58c4-4c15-b54c-24aead49560a")
 			(effects
@@ -41492,7 +41492,7 @@
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC72"
-			(at 0 0 90)
+			(at -1.65 -3.8 90)
 			(layer "F.SilkS")
 			(uuid "c7763bed-490b-455e-bf2a-f1299d388ea0")
 			(effects
@@ -42192,7 +42192,7 @@
 		(descr "0805")
 		(tags "Resistor")
 		(property "Reference" "R72"
-			(at 0 0 0)
+			(at 0 -2.05 0)
 			(layer "F.SilkS")
 			(uuid "a80e4c91-aba8-4004-b5b0-d1032278603b")
 			(effects
@@ -42446,7 +42446,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC2"
-			(at 0 0 0)
+			(at 0 3.85 0)
 			(layer "F.SilkS")
 			(uuid "8c897a91-47a2-48bc-aaae-7b5449491d15")
 			(effects
@@ -43297,7 +43297,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R33"
-			(at 0 1.35 90)
+			(at 0 1.55 90)
 			(layer "F.SilkS")
 			(uuid "433fa8d3-98d2-4a31-8bdb-88fd2b3d8ad7")
 			(effects
@@ -43567,7 +43567,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC49"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "cae4a562-591f-47bd-8d6a-22207a427f12")
 			(effects
@@ -43912,7 +43912,7 @@
 		(descr "GZ1608D601TF*-*")
 		(tags "Ferrite Bead")
 		(property "Reference" "FB1"
-			(at 0 0 90)
+			(at 0 1.75 90)
 			(layer "F.SilkS")
 			(uuid "d44b7e4a-f10e-442e-8036-a93090c1435b")
 			(effects
@@ -45925,7 +45925,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC22"
-			(at 0 0 0)
+			(at -0.05 3.95 0)
 			(layer "F.SilkS")
 			(uuid "8c15a84f-fc1b-411f-81d2-cd96fa38f1d4")
 			(effects
@@ -46270,7 +46270,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC31"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "7ad72751-dd0c-4c7d-88a0-045497751c16")
 			(effects
@@ -48033,7 +48033,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC42"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "af3f7453-faaa-453b-99e9-f7e218cdafc6")
 			(effects
@@ -48918,7 +48918,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC28"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "cabd9b2b-02c1-4971-a1d0-288405914765")
 			(effects
@@ -49533,7 +49533,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC64"
-			(at 0 0 0)
+			(at -0.05 3.95 0)
 			(layer "F.SilkS")
 			(uuid "fcc4d0bd-4b8a-4ebe-8c37-72af835ac447")
 			(effects
@@ -49878,7 +49878,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC67"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "8702a6c8-fbd9-47a7-9d6d-75e392cba6bc")
 			(effects
@@ -50459,7 +50459,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC59"
-			(at 0 0 0)
+			(at -0.05 3.95 0)
 			(layer "F.SilkS")
 			(uuid "fcb901c3-ea5e-412c-851f-17e41550978e")
 			(effects
@@ -50804,7 +50804,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC13"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "e516a4d0-503e-48da-b6c6-1c0906e76470")
 			(effects
@@ -52379,7 +52379,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R22"
-			(at 0 1.35 90)
+			(at -0.175 1.55 90)
 			(layer "F.SilkS")
 			(uuid "b3bcaa72-3fad-4d85-bc67-d8cfc8057d27")
 			(effects
@@ -52885,7 +52885,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC44"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "61118b75-ebf5-4d50-ad76-4fad7f88a017")
 			(effects
@@ -53230,7 +53230,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC68"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "9315946d-b324-4712-aa62-a7624092cb6e")
 			(effects
@@ -53575,7 +53575,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D69"
-			(at 0.25 -1.75 0)
+			(at -0.25 -2 0)
 			(layer "F.SilkS")
 			(uuid "4d4038a0-6736-4382-9727-877444c759f5")
 			(effects
@@ -54081,7 +54081,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC5"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "76642642-6429-4f21-8bb3-923b14ab792a")
 			(effects
@@ -54426,7 +54426,7 @@
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C1"
-			(at 0 0 0)
+			(at 0 1.75 0)
 			(layer "F.SilkS")
 			(uuid "d3e4ecad-d393-4242-ae9a-a1be042f5bcb")
 			(effects
@@ -54906,7 +54906,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R74"
-			(at 0.01 1.25 0)
+			(at 0.01 1.5 0)
 			(layer "F.SilkS")
 			(uuid "9008c523-b087-40d5-95a0-47330a1ab87b")
 			(effects
@@ -55107,7 +55107,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC14"
-			(at 0 0 0)
+			(at -0.05 3.95 0)
 			(layer "F.SilkS")
 			(uuid "1b3026c8-29d9-465b-b432-061e8f16f49a")
 			(effects
@@ -55796,7 +55796,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC30"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "5f07a918-7a85-43ac-a13c-522a6e3f85a7")
 			(effects
@@ -56141,7 +56141,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC34"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "6947cd2a-515a-465f-9180-f1f18b1bdae5")
 			(effects
@@ -56486,7 +56486,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R2"
-			(at 0 0 0)
+			(at 0 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "8b4c9773-989a-4f80-ac36-c0501761bed5")
 			(effects
@@ -56730,7 +56730,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R26"
-			(at 0 1.35 90)
+			(at 0 1.55 90)
 			(layer "F.SilkS")
 			(uuid "d9e49dc6-c306-4dd6-b755-100e4dc8db7a")
 			(effects
@@ -57236,7 +57236,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC37"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "08467a2d-5798-4144-88e1-409c2ce94e01")
 			(effects
@@ -57581,7 +57581,7 @@
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC18"
-			(at 0 0 90)
+			(at -1.65 -3.8 90)
 			(layer "F.SilkS")
 			(uuid "7d66f197-1411-438f-b668-3d5e66b35bf9")
 			(effects
@@ -58011,7 +58011,7 @@
 		(descr "RU-16 (TSSOP)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC36"
-			(at 0 0 90)
+			(at -1.65 -3.8 90)
 			(layer "F.SilkS")
 			(uuid "f8b53f50-7cad-4b4e-b50e-47985cd9ee68")
 			(effects
@@ -60215,7 +60215,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC65"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "4df7df37-2698-428b-9dc0-c60c5732735b")
 			(effects
@@ -60796,7 +60796,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R18"
-			(at 0.3 1.4 90)
+			(at 0.075 1.55 90)
 			(layer "F.SilkS")
 			(uuid "f772364a-cc27-4ec2-a0bc-0245a6adc654")
 			(effects
@@ -61066,7 +61066,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R55"
-			(at 0 0 0)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "0557c9ac-d5ff-46f9-98a4-4b116aeb6474")
 			(effects
@@ -61816,7 +61816,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R28"
-			(at 0 1.35 90)
+			(at 0 1.5 90)
 			(layer "F.SilkS")
 			(uuid "44a7df14-8c0e-4918-851d-2755863d22d0")
 			(effects
@@ -62592,7 +62592,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC51"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "878e8ef6-9311-454f-b0d5-df89607a8a68")
 			(effects
@@ -63173,7 +63173,7 @@
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C6"
-			(at 0 0 0)
+			(at 0 1.75 0)
 			(layer "F.SilkS")
 			(uuid "42ae03e7-978c-479c-a8dd-e83ea5f27e18")
 			(effects
@@ -63653,7 +63653,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC3"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "ba9a4805-c421-497b-aa15-7bc39030375a")
 			(effects
@@ -63998,7 +63998,7 @@
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C7"
-			(at 0 0 0)
+			(at 0.25 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "e9e2b27e-5da0-48b8-afad-7e88f0c33e27")
 			(effects
@@ -64478,7 +64478,7 @@
 		(descr "CL10C220JB8NNNC")
 		(tags "Capacitor")
 		(property "Reference" "C3"
-			(at 0 0 0)
+			(at 0 -1.54 0)
 			(layer "F.SilkS")
 			(uuid "b4b423fa-1f0a-4e22-b246-6b6601aee49a")
 			(effects
@@ -64992,7 +64992,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC33"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "2ab38533-3d2b-4dd2-83a0-ee3c02a1c854")
 			(effects
@@ -65337,7 +65337,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC43"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "c02c6638-261f-4080-80dd-9b4d53a4749a")
 			(effects
@@ -65682,7 +65682,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC38"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "533292fb-3677-45c9-9049-95a1594e8320")
 			(effects
@@ -66027,7 +66027,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC32"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "8147ea08-c889-4450-aa46-b6330524bea5")
 			(effects
@@ -67027,7 +67027,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC20"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "d396f33b-82ba-49d2-9837-cd4fc97218b1")
 			(effects
@@ -68384,7 +68384,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC60"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "a8897254-0605-43c1-9679-928930bce15f")
 			(effects
@@ -70364,7 +70364,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R20"
-			(at 0 1.35 90)
+			(at 0 1.5 90)
 			(layer "F.SilkS")
 			(uuid "646c82fd-980d-4f89-ad3a-aa81373657c5")
 			(effects
@@ -70634,7 +70634,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC45"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "92e14c95-6874-4b4b-8293-8054430a5a6f")
 			(effects
@@ -71252,7 +71252,7 @@
 		(descr "LH,3-Pin (SOT-23W)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC29"
-			(at 0 0 0)
+			(at 0 3.95 0)
 			(layer "F.SilkS")
 			(uuid "06d95e0a-409a-4cb7-98d2-7c3921e1bc20")
 			(effects
@@ -72339,7 +72339,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R30"
-			(at 0 1.35 90)
+			(at -0.325 1.55 90)
 			(layer "F.SilkS")
 			(uuid "266bc561-c90e-4025-83e7-d2f9d67de171")
 			(effects
@@ -72609,7 +72609,7 @@
 		(descr "0805")
 		(tags "Resistor")
 		(property "Reference" "R73"
-			(at 0 0 0)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "4c239cc8-044e-49ca-b695-eb6994fc3f8b")
 			(effects
@@ -73099,7 +73099,7 @@
 		(descr "0402")
 		(tags "Resistor")
 		(property "Reference" "R3"
-			(at 0 0 0)
+			(at 0 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "1329e32d-3c97-4bf2-8b73-3393c907f785")
 			(effects
@@ -74917,7 +74917,7 @@
 	)
 	(gr_rect
 		(start 19.85 289.25)
-		(end 99.85 334.25)
+		(end 96.85 334.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -75071,6 +75071,19 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "ElectroChessboard v1\nBy Wojciech B, 12.2025"
+		(at 114.5 330 0)
+		(layer "F.SilkS")
+		(uuid "a5ac7dc3-8a4e-446c-ac4b-dff64b4f3e70")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "-VCC-"
@@ -80447,6 +80460,14 @@
 		(uuid "29456434-2e0a-4d27-9f7d-673b690c2e93")
 	)
 	(segment
+		(start 283 157.75)
+		(end 302 157.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "295e47e6-8a05-467e-a565-4af6d7fb3bd8")
+	)
+	(segment
 		(start 161.75 247.75)
 		(end 162.5 247)
 		(width 0.2)
@@ -80493,6 +80514,14 @@
 		(layer "F.Cu")
 		(net 6)
 		(uuid "2b99a787-0292-4574-8a78-1e54b45a5a7c")
+	)
+	(segment
+		(start 302 157.75)
+		(end 303.5 156.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "2bdde3fd-8472-4182-b18e-bc44929f417c")
 	)
 	(segment
 		(start 131 167.5)
@@ -86543,6 +86572,14 @@
 		(uuid "329a76bc-cf03-4ee7-864a-c4cbda749528")
 	)
 	(via
+		(at 322 70)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "3492449b-97c6-4e8f-a4a0-69b44fdcf939")
+	)
+	(via
 		(at 44.75 216.75)
 		(size 0.6)
 		(drill 0.3)
@@ -86605,6 +86642,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 6)
 		(uuid "4ffb9f4d-fa4a-40d2-8830-ae222a273066")
+	)
+	(via
+		(at 303.5 156.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "510b7fcf-2a27-4a17-a39d-72f53ca894d1")
 	)
 	(via
 		(at 162.5 247)
@@ -86791,6 +86836,14 @@
 		(uuid "730799b0-3e26-42ad-9c84-921b622223ef")
 	)
 	(via
+		(at 322.75 96.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "7496378a-0f0d-4477-9789-11c60d643c3c")
+	)
+	(via
 		(at 74 247)
 		(size 0.6)
 		(drill 0.3)
@@ -86821,6 +86874,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 6)
 		(uuid "7ac1aa99-469a-42e0-8346-5793551d1574")
+	)
+	(via
+		(at 319.5 126.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "7e6c4064-9042-4fe5-a4bd-a0bc679b1f9f")
 	)
 	(via
 		(at 268.25 247.25)
@@ -86869,6 +86930,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 6)
 		(uuid "83a50853-ebbc-43bb-b837-eb049c0d385c")
+	)
+	(via
+		(at 284.5 230.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "8496999f-c626-46d1-a031-3589d4925ef6")
 	)
 	(via
 		(at 162 68.25)
@@ -86935,12 +87004,28 @@
 		(uuid "9c27193b-c660-4e71-b0c3-75839f240c0d")
 	)
 	(via
+		(at 283 157.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "9d6dca56-9350-4919-b7b2-b8f803dc2f73")
+	)
+	(via
 		(at 102.5 128.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 6)
 		(uuid "9dac3249-4a34-42b5-a4fe-f40e16659458")
+	)
+	(via
+		(at 284.5 236.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "9e1153fe-7829-40e2-b51c-65ff9823dddd")
 	)
 	(via
 		(at 323 160)
@@ -87319,7 +87404,7 @@
 		(uuid "0e47f7bc-6042-4b91-8f10-0feb2560d18b")
 	)
 	(segment
-		(start 289.25 251.25)
+		(start 284.5 246.5)
 		(end 283.75 245.75)
 		(width 0.2)
 		(layer "B.Cu")
@@ -87341,6 +87426,14 @@
 		(layer "B.Cu")
 		(net 6)
 		(uuid "11c1a8ab-7d7c-439d-a9e4-b87e679e17f3")
+	)
+	(segment
+		(start 303.5 156.25)
+		(end 307.25 152.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "25e7f29d-8270-4edc-9172-7489c162e6d8")
 	)
 	(segment
 		(start 252.75 36.75)
@@ -87407,6 +87500,14 @@
 		(uuid "344258f4-d52e-4eab-ae13-d9b4da652607")
 	)
 	(segment
+		(start 307.25 152.5)
+		(end 312 152.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "378adf84-12e1-42a8-a091-e4d62ce3f75c")
+	)
+	(segment
 		(start 325 272.25)
 		(end 325 309.25)
 		(width 0.2)
@@ -87423,6 +87524,30 @@
 		(uuid "3d6440e8-3e61-4800-83e2-75591aafc78d")
 	)
 	(segment
+		(start 284.5 236.25)
+		(end 284.5 246.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "45a31604-372d-46cb-aa1a-8dcf892c2b20")
+	)
+	(segment
+		(start 323.25 126.25)
+		(end 324 127)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "50df629f-e121-4bf4-8f3f-9be7ad5a3164")
+	)
+	(segment
+		(start 284.5 214.75)
+		(end 284.5 187.75)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "5b66fd1e-48c8-4631-915a-017dc1a03361")
+	)
+	(segment
 		(start 223.5 317.75)
 		(end 223.5 317.25)
 		(width 0.2)
@@ -87437,6 +87562,14 @@
 		(layer "B.Cu")
 		(net 6)
 		(uuid "6ba7212f-954c-4e01-9322-59cfe52cd1d2")
+	)
+	(segment
+		(start 322 70)
+		(end 324 72)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "6e9e2cab-3681-4a45-896c-92cb778938d7")
 	)
 	(segment
 		(start 277 247)
@@ -87461,6 +87594,14 @@
 		(layer "B.Cu")
 		(net 6)
 		(uuid "770c3293-d1c2-4469-8bec-29a134366103")
+	)
+	(segment
+		(start 283.5 213.75)
+		(end 284.5 214.75)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "782219ca-06d0-4fab-be77-4a2ae6f92ef9")
 	)
 	(segment
 		(start 224.25 318.5)
@@ -87543,6 +87684,14 @@
 		(uuid "90432215-504a-4fac-9883-190f8c27b859")
 	)
 	(segment
+		(start 283 186.25)
+		(end 276.75 186.25)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "93aaf8ba-5988-4b8d-b3c0-25baaac16ea7")
+	)
+	(segment
 		(start 312.75 304.5)
 		(end 313.25 305)
 		(width 0.2)
@@ -87567,6 +87716,14 @@
 		(uuid "9e1e645c-3bdb-410a-baeb-f86a1632ad38")
 	)
 	(segment
+		(start 277.25 157.75)
+		(end 283 157.75)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "a475e6af-8634-44b8-9871-774d39060f96")
+	)
+	(segment
 		(start 324 161)
 		(end 323 160)
 		(width 0.2)
@@ -87575,12 +87732,52 @@
 		(uuid "a84ce686-bdb2-43bc-b9ad-aa4693449404")
 	)
 	(segment
+		(start 322.75 96.75)
+		(end 324 98)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "ab845fe6-0685-4850-a012-29cfaabd65f1")
+	)
+	(segment
+		(start 324 72)
+		(end 324 98)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "abade99f-3197-4181-9151-ae852fbf84a4")
+	)
+	(segment
+		(start 324 98)
+		(end 324 127)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "adff3ae2-a2fc-4b92-aa98-54a5c05bafb4")
+	)
+	(segment
+		(start 289.25 251.25)
+		(end 284.5 246.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "b248aec1-8240-4193-a63b-c47e249761f3")
+	)
+	(segment
 		(start 321 310.5)
 		(end 317.5 310.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 6)
 		(uuid "bbf6e0ad-1ad7-41bd-99c0-b062497fa0b8")
+	)
+	(segment
+		(start 279.5 213.75)
+		(end 283.5 213.75)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "bdc37d6c-43a9-4d98-b4ea-bc68205566ef")
 	)
 	(segment
 		(start 313.25 314.75)
@@ -87623,6 +87820,14 @@
 		(uuid "cedecf73-ee92-4055-b5f1-930d6b59f011")
 	)
 	(segment
+		(start 319.5 126.25)
+		(end 323.25 126.25)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "d23fd0d5-b307-4c2c-a620-f76014b4eb89")
+	)
+	(segment
 		(start 277 247)
 		(end 277.5 247.5)
 		(width 0.2)
@@ -87637,6 +87842,22 @@
 		(layer "B.Cu")
 		(net 6)
 		(uuid "d52b806d-663a-459e-9b60-0824baadae11")
+	)
+	(segment
+		(start 324 127)
+		(end 324 161)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "d76224da-6ea8-45ba-8c35-54ed183665a2")
+	)
+	(segment
+		(start 284.5 230.5)
+		(end 284.5 214.75)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "d7625f09-9fef-44db-b4ca-2ad98aa3c5f2")
 	)
 	(segment
 		(start 223.5 308.25)
@@ -87655,12 +87876,28 @@
 		(uuid "e38e11d3-9495-4ef4-a86c-a4ee7f70392f")
 	)
 	(segment
+		(start 284.5 187.75)
+		(end 283 186.25)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "e4cf8f2c-abfb-48b3-b0a5-941d4c37c293")
+	)
+	(segment
 		(start 257 32.5)
 		(end 266.25 32.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 6)
 		(uuid "e7b8d713-4f82-4d98-8702-8601c061dfd3")
+	)
+	(segment
+		(start 276.5 216.75)
+		(end 279.5 213.75)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "ee272a32-1bf8-48cf-9f56-e2988da733de")
 	)
 	(segment
 		(start 275.5 308)
@@ -87672,7 +87909,7 @@
 	)
 	(segment
 		(start 324 70)
-		(end 324 161)
+		(end 324 72)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 6)
@@ -87911,6 +88148,14 @@
 		(uuid "0e3291f8-2672-4f40-807d-e70bfeca70f8")
 	)
 	(segment
+		(start 276.75 97.75)
+		(end 277.5 97.75)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "0f0316e4-1d44-4806-84d1-f849bfa1ce47")
+	)
+	(segment
 		(start 173.5 276.5)
 		(end 189.75 276.5)
 		(width 0.2)
@@ -87959,6 +88204,14 @@
 		(uuid "14ae85db-e0d2-4a0e-a48d-5fec095e9e9c")
 	)
 	(segment
+		(start 284.5 230.5)
+		(end 284.5 236.25)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "16267390-2b60-4ca6-bbb9-842e469b5d93")
+	)
+	(segment
 		(start 244.75 248.5)
 		(end 248 248.5)
 		(width 0.2)
@@ -87973,6 +88226,14 @@
 		(layer "In2.Cu")
 		(net 6)
 		(uuid "174c84b6-8a2f-4937-9d93-a8669124f1a6")
+	)
+	(segment
+		(start 276.5 127.25)
+		(end 277.25 127.25)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "18b1d3b4-4edc-4386-a25c-112a14757bbf")
 	)
 	(segment
 		(start 162.75 128.5)
@@ -88005,6 +88266,14 @@
 		(layer "In2.Cu")
 		(net 6)
 		(uuid "1bf76216-27e1-4a78-95eb-8991297d6d06")
+	)
+	(segment
+		(start 315 126.25)
+		(end 319.5 126.25)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "1f528f4c-8442-4589-ac35-f7481dab5ab7")
 	)
 	(segment
 		(start 194 292.75)
@@ -88103,6 +88372,14 @@
 		(uuid "288fbe05-2d26-4994-afd6-44c8a00ba737")
 	)
 	(segment
+		(start 276.25 68.25)
+		(end 277.25 69.25)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "2a148445-94b1-4ac6-a45b-dccf386f12fd")
+	)
+	(segment
 		(start 139.5 275.75)
 		(end 155.75 275.75)
 		(width 0.2)
@@ -88167,6 +88444,30 @@
 		(uuid "34c439eb-d604-4ff9-a538-bf48a574db7f")
 	)
 	(segment
+		(start 279.25 125.25)
+		(end 281 125.25)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "3510cd36-f809-440c-9ff5-56ce04c89677")
+	)
+	(segment
+		(start 314 125.25)
+		(end 315 126.25)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "358de550-f2fd-4e80-a65e-1ae1968af78d")
+	)
+	(segment
+		(start 321.25 69.25)
+		(end 322 70)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "364e2696-10a5-41ea-8d88-abb46fcfc3b1")
+	)
+	(segment
 		(start 163.25 187.25)
 		(end 190.5 187.25)
 		(width 0.2)
@@ -88205,6 +88506,14 @@
 		(layer "In2.Cu")
 		(net 6)
 		(uuid "3caf37f9-deeb-4c67-b3f9-6e76170fe09f")
+	)
+	(segment
+		(start 277.5 97.75)
+		(end 277.75 97.5)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "3d143189-8cf4-45c3-9e4c-5def42748aca")
 	)
 	(segment
 		(start 97.75 128.75)
@@ -88439,6 +88748,14 @@
 		(uuid "611ab0bc-9221-4d14-b1c6-2b6888ab41d9")
 	)
 	(segment
+		(start 281 125.25)
+		(end 314 125.25)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "613f3db4-3a43-4ace-8096-944c8617e42e")
+	)
+	(segment
 		(start 102.75 158.25)
 		(end 128.5 158.25)
 		(width 0.2)
@@ -88511,6 +88828,14 @@
 		(uuid "6ae34cdd-5ca2-4694-8fc0-214b0c5cd203")
 	)
 	(segment
+		(start 322 96)
+		(end 322.75 96.75)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "6cc4798f-23e4-4083-a743-85bf51c9e4c9")
+	)
+	(segment
 		(start 156.75 277)
 		(end 157.25 277)
 		(width 0.2)
@@ -88525,6 +88850,14 @@
 		(layer "In2.Cu")
 		(net 6)
 		(uuid "6db7ac86-0586-44ff-8673-143a0aaa67dc")
+	)
+	(segment
+		(start 279.25 96)
+		(end 297.25 96)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "6e5dcc45-2db2-4422-8394-ca99ab761e5f")
 	)
 	(segment
 		(start 65.25 186.25)
@@ -88751,6 +89084,22 @@
 		(uuid "8f4def5b-5708-403e-9ae4-4f7f1aa29d2c")
 	)
 	(segment
+		(start 277.25 69.25)
+		(end 321.25 69.25)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "92fe36b5-01ec-425b-95d3-114f0f1cac9e")
+	)
+	(segment
+		(start 277.75 97.5)
+		(end 279.25 96)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "935c74fe-f231-4151-aa16-2c72d7deaad2")
+	)
+	(segment
 		(start 121.5 276.75)
 		(end 127.5 282.75)
 		(width 0.2)
@@ -88853,6 +89202,14 @@
 		(layer "In2.Cu")
 		(net 6)
 		(uuid "a8bb2396-1212-4a8a-bf63-354cdd4dce75")
+	)
+	(segment
+		(start 277.25 127.25)
+		(end 278 126.5)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "a8c6f7ee-15d3-401d-8084-d59e008d299a")
 	)
 	(segment
 		(start 223.75 68.25)
@@ -89071,6 +89428,14 @@
 		(uuid "dbc7da75-3ff8-4276-b7f4-037711d2cdea")
 	)
 	(segment
+		(start 297.25 96)
+		(end 322 96)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "dc61aec1-3f8f-4c59-a8c2-b347511c6436")
+	)
+	(segment
 		(start 132.25 128.5)
 		(end 162.75 128.5)
 		(width 0.2)
@@ -89109,6 +89474,14 @@
 		(layer "In2.Cu")
 		(net 6)
 		(uuid "e605aa22-6418-47a1-a247-5a136ee98855")
+	)
+	(segment
+		(start 278 126.5)
+		(end 279.25 125.25)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net 6)
+		(uuid "e7081aa0-e9c4-4306-9438-afc443eb3afd")
 	)
 	(segment
 		(start 194 282.25)
@@ -104047,14 +104420,6 @@
 		(uuid "fbfc085f-6ee4-4216-8194-7a6d230e0db5")
 	)
 	(segment
-		(start 266.5 292)
-		(end 266.5 280.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 149)
-		(uuid "29c61eb0-a0b8-4891-bf17-441c8a738faf")
-	)
-	(segment
 		(start 294 319.5)
 		(end 294.5 320)
 		(width 0.2)
@@ -104094,8 +104459,16 @@
 		(net 149)
 		(uuid "e59d05d9-63a9-410d-b348-71b39b7de955")
 	)
+	(segment
+		(start 266.5 294.25)
+		(end 266.5 280.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 149)
+		(uuid "fb1179f1-2b0e-4053-a0b4-b6d31aacd882")
+	)
 	(via
-		(at 266.5 292)
+		(at 266.5 294.25)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -104127,36 +104500,36 @@
 		(uuid "b9248e13-4e58-40dc-83cd-d6bd9c29a00c")
 	)
 	(segment
-		(start 294.5 322)
-		(end 285 322)
+		(start 277 322)
+		(end 294.5 322)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 149)
-		(uuid "00b4038f-0350-4611-ae9c-8997b8ad5a3a")
+		(uuid "1fe762a3-a101-45b8-a671-bdd70f2d04bd")
 	)
 	(segment
-		(start 285 322)
+		(start 266.5 311.5)
 		(end 277 322)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 149)
-		(uuid "3463a44d-c7b9-4892-8781-e1a76075f880")
+		(uuid "2b234806-a372-4247-a39e-b11f984d235e")
 	)
 	(segment
-		(start 294.5 320)
-		(end 295 320.5)
+		(start 295 320.5)
+		(end 294.5 320)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 149)
-		(uuid "618ed0bf-f6e6-46bf-b09b-edbb3d375d26")
+		(uuid "59727298-09ee-4f0f-97a7-50da6e7cec9a")
 	)
 	(segment
-		(start 277 322)
-		(end 266.5 311.5)
+		(start 294.5 322)
+		(end 295 321.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 149)
-		(uuid "69ca01c7-4530-4ba2-9a0c-63dceb81de69")
+		(uuid "68430561-b850-4967-9da1-093f563a3135")
 	)
 	(segment
 		(start 266.5 280.5)
@@ -104165,14 +104538,6 @@
 		(layer "B.Cu")
 		(net 149)
 		(uuid "88e549a8-10fc-4741-9272-522cbd8b817c")
-	)
-	(segment
-		(start 295 321.5)
-		(end 294.5 322)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 149)
-		(uuid "8ab892f7-5cc4-4b22-84fa-4c07c83f05e0")
 	)
 	(segment
 		(start 266.5 277.5)
@@ -104191,30 +104556,6 @@
 		(uuid "a1692162-94b1-4f52-8556-3fc5e04af695")
 	)
 	(segment
-		(start 295 321)
-		(end 295 321.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 149)
-		(uuid "ba776100-4fca-4563-a470-797a61309025")
-	)
-	(segment
-		(start 295 320.5)
-		(end 295 321)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 149)
-		(uuid "c1ed70d4-259a-4615-ae55-4ef578e675a1")
-	)
-	(segment
-		(start 266.5 311.5)
-		(end 266.5 292)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 149)
-		(uuid "c961b2c8-563e-4679-8885-aea8138f660a")
-	)
-	(segment
 		(start 273.5 177.5)
 		(end 274.5 177.5)
 		(width 0.2)
@@ -104223,12 +104564,28 @@
 		(uuid "cd7d0488-95cc-46a7-8961-9f36d34f3d0f")
 	)
 	(segment
+		(start 295 321.5)
+		(end 295 320.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 149)
+		(uuid "dc9b613f-7344-4e74-8e3f-c5fd968a4380")
+	)
+	(segment
 		(start 272 272)
 		(end 272 179)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 149)
 		(uuid "debfcc66-4990-42d2-8e83-ad8e5299cecf")
+	)
+	(segment
+		(start 266.5 294.25)
+		(end 266.5 311.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 149)
+		(uuid "f3a6717e-845e-4947-8ee5-8ce3c9b4d40e")
 	)
 	(segment
 		(start 274.5 170.5)
@@ -104599,20 +104956,20 @@
 		(uuid "e5fbfb14-2eb8-498e-ad3b-800ae9459e4b")
 	)
 	(segment
-		(start 265.5 291)
-		(end 265.5 281)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 152)
-		(uuid "4a218f44-d5bd-43ca-a8e8-6c7f0cce2b57")
-	)
-	(segment
 		(start 294.5 319)
 		(end 295.5 320)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 152)
 		(uuid "4a373960-3a92-4bf7-9019-141adf7c14de")
+	)
+	(segment
+		(start 265.5 294.75)
+		(end 265.5 281)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 152)
+		(uuid "66f77ff7-b404-48d6-827c-43f8430ffcce")
 	)
 	(segment
 		(start 275 158)
@@ -104647,7 +105004,7 @@
 		(uuid "fe7d4ede-0d4b-4ade-bdee-8fbce19166e4")
 	)
 	(via
-		(at 265.5 291)
+		(at 265.5 294.75)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -104687,12 +105044,12 @@
 		(uuid "21b1a621-b2e7-4dba-b350-c5acfe894097")
 	)
 	(segment
-		(start 296 321.5)
-		(end 295 322.5)
+		(start 295 322.5)
+		(end 296 321.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 152)
-		(uuid "22b5cc45-8f1e-4e13-9f65-e56fdec55442")
+		(uuid "22fa7c3b-97c2-4d80-b76a-8b34abff3b61")
 	)
 	(segment
 		(start 271 159)
@@ -104711,12 +105068,12 @@
 		(uuid "31299cce-8fb5-461f-9f61-6b263e0e7b68")
 	)
 	(segment
-		(start 265.5 311.5)
-		(end 265.5 309)
+		(start 265.5 294.75)
+		(end 265.5 311.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 152)
-		(uuid "38586862-cc25-4748-bde4-5e7072b712fe")
+		(uuid "3eb17951-f8f0-404f-a9fd-145c5ab179ff")
 	)
 	(segment
 		(start 265.5 277.5)
@@ -104727,38 +105084,6 @@
 		(uuid "59805c85-e8bf-40b8-b9b9-37e87309698b")
 	)
 	(segment
-		(start 295.5 320)
-		(end 296 320.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 152)
-		(uuid "5fcf2612-3f56-4c03-9fcb-576cc8a1752c")
-	)
-	(segment
-		(start 265.5 309)
-		(end 265.5 291)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 152)
-		(uuid "673b8aa4-0964-4065-a450-962b8ecaed57")
-	)
-	(segment
-		(start 296 320.5)
-		(end 296 321.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 152)
-		(uuid "688b1fe0-7adc-4f33-baf6-db63d2cf30b8")
-	)
-	(segment
-		(start 276 322)
-		(end 265.5 311.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 152)
-		(uuid "69dc95a3-11ef-4187-b6f0-a92eb0a8f592")
-	)
-	(segment
 		(start 272 158)
 		(end 273.5 158)
 		(width 0.2)
@@ -104767,28 +105092,36 @@
 		(uuid "8f3bd5bf-7a77-464a-a5b1-b9e623153e38")
 	)
 	(segment
+		(start 296 321.5)
+		(end 296 320.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 152)
+		(uuid "96933342-9244-40d2-b528-ee44a148df29")
+	)
+	(segment
 		(start 276.5 322.5)
-		(end 276 322)
+		(end 295 322.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 152)
-		(uuid "adaa8398-c0f3-4dd1-9a84-038b7a15756b")
+		(uuid "9faf87d7-3395-4bb0-a66f-fb8fa85b39fe")
 	)
 	(segment
-		(start 295 322.5)
-		(end 293.5 322.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 152)
-		(uuid "e7e18f90-40d7-4a8c-acbf-10b3ea852d30")
-	)
-	(segment
-		(start 293.5 322.5)
+		(start 265.5 311.5)
 		(end 276.5 322.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 152)
-		(uuid "f03e2c49-3471-458e-bc2f-6c4ffb28a554")
+		(uuid "ab702ec4-9707-4db7-b37c-7d666f2f20d9")
+	)
+	(segment
+		(start 296 320.5)
+		(end 295.5 320)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 152)
+		(uuid "ae83804a-5314-4f55-baea-cf1aaf3e1326")
 	)
 	(segment
 		(start 75.25 267)
@@ -107559,14 +107892,6 @@
 		(uuid "659794ea-4c52-4676-8bdc-96ed5e83a1c4")
 	)
 	(segment
-		(start 268.5 294)
-		(end 268.5 280.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 170)
-		(uuid "805d2c4d-ea6b-4f56-9408-554d4d88e4a6")
-	)
-	(segment
 		(start 284.5 308.5)
 		(end 281 312)
 		(width 0.2)
@@ -107599,6 +107924,14 @@
 		(uuid "be38c365-07a5-4ccf-a40d-ef7e1f2d5692")
 	)
 	(segment
+		(start 268.5 294.25)
+		(end 268.5 280.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 170)
+		(uuid "d90120f2-833b-4927-98c3-ce2101d6cc4e")
+	)
+	(segment
 		(start 276.675 249.175)
 		(end 276.675 252.162)
 		(width 0.2)
@@ -107615,7 +107948,7 @@
 		(uuid "fd61ac5c-57a7-4d76-a4de-38701df4fde3")
 	)
 	(via
-		(at 268.5 294)
+		(at 268.5 294.25)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -107647,14 +107980,6 @@
 		(uuid "ed09a780-8e23-4645-a130-b34b65a0f481")
 	)
 	(segment
-		(start 270.5 313.5)
-		(end 268.5 311.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 170)
-		(uuid "19fbfaf8-61ce-477c-845b-45e8481c59c9")
-	)
-	(segment
 		(start 274 272)
 		(end 268.5 277.5)
 		(width 0.2)
@@ -107663,12 +107988,12 @@
 		(uuid "3195ecb9-26a8-4be2-bfa4-27d837d33187")
 	)
 	(segment
-		(start 281 312)
+		(start 270.5 313.5)
 		(end 279.5 313.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 170)
-		(uuid "3509e4dc-aad4-4916-8fcb-d94ea438d84d")
+		(uuid "41d5d32d-27df-499b-8447-f5b9f54a8dce")
 	)
 	(segment
 		(start 268.5 277.5)
@@ -107679,6 +108004,14 @@
 		(uuid "57d7a2a3-773b-4729-9c69-3513e3e3b0dc")
 	)
 	(segment
+		(start 268.5 311.5)
+		(end 270.5 313.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 170)
+		(uuid "6ba36a0b-01e2-4944-9980-ff3c781705fd")
+	)
+	(segment
 		(start 274 253.25)
 		(end 274 272)
 		(width 0.2)
@@ -107687,20 +108020,20 @@
 		(uuid "70303536-52c9-4479-9834-883ea8c2ab9e")
 	)
 	(segment
-		(start 268.5 311.5)
-		(end 268.5 294)
+		(start 268.5 294.25)
+		(end 268.5 311.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 170)
-		(uuid "8ee21368-c60e-4969-81b2-7b89860bf53a")
+		(uuid "9a3ce0d9-5096-4f42-95e0-3f20ad14cd76")
 	)
 	(segment
 		(start 279.5 313.5)
-		(end 270.5 313.5)
+		(end 281 312)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 170)
-		(uuid "98362930-aa5a-4040-ae17-f9d2e5082fad")
+		(uuid "e68979a1-840c-4410-a7c1-cf19a68e765f")
 	)
 	(segment
 		(start 276.675 265.825)
@@ -107887,20 +108220,20 @@
 		(uuid "5413d2f9-dce9-44a2-a5ee-93c2f37cd4bc")
 	)
 	(segment
-		(start 267.5 293)
-		(end 267.5 281)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 172)
-		(uuid "54eb2add-4e6b-48b3-9124-fb04c16a2fac")
-	)
-	(segment
 		(start 274.75 249.75)
 		(end 275.5 249.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 172)
 		(uuid "72269e17-629f-4c39-bae2-46a131e3c973")
+	)
+	(segment
+		(start 267.5 294.75)
+		(end 267.5 281)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 172)
+		(uuid "824050f4-842f-41b1-b002-3aaae4361489")
 	)
 	(segment
 		(start 275.5 249.75)
@@ -107919,7 +108252,7 @@
 		(uuid "44b631f1-042e-4cb6-887b-0819b067013a")
 	)
 	(via
-		(at 267.5 293)
+		(at 267.5 294.75)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -107943,20 +108276,12 @@
 		(uuid "e901baef-882d-4b7d-bfb3-c9ccdb4a2c9a")
 	)
 	(segment
-		(start 282 313)
-		(end 281 314)
+		(start 267.5 294.75)
+		(end 267.5 311.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 172)
-		(uuid "08b72f1f-2ee8-440d-b1bf-b393c77bb692")
-	)
-	(segment
-		(start 278.5 314)
-		(end 270 314)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 172)
-		(uuid "0bd0e6c2-bce8-41be-ab3b-15d6484ec064")
+		(uuid "10ac22e2-7a5d-4d78-8dff-67034dac3cf6")
 	)
 	(segment
 		(start 273 252)
@@ -107965,22 +108290,6 @@
 		(layer "B.Cu")
 		(net 172)
 		(uuid "17fd6d4f-4b3a-4b55-b9f6-7a766aca6d5e")
-	)
-	(segment
-		(start 270 314)
-		(end 267.5 311.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 172)
-		(uuid "183eb970-99a6-4798-886c-213903d14705")
-	)
-	(segment
-		(start 267.5 311.5)
-		(end 267.5 293)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 172)
-		(uuid "2294b051-0a9b-4432-b6d8-c2221f25f96e")
 	)
 	(segment
 		(start 273.25 249.75)
@@ -107999,14 +108308,6 @@
 		(uuid "26e0ba88-d3c9-4553-9410-a138eb36d205")
 	)
 	(segment
-		(start 281 314)
-		(end 278.5 314)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 172)
-		(uuid "3faa389b-7874-4ddb-9702-424d3aedc4ad")
-	)
-	(segment
 		(start 267.5 281)
 		(end 267.5 277.5)
 		(width 0.2)
@@ -108021,6 +108322,30 @@
 		(layer "B.Cu")
 		(net 172)
 		(uuid "6fb96d10-9f1f-414e-841c-fa19a075534b")
+	)
+	(segment
+		(start 270 314)
+		(end 281 314)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 172)
+		(uuid "78dede0a-816d-4061-9c9a-2ac2fb43da23")
+	)
+	(segment
+		(start 281 314)
+		(end 282 313)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 172)
+		(uuid "91b05ef5-2bda-4c6c-8853-31760af0169b")
+	)
+	(segment
+		(start 267.5 311.5)
+		(end 270 314)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 172)
+		(uuid "ca340d31-5df5-4a8d-9329-d0bc575b1140")
 	)
 	(segment
 		(start 267.5 277.5)
@@ -117951,7 +118276,7 @@
 		(uuid "356e4c03-d635-4f69-9fdf-7e99e7ed93e3")
 	)
 	(via
-		(at 263.75 290)
+		(at 263.75 293)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -117975,6 +118300,14 @@
 		(uuid "fd45668f-efa0-4386-876f-e2316def2327")
 	)
 	(segment
+		(start 257.25 295.5)
+		(end 204 295.5)
+		(width 0.2)
+		(layer "In1.Cu")
+		(net 309)
+		(uuid "03927a49-1f79-40b1-806e-bf8c733316c8")
+	)
+	(segment
 		(start 297 291.75)
 		(end 289.5 291.75)
 		(width 0.2)
@@ -117983,12 +118316,20 @@
 		(uuid "1555ea66-d1da-4274-9611-077cf876b3f7")
 	)
 	(segment
-		(start 262.75 290)
-		(end 257.25 295.5)
+		(start 204 295.5)
+		(end 192.75 284.25)
 		(width 0.2)
 		(layer "In1.Cu")
 		(net 309)
-		(uuid "39b19a52-6ac5-481a-b478-7c97b4c24942")
+		(uuid "1f97309b-a19a-44b4-b791-a1d2934642be")
+	)
+	(segment
+		(start 263.75 293)
+		(end 259.75 293)
+		(width 0.2)
+		(layer "In1.Cu")
+		(net 309)
+		(uuid "52aa21e5-d236-41a2-a184-e52a193807eb")
 	)
 	(segment
 		(start 289.5 291.75)
@@ -117997,22 +118338,6 @@
 		(layer "In1.Cu")
 		(net 309)
 		(uuid "56462d0c-d5e1-41f5-a855-14526eed1df0")
-	)
-	(segment
-		(start 257.25 295.5)
-		(end 204 295.5)
-		(width 0.2)
-		(layer "In1.Cu")
-		(net 309)
-		(uuid "73c0691a-aa7a-4a9e-b30a-86820a60ad00")
-	)
-	(segment
-		(start 204 295.5)
-		(end 192.75 284.25)
-		(width 0.2)
-		(layer "In1.Cu")
-		(net 309)
-		(uuid "77a3ed73-3e15-45b9-b9a9-27073bbb9e38")
 	)
 	(segment
 		(start 297.5 292.25)
@@ -118028,7 +118353,15 @@
 		(width 0.2)
 		(layer "In1.Cu")
 		(net 309)
-		(uuid "98736964-5044-42df-be6a-da1c2ee87684")
+		(uuid "bb9de96c-3c0e-4fb9-8a24-0f6c472591f2")
+	)
+	(segment
+		(start 259.75 293)
+		(end 257.25 295.5)
+		(width 0.2)
+		(layer "In1.Cu")
+		(net 309)
+		(uuid "cb8915b9-f5a6-4d2d-af3b-4a08071a20e2")
 	)
 	(segment
 		(start 297.5 292.75)
@@ -118039,20 +118372,20 @@
 		(uuid "def5fa8d-7f06-465c-9dfd-c20eca84f55d")
 	)
 	(segment
-		(start 263.75 290)
-		(end 262.75 290)
+		(start 263.75 293)
+		(end 270 293)
 		(width 0.2)
-		(layer "In1.Cu")
+		(layer "In2.Cu")
 		(net 309)
-		(uuid "df2cef32-81ea-4660-8e69-c6e37d006777")
+		(uuid "26000d24-4f56-41ef-b12b-98467be68324")
 	)
 	(segment
-		(start 269.75 293.5)
+		(start 270.5 293.5)
 		(end 287.75 293.5)
 		(width 0.2)
 		(layer "In2.Cu")
 		(net 309)
-		(uuid "1511403c-77dc-4799-8d1c-36984919d96e")
+		(uuid "4a8cdbb2-0ccb-49c2-9dba-1fdd9f5bdac2")
 	)
 	(segment
 		(start 287.75 293.5)
@@ -118060,23 +118393,15 @@
 		(width 0.2)
 		(layer "In2.Cu")
 		(net 309)
-		(uuid "273e4988-826a-494b-b146-b88d0161c8e8")
+		(uuid "5287c29d-0762-443d-a08a-39e463f419c3")
 	)
 	(segment
-		(start 266.25 290)
-		(end 269.75 293.5)
+		(start 270 293)
+		(end 270.5 293.5)
 		(width 0.2)
 		(layer "In2.Cu")
 		(net 309)
-		(uuid "398d8c96-8d77-4512-963a-23062b0749ad")
-	)
-	(segment
-		(start 263.75 290)
-		(end 266.25 290)
-		(width 0.2)
-		(layer "In2.Cu")
-		(net 309)
-		(uuid "90f7b69f-1fbe-4157-809f-9be06a01dcc0")
+		(uuid "fb8e14c2-9085-48da-89bf-8ea057211f05")
 	)
 	(segment
 		(start 197.5 287.75)
