@@ -2810,6 +2810,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 85.09) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eeb876a-cf9c-40d4-966b-c78db0420e18")
+	)
+	(wire
+		(pts
 			(xy 19.05 127) (xy 19.05 110.49)
 		)
 		(stroke
@@ -3140,16 +3150,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 82.55) (xy 132.08 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79e6aaaa-b9e1-4977-bbbb-6d1ab250f570")
-	)
-	(wire
-		(pts
 			(xy 74.93 109.22) (xy 74.93 127)
 		)
 		(stroke
@@ -3270,16 +3270,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 132.08 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d9b5735-9db1-428d-a2bc-f95f462f44cb")
-	)
-	(wire
-		(pts
 			(xy 63.5 132.08) (xy 71.12 132.08)
 		)
 		(stroke
@@ -3320,16 +3310,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 77.47) (xy 129.54 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab321720-092f-4690-91c6-12580c274e6f")
-	)
-	(wire
-		(pts
 			(xy 21.59 156.21) (xy 31.75 156.21)
 		)
 		(stroke
@@ -3337,16 +3317,6 @@
 			(type default)
 		)
 		(uuid "ab77accf-3bc0-4af8-9880-783c5b702d5b")
-	)
-	(wire
-		(pts
-			(xy 142.24 77.47) (xy 129.54 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab82e1f1-46db-4e8e-97e3-b12afbb44e8a")
 	)
 	(wire
 		(pts
@@ -3700,16 +3670,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 85.09) (xy 127 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eece335e-81bf-458a-8f19-59071ec3fa5d")
-	)
-	(wire
-		(pts
 			(xy 106.68 128.27) (xy 109.22 128.27)
 		)
 		(stroke
@@ -3760,6 +3720,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 82.55) (xy 134.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a6e4d7-26ee-41ff-b5e6-538dae8a9cd2")
+	)
+	(wire
+		(pts
 			(xy 67.31 146.05) (xy 67.31 139.7)
 		)
 		(stroke
@@ -3767,16 +3737,6 @@
 			(type default)
 		)
 		(uuid "f7d81ca2-e26f-49b9-918a-9dce7ff8f731")
-	)
-	(wire
-		(pts
-			(xy 129.54 82.55) (xy 127 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb255e35-6cf1-4012-b373-5650b69135b5")
 	)
 	(wire
 		(pts
@@ -3846,7 +3806,7 @@
 	)
 	(global_label "FT232RLrx"
 		(shape bidirectional)
-		(at 142.24 77.47 0)
+		(at 148.59 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3856,7 +3816,7 @@
 		)
 		(uuid "52436bda-e7db-431e-b0a5-3549391a57a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.1336 77.47 0)
+			(at 162.4836 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
