@@ -32,6 +32,21 @@ int readHall(uint8_t x, uint8_t y);
 
 /* -------------------------------------------------
  * PIECE ENCODING (user board)
+ *
+ * 0  = empty
+ * 1  = white pawn
+ * 2  = black pawn
+ * 3  = white knight
+ * 4  = black knight
+ * 5  = white bishop
+ * 6  = black bishop
+ * 7  = white rook
+ * 8  = black rook
+ * 9  = white queen
+ * 10 = black queen
+ * 11 = white king
+ * 12 = black king
+
  * ------------------------------------------------- */
 
 uint8_t board[8][8];
