@@ -7,15 +7,12 @@
 #include <stdlib.h>
 #include <avr/io.h>
 
-//#define PK0 97
-//#define PK1 96
-//#define PK2 95
-//#define PK3 94
+// FIX: Replaced PK0-PK3 (register bits) with A8-A11 (Arduino Pins)
 void setup_all_pins(){
-  pinMode(PK0, INPUT_PULLUP);
-  pinMode(PK1, INPUT_PULLUP);
-  pinMode(PK2, INPUT_PULLUP);
-  pinMode(PK3, INPUT_PULLUP);
+  pinMode(A8,  INPUT_PULLUP);
+  pinMode(A9,  INPUT_PULLUP);
+  pinMode(A10, INPUT_PULLUP);
+  pinMode(A11, INPUT_PULLUP);
 }
 
 // Define Pin 19 (PD2 / Pin 45) as TX
@@ -32,21 +29,6 @@ int readHall(uint8_t x, uint8_t y);
 
 /* -------------------------------------------------
  * PIECE ENCODING (user board)
- *
- * 0  = empty
- * 1  = white pawn
- * 2  = black pawn
- * 3  = white knight
- * 4  = black knight
- * 5  = white bishop
- * 6  = black bishop
- * 7  = white rook
- * 8  = black rook
- * 9  = white queen
- * 10 = black queen
- * 11 = white king
- * 12 = black king
-
  * ------------------------------------------------- */
 
 uint8_t board[8][8];
@@ -119,8 +101,6 @@ static void print_humanMove() {
   Serial.println("'");
 }
 
-/* Print a full matrix of ADC readings by calling readHall for each (x,y).
-   This is verbose and slow (64 reads), intended for debugging. */
 static void print_all_hall_readings(const char *title) {
   Serial.print("=== Hall ADC matrix: ");
   Serial.print(title);
@@ -130,7 +110,6 @@ static void print_all_hall_readings(const char *title) {
       int v = readHall(x, y);
       if (v < 0) Serial.print("ERR");
       else {
-        // print aligned 4-wide
         if (v < 10) Serial.print(' ');
         if (v < 100) Serial.print(' ');
         if (v < 1000) Serial.print(' ');
@@ -142,10 +121,6 @@ static void print_all_hall_readings(const char *title) {
   }
   Serial.println("======================================");
 }
-
-/* -------------------------------------------------
- * CONVERT mcu-max PIECE → uint8 ID
- * ------------------------------------------------- */
 
 uint8_t mcumax_piece_to_uint8(uint8_t p) {
   char c = mcumax_symbols[p];
@@ -166,10 +141,6 @@ uint8_t mcumax_piece_to_uint8(uint8_t p) {
   }
 }
 
-/* -------------------------------------------------
- * SYNC BOARD FROM mcu-max (SOURCE OF TRUTH)
- * ------------------------------------------------- */
-
 void sync_board_from_mcumax() {
   memcpy(oldboard, board, sizeof(board));
   for (uint8_t y = 0; y < 8; y++) {
@@ -179,16 +150,11 @@ void sync_board_from_mcumax() {
       board[y][x] = mcumax_piece_to_uint8(mp);
     }
   }
-  // Verbose print after sync
   print_board_array("oldboard (before sync)", oldboard);
   print_board_array("board (after sync)", board);
   print_changemap();
   print_humanMove();
 }
-
-/* -------------------------------------------------
- * PRINTING
- * ------------------------------------------------- */
 
 void print_board() {
   Serial.println("");
@@ -223,10 +189,6 @@ void print_move(mcumax_move move) {
   }
 }
 
-/* -------------------------------------------------
- * INPUT helpers
- * ------------------------------------------------- */
-
 mcumax_square get_square(char *s) {
   uint8_t file = s[0] - 'a';
   uint8_t rank = '8' - s[1];
@@ -235,27 +197,20 @@ mcumax_square get_square(char *s) {
   return 0x10 * rank + file;
 }
 
+// FIX: Updated to use Arduino Pin constants
 bool check_any_button_press() {
-  return (digitalRead(PK0) == LOW) ||
-         (digitalRead(PK1) == LOW) ||
-         (digitalRead(PK2) == LOW) ||
-         (digitalRead(PK3) == LOW);
+  return (digitalRead(A8) == LOW) ||
+         (digitalRead(A9) == LOW) ||
+         (digitalRead(A10) == LOW) ||
+         (digitalRead(A11) == LOW);
 }
 
-/* -------------------------------------------------
- *  MUX / hall reader implementation (from your example)
- *  - Uses direct PORTx manipulation; pins mapped exactly as you gave
- * ------------------------------------------------- */
-
-// small helper to set/clear a bit on a PORT register
 static inline void setBit(volatile uint8_t &port, uint8_t bit, bool value) {
   if (value) port |= _BV(bit);
   else       port &= ~_BV(bit);
 }
 
-// Disable all EN lines (EN = 0 disables all per your ADG708 wiring)
 void disableAllENs() {
-  // PA3, PA7, PC0, PC4, PL0, PL4, PH3, PB4 -> clear their PORT bits
   PORTA &= ~(_BV(3) | _BV(7));
   PORTC &= ~(_BV(0) | _BV(4));
   PORTL &= ~(_BV(0) | _BV(4));
@@ -263,84 +218,44 @@ void disableAllENs() {
   PORTB &= ~_BV(4);
 }
 
-// Enable exactly one EN (EN = 1 enables).
 void enableRowEN(uint8_t row) {
   disableAllENs();
   switch (row) {
-    case 0: PORTA |= _BV(3); break; // PA3
-    case 1: PORTA |= _BV(7); break; // PA7
-    case 2: PORTC |= _BV(0); break; // PC0
-    case 3: PORTC |= _BV(4); break; // PC4
-    case 4: PORTL |= _BV(0); break; // PL0
-    case 5: PORTL |= _BV(4); break; // PL4
-    case 6: PORTH |= _BV(3); break; // PH3
-    case 7: PORTB |= _BV(4); break; // PB4
+    case 0: PORTA |= _BV(3); break;
+    case 1: PORTA |= _BV(7); break;
+    case 2: PORTC |= _BV(0); break;
+    case 3: PORTC |= _BV(4); break;
+    case 4: PORTL |= _BV(0); break;
+    case 5: PORTL |= _BV(4); break;
+    case 6: PORTH |= _BV(3); break;
+    case 7: PORTB |= _BV(4); break;
     default: break;
   }
 }
 
-// Set the address pins (A0..A2) for a given row
 void setAddressPins(uint8_t row, uint8_t col) {
   bool b0 = col & 0x1;
   bool b1 = col & 0x2;
   bool b2 = col & 0x4;
-
   switch (row) {
-    case 0: // PA0, PA1, PA2
-      setBit(PORTA, 0, b0);
-      setBit(PORTA, 1, b1);
-      setBit(PORTA, 2, b2);
-      break;
-    case 1: // PA4, PA5, PA6
-      setBit(PORTA, 4, b0);
-      setBit(PORTA, 5, b1);
-      setBit(PORTA, 6, b2);
-      break;
-    case 2: // PC3, PC2, PC1
-      setBit(PORTC, 3, b0);
-      setBit(PORTC, 2, b1);
-      setBit(PORTC, 1, b2);
-      break;
-    case 3: // PC7, PC6, PC5
-      setBit(PORTC, 7, b0);
-      setBit(PORTC, 6, b1);
-      setBit(PORTC, 5, b2);
-      break;
-    case 4: // PL3, PL2, PL1
-      setBit(PORTL, 3, b0);
-      setBit(PORTL, 2, b1);
-      setBit(PORTL, 1, b2);
-      break;
-    case 5: // PL7, PL6, PL5
-      setBit(PORTL, 7, b0);
-      setBit(PORTL, 6, b1);
-      setBit(PORTL, 5, b2);
-      break;
-    case 6: // PH4, PH5, PH6
-      setBit(PORTH, 4, b0);
-      setBit(PORTH, 5, b1);
-      setBit(PORTH, 6, b2);
-      break;
-    case 7: // PB7, PB6, PB5
-      setBit(PORTB, 7, b0);
-      setBit(PORTB, 6, b1);
-      setBit(PORTB, 5, b2);
-      break;
-    default:
-      break;
+    case 0: setBit(PORTA, 0, b0); setBit(PORTA, 1, b1); setBit(PORTA, 2, b2); break;
+    case 1: setBit(PORTA, 4, b0); setBit(PORTA, 5, b1); setBit(PORTA, 6, b2); break;
+    case 2: setBit(PORTC, 3, b0); setBit(PORTC, 2, b1); setBit(PORTC, 1, b2); break;
+    case 3: setBit(PORTC, 7, b0); setBit(PORTC, 6, b1); setBit(PORTC, 5, b2); break;
+    case 4: setBit(PORTL, 3, b0); setBit(PORTL, 2, b1); setBit(PORTL, 1, b2); break;
+    case 5: setBit(PORTL, 7, b0); setBit(PORTL, 6, b1); setBit(PORTL, 5, b2); break;
+    case 6: setBit(PORTH, 4, b0); setBit(PORTH, 5, b1); setBit(PORTH, 6, b2); break;
+    case 7: setBit(PORTB, 7, b0); setBit(PORTB, 6, b1); setBit(PORTB, 5, b2); break;
+    default: break;
   }
 }
 
-// Configure the DDRx for all used pins (call once in setup)
 void initMuxPins() {
-  // Set all used pins as outputs (addresses + ENs)
   DDRA |= _BV(0)|_BV(1)|_BV(2)|_BV(3)|_BV(4)|_BV(5)|_BV(6)|_BV(7);
   DDRC |= _BV(0)|_BV(1)|_BV(2)|_BV(3)|_BV(4)|_BV(5)|_BV(6)|_BV(7);
   DDRL |= _BV(0)|_BV(1)|_BV(2)|_BV(3)|_BV(4)|_BV(5)|_BV(6)|_BV(7);
   DDRH |= _BV(3)|_BV(4)|_BV(5)|_BV(6);
   DDRB |= _BV(4)|_BV(5)|_BV(6)|_BV(7);
-
-  // initial states: clear address pins and disable ENs
   PORTA &= ~(_BV(0)|_BV(1)|_BV(2)|_BV(3)|_BV(4)|_BV(5)|_BV(6)|_BV(7));
   PORTC &= ~(_BV(0)|_BV(1)|_BV(2)|_BV(3)|_BV(4)|_BV(5)|_BV(6)|_BV(7));
   PORTL &= ~(_BV(0)|_BV(1)|_BV(2)|_BV(3)|_BV(4)|_BV(5)|_BV(6)|_BV(7));
@@ -348,50 +263,28 @@ void initMuxPins() {
   PORTB &= ~(_BV(4)|_BV(5)|_BV(6)|_BV(7));
 }
 
-// readHall: read the hall sensor at col x (0..7), row y (0..7)
-// returns averaged ADC (0..1023), -1 on out of range
 int readHall(uint8_t x, uint8_t y) {
   if (x > 7 || y > 7) return -1;
-
   const uint8_t samples = 8;
   int sum = 0;
-
-  // Disable all ENs while changing address lines
   disableAllENs();
-
-  // Set address bits for the selected column on the selected row
   setAddressPins(y, x);
-
-  // small settle
   delayMicroseconds(10);
-
-  // Enable target row
   enableRowEN(y);
-
-  // allow mux + ADC to settle
   delayMicroseconds(80);
-
-  // Read ADC channel A0 + y (assumes row y is connected to ADC channel A0..A7)
   for (uint8_t i = 0; i < samples; ++i) {
     sum += analogRead(A0 + y);
     delayMicroseconds(15);
   }
-
-  // Disable ENs to avoid ghosting
   disableAllENs();
-
   return sum / samples;
 }
-
-/* -------------------------------------------------
- * SENSOR OCCUPANCY / move detection helpers
- * ------------------------------------------------- */
 
 static void read_sensor_occupancy(bool occ[8][8]) {
   for (uint8_t y = 0; y < 8; y++) {
     for (uint8_t x = 0; x < 8; x++) {
-      int v = readHall(x, y); // 0 means piece present in your description
-      occ[y][x] = (v == 0);   // change to (v <= THRESH) if needed
+      int v = readHall(x, y); 
+      occ[y][x] = (v == 0);
     }
   }
 }
@@ -401,15 +294,12 @@ static void coord_to_alg(uint8_t x, uint8_t y, char *out2) {
   out2[1] = '0' + (8 - y);
 }
 
-/* -------------------------------------------------
- * get_human_move (uses readHall)
- * (same detection logic as provided previously)
- * ------------------------------------------------- */
 bool get_human_move() {
+  // Wait for button press
   while (!check_any_button_press()) {
     delay(10);
   }
-  delay(60); // debounce
+  delay(60); 
 
   uint8_t prevBoard[8][8];
   memcpy(prevBoard, board, sizeof(prevBoard));
@@ -419,14 +309,10 @@ bool get_human_move() {
     for (uint8_t x = 0; x < 8; x++)
       prevOcc[y][x] = (prevBoard[y][x] != 0);
 
-  // Verbose: print prevBoard and prevOcc
   print_board_array("prevBoard (at button press)", prevBoard);
   print_bool_board("prevOcc (non-empty squares before move)", prevOcc);
-
-  // print initial ADC readings for debugging
   print_all_hall_readings("initial (before stabilization)");
 
-  // stabilize sensor reading
   const uint8_t requiredStableReads = 3;
   bool candidate[8][8];
   bool tmp[8][8];
@@ -458,7 +344,6 @@ bool get_human_move() {
   Serial.println("Final stable occupancy (after stabilization):");
   print_bool_board("stableOcc", stableOcc);
 
-  // build diffs
   struct Coord { uint8_t x; uint8_t y; };
   Coord froms[16]; uint8_t fromCount = 0;
   Coord tos[16];   uint8_t toCount = 0;
@@ -472,7 +357,6 @@ bool get_human_move() {
     }
   }
 
-  // print diffs
   Serial.print("fromCount = "); Serial.println(fromCount);
   Serial.print("toCount   = "); Serial.println(toCount);
   if (fromCount) {
@@ -498,7 +382,6 @@ bool get_human_move() {
     }
   }
 
-  // resync engine to resolve captures/promotions
   sync_board_from_mcumax();
 
   uint8_t fx=0, fy=0, tx=0, ty=0;
@@ -602,8 +485,6 @@ bool get_human_move() {
 
   Serial.print("Detected move: ");
   Serial.println(humanMove);
-
-  // verbose final info
   Serial.print("Final chosen coords: from (");
   Serial.print(fx); Serial.print(','); Serial.print(fy);
   Serial.print(") -> to (");
@@ -611,80 +492,108 @@ bool get_human_move() {
   Serial.println(")");
   print_board_array("board (final after detection/resync)", board);
   print_all_hall_readings("after detection (final ADC snapshot)");
-
   return true;
 }
-
-/* -------------------------------------------------
- * SETUP / MAIN LOOP
- * ------------------------------------------------- */
 
 void setup() {
   Serial.begin(9600);
   setup_all_pins();
-  initMuxPins();        // initialize mux address + EN pins
+  initMuxPins();        
   mcumax_init();
   sync_board_from_mcumax();
+
+  // FIX: Updated digitalRead to A8
+  Serial.print("PK0 = ");
+  Serial.println(digitalRead(A8));
+  delay(200);
 
   Serial.println("mcu-max serial port example");
   Serial.println("---------------------------");
   Serial.println("Enter moves like e2e4");
 
   print_board();
-  // extra verbose initial snapshot
   print_board_array("Initial board (setup)", board);
   print_changemap();
   print_humanMove();
   print_all_hall_readings("initial setup ADC snapshot");
 }
 
+/* * MAIN LOOP Modification:
+ * Now loops internally for the Human Turn until a VALID move is entered.
+ */
 void loop() {
-  if (!get_human_move()) return;
-  Serial.println("");
+  bool validHumanMovePlayed = false;
+  
+  // FIX: Declare this here so it can be seen by the checkmate check at the bottom
+  mcumax_move valid_moves[GAME_VALID_MOVES_NUM_MAX]; 
 
-  mcumax_move move = {
-    get_square(humanMove),
-    get_square(humanMove + 2)
-  };
+  Serial.println("=== YOUR TURN ===");
+  Serial.println("Move a piece and press the button.");
 
-  // Validate human move
-  mcumax_move valid_moves[GAME_VALID_MOVES_NUM_MAX];
-  uint32_t n = mcumax_search_valid_moves(valid_moves, GAME_VALID_MOVES_NUM_MAX);
-  bool ok = false;
-  for (uint32_t i = 0; i < n; i++) {
-    if (valid_moves[i].from == move.from && valid_moves[i].to == move.to) { ok = true; break; }
+  // Retry loop: Keep asking for a move until a valid legal one is played
+  while (!validHumanMovePlayed) {
+    
+    // 1. Wait for physical move and button press
+    if (!get_human_move()) {
+      Serial.println("Sensor logic failed to identify a move. Please try pressing button again.");
+      continue; // Go back to top of while loop (wait for button again)
+    }
+    Serial.println("");
+
+    // 2. Convert string to Engine Move
+    mcumax_move move = {
+      get_square(humanMove),
+      get_square(humanMove + 2)
+    };
+
+    // 3. Search Legal Moves to validate
+    // We reuse the array declared at the top of the function
+    uint32_t n = mcumax_search_valid_moves(valid_moves, GAME_VALID_MOVES_NUM_MAX);
+    bool isLegal = false;
+    for (uint32_t i = 0; i < n; i++) {
+      if (valid_moves[i].from == move.from && valid_moves[i].to == move.to) { isLegal = true; break; }
+    }
+
+    if (!isLegal) {
+      Serial.print("ILLEGAL MOVE detected: ");
+      Serial.println(humanMove);
+      Serial.println("Move rejected. Please correct board and press button again.");
+      
+      // Reset internal state to what engine thinks, so we can detect the correction
+      sync_board_from_mcumax(); 
+      print_board();
+      continue; // Go back to top of while loop
+    }
+
+    // 4. Play the move in the engine
+    if (!mcumax_play_move(move)) {
+      Serial.println("Engine rejected move (internal error). Resyncing.");
+      sync_board_from_mcumax();
+      print_board();
+      continue; // Go back to top of while loop
+    }
+
+    // If we are here, the move was valid and played successfully
+    validHumanMovePlayed = true;
   }
-  if (!ok) {
-    Serial.println("Illegal move detected (not in engine's legal moves). Move rejected.");
-    sync_board_from_mcumax();
-    print_board();
-    return;
-  }
 
-  if (!mcumax_play_move(move)) {
-    Serial.println("Engine rejected move (mcumax_play_move failed). Resyncing.");
-    sync_board_from_mcumax();
-    print_board();
-    return;
-  }
-
-  // Update board (promotions etc resolved by engine)
+  // --- AI TURN ---
   sync_board_from_mcumax();
 
-  // Check opponent legal moves
+  // Check if AI is checkmated immediately
   mcumax_move opp_moves[GAME_VALID_MOVES_NUM_MAX];
   uint32_t opp_n = mcumax_search_valid_moves(opp_moves, GAME_VALID_MOVES_NUM_MAX);
   if (opp_n == 0) {
     Serial.println("Game over: opponent has no legal moves (checkmate or stalemate).");
     print_board();
-    return;
+    while(1); // Stop execution
   }
 
-  // AI reply
+  // Calculate and Play AI Move
   mcumax_move reply = mcumax_search_best_move(MCUMAX_NODE_MAX, MCUMAX_DEPTH_MAX);
   if (reply.from == MCUMAX_SQUARE_INVALID) {
     Serial.println("Game over — engine has no move.");
-    return;
+    while(1);
   } else if (!mcumax_play_move(reply)) {
     Serial.println("Engine attempted invalid reply. Resyncing.");
     sync_board_from_mcumax();
@@ -697,12 +606,12 @@ void loop() {
     Serial.println("");
   }
 
-  // Check your legal moves
+  // Check if Human is checkmated (Now valid_moves is accessible here!)
   uint32_t you_n = mcumax_search_valid_moves(valid_moves, GAME_VALID_MOVES_NUM_MAX);
   if (you_n == 0) {
     Serial.println("Game over: you have no legal moves (checkmate or stalemate).");
     print_board();
-    return;
+    while(1);
   }
 
   print_board();
