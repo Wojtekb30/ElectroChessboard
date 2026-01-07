@@ -365,34 +365,85 @@ static void coord_to_alg(uint8_t x, uint8_t y, char *out2) {
   out2[1] = '0' + (8 - y);
 }
 
-bool get_human_move() {
-  Serial.println("Waiting for button press... (LEDs showing bot move)");
-  
-  while (!check_any_button_press()) {
-    if (botFromX != -1) {
-        lightUpBotMove();
-    } else {
-        delay(10); 
+
+// Return the legal move that best matches the sensor occupancy before/after
+bool pickMoveByOccupancy(const bool prevOcc[8][8],
+                         const bool stableOcc[8][8],
+                         const uint8_t prevBoard[8][8],
+                         mcumax_move &outMove)
+{
+  mcumax_move legal[GAME_VALID_MOVES_NUM_MAX];
+  uint32_t n = mcumax_search_valid_moves(legal, GAME_VALID_MOVES_NUM_MAX);
+
+  int bestScore = 999;
+  mcumax_move best = {MCUMAX_SQUARE_INVALID, MCUMAX_SQUARE_INVALID};
+
+  for (uint32_t i = 0; i < n; ++i) {
+    // Build expected occupancy after playing this move on prevOcc
+    bool simOcc[8][8];
+    memcpy(simOcc, prevOcc, sizeof(simOcc));
+
+    uint8_t fx = legal[i].from & 0x07;
+    uint8_t fy = (legal[i].from >> 4) & 0x07;
+    uint8_t tx = legal[i].to & 0x07;
+    uint8_t ty = (legal[i].to >> 4) & 0x07;
+
+    simOcc[fy][fx] = false;  // from is now empty
+    simOcc[ty][tx] = true;   // to is now occupied (capture or not)
+
+    // Count mismatches vs. the sensor reading
+    int mismatches = 0;
+    for (uint8_t y = 0; y < 8; ++y)
+      for (uint8_t x = 0; x < 8; ++x)
+        if (simOcc[y][x] != stableOcc[y][x]) mismatches++;
+
+    if (mismatches < bestScore) {
+      bestScore = mismatches;
+      best = legal[i];
     }
   }
-  
+
+  if (bestScore == 0) {
+    outMove = best;
+    return true;
+  }
+
+  // Accept a near‑perfect match if you want some tolerance:
+  // if (bestScore <= 2) { outMove = best; return true; }
+
+  return false;
+}
+
+
+bool get_human_move() {
+  Serial.println("Waiting for button press... (LEDs showing bot move)");
+
+  while (!check_any_button_press()) {
+    if (botFromX != -1) {
+      lightUpBotMove();
+    } else {
+      delay(10);
+    }
+  }
+
   clearLEDs();
 
-        // === ANIMATION START ===
-    Serial.println("Starting scan...");
-    for (int y = 0; y < 8; y++) {
-      for (int x = 0; x < 8; x++) {
-        setLED(y, x, true);
-        delay(20);
-        setLED(y, x, false);
-      }
+  // === ANIMATION START ===
+  Serial.println("Starting scan...");
+  for (int y = 0; y < 8; y++) {
+    for (int x = 0; x < 8; x++) {
+      setLED(y, x, true);
+      delay(20);
+      setLED(y, x, false);
     }
-    // =======================
-  
-  clearLEDs(); // Ensure animation is off
-  
-  delay(60); 
+  }
+  // =======================
 
+  clearLEDs(); // Ensure animation is off
+
+  delay(100);
+
+  // Snapshot before move
   uint8_t prevBoard[8][8];
   memcpy(prevBoard, board, sizeof(prevBoard));
 
@@ -405,6 +456,7 @@ bool get_human_move() {
   print_bool_board("prevOcc (non-empty squares before move)", prevOcc);
   print_all_hall_readings("initial (before stabilization)");
 
+  // Stabilise occupancy
   const uint8_t requiredStableReads = 3;
   bool candidate[8][8];
   bool tmp[8][8];
@@ -412,15 +464,14 @@ bool get_human_move() {
   Serial.println("Initial occupancy candidate read (1=occupied, 0=empty):");
   print_bool_board("candidate (first)", candidate);
   uint8_t stableCount = 1;
-  int loopChecks = 0; // FIX: Added timeout counter
+  int loopChecks = 0;
   delay(80);
 
   while (stableCount < requiredStableReads) {
-    // FIX: Timeout logic
     loopChecks++;
     if (loopChecks >= 30) {
-        Serial.println("Timeout: Sensor readings unstable. Please press button again.");
-        return false;
+      Serial.println("Timeout: Sensor readings unstable. Please press button again.");
+      return false;
     }
 
     read_sensor_occupancy(tmp);
@@ -444,149 +495,68 @@ bool get_human_move() {
   Serial.println("Final stable occupancy (after stabilization):");
   print_bool_board("stableOcc", stableOcc);
 
+  // Optional: show from/to diffs for debugging
   struct Coord { uint8_t x; uint8_t y; };
   Coord froms[16]; uint8_t fromCount = 0;
   Coord tos[16];   uint8_t toCount = 0;
-
   for (uint8_t y = 0; y < 8; y++) {
     for (uint8_t x = 0; x < 8; x++) {
       bool before = prevOcc[y][x];
-      bool after = stableOcc[y][x];
-      if (before && !after) { froms[fromCount++] = {x, y}; }
-      else if (!before && after) { tos[toCount++] = {x, y}; }
+      bool after  = stableOcc[y][x];
+      if (before && !after)      froms[fromCount++] = {x, y};
+      else if (!before && after) tos[toCount++]   = {x, y};
     }
   }
-
   Serial.print("fromCount = "); Serial.println(fromCount);
   Serial.print("toCount   = "); Serial.println(toCount);
-  if (fromCount) {
-    Serial.println("From squares (x,y):");
-    for (uint8_t i = 0; i < fromCount; i++) {
-      Serial.print("  ["); Serial.print(i); Serial.print("] ");
-      Serial.print((char)('a' + froms[i].x));
-      Serial.print(froms[i].y + 1);
-      Serial.print("  (x="); Serial.print(froms[i].x);
-      Serial.print(",y="); Serial.print(froms[i].y);
-      Serial.println(")");
+  // ...print froms/tos if desired...
+
+  // Try to find the legal move that best matches the occupancy change
+  mcumax_move legal[GAME_VALID_MOVES_NUM_MAX];
+  uint32_t n = mcumax_search_valid_moves(legal, GAME_VALID_MOVES_NUM_MAX);
+
+  int bestScore = 999;
+  mcumax_move best = {MCUMAX_SQUARE_INVALID, MCUMAX_SQUARE_INVALID};
+
+  for (uint32_t i = 0; i < n; ++i) {
+    bool simOcc[8][8];
+    memcpy(simOcc, prevOcc, sizeof(simOcc));
+
+    uint8_t fx = legal[i].from & 0x07;
+    uint8_t fy = (legal[i].from >> 4) & 0x07;
+    uint8_t tx = legal[i].to & 0x07;
+    uint8_t ty = (legal[i].to >> 4) & 0x07;
+
+    simOcc[fy][fx] = false; // from now empty
+    simOcc[ty][tx] = true;  // to now occupied (capture or not)
+
+    int mismatches = 0;
+    for (uint8_t yy = 0; yy < 8; ++yy)
+      for (uint8_t xx = 0; xx < 8; ++xx)
+        if (simOcc[yy][xx] != stableOcc[yy][xx]) mismatches++;
+
+    if (mismatches < bestScore) {
+      bestScore = mismatches;
+      best = legal[i];
+      if (bestScore == 0) break; // exact match, can stop early
     }
   }
-  if (toCount) {
-    Serial.println("To squares (x,y):");
-    for (uint8_t i = 0; i < toCount; i++) {
-      Serial.print("  ["); Serial.print(i); Serial.print("] ");
-      Serial.print((char)('a' + tos[i].x));
-      Serial.print(tos[i].y + 1);
-      Serial.print("  (x="); Serial.print(tos[i].x);
-      Serial.print(",y="); Serial.print(tos[i].y);
-      Serial.println(")");
-    }
-  }
 
-  sync_board_from_mcumax();
-
-  uint8_t fx=0, fy=0, tx=0, ty=0;
-  bool found = false;
-
-  if (fromCount == 1 && toCount == 1) {
-    fx = froms[0].x; fy = froms[0].y;
-    tx = tos[0].x; ty = tos[0].y;
-    found = true;
-    Serial.println("Case: fromCount==1 && toCount==1 -> direct mapping");
-  } else if (fromCount == 1 && toCount == 0) {
-    // FIX: New Capture Logic
-    Serial.println("Case: Capture detected (From=1, To=0). Searching for occupied enemy target.");
-    fx = froms[0].x; fy = froms[0].y;
-    uint8_t movingPiece = board[fy][fx];
-    
-    // In this scheme (1=P, 2=p...), odd is one color, even is the other.
-    bool isOddColor = (movingPiece % 2 != 0); 
-    
-    int bestDist = 1000;
-    int foundIdx = -1;
-
-    for (uint8_t y = 0; y < 8; y++) {
-      for (uint8_t x = 0; x < 8; x++) {
-         // Target must be physically occupied (stableOcc) AND contain an enemy piece in memory
-         uint8_t targetP = board[y][x];
-         if (stableOcc[y][x] && targetP != 0) {
-           bool targetIsOdd = (targetP % 2 != 0);
-           // If colors are different, it's an opponent
-           if (isOddColor != targetIsOdd) {
-             // Heuristic: Closest opponent piece is likely the capture target
-             int dist = abs((int)fx - (int)x) + abs((int)fy - (int)y);
-             if (dist < bestDist) {
-               bestDist = dist;
-               foundIdx = y * 8 + x;
-             }
-           }
-         }
-      }
-    }
-
-    if (foundIdx != -1) {
-      tx = foundIdx % 8;
-      ty = foundIdx / 8;
-      found = true;
-      Serial.print("Inferred capture at idx="); Serial.println(foundIdx);
-    } else {
-      Serial.println("Could not find a valid occupied enemy square for capture.");
-    }
-  } else if (fromCount > 1 && toCount >= 1) {
-    Serial.println("Case: multiple froms and at least one to -> try to match piece types");
-    for (uint8_t i = 0; i < fromCount && !found; i++) {
-      for (uint8_t j = 0; j < toCount && !found; j++) {
-        uint8_t p = prevBoard[froms[i].y][froms[i].x];
-        if (p != 0 && board[tos[j].y][tos[j].x] == p) {
-          fx = froms[i].x; fy = froms[i].y;
-          tx = tos[j].x; ty = tos[j].y;
-          found = true;
-        }
-      }
-    }
-    if (!found && fromCount && toCount) {
-      fx = froms[0].x; fy = froms[0].y;
-      tx = tos[0].x; ty = tos[0].y;
-      found = true;
-      Serial.println("Fallback: first from -> first to");
-    }
-  } else if (fromCount == 0 && toCount == 1) {
-    Serial.println("Case: fromCount==0 && toCount==1 -> look up lost piece");
-    int lostIdx = -1;
-    for (uint8_t y = 0; y < 8 && lostIdx < 0; y++) for (uint8_t x = 0; x < 8; x++)
-      if (prevBoard[y][x] != 0 && board[y][x] == 0) { lostIdx = y*8 + x; break; }
-    if (lostIdx >= 0) {
-      fx = lostIdx % 8; fy = lostIdx / 8;
-      tx = tos[0].x; ty = tos[0].y;
-      found = true;
-      Serial.print("Found lostIdx = "); Serial.println(lostIdx);
-    } else {
-      found = false;
-    }
-  } else {
-    if (fromCount >= 1 && toCount >= 1) {
-      fx = froms[0].x; fy = froms[0].y;
-      tx = tos[0].x; ty = tos[0].y;
-      found = true;
-      Serial.println("General fallback: first from & first to");
-    } else found = false;
-  }
-
-  if (!found) {
-    Serial.println("Could not detect a valid move from physical board.");
-    sync_board_from_mcumax();
+  if (bestScore > 0 || best.from == MCUMAX_SQUARE_INVALID) {
+    Serial.println("Could not find a legal move matching the sensor data.");
     return false;
   }
 
-  char fromAlg[2], toAlg[2];
-  coord_to_alg(fx, fy, fromAlg);
-  coord_to_alg(tx, ty, toAlg);
-  humanMove[0] = fromAlg[0];
-  humanMove[1] = fromAlg[1];
-  humanMove[2] = toAlg[0];
-  humanMove[3] = toAlg[1];
+  // Build algebraic string
+  uint8_t fx = best.from & 0x07;
+  uint8_t fy = (best.from >> 4) & 0x07;
+  uint8_t tx = best.to   & 0x07;
+  uint8_t ty = (best.to   >> 4) & 0x07;
+  coord_to_alg(fx, fy, humanMove);
+  coord_to_alg(tx, ty, humanMove + 2);
   humanMove[4] = '\0';
 
-  Serial.print("Detected move: ");
+  Serial.print("Detected move (by matching legal moves): ");
   Serial.println(humanMove);
   Serial.print("Final chosen coords: from (");
   Serial.print(fx); Serial.print(','); Serial.print(fy);
