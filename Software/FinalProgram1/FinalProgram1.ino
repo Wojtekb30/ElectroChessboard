@@ -269,9 +269,9 @@ mcumax_square get_square(char *s) {
 
 bool check_any_button_press() {
   return (digitalRead(A8) == LOW) ||
-          (digitalRead(A9) == LOW) ||
-          (digitalRead(A10) == LOW) ||
-          (digitalRead(A11) == LOW);
+         (digitalRead(A9) == LOW) ||
+         (digitalRead(A10) == LOW) ||
+         (digitalRead(A11) == LOW);
 }
 
 static inline void setBit(volatile uint8_t &port, uint8_t bit, bool value) {
@@ -456,43 +456,10 @@ bool get_human_move() {
   print_bool_board("prevOcc (non-empty squares before move)", prevOcc);
   print_all_hall_readings("initial (before stabilization)");
 
-  // Stabilise occupancy
-  const uint8_t requiredStableReads = 3;
-  bool candidate[8][8];
-  bool tmp[8][8];
-  read_sensor_occupancy(candidate);
-  Serial.println("Initial occupancy candidate read (1=occupied, 0=empty):");
-  print_bool_board("candidate (first)", candidate);
-  uint8_t stableCount = 1;
-  int loopChecks = 0;
-  delay(80);
-
-  while (stableCount < requiredStableReads) {
-    loopChecks++;
-    if (loopChecks >= 30) {
-      Serial.println("Timeout: Sensor readings unstable. Please press button again.");
-      return false;
-    }
-
-    read_sensor_occupancy(tmp);
-    Serial.print("Stability iteration: comparing read -> ");
-    bool same = (memcmp(tmp, candidate, sizeof(tmp)) == 0);
-    if (same) {
-      stableCount++;
-      Serial.print("same (stableCount=");
-      Serial.print(stableCount);
-      Serial.println(")");
-    } else {
-      memcpy(candidate, tmp, sizeof(tmp));
-      stableCount = 1;
-      Serial.println("different -> reset candidate and stableCount=1");
-    }
-    print_bool_board("current tmp occupancy", tmp);
-    delay(80);
-  }
+  // Read occupancy directly without stabilization
   bool stableOcc[8][8];
-  memcpy(stableOcc, candidate, sizeof(stableOcc));
-  Serial.println("Final stable occupancy (after stabilization):");
+  read_sensor_occupancy(stableOcc);
+  Serial.println("Occupancy read (no stabilization):");
   print_bool_board("stableOcc", stableOcc);
 
   // Optional: show from/to diffs for debugging
