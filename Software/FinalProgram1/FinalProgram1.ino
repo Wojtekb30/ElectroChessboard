@@ -7,7 +7,29 @@
 #include <stdlib.h>
 #include <avr/io.h>
 
-// FIX: Replaced PK0-PK3 (register bits) with A8-A11 (Arduino Pins)
+/* =================================================
+ * LED CONTROL VARIABLES
+ * ================================================= */
+
+// Array of Enable Pins for the 4 Demuxes
+const int LEDenPins[] = {4, 5, 66, 67}; 
+
+// 2D Array for Address Pins: [Demux Number][A0, A1, A2, A3]
+const int LEDaddrPins[4][4] = {
+  {0, 1, 2, 3},     // Demux 0: PE0, PE1, PE4, PE5
+  {38, 39, 40, 41}, // Demux 1: PD7, PG2, PG1, PG0
+  {68, 69, 18, 14}, // Demux 2: PK6, PK7, PD3, PJ1
+  {16, 17, 19, 15}  // Demux 3: PH1, PH0, PD2, PJ0
+};
+
+// Global variables to store the last move the bot made
+int botFromX = -1, botFromY = -1;
+int botToX = -1,   botToY = -1;
+
+/* =================================================
+ * EXISTING CONFIGURATION
+ * ================================================= */
+
 void setup_all_pins(){
   pinMode(A8,  INPUT_PULLUP);
   pinMode(A9,  INPUT_PULLUP);
@@ -15,11 +37,10 @@ void setup_all_pins(){
   pinMode(A11, INPUT_PULLUP);
 }
 
-// Define Pin 19 (PD2 / Pin 45) as TX
 SoftwareSerial MyFix(10, 19);
 #define Serial MyFix
 
-// forward declaration of readHall (implemented below)
+// forward declaration of readHall
 int readHall(uint8_t x, uint8_t y);
 
 // AI strength
@@ -43,9 +64,58 @@ const char user_symbols[] = ".PpNnBbRrQqKk";
 
 char humanMove[5] = "";
 
-/* -------------------------------------------------
- * Helper: verbose printing utilities
- * ------------------------------------------------- */
+/* =================================================
+ * LED FUNCTIONS
+ * ================================================= */
+
+void LEDsetup() {
+  for (int i = 0; i < 4; i++) {
+    digitalWrite(LEDenPins[i], HIGH);
+    pinMode(LEDenPins[i], OUTPUT);
+    for (int j = 0; j < 4; j++) {
+      pinMode(LEDaddrPins[i][j], OUTPUT);
+    }
+  }
+}
+
+void setLED(int x, int y, bool status) {
+  y = 7 - y; 
+  int demuxIndex = x / 2;
+  int pinAddress = (x % 2) * 8 + y;
+
+  for (int i = 0; i < 4; i++) {
+    digitalWrite(LEDenPins[i], HIGH);
+  }
+
+  if (status) {
+    for (int i = 0; i < 4; i++) {
+      digitalWrite(LEDaddrPins[demuxIndex][i], (pinAddress >> i) & 0x01);
+    }
+    digitalWrite(LEDenPins[demuxIndex], LOW);
+  }
+}
+
+void clearLEDs() {
+  for (int i = 0; i < 4; i++) {
+    digitalWrite(LEDenPins[i], HIGH);
+  }
+}
+
+void lightUpBotMove() {
+  if (botFromX != -1 && botFromY != -1) {
+    setLED(botFromX, botFromY, true);
+    delay(2); 
+  }
+  
+  if (botToX != -1 && botToY != -1) {
+    setLED(botToX, botToY, true);
+    delay(2); 
+  }
+}
+
+/* =================================================
+ * EXISTING UTILITIES
+ * ================================================= */
 
 static void print_board_array(const char *title, uint8_t arr[8][8]) {
   Serial.println("");
@@ -197,7 +267,6 @@ mcumax_square get_square(char *s) {
   return 0x10 * rank + file;
 }
 
-// FIX: Updated to use Arduino Pin constants
 bool check_any_button_press() {
   return (digitalRead(A8) == LOW) ||
          (digitalRead(A9) == LOW) ||
@@ -267,7 +336,9 @@ int readHall(uint8_t x, uint8_t y) {
   if (x > 7 || y > 7) return -1;
   const uint8_t samples = 8;
   int sum = 0;
-  disableAllENs();
+  
+  disableAllENs(); 
+  
   setAddressPins(y, x);
   delayMicroseconds(10);
   enableRowEN(y);
@@ -295,10 +366,18 @@ static void coord_to_alg(uint8_t x, uint8_t y, char *out2) {
 }
 
 bool get_human_move() {
-  // Wait for button press
+  Serial.println("Waiting for button press... (LEDs showing bot move)");
+  
   while (!check_any_button_press()) {
-    delay(10);
+    if (botFromX != -1) {
+        lightUpBotMove();
+    } else {
+        delay(10); 
+    }
   }
+  
+  clearLEDs();
+  
   delay(60); 
 
   uint8_t prevBoard[8][8];
@@ -320,9 +399,17 @@ bool get_human_move() {
   Serial.println("Initial occupancy candidate read (1=occupied, 0=empty):");
   print_bool_board("candidate (first)", candidate);
   uint8_t stableCount = 1;
+  int loopChecks = 0; // FIX: Added timeout counter
   delay(80);
 
   while (stableCount < requiredStableReads) {
+    // FIX: Timeout logic
+    loopChecks++;
+    if (loopChecks >= 30) {
+        Serial.println("Timeout: Sensor readings unstable. Please press button again.");
+        return false;
+    }
+
     read_sensor_occupancy(tmp);
     Serial.print("Stability iteration: comparing read -> ");
     bool same = (memcmp(tmp, candidate, sizeof(tmp)) == 0);
@@ -393,40 +480,43 @@ bool get_human_move() {
     found = true;
     Serial.println("Case: fromCount==1 && toCount==1 -> direct mapping");
   } else if (fromCount == 1 && toCount == 0) {
-    Serial.println("Case: fromCount==1 && toCount==0 -> searching best match on board diffs");
-    uint8_t fromPiece = prevBoard[froms[0].y][froms[0].x];
-    int bestIdx = -1, bestDist = 999;
-    for (uint8_t y = 0; y < 8; y++) for (uint8_t x = 0; x < 8; x++) {
-      if (prevBoard[y][x] != board[y][x]) {
-        if (board[y][x] == fromPiece && fromPiece != 0) {
-          int dist = abs((int)froms[0].x - (int)x) + abs((int)froms[0].y - (int)y);
-          if (dist < bestDist) { bestDist = dist; bestIdx = y*8 + x; }
-        } else {
-          int dist = abs((int)froms[0].x - (int)x) + abs((int)froms[0].y - (int)y) + 5;
-          if (dist < bestDist) { bestDist = dist; bestIdx = y*8 + x; }
-        }
+    // FIX: New Capture Logic
+    Serial.println("Case: Capture detected (From=1, To=0). Searching for occupied enemy target.");
+    fx = froms[0].x; fy = froms[0].y;
+    uint8_t movingPiece = board[fy][fx];
+    
+    // In this scheme (1=P, 2=p...), odd is one color, even is the other.
+    bool isOddColor = (movingPiece % 2 != 0); 
+    
+    int bestDist = 1000;
+    int foundIdx = -1;
+
+    for (uint8_t y = 0; y < 8; y++) {
+      for (uint8_t x = 0; x < 8; x++) {
+         // Target must be physically occupied (stableOcc) AND contain an enemy piece in memory
+         uint8_t targetP = board[y][x];
+         if (stableOcc[y][x] && targetP != 0) {
+           bool targetIsOdd = (targetP % 2 != 0);
+           // If colors are different, it's an opponent
+           if (isOddColor != targetIsOdd) {
+             // Heuristic: Closest opponent piece is likely the capture target
+             int dist = abs((int)fx - (int)x) + abs((int)fy - (int)y);
+             if (dist < bestDist) {
+               bestDist = dist;
+               foundIdx = y * 8 + x;
+             }
+           }
+         }
       }
     }
-    if (bestIdx >= 0) {
-      fx = froms[0].x; fy = froms[0].y;
-      tx = bestIdx % 8; ty = bestIdx / 8;
+
+    if (foundIdx != -1) {
+      tx = foundIdx % 8;
+      ty = foundIdx / 8;
       found = true;
-      Serial.print("Found bestIdx via board diff: idx="); Serial.println(bestIdx);
+      Serial.print("Inferred capture at idx="); Serial.println(foundIdx);
     } else {
-      Serial.println("No diffs matched; fallback search on board for new piece location");
-      int bestDist2 = 999, bestIdx2 = -1;
-      for (uint8_t y = 0; y < 8; y++) for (uint8_t x = 0; x < 8; x++) {
-        if (board[y][x] != 0 && !(prevBoard[y][x] != 0)) {
-          int dist = abs((int)froms[0].x - (int)x) + abs((int)froms[0].y - (int)y);
-          if (dist < bestDist2) { bestDist2 = dist; bestIdx2 = y*8 + x; }
-        }
-      }
-      if (bestIdx2 >= 0) {
-        fx = froms[0].x; fy = froms[0].y;
-        tx = bestIdx2 % 8; ty = bestIdx2 / 8;
-        found = true;
-        Serial.print("Found bestIdx2 via presence check: idx="); Serial.println(bestIdx2);
-      }
+      Serial.println("Could not find a valid occupied enemy square for capture.");
     }
   } else if (fromCount > 1 && toCount >= 1) {
     Serial.println("Case: multiple froms and at least one to -> try to match piece types");
@@ -497,12 +587,15 @@ bool get_human_move() {
 
 void setup() {
   Serial.begin(9600);
+  
+  LEDsetup();
+  clearLEDs();
+  
   setup_all_pins();
   initMuxPins();        
   mcumax_init();
   sync_board_from_mcumax();
 
-  // FIX: Updated digitalRead to A8
   Serial.print("PK0 = ");
   Serial.println(digitalRead(A8));
   delay(200);
@@ -524,7 +617,6 @@ void setup() {
 void loop() {
   bool validHumanMovePlayed = false;
   
-  // FIX: Declare this here so it can be seen by the checkmate check at the bottom
   mcumax_move valid_moves[GAME_VALID_MOVES_NUM_MAX]; 
 
   Serial.println("=== YOUR TURN ===");
@@ -536,7 +628,7 @@ void loop() {
     // 1. Wait for physical move and button press
     if (!get_human_move()) {
       Serial.println("Sensor logic failed to identify a move. Please try pressing button again.");
-      continue; // Go back to top of while loop (wait for button again)
+      continue; 
     }
     Serial.println("");
 
@@ -547,7 +639,6 @@ void loop() {
     };
 
     // 3. Search Legal Moves to validate
-    // We reuse the array declared at the top of the function
     uint32_t n = mcumax_search_valid_moves(valid_moves, GAME_VALID_MOVES_NUM_MAX);
     bool isLegal = false;
     for (uint32_t i = 0; i < n; i++) {
@@ -559,10 +650,9 @@ void loop() {
       Serial.println(humanMove);
       Serial.println("Move rejected. Please correct board and press button again.");
       
-      // Reset internal state to what engine thinks, so we can detect the correction
       sync_board_from_mcumax(); 
       print_board();
-      continue; // Go back to top of while loop
+      continue; 
     }
 
     // 4. Play the move in the engine
@@ -570,26 +660,27 @@ void loop() {
       Serial.println("Engine rejected move (internal error). Resyncing.");
       sync_board_from_mcumax();
       print_board();
-      continue; // Go back to top of while loop
+      continue; 
     }
 
-    // If we are here, the move was valid and played successfully
     validHumanMovePlayed = true;
   }
 
   // --- AI TURN ---
   sync_board_from_mcumax();
+  
+  botFromX = -1; 
+  botToX = -1;
+  clearLEDs();
 
-  // Check if AI is checkmated immediately
   mcumax_move opp_moves[GAME_VALID_MOVES_NUM_MAX];
   uint32_t opp_n = mcumax_search_valid_moves(opp_moves, GAME_VALID_MOVES_NUM_MAX);
   if (opp_n == 0) {
     Serial.println("Game over: opponent has no legal moves (checkmate or stalemate).");
     print_board();
-    while(1); // Stop execution
+    while(1); 
   }
 
-  // Calculate and Play AI Move
   mcumax_move reply = mcumax_search_best_move(MCUMAX_NODE_MAX, MCUMAX_DEPTH_MAX);
   if (reply.from == MCUMAX_SQUARE_INVALID) {
     Serial.println("Game over — engine has no move.");
@@ -604,9 +695,16 @@ void loop() {
     Serial.print("Opponent moves: ");
     print_move(reply);
     Serial.println("");
+    
+    // === LED UPDATE ===
+    botFromX = reply.from & 0x07;
+    botFromY = (reply.from >> 4) & 0x07;
+    
+    botToX = reply.to & 0x07;
+    botToY = (reply.to >> 4) & 0x07;
+    // ==================
   }
 
-  // Check if Human is checkmated (Now valid_moves is accessible here!)
   uint32_t you_n = mcumax_search_valid_moves(valid_moves, GAME_VALID_MOVES_NUM_MAX);
   if (you_n == 0) {
     Serial.println("Game over: you have no legal moves (checkmate or stalemate).");
