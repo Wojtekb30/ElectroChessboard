@@ -269,9 +269,9 @@ mcumax_square get_square(char *s) {
 
 bool check_any_button_press() {
   return (digitalRead(A8) == LOW) ||
-         (digitalRead(A9) == LOW) ||
-         (digitalRead(A10) == LOW) ||
-         (digitalRead(A11) == LOW);
+          (digitalRead(A9) == LOW) ||
+          (digitalRead(A10) == LOW) ||
+          (digitalRead(A11) == LOW);
 }
 
 static inline void setBit(volatile uint8_t &port, uint8_t bit, bool value) {
@@ -377,6 +377,19 @@ bool get_human_move() {
   }
   
   clearLEDs();
+
+        // === ANIMATION START ===
+    Serial.println("Starting scan...");
+    for (int y = 0; y < 8; y++) {
+      for (int x = 0; x < 8; x++) {
+        setLED(y, x, true);
+        delay(20);
+        setLED(y, x, false);
+      }
+    }
+    // =======================
+  
+  clearLEDs(); // Ensure animation is off
   
   delay(60); 
 
@@ -681,7 +694,21 @@ void loop() {
     while(1); 
   }
 
+  // === ANIMATION START ===
+  Serial.println("Bot is thinking...");
+  for (int y = 0; y < 8; y++) {
+    for (int x = 0; x < 8; x++) {
+      setLED(x, y, true);
+      delay(20); // Faster scan during thinking
+      setLED(x, y, false);
+    }
+  }
+  // =======================
+
   mcumax_move reply = mcumax_search_best_move(MCUMAX_NODE_MAX, MCUMAX_DEPTH_MAX);
+  
+  clearLEDs(); // Ensure animation is off before showing move
+
   if (reply.from == MCUMAX_SQUARE_INVALID) {
     Serial.println("Game over — engine has no move.");
     while(1);
