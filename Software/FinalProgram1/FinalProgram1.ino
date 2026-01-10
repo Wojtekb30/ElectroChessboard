@@ -399,6 +399,18 @@ void loop() {
     validHumanMovePlayed = true;
   }
 
+
+  uint32_t bot_moves_count = mcumax_search_valid_moves(valid_moves, GAME_VALID_MOVES_NUM_MAX);
+  
+  if (bot_moves_count == 0) {
+    sync_board_from_mcumax();
+    print_board();
+    Serial.println("\n## GAME OVER: Checkmate or stalemate! ##");
+    Serial.println("## YOU WON! ##");
+    while(1); // Stop program
+  }
+
+
   // AI TURN
   sync_board_from_mcumax();
   botFromX = -1; botToX = -1; clearLEDs();
@@ -422,4 +434,13 @@ void loop() {
     botToY = (reply.to >> 4) & 0x07;
   }
   print_board();
+
+  uint32_t human_moves_count = mcumax_search_valid_moves(valid_moves, GAME_VALID_MOVES_NUM_MAX);
+  
+  if (human_moves_count == 0) {
+    Serial.println("\n## GAME OVER: Checkmate or stalemate! ##");
+    Serial.println("## YOU LOST! ##");
+    lightUpBotMove(); 
+    while(1);
+  }
 }
