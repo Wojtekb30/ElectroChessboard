@@ -7,6 +7,13 @@
 #include <stdlib.h>
 #include <avr/io.h>
 
+//RTC and SD card
+#include <Wire.h>
+#include <RTClib.h>
+#include <SPI.h>
+#include <SD.h>
+RTC_DS1307 rtc;
+
 /* =================================================
  * LED CONTROL VARIABLES
  * ================================================= */
@@ -358,10 +365,62 @@ bool get_human_move() {
   return false;
 }
 
+String gameLogFilePath = "data.csv";
+bool rtcWorks = true;
+bool sdCardWorks = true;
+
+void writeToSD(const String& text) {
+  MyFix.print("Writing to SD card... ");
+  File myFile = SD.open(gameLogFilePath.c_str(), FILE_WRITE);
+  if (myFile) {
+    myFile.println(text.c_str());
+    myFile.close();
+    MyFix.println("done");
+  } else {
+    MyFix.println("FAILED to open file for writing");
+  }
+}
+
 void setup() {
   Serial.begin(9600);
-  LEDsetup(); clearLEDs();
-  setup_all_pins(); initMuxPins();        
+
+  // RTC setup
+  // Initialize I2C for the RTC
+  if (!rtc.begin()) {
+    MyFix.println("RTC not found!");
+    rtcWorks = false;
+  }
+
+  if ((!rtc.isrunning()) && rtcWorks) {
+    MyFix.println("RTC was stopped, setting time now...");
+    // Sets the RTC to the time this sketch was compiled
+    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+  }
+
+  // SD card init
+    if (!SD.begin(57)) {
+    MyFix.println("SD init failed! Check wiring and card.");
+    sdCardWorks = false;
+  }
+
+  randomSeed(readHall(4,4));
+  long randomNum = random(9999);
+
+  if (sdCardWorks) {
+    if (rtcWorks) {
+      gameLogFilePath = "game_" + String(rtc.now().timestamp()) + "_" + String(randomNum) + ".csv";
+      writeToSD("time;player;move;legal;");
+    } else {
+      gameLogFilePath = "game_" + String(randomNum) + ".csv";
+      writeToSD("player;move;legal;");
+    }
+    MyFix.println("Will be writing to "+gameLogFilePath);
+  }
+
+  LEDsetup();
+  clearLEDs();
+  setup_all_pins();
+  initMuxPins();        
   mcumax_init();
   sync_board_from_mcumax();
   Serial.println("Ready.");
@@ -369,6 +428,7 @@ void setup() {
 }
 
 void loop() {
+
   bool validHumanMovePlayed = false;
   mcumax_move valid_moves[GAME_VALID_MOVES_NUM_MAX]; 
 
@@ -397,6 +457,17 @@ void loop() {
       Serial.println("Engine Error."); sync_board_from_mcumax(); continue; 
     }
     validHumanMovePlayed = true;
+
+    if (sdCardWorks) {
+      if (rtcWorks) 
+      {
+        writeToSD(String(rtc.now().timestamp())+";human;"+String(humanMove)+";"+String(isLegal));
+      } else 
+      {
+        writeToSD("human;"+String(humanMove)+";"+String(isLegal));
+      }
+    }
+
   }
 
 
@@ -425,7 +496,19 @@ void loop() {
     char bM[5];
     coord_to_alg(reply.from&7, 7-((reply.from>>4)&7), bM);
     coord_to_alg(reply.to&7, 7-((reply.to>>4)&7), bM+2);
-    bM[4]=0; Serial.println(bM);
+    bM[4]=0; 
+    Serial.println(bM);
+    
+    const bool constantTrue = true;
+    if (sdCardWorks) {
+      if (rtcWorks) 
+      {
+        writeToSD(String(rtc.now().timestamp())+";bot;"+String(bM)+";"+String(constantTrue));
+      } else 
+      {
+        writeToSD("bot;"+String(bM)+";"+String(constantTrue));
+      }
+    }
 
     botFromX = reply.from & 0x07;
     botFromY = (reply.from >> 4) & 0x07; 

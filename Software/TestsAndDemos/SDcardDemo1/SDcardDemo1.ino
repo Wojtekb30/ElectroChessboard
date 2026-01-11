@@ -48,9 +48,7 @@ void listFiles() {
 
 void setup() {
   MyFix.begin(9600);
-  // don't wait for SoftwareSerial to "connect" — it's not a USB Serial
-  delay(100);
-
+  
   MyFix.println("Initializing SD card...");
 
   if (!SD.begin(chipSelect)) {

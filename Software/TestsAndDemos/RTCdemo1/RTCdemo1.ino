@@ -1,5 +1,5 @@
 #include <Wire.h>
-#include "RTClib.h"
+#include <RTClib.h>
 #include <SoftwareSerial.h>
 
 // Initialize SoftwareSerial: RX on Pin 10, TX on Pin 19 (PD2)
@@ -41,6 +41,7 @@ void loop() {
   MyFix.print(':');
   if (now.second() < 10) MyFix.print('0'); // Leading zero
   MyFix.println(now.second(), DEC);
+  MyFix.println(now.timestamp());
 
   delay(1000);
 }
