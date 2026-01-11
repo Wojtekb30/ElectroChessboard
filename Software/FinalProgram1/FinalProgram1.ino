@@ -11,8 +11,11 @@
 #include <Wire.h>
 #include <RTClib.h>
 #include <SPI.h>
-#include <SD.h>
+//#include <SD.h>
+#include <SdFat.h>
 RTC_DS1307 rtc;
+SdFat SD;
+FsFile myFile;
 
 /* =================================================
  * LED CONTROL VARIABLES
@@ -371,9 +374,9 @@ bool sdCardWorks = true;
 
 void writeToSD(const String& text) {
   MyFix.print("Writing to SD card... ");
-  File myFile = SD.open(gameLogFilePath.c_str(), FILE_WRITE);
+  myFile = SD.open(gameLogFilePath.c_str(), FILE_WRITE);
   if (myFile) {
-    myFile.println(text.c_str());
+    myFile.println(text);
     myFile.close();
     MyFix.println("done");
   } else {
@@ -397,24 +400,38 @@ void setup() {
     rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
   }
 
-  // SD card init
-    if (!SD.begin(57)) {
-    MyFix.println("SD init failed! Check wiring and card.");
-    sdCardWorks = false;
+  if (rtcWorks) {
+    MyFix.print("RTC works! Time: ");
+    MyFix.println(rtc.now().timestamp());
   }
 
-  randomSeed(readHall(4,4));
+  // SD card init
+    if (!SD.begin(53)) {
+    MyFix.println("SD init failed! Check wiring and card.");
+    sdCardWorks = false;
+  } else {
+    MyFix.println("SD init success!");
+  }
+
+  auto randomSeedHallRead = readHall(4,4);
+  randomSeed(randomSeedHallRead);
   long randomNum = random(9999);
+  MyFix.print("Random number seed: ");
+  MyFix.println(randomSeedHallRead);
+  MyFix.print("Random number: ");
+  MyFix.println(randomNum);
 
   if (sdCardWorks) {
     if (rtcWorks) {
-      gameLogFilePath = "game_" + String(rtc.now().timestamp()) + "_" + String(randomNum) + ".csv";
+      String fileTime = String(rtc.now().timestamp());
+      fileTime.replace(":","");
+      gameLogFilePath = "game_" + fileTime + "_" + String(randomNum) + ".csv";
       writeToSD("time;player;move;legal;");
     } else {
       gameLogFilePath = "game_" + String(randomNum) + ".csv";
       writeToSD("player;move;legal;");
     }
-    MyFix.println("Will be writing to "+gameLogFilePath);
+    MyFix.println("Filename: "+gameLogFilePath);
   }
 
   LEDsetup();
