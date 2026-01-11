@@ -1,6 +1,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+#include <string.h>
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -14,13 +15,14 @@ void setup() {
     while (true) {}
   }
 
+  String text = "You\n  won!";
+
   display.clearDisplay();
 
-  display.setTextSize(1);
+  display.setTextSize(3);
   display.setTextColor(SSD1306_WHITE);
-  display.setCursor(0, 0);
-  display.println("Hello!");
-  display.println("I2C OLED works!");
+  display.setCursor(SCREEN_WIDTH/4, 0);
+  display.println(text);
 
   display.display();
 }

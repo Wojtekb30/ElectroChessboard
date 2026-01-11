@@ -17,6 +17,28 @@ RTC_DS1307 rtc;
 SdFat SD;
 FsFile myFile;
 
+// OLED display
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_ADDR 0x3C
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+String OLEDtext = "";
+bool OLEDworks = true;
+#define OLED_ROTATION_VAR 2
+
+void printOnOLED(const String& text, int size = 1, int x = 0, int y = 0) {
+  if (OLEDworks) {
+  display.clearDisplay();
+  display.setTextSize(size);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(x, y);
+  display.println(text);
+  display.display();
+  }
+}
+
 /* =================================================
  * LED CONTROL VARIABLES
  * ================================================= */
@@ -323,7 +345,8 @@ bool get_human_move() {
       Serial.print("Detected Capture: "); Serial.println(humanMove);
       return true;
     } else {
-      Serial.println("Ambiguous Capture! Select target:");
+      OLEDtext = "Ambiguous Capture!\n\nSelect target:\n";
+      Serial.println(OLEDtext);
       for (int i = 0; i < candCount; i++) {
         char temp[5];
         int tx = candidates[i].to & 0x07;
@@ -331,8 +354,15 @@ bool get_human_move() {
         coord_to_alg(fromX, fromY, temp);
         coord_to_alg(tx, ty, temp + 2);
         temp[4] = '\0';
-        Serial.print("Btn "); Serial.print(i+1); Serial.print(": "); Serial.println(temp);
+        Serial.print("Btn "); 
+        Serial.print(i+1); 
+        Serial.print(": "); 
+        Serial.println(temp);
+        OLEDtext += "\nButton " + String(i+1) + ": " + String(temp);
       }
+
+      printOnOLED(OLEDtext,1);
+
       int choice = wait_for_button_selection(candCount);
       int tx = candidates[choice].to & 0x07;
       int ty = (candidates[choice].to >> 4) & 0x07;
@@ -386,6 +416,14 @@ void writeToSD(const String& text) {
 
 void setup() {
   Serial.begin(9600);
+
+  // OLED setup
+  if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDR)) {
+    OLEDworks = false;
+  } else {
+    display.setRotation(OLED_ROTATION_VAR);
+    printOnOLED("Make white\nmove, then\npress any button.",2);
+  }
 
   // RTC setup
   // Initialize I2C for the RTC
@@ -465,6 +503,8 @@ void loop() {
 
     if (!isLegal) {
       Serial.print("ILLEGAL: "); Serial.println(humanMove);
+      OLEDtext = "Your last\nmove: " + String(humanMove) + "\n\nis ILLEGAL";
+      printOnOLED(OLEDtext,2);
       sync_board_from_mcumax(); 
       print_board();
       continue; 
@@ -495,6 +535,7 @@ void loop() {
     print_board();
     Serial.println("\n## GAME OVER: Checkmate or stalemate! ##");
     Serial.println("## YOU WON! ##");
+    printOnOLED("You\n  won!",3,SCREEN_WIDTH/4);
     while(1); // Stop program
   }
 
@@ -505,7 +546,9 @@ void loop() {
 
   mcumax_move reply = mcumax_search_best_move(MCUMAX_NODE_MAX, MCUMAX_DEPTH_MAX);
   if (reply.from == MCUMAX_SQUARE_INVALID) {
-    Serial.println("Game Over."); while(1);
+    Serial.println("Game Over.");
+    printOnOLED("Game\nover.",3);
+    while(1);
   } else {
     mcumax_play_move(reply);
     sync_board_from_mcumax();
@@ -527,6 +570,9 @@ void loop() {
       }
     }
 
+    OLEDtext = "Your last\nmove: " + String(humanMove) + "\nBot: " + String(bM);
+    printOnOLED(OLEDtext,2);
+
     botFromX = reply.from & 0x07;
     botFromY = (reply.from >> 4) & 0x07; 
     
@@ -540,6 +586,7 @@ void loop() {
   if (human_moves_count == 0) {
     Serial.println("\n## GAME OVER: Checkmate or stalemate! ##");
     Serial.println("## YOU LOST! ##");
+    printOnOLED("You\n lost!",3,SCREEN_WIDTH/4);
     lightUpBotMove(); 
     while(1);
   }
