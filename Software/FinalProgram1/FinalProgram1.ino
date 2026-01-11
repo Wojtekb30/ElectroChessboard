@@ -7,6 +7,16 @@
 #include <stdlib.h>
 #include <avr/io.h>
 
+// Reboot using watchdog
+#include <avr/wdt.h>
+#include <avr/interrupt.h>
+
+void reboot() {
+  cli();
+  wdt_enable(WDTO_15MS);
+  while (1) { }
+}
+
 //RTC and SD card
 #include <Wire.h>
 #include <RTClib.h>
@@ -342,7 +352,8 @@ bool get_human_move() {
       coord_to_alg(fromX, fromY, humanMove);
       coord_to_alg(tx, ty, humanMove + 2);
       humanMove[4] = '\0';
-      Serial.print("Detected Capture: "); Serial.println(humanMove);
+      Serial.print("Detected Capture: ");
+      Serial.println(humanMove);
       return true;
     } else {
       OLEDtext = "Ambiguous Capture!\n\nSelect target:\n";
@@ -415,6 +426,10 @@ void writeToSD(const String& text) {
 }
 
 void setup() {
+  // Disable watchdog
+  MCUSR = 0;
+  wdt_disable();
+
   Serial.begin(9600);
 
   // OLED setup
@@ -505,6 +520,17 @@ void loop() {
       Serial.print("ILLEGAL: "); Serial.println(humanMove);
       OLEDtext = "Your last\nmove: " + String(humanMove) + "\n\nis ILLEGAL";
       printOnOLED(OLEDtext,2);
+
+      if (sdCardWorks) {
+        if (rtcWorks) 
+        {
+          writeToSD(String(rtc.now().timestamp())+";human;"+String(humanMove)+";"+String(isLegal));
+        } else 
+        {
+          writeToSD("human;"+String(humanMove)+";"+String(isLegal));
+        }
+      }
+      
       sync_board_from_mcumax(); 
       print_board();
       continue; 
@@ -536,7 +562,8 @@ void loop() {
     Serial.println("\n## GAME OVER: Checkmate or stalemate! ##");
     Serial.println("## YOU WON! ##");
     printOnOLED("You\n  won!",3,SCREEN_WIDTH/4);
-    while(1); // Stop program
+    while(!check_any_button_press()) { }
+    reboot();
   }
 
 
@@ -548,7 +575,8 @@ void loop() {
   if (reply.from == MCUMAX_SQUARE_INVALID) {
     Serial.println("Game Over.");
     printOnOLED("Game\nover.",3);
-    while(1);
+    while(!check_any_button_press()) { }
+    reboot();
   } else {
     mcumax_play_move(reply);
     sync_board_from_mcumax();
@@ -588,6 +616,7 @@ void loop() {
     Serial.println("## YOU LOST! ##");
     printOnOLED("You\n lost!",3,SCREEN_WIDTH/4);
     lightUpBotMove(); 
-    while(1);
+    while(!check_any_button_press()) { }
+    reboot();
   }
 }
